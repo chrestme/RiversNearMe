@@ -6,6 +6,7 @@ import sqlite3
 from fastkml import kml
 from math import radians, cos, sin, asin, sqrt
 from geopy import geocoders
+from bs4 import BeautifulSoup
 import re
 import urllib
 
@@ -96,5 +97,14 @@ c = conn.cursor()
 p = re.compile('HREF=\".*\">AW')
 for row in c.execute('''SELECT id, description FROM placemarks'''):
     section_url = p.findall(row[1])[0][5:-3]
-    print section_url
+    f = urllib.urlopen(section_url.strip('"'))
+    aw_page = f.read()
+    soup = BeautifulSoup(aw_page)
+    aw, section_name = soup.title.string.split(' - ')
+    print row[0], section_name
+    try:
+        c.execute('''UPDATE placemarks SET section = ? WHERE id == ?''', (section_name, row[0]))
+    except Exception as e:
+        print "Error updating section names: %s" % e
+conn.commit()
     
