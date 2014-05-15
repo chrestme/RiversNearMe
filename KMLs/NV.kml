@@ -1,0 +1,135 @@
+
+
+<kml xmlns="http://earth.google.com/kml/2.0"><Document><name>AW Rivers</name>	<Style id="style_">
+		<IconStyle id="AWicon">
+			<color>ff9c9c9c</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://www.americanwhitewater.org//resources/images/maps/unknown.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff9c9c9c</color>
+		</LabelStyle>
+	</Style>	<Style id="style_low">
+		<IconStyle id="AWiconlow">
+			<color>ff7fa7ff</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://www.americanwhitewater.org//resources/images/maps/low.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fa7ff</color>
+		</LabelStyle>
+	</Style>	<Style id="style_med">
+		<IconStyle id="AWiconmed">
+			<color>ff00ff55</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://www.americanwhitewater.org//resources/images/maps/running.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ff55</color>
+		</LabelStyle>
+	</Style>	<Style id="style_high">
+		<IconStyle id="AWiconhigh">
+			<color>ffffc500</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://www.americanwhitewater.org//resources/images/maps/high.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffc500</color>
+		</LabelStyle>
+	</Style>	
+	<Placemark>
+         <name>IV-V: Bruneau, West Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4139/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-115.678,41.9367,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II(III): Carson River</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4145/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-119.704,39.1222,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II+(III): Carson, E. Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/162/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-119.766,38.6898,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I: Colorado</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3190/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_med</styleUrl>
+         <Point>
+           <coordinates>-114.744,36.0097,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-IV: Jarbidge, West Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4142/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-115.43,41.8754,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I: Little Owyhee</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4144/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-116.985,41.8147,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III+: Owyhee, South Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4141/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-116.473,41.8051,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-III: Truckee</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4136/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_med</styleUrl>
+         <Point>
+           <coordinates>-119.979,39.5235,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-III: Truckee</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4137/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-119.891,39.5048,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III: Truckee</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4135/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-119.819,39.5234,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II(III): Truckee</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/1234/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_med</styleUrl>
+         <Point>
+           <coordinates>-119.702,39.5207,0</coordinates>
+         </Point>
+       </Placemark></Document></kml>

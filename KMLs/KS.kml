@@ -1,0 +1,79 @@
+
+
+<kml xmlns="http://earth.google.com/kml/2.0"><Document><name>AW Rivers</name>	<Style id="style_">
+		<IconStyle id="AWicon">
+			<color>ff9c9c9c</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://www.americanwhitewater.org//resources/images/maps/unknown.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff9c9c9c</color>
+		</LabelStyle>
+	</Style>	<Style id="style_low">
+		<IconStyle id="AWiconlow">
+			<color>ff7fa7ff</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://www.americanwhitewater.org//resources/images/maps/low.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fa7ff</color>
+		</LabelStyle>
+	</Style>	<Style id="style_med">
+		<IconStyle id="AWiconmed">
+			<color>ff00ff55</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://www.americanwhitewater.org//resources/images/maps/running.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ff55</color>
+		</LabelStyle>
+	</Style>	<Style id="style_high">
+		<IconStyle id="AWiconhigh">
+			<color>ffffc500</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://www.americanwhitewater.org//resources/images/maps/high.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffc500</color>
+		</LabelStyle>
+	</Style>	
+	<Placemark>
+         <name>III: Elk</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4077/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-96.1853,37.37,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II: Kansas River</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4193/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-95.236,38.976,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II: Kansas River</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4195/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_med</styleUrl>
+         <Point>
+           <coordinates>-94.8,39.04,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III: Pool Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4078/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-96.2735,37.1501,0</coordinates>
+         </Point>
+       </Placemark></Document></kml>

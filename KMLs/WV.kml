@@ -1,0 +1,2327 @@
+
+
+<kml xmlns="http://earth.google.com/kml/2.0"><Document><name>AW Rivers</name>	<Style id="style_">
+		<IconStyle id="AWicon">
+			<color>ff9c9c9c</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://www.americanwhitewater.org//resources/images/maps/unknown.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff9c9c9c</color>
+		</LabelStyle>
+	</Style>	<Style id="style_low">
+		<IconStyle id="AWiconlow">
+			<color>ff7fa7ff</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://www.americanwhitewater.org//resources/images/maps/low.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fa7ff</color>
+		</LabelStyle>
+	</Style>	<Style id="style_med">
+		<IconStyle id="AWiconmed">
+			<color>ff00ff55</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://www.americanwhitewater.org//resources/images/maps/running.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ff55</color>
+		</LabelStyle>
+	</Style>	<Style id="style_high">
+		<IconStyle id="AWiconhigh">
+			<color>ffffc500</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://www.americanwhitewater.org//resources/images/maps/high.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffc500</color>
+		</LabelStyle>
+	</Style>	
+	<Placemark>
+         <name>II-IV: Abram Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2320/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-79.2114,39.3121,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-IV: Anglins Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2321/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-80.7744,38.1065,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Anthony Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2322/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-80.1317,37.9672,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Anthony Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3309/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-80.2649,37.9225,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-IV: Arbuckle Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4178/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-81.1389,37.9794,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-IV: Armstrong Creek, Powellton Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3357/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-81.3142,38.0628,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III: Armstrong Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2323/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-81.3239,38.0995,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II(III): Back Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2324/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-78.018,39.5558,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-IV: Beaver Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3303/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.5932,39.6256,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Beaver Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4313/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.3915,39.184,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>IV-V+: Big Beaver Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2325/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.6652,38.3279,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-V: Big Clear Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2326/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-80.6077,38.0602,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III: Big Clear Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4191/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-80.6315,38.0213,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III: Big Coal River, Clear Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2327/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-81.345,37.9161,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Big Coal River, Clear Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2605/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-81.4383,37.9511,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III: Big Coal River, Marsh Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2328/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-81.3831,37.784,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II+: Big Coal River, Marsh Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2362/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-81.4351,37.8332,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-IV: Big Coal River, Marsh Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2857/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-81.4642,37.8594,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Big Coal River, Marsh Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3295/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-81.5028,37.8736,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I: Big Coal River</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/10525/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-81.5302,37.9696,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-IV: Big Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4030/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.8096,37.6818,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II+: Big Run</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3050/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.5667,38.6233,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Big Sandy Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2329/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.6639,39.7222,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-IV: Big Sandy Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2330/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.64,39.6561,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>IV-V: Big Sandy Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2331/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.7051,39.6213,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Big Sandy River, Tug Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3297/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_med</styleUrl>
+         <Point>
+           <coordinates>-81.8957,37.4825,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Big Sandy River, Tug Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3346/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_med</styleUrl>
+         <Point>
+           <coordinates>-81.9636,37.5437,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II+(IV): Birch</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2332/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.6256,38.4672,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-III: Birch</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3244/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.7822,38.5171,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>V+: Blackwater, North Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3213/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.4964,39.1524,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>V: Blackwater</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2334/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.4828,39.1132,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-V: Blackwater</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2335/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.522,39.1122,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II(III): Blackwater</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2333/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.4284,39.143,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-III: Bluestone</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2336/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-81.1217,37.4447,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III: Bluestone</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3091/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_med</styleUrl>
+         <Point>
+           <coordinates>-81.0715,37.4787,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-IV(V): Brush Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2337/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-81.0642,37.4269,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-IV+: Brushy Meadow Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4307/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.69,38.1666,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III: Buckhannon, Left Fork of the Right Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2341/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.2016,38.7051,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III: Buckhannon, Left Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2340/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.1325,38.7154,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III+: Buckhannon, Right Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2342/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.2119,38.6524,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-III: Buckhannon</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2338/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.2228,38.7828,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-IV: Buckhannon</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2339/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.1898,38.8737,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Buckhannon</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3246/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.1036,39.0686,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III: Buffalo Creek (Cheat trib)</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2343/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.7305,39.2823,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Buffalo Creek (Elk trib)</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2606/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-81.0728,38.4614,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Buffalo Creek (Elk trib)</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4550/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.9522,38.4717,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Buffalo Creek (Guyandotte trib)</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3348/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-81.8382,37.7681,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>V+: Bull Run</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3216/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.7763,39.5709,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II: Cacapon</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2344/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_med</styleUrl>
+         <Point>
+           <coordinates>-78.4344,39.2981,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III: Camp Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2345/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-81.1339,37.5039,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II: Cheat, Black Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2349/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_med</styleUrl>
+         <Point>
+           <coordinates>-79.635,39.0728,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II: Cheat, Dry Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2350/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.6083,38.7917,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-III: Cheat, Dry Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2351/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.5699,38.8305,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Cheat, Dry Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3293/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.5431,38.8305,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-IV: Cheat, Dry Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2352/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.5307,38.9881,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Cheat, Glady Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4015/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.7184,38.7981,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Cheat, Glady Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2353/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.6437,38.8915,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-III: Cheat, Glady Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3300/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.6052,38.9582,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-IV: Cheat, Laurel Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2354/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.6001,38.8846,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Cheat, Shavers Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2355/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.9556,38.4583,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-III: Cheat, Shavers Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2356/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.875,38.6139,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-V: Cheat, Shavers Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2357/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-79.8333,38.7083,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-IV: Cheat, Shavers Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2358/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.7389,38.8042,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Cheat, Shavers Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3047/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.7048,38.911,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Cheat, Shavers Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3296/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.7297,38.9825,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III: Cheat</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2346/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_med</styleUrl>
+         <Point>
+           <coordinates>-79.6778,39.3458,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-IV: Cheat</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2347/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_med</styleUrl>
+         <Point>
+           <coordinates>-79.6445,39.4947,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III: Cheat</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2348/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_med</styleUrl>
+         <Point>
+           <coordinates>-79.75,39.5944,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-IV: Cherry, N. Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2360/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.4402,38.2333,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III+: Cherry, S. Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2361/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.4628,38.1975,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III: Cherry</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2359/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.5525,38.2206,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>V+: Clay Run</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2904/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-79.8341,39.655,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-III: Cranberry</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2363/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.2732,38.2012,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-IV: Cranberry</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2364/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.2732,38.2012,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-IV: Cranberry</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2365/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.5066,38.3024,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>V: Daugherty Run</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2366/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.5418,39.482,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>IV-V: Deckers Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2894/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.8164,39.5636,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III: Deckers Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2893/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.8932,39.6076,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>V: Deckers Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2367/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.8633,39.5967,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Deer Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3095/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.8569,38.4183,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>IV-V: Difficult Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2368/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-79.3174,39.257,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-IV: Dunloup Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2369/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-81.139,37.9318,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Elk Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3877/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.3219,39.2759,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III+: Elk River, Back Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2373/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.2125,38.5686,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-IV: Elk River, Back Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3237/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.3247,38.5539,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II+: Elk River, Back Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3238/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.3594,38.5142,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-III: Elk River, Old Field Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2812/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.1025,38.3253,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III: Elk River</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2370/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.13,38.4186,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III+(IV): Elk River</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2817/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.5367,38.1511,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III(IV): Elk River</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2371/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.3003,38.4872,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III: Elk River</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2372/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.4161,38.4782,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>V+: Elsey Run</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2896/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-79.5833,39.4667,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-IV: Fall Branch</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4162/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.9421,37.7465,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-IV+: Fields Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4275/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.8663,39.4783,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III: Gandy Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2374/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.5895,38.756,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III: Gauley</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3044/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.2383,38.4089,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Gauley</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2377/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.3603,38.4217,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Gauley</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2376/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.4392,38.4386,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II(III): Gauley</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2386/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.5133,38.385,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Gauley</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3105/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.6011,38.3658,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III(IV): Gauley</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3106/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.6411,38.2908,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>IV-V: Gauley</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2378/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.8894,38.2185,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III+(IV): Gauley</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3128/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_med</styleUrl>
+         <Point>
+           <coordinates>-80.9907,38.2221,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-IV(V): Gauley</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2379/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-81.0274,38.226,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>V+: Glade Creek (Manns Creek tributary)</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2909/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-80.9572,37.9772,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-V: Glade Creek (Meadow River tributary)</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2380/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-80.928,38.1097,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>IV: Glade Creek (New River tributary)</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2381/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-81.0529,37.7037,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>IV: Glade Creek (New River tributary)</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2382/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-81.0436,37.7639,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-IV: Grassy Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2375/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.4508,38.5175,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III: Green&#039;s Run</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2902/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.6667,39.4861,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III: Greenbrier River, East Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3304/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.6769,38.6176,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Greenbrier River, East Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2384/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.7053,38.579,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Greenbrier River, West Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2385/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.779,38.7104,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Greenbrier River, West Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3308/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.806,38.6391,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Greenbrier River</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3399/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.83,38.5491,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Greenbrier River</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3400/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.8683,38.4681,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Greenbrier River</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3401/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.9134,38.3955,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Greenbrier River</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3402/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.9688,38.3306,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Greenbrier River</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3403/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.0164,38.2825,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I(III): Greenbrier River</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4200/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_med</styleUrl>
+         <Point>
+           <coordinates>-80.3467,37.9532,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Greenbrier River</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4201/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_med</styleUrl>
+         <Point>
+           <coordinates>-80.4678,37.7439,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Greenbrier River</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4202/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_med</styleUrl>
+         <Point>
+           <coordinates>-80.5464,37.753,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II(III): Greenbrier River</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4199/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_med</styleUrl>
+         <Point>
+           <coordinates>-80.7518,37.6493,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Greenbrier River</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2383/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_med</styleUrl>
+         <Point>
+           <coordinates>-80.8867,37.6511,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-III: Guyandotte River</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2387/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-81.7114,37.5836,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III: Holly River, Laurel Fork of Left Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3701/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.3136,38.669,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III: Holly River, Left Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2388/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.3817,38.6528,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-IV: Holly River, Right Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3700/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.3863,38.5629,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Holly River, Right Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3876/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.4462,38.5643,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-IV: Hominy Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2389/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-80.7186,38.1458,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-III: Horseshoe Run</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2390/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.5673,39.2194,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-III: Howard Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4222/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-80.3769,37.7726,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Indian Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4205/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-80.6181,37.5189,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>IV-V+: Kanawha River</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2391/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_med</styleUrl>
+         <Point>
+           <coordinates>-81.1995,38.1629,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>V+: Keeney&#039;s Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3815/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-81.0128,38.0346,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III+(V): Laurel Creek (Cherry trib)</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2392/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.5985,38.1673,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-IV: Laurel Creek (Elk River tributary)</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2393/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.5222,38.4594,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-IV+: Laurel Creek (Elk River tributary)</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3245/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.5877,38.5179,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-IV+: Laurel Creek (New  River tributary)</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2394/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.8153,37.7515,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>IV-V(V+): Laurel Creek (New River tributary)</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2885/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-81.1481,38.0942,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-IV+: Laurel Creek (New River tributary)</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4628/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.9743,37.8737,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>IV-V+: Laurel Creek (Tygart trib)</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2395/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-79.9681,39.1552,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III(IV): Laurel Run</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4172/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.7225,39.6537,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>V+: Laurel Run</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4514/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.6981,39.5177,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II(III): Leatherwood Creek (Clay County)</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4217/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-81.0876,38.3901,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-IV: Leatherwood Creek (Webster County)</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2396/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.2614,38.4617,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-IV: Lick Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2397/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.8147,37.8056,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>IV: Lick Run</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2903/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-79.7042,39.4222,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Little Birch River</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4192/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.7377,38.5773,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III+: Little Bluestone River &amp; Tributaries</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4164/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.987,37.6079,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-III: Little Coal River, Pond Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2426/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-81.6294,37.8469,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Little Coal River. Pond Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3046/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-81.7111,37.9719,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III: Little Huff Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3051/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-81.7883,37.5519,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III: Little Kanawha River, Right Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2907/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.3647,37.7244,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-III: Little Kanawha River</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2906/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.2828,38.8003,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-V: Little Kanawha River</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2399/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.3506,38.8003,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>IV: Little Kanawha River</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3746/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.5514,38.7736,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-IV: Little Laurel Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3094/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.5233,38.1953,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Little River</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2398/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.7131,38.507,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-III: Little Sandy Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2899/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.5444,39.6583,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-IV: Little Sandy Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2401/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.646,39.6313,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-IV(V): Little Wolf Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4161/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.8468,37.6005,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III(V): Loop (Loup) Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2402/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-81.2489,38.0947,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Lost</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3340/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-78.8042,38.9536,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III(IV): Lost</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2403/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-78.6548,39.0644,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-III: Lunice Creek, North Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3339/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.1808,39.1249,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Lunice Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3338/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.1239,39.0681,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III+(IV): Madams Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4031/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.9304,37.6751,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>V+: Manns Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2908/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-80.9558,38.0003,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>V+: Manns Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2404/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-80.9658,37.9922,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>IV+: Meadow Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4633/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.8663,37.8877,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-IV: Meadow Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3072/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.8578,37.8528,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-IV+(V): Meadow</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2405/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.7723,37.9849,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-IV: Meadow</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2406/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.8769,38.112,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>IV-V+: Meadow</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2407/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.9275,38.1511,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III: Middle Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3027/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.0464,38.7458,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-III: Middle Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2454/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.0519,39.0108,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-IV: Middle Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2455/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.0681,39.0402,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III: Mill Creek (New River tributary)</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2409/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-81.0689,38.0837,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>IV-V+: Mill Creek (New River tributary)</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3294/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-81.0889,38.1321,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III: Mill Creek (Tygart Valley River tributary)</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3318/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-80.0531,38.6813,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>V+: Moore Run</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/5094/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.6805,39.0024,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III: Morgan Run</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2959/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-79.6982,39.4587,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-IV: Mountain Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4163/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-81.0528,37.5438,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II(III): Mud River</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2411/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-82.2194,38.4418,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-IV: Muddlety Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2412/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.8333,38.3092,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Muddy Creek (Greenbrier trib.)</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3310/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-80.6109,37.7607,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III: Muddy Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2900/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.5333,39.55,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>IV: Muddy Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2413/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.6333,39.55,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-III(IV): New</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2415/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_med</styleUrl>
+         <Point>
+           <coordinates>-80.8877,37.641,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-III: New</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2416/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_med</styleUrl>
+         <Point>
+           <coordinates>-80.8921,37.769,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III: New</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2417/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_med</styleUrl>
+         <Point>
+           <coordinates>-81.0917,37.8492,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-III: New</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4119/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_med</styleUrl>
+         <Point>
+           <coordinates>-81.0774,37.954,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-IV(V): New</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2418/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_med</styleUrl>
+         <Point>
+           <coordinates>-81.0221,37.9995,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-IV(V): New</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2419/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-81.145,38.1156,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: New Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3336/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-79.0114,39.3942,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-III: New</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4627/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_med</styleUrl>
+         <Point>
+           <coordinates>-80.8576,37.3728,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-IV: North River</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2420/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-78.7189,39.1486,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>IV-V(V+): Otter Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3107/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.6681,38.9457,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>IV: Otter Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2421/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.6508,39.0414,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-IV: Paint Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2422/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-81.2525,37.9431,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III+: Paint Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3419/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-81.2833,37.9746,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-IV: Paint Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3420/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-81.3208,37.9922,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-IV: Panther Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3093/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.6656,38.23,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III(IV): Patterson Creek, North Fork</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3337/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.1709,39.1917,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III(IV): Peachtree Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3444/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-81.4743,37.8406,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III(IV): Peters Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2423/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-81.0421,38.2546,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-IV: Pinch Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2424/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.9978,37.7055,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-V: Piney Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2425/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_med</styleUrl>
+         <Point>
+           <coordinates>-81.156,37.756,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-III: Pinnacle Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3030/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-81.4296,37.5144,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III(IV): Pipestem Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4037/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.931,37.5621,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II: Potomac, Brushy Fork of the S. Fk. of the S. Br.</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/5454/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.3206,38.4667,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III+: Potomac, Laurel Fork of North Fork of South Branch</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/1958/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.6388,38.5241,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-III: Potomac, North Branch</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2428/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.4286,39.223,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-IV: Potomac, North Branch</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2429/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.3455,39.2928,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III: Potomac, North Branch</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3290/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.1796,39.3859,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II(III): Potomac, North Branch</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2430/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.1147,39.4428,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Potomac, North Branch</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3241/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.0663,39.4795,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III: Potomac, North Fork of South Branch</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4206/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.5701,38.5704,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Potomac, North Fork of South Branch</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2431/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.5208,38.6372,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II(III): Potomac, North Fork of South Branch</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3324/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.4347,38.7424,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-III: Potomac, North Fork of South Branch</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2427/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.3719,38.8339,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III: Potomac, North Fork of South Branch</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3697/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.1956,38.9903,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Potomac, North Fork of South Branch</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3698/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.2852,38.9693,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Potomac, S. Branch</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3325/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.4974,38.4934,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Potomac, S. Branch</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3326/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.3522,38.6083,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Potomac, S. Branch</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3327/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_med</styleUrl>
+         <Point>
+           <coordinates>-79.3066,38.7113,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-III+: Potomac, S. Branch</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2432/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_med</styleUrl>
+         <Point>
+           <coordinates>-79.2752,38.805,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II(III): Potomac, S. Branch</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3329/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_med</styleUrl>
+         <Point>
+           <coordinates>-79.2424,38.8907,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Potomac, S. Branch</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3330/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_med</styleUrl>
+         <Point>
+           <coordinates>-79.1239,38.9879,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Potomac, S. Branch</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2433/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_med</styleUrl>
+         <Point>
+           <coordinates>-78.9592,39.1034,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II: Potomac, S. Fk. of the S. Br.</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/5453/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.3688,38.4269,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Potomac, S. Fk. of the S. Br.</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/5441/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.3289,38.4769,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Potomac, S. Fk. of the S. Br.</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/5440/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.2473,38.6261,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-IV: Potomac, S.Fk. of the S.Br.</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2410/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_med</styleUrl>
+         <Point>
+           <coordinates>-79.1891,38.6949,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II(III): Potomac, S.Fk. of the S.Br.</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3334/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_med</styleUrl>
+         <Point>
+           <coordinates>-79.0974,38.8119,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Potomac, S.Fk. of the S.Br.</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3335/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_med</styleUrl>
+         <Point>
+           <coordinates>-79.0047,38.9383,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II+: Potomac</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3289/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_med</styleUrl>
+         <Point>
+           <coordinates>-77.756,39.3333,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>IV-V+: Pringle Run</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3387/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.6974,39.4139,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>V+: Red Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3301/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.3553,38.9949,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-IV: Red Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2434/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.3996,38.973,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>V+: Red Run</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3302/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.5313,39.0621,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-III: Rich Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4226/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-80.7165,37.43,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-IV: Roaring Creek (Tygart Valley River tributary)</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3322/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-79.9663,38.8964,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>IV: Roaring Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2858/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.572,38.5258,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III: Robbins Run</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3744/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-80.35,38.0928,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III: Saltlick Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2435/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.6167,39.3917,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II(III): Sand Run</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3745/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.1494,38.9589,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III: Sandlick Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2436/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-81.3711,37.8261,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Sandy Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2437/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-79.8759,39.2904,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-V: Sandy Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3323/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-79.9325,39.2931,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-III: Second Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2438/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-80.4444,37.6125,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Second Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3311/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-80.4562,37.6839,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>IV-V+: Seneca Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3239/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.5174,38.7493,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III: Seneca Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2439/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.4643,38.8581,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Shenandoah</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3443/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_med</styleUrl>
+         <Point>
+           <coordinates>-77.8606,39.1528,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Shenandoah</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2440/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_med</styleUrl>
+         <Point>
+           <coordinates>-77.817,39.2537,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III: Shenandoah</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2441/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_med</styleUrl>
+         <Point>
+           <coordinates>-77.7867,39.2918,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-V: Sleepy Creek, Meadow Branch</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2408/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-78.1509,39.5314,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II(III): Sleepy Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3344/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-78.2262,39.5668,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Sleepy Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3345/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_med</styleUrl>
+         <Point>
+           <coordinates>-78.1168,39.6388,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>IV-V: Sovern Run</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2958/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.7073,39.6103,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III: Spring Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3314/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-80.4219,38.0625,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III+: Stony River</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2443/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-79.2651,39.208,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-IV: Stony River</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2442/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-79.2625,39.2697,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III(IV): Sugar Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2761/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.3031,38.5697,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>IV-V: Tea Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2444/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.2014,38.3681,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III: Tearcoat Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2445/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-78.5902,39.2923,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>IV: Teter Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2446/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.8998,39.1544,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III(IV): Thorn/Whitethorn Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2447/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.3618,38.5151,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-IV: Three Fork Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2448/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.8162,39.4522,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-IV: Trout Run</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2449/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-78.6635,39.0066,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II+: Tygart Valley</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3320/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.0371,38.5453,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-II: Tygart Valley</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3321/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.0265,38.6065,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III+: Tygart Valley</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2450/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.8958,38.9325,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-V: Tygart Valley</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2451/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.9414,39.032,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-V: Tygart Valley</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2452/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_med</styleUrl>
+         <Point>
+           <coordinates>-79.9932,39.2103,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-IV: Tygart Valley</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2453/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_med</styleUrl>
+         <Point>
+           <coordinates>-80.0704,39.3926,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-IV: Waites Run</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2456/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-78.5929,39.0068,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>IV: White&#039;s Run</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/876/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-79.5115,38.8358,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-III: Whiteday Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2457/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-79.9752,39.4344,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>I-III: Williams</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/4190/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.2138,38.2876,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>III-IV: Williams</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2458/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.2327,38.3406,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>II-III: Williams</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/2459/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_low</styleUrl>
+         <Point>
+           <coordinates>-80.3768,38.3386,0</coordinates>
+         </Point>
+       </Placemark>	
+	<Placemark>
+         <name>V+: Wolf Creek</name>
+         <description><![CDATA[<img src="http://www.americanwhitewater.org//logo/AW_logo-Vert3Color_xsmall.gif"> <br> <A HREF="http://www.americanwhitewater.org//content/River/detail/id/3816/">AW Page for this reach</A>]]></description>
+         <styleUrl>#style_</styleUrl>
+         <Point>
+           <coordinates>-81.0873,38.0443,0</coordinates>
+         </Point>
+       </Placemark></Document></kml>
