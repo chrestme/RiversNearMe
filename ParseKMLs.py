@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import os
+import os, sys
 import fnmatch
 import sqlite3
 from fastkml import kml
@@ -9,6 +9,7 @@ from geopy import geocoders
 from bs4 import BeautifulSoup
 import re
 import urllib
+import codecs
 
 def parseKMLs():
     conn = sqlite3.connect('placemark.db')
@@ -48,8 +49,6 @@ def parseKMLs():
     conn.close()
     
 
-
-
 def haversine(lon1, lat1, lon2, lat2):
     """
     Calculate the great circle distance between two points 
@@ -69,16 +68,16 @@ def haversine(lon1, lat1, lon2, lat2):
     return km
 
 
-def CalcDistance():
+def CalcDistance(location_arg):
     g = geocoders.GoogleV3()
-    place, (local_lat, local_lon) = g.geocode("22192")
+    place, (local_lat, local_lon) = g.geocode(location_arg)
     print "%s: %f, %f" % (place, local_lat, local_lon)
     
     conn = sqlite3.connect('placemark.db')
     c = conn.cursor()
-    c.execute('''SELECT lat, lon FROM placemarks WHERE name LIKE '%Potomac%Little Falls%' ''')
-    river_lon, river_lat = c.fetchone()
-    print "River Lat: %f, River Lon: %f" % (river_lat, river_lon)
+    c.execute('''SELECT section,lat, lon FROM placemarks WHERE section LIKE '%6. Little Falls%' ''')
+    section_name,river_lon, river_lat = c.fetchone()
+    print "%s - River Lat: %f, River Lon: %f" % (section_name, river_lat, river_lon)
     
     km_dist = haversine(local_lon, local_lat, river_lon, river_lat)
     print "Distance in km: %f" % km_dist
@@ -90,21 +89,71 @@ def CalcDistance():
 class AppURLopener(urllib.FancyURLopener):
     version = "App/ParseKMLs-ThanksAW"
 
-urllib._urlopener = AppURLopener()
+def getSectionNames():
+    urllib._urlopener = AppURLopener()
     
-conn = sqlite3.connect('placemark.db')
-c = conn.cursor()
-p = re.compile('HREF=\".*\">AW')
-for row in c.execute('''SELECT id, description FROM placemarks'''):
-    section_url = p.findall(row[1])[0][5:-3]
-    f = urllib.urlopen(section_url.strip('"'))
-    aw_page = f.read()
-    soup = BeautifulSoup(aw_page)
-    aw, section_name = soup.title.string.split(' - ')
-    print row[0], section_name
-    try:
-        c.execute('''UPDATE placemarks SET section = ? WHERE id == ?''', (section_name, row[0]))
-    except Exception as e:
-        print "Error updating section names: %s" % e
-conn.commit()
+    conn = sqlite3.connect('placemark.db')
+    c = conn.cursor()
+    p = re.compile('HREF=\".*\">AW')
+    c.execute('''SELECT id, description FROM placemarks''')
+    rows = c.fetchall()
+    entries = []
+    
+    with codecs.open('sectionNames.csv', 'w+', encoding='utf-8') as section_f:
+        for row in rows:
+            section_name = ''
+            section_url = p.findall(row[1])[0][5:-3]
+            f = urllib.urlopen(section_url.strip('"'))
+            aw_page = f.read()
+            soup = BeautifulSoup(aw_page)
+            try:
+                aw, section_name = soup.title.string.split('American Whitewater - ')
+            except:
+                section_name = soup.title.string
+            print row[0], section_name
+            entries.append((row[0],section_name))
+            if section_name == None: section_name = ''
+            line = str(row[0])+","+section_name+"\n"
+            section_f.write(line)
+
+#print entries
+def populateDB():
+    conn = sqlite3.connect('placemark.db')
+    c = conn.cursor()
+    
+    with open('sectionNames.csv','r') as f:
+        lines = f.readlines()
+        for line in lines:
+            #print line
+            entry = line.split(',',1)
+            section_id = entry[0]
+            try:
+                section_name_river, river_city_state, country = entry[1].rsplit(',',2)
+            except:
+                section_name_river, river_city_state, country = '','',''
+            try:
+                section_name, river_name = section_name_river.rsplit(',',1)
+            except:
+                section_name = section_name_river
+                river_name = ''
+                
+            river_city_state = river_name+river_city_state
+            print "%s\t%s\t%s\t%s" % (section_id, section_name, river_city_state, country)
+            try:
+                c.execute('''UPDATE placemarks SET section = ? WHERE id == ?''', (section_name,section_id))
+            except sqlite3.Error as e:
+                print "Error updating section names: %s" % e
+            conn.commit()
+        conn.close()    
+
+def main():
+    #self_location = sys.argv[1]
+    #print location_arg
+    
+    
+    #CalcDistance(self_location, river_location)
+    
+
+if __name__ == '__main__':
+    main()
     
