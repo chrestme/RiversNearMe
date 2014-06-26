@@ -1,0 +1,30 @@
+<form action="/rivers/" method="post">
+    <label for="zip">Zip Code: </label>
+    <input id="zip" type="text" name="zip" value="22192">
+    <label for="dist">Max Distance: </label>
+    <input id="dist" type="text" name="dist" value="60"
+    <input type="submit" value="OK">
+</form>
+
+{% if pm_list %}
+    <table>
+        <tr>
+            <th>Section</th>
+            <th>River</th>
+            <th>Class</th>
+            <th>State</th>
+            <th>Lat</th>
+            <th>Lon</th>
+        </tr>
+        {% for placemark in pm_list %}
+            <tr>
+                <td>{{placemark.section}}</td>
+                <td>{{placemark.name}}</td>
+                <td>{{placemark.class_field}}</td>
+                <td>{{placemark.state}}</td>
+                <td>{{placemark.lat}}</td>
+                <td>{{placemark.lon}}</td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endif %}

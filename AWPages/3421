@@ -1,0 +1,953 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd" >
+<html>
+ 
+<head>
+<meta name="title" content="American Whitewater - Channing H. Philbrick Park, Irondequoit Creek New York, US">
+<meta name="description" content="American Whitewater is the primary advocate for the preservation and protection of whitewater rivers throughout the United States and connects the interests of human-powered recreational river users with ecological and science-based data to achieve goals within our mission. ">
+<title>American Whitewater - Channing H. Philbrick Park, Irondequoit Creek New York, US</title>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+<meta name="Language" content="English">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="global">
+<link rel="SHORTCUT ICON" href="/logo/myfile.ico">
+<link rel="stylesheet" type="text/css" href="/resources/css/style.css">
+<!--[if lte IE 7]>
+			<link rel="stylesheet" type="text/css" href="/resources/css/iestyle.css" />
+		<![endif]-->
+<!--[if lte IE 6]>
+			<link rel="stylesheet" type="text/css" href="/resources/css/iestyle6.css" />
+		<![endif]-->
+<style type='text/css'>.dojoTabPaneWrapper{width:100%;}</style>
+<script type='text/javascript'>
+			var wh2timer = new Date().getTime();
+		</script>
+<link rel="image_src" href="http://www.americanwhitewater.org/resources/images/assets6.5/awlogo.png"> <script type='text/javascript'>
+						if(typeof(djConfig) != 'undefined')
+						{
+							djConfig['gMapKey'] = 'AIzaSyAu7JAMzqGEKuwhxB-6ePHQim0g5hX8wpw';
+						}
+					</script>
+<script src='https://www.google.com/jsapi?key=AIzaSyAu7JAMzqGEKuwhxB-6ePHQim0g5hX8wpw' type='text/javascript'></script>
+<script type='text/javascript'>
+					google.load("maps", "2.x");	
+					
+					
+					</script>
+<script type='text/javascript' djConfig=' parseOnLoad:true ' src='/resources/js/dojo/release/dojo/dojo/dojo.js'></script>
+<style type='text/css'>@import "/resources/js/dojo/release/dojo//dijit/themes/tundra/tundra.css";</style>
+<script type='text/javascript' djConfig='parseOnLoad:true' src='/resources/js/dojo/release/dojo/dojo/dialog.js'></script>
+<script type='text/javascript' djConfig='parseOnLoad:true' src='/resources/js/dojo/release/dojo/dojo/tabs.js'></script> <link rel="alternate" type="text/html" title="Channing H. Philbrick Park, Irondequoit Creek New York, US (mobile)" href="/content/River/detail/id/3421/.mobile"> <style type='text/css'>.dojoTabPane{padding:0.75em;overflow:auto;}</style>
+<script type='text/javascript'>
+							dojo.require('dojo.parser'); 
+					var _gaq = _gaq || [];
+					_gaq.push(['_setAccount', 'UA-3113277-1']);
+					_gaq.push(['_trackPageview']);
+					
+				    (function() {
+				      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				    })();
+								dojo.require("aw.widget.AWMap");						dojo.require('dijit.Tooltip');
+						dojo.require('aw.widget.ToolTipSeeker');					dojo.require("aw.formathelper.forms.dialog");
+					dojo.require("aw.widget.Dialog");
+					dojo.require("aw.formathelper.dialog");
+					dojo.require("aw.widget.ContentPane");
+														dojo.require("aw.widget.TabContainer");
+								dojo.require("aw.widget.ContentPane");
+								
+								
+															dojo.require("aw.menu");		</script>
+<script id='onloadscript' type='text/javascript'>
+		dojo.addOnLoad(function(){					{
+					var killhandle = aw.formathelper.dialog.listener('comment',function(e)
+						{
+							
+							{
+								aw.formathelper.dialog.process('zzqh324sls6s0vsCommentGadget42-1','/content/Comment/view/section/river/reachid/3421/notifylist/153%3A2485%3A612%3A3862%3A3413/.dialog',null,function()
+								{
+									//make sure our event gets removed if the parent element disappears.
+									if(!dojo.byId('zzqh324sls6s0vsCommentGadget42-1'))
+									{
+										dojo.unsubscribe(killhandle);
+									}
+								}
+								);
+							}
+						}
+						);
+					} });		</script>
+</head>
+<body class="two-col-right tundra wh2o ">
+<div id="width">
+<div id="minwidth">
+<div id="layout">
+<div id="content-container">
+<div id='toptonav'>
+<div id="header" class='header-bg'>
+<div class='top'>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style='border: #789876'>
+<tr>
+<td width="38%" align="left" class="logo">
+<a href="/"><img class='logo' src="/resources/css/../images/nothing.gif" alt="American White Water" title="American White Water"></a>
+</td>
+<td width="62%" valign="top" align="right">
+<div style='' class="CUserLoginView" id='zzqh324sls6s0vsUserLoginView78'> <div class='neutral'>
+<div id="header-right">
+<div class="left-img">&nbsp;</div>
+<div class="topbox-bg">
+<form action="https://www.americanwhitewater.org/content/User/do-login/**vSyK9jcy5Z" method='POST'>
+<table>
+<tr>
+<td colspan='2' id='login-upper'>
+<label for='username'>Username</label>
+<input name="username" type="text" class="inputbox"/>
+<label for='password'>Password</label>
+<input name="password" autocomplete='off' type="password" class="inputbox"/>
+<input type="submit" value="Login"/>
+</td>
+</tr>
+<tr>
+<td>
+<label for='remember' class='login-lower'>Remember Me</label>
+<input type='checkbox' checked='true' name='remember'>
+</td>
+<td align='right' class='login-lower'>
+<a href='/content/Membership/get-password/**vSyK9jcy5Z' class='login-link1'>Forgot your password?</a>
+|
+<a href='/content/Membership/view/' class='login-link1'>Sign Up</a>
+</td>
+</tr>
+</table>
+</form>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+ 
+<div id="nav-wrapper">
+<div id="navigation">
+<div style='' class="CMenuGadget" id='zzqh324sls6s0vsMenuGadget79'>
+<div id='menu0'><ul dojoType="aw.menu" class='menulist' id="menu"> <li>
+<a href='/content/Welcome/view/'>
+<span>Our Organization</span>
+</a>
+<div id='menu1'><ul class='menulist'> <li>
+<a href='/content/Wiki/aw:about/'>
+<span>About AW</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:outdooralliance/'>
+<span>Outdoor Alliance</span>
+</a>
+</li>
+<li>
+<a href='/content/News/view/type/frontpagenews/showarchive/1/'>
+<span>News</span>
+</a>
+</li>
+<li>
+<a href='/content/Stewardship/view/'>
+<span>Stewardship</span>
+</a>
+</li>
+<li>
+<a href='/content/Safety/view/'>
+<span>Safety</span>
+</a>
+</li>
+<li>
+<a href='/content/Events/view/'>
+<span>Events</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:contact_us/'>
+<span>Contact Us</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:board_of_directors/'>
+<span>Board of Directors</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:staff/'>
+<span>Professional Staff</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/Wiki/aw:shop/'>
+<span>Support AW</span>
+</a>
+<div id='menu2'><ul class='menulist'> <li>
+<a href='/content/Membership/join-aw/'>
+<span>Join or Renew</span>
+</a>
+</li>
+<li>
+<a href='/content/Membership/donate/'>
+<span>Donate</span>
+</a>
+</li>
+<li>
+<a href='/content/Membership/gift/'>
+<span>Gift Membership</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:giving/'>
+<span>Giving</span>
+</a>
+</li>
+<li>
+<a href='/content/Volunteer/view/'>
+<span>Become a Volunteer</span>
+</a>
+</li>
+<li>
+<a href='/content/Store'>
+<span>AW Store</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:partnership/'>
+<span>Industry Partner Program</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:advertising/'>
+<span>Advertising Information</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/Menu/summarize/area/community/'>
+<span>Community</span>
+</a>
+<div id='menu3'><ul class='menulist'> <li>
+<a href='/content/Affiliate/view/'>
+<span>Clubs</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:sponsorship/'>
+<span>Industry Partners</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/River/view/'>
+<span>River Info</span>
+</a>
+<div id='menu4'><ul class='menulist'> <li>
+<a href='/content/River/view/'>
+<span>National River Database</span>
+</a>
+</li>
+<li>
+<a href='/content/Report/list-recent/'>
+<span>Recent River Reports</span>
+</a>
+</li>
+<li>
+<a href='/content/StreamTeam/info/'>
+<span>Stream Team</span>
+</a>
+</li>
+<li>
+<a href='/content/River/list-permits/'>
+<span>Permit Information</span>
+</a>
+</li>
+<li>
+<a href='/content/Release/view/'>
+<span>Release Information</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/Menu/summarize/area/multimedia/'>
+<span>Library</span>
+</a>
+<div id='menu5'><ul class='menulist'> <li>
+<a href='/content/Photo/view/'>
+<span>Photo/Video</span>
+</a>
+</li>
+<li>
+<a href='/content/Journal/archive/'>
+<span>AW Journal</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:logos/'>
+<span>Logos</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/Search/view/'>
+<span>Search</span>
+</a>
+</li>
+<li>
+<a href='/content/Membership/view/'>
+<span>Login</span>
+</a>
+<div id='menu6'><ul class='menulist'> <li>
+<a href='/content/User/register/**vSyK9jcy5Z'>
+<span>New Account</span>
+</a>
+</li>
+<li>
+<a href='/content/User/get-password/**vSyK9jcy5Z'>
+<span>Password Reminder</span>
+</a>
+</li>
+</ul></div> </li>
+</ul></div></div><div style='' class="CCrumbsGadget" id='zzqh324sls6s0vsCrumbsGadget80'><ul class='bread_crumb'>
+<li class="emphasize bread_crumb">Recent Pages:</li>
+<li class='bread_crumb'><a href='/content/River/detail/id/3421/'>Channing H. Philbrick Park, Irondequoit Creek New York, US</a></li></ul></div> </div> 
+</div> 
+ 
+<div id="warnings" class="hide-all">
+<h2 class="hide-all">Old browser warning</h2>
+<p><em>Site look funky?</em>&nbsp;
+Your browser is either Internet Explorer (hit refresh (F5) several times due to a bug in Microsoft's code
+that we can't work around) or is 10 years old and
+<a href="http://www.webstandards.org/about/" title="Click to visit Web Standards Project mission page.">standards-based</a> layouts and styling confuse it.
+&nbsp; Consider updating.&nbsp; One excellent option is
+<a href="http://www.mozilla.org/products/firefox/" title="Click to visit the Mozilla Firefox download page.">
+Mozilla Firefox</a>, versions of which are available for Linux, Mac and Windows. Safari 1.0+ and IE 6.0+ are also supported.</p>
+</div>
+ 
+ 
+</div> 
+<div id="container">
+<div id="block_1_wrapper">
+<div id="block_1">
+ 
+<div class="boxcontent CContainerView" id='zzqh324sls6s0vsContainerView89'>
+<div><div id='zzqh324sls6s0vsRiverDetailGadget2' class='CRiverDetailGadget-detail CRiverDetailGadget'><div class='controls'><h1>Irondequoit Creek - Channing H. Philbrick Park</h1>
+<div><div id='zzqh324sls6s0vsArticleGadget26Container' class='CArticleGadget-view CArticleGadget'><div id='zzqh324sls6s0vsArticleGadget26-1' class='contents'></div></div> <br style='clear:both'>
+</div>
+</div> <div class='tabcontainer' doLayout='false' id="zzqh324sls6s0vsContainerView72tabc" dojoType="aw.widget.TabContainer" enableBack="true">
+<div id="zzqh324sls6s0vsContainerView68" trackAsMain='true' class='CContainerView' dojoType="aw.widget.ContentPane" title='RiverMain'>
+<div><div id='zzqh324sls6s0vsRiverMainGadget33' class='CRiverMainGadget-main CRiverMainGadget'>
+<div parseWidgets='false' class='nodecoration river-description'>
+<table class='nodecoration'>
+<tr>
+<td>
+<h1>Irondequoit Creek, New York, US</h1>
+</td>
+<td valign=top>
+<a href="/content/Wiki/rivers:info:disclaimer/"><img align=right alt=Disclaimer src="/resources/images/disclaimerclick.gif" width=72 height=21></a>
+</td>
+</tr>
+</table>
+<h2>Channing H. Philbrick Park (Linear Park)</h2>
+<table class='data_table river-stats'>
+<tr class='row-1'>
+<th>Usual Difficulty</th>
+<td>II(III) (for normal flows) </td>
+</tr>
+<tr class='row-2'>
+<th>Avg. Gradient</th>
+<td>65 fpm</td>
+</tr>
+<tr class='row-3'>
+<th>Max Gradient</th>
+<td>135 fpm</td>
+</tr>
+</table>
+<div class='river-photo'>
+<div class='controls'>
+<h1>Lower Falls, Irondequoit Creek</h1>
+</div>
+<div><div id='zzqh324sls6s0vsPhotoDetailView92' class='CPhotoDetailView-view CPhotoDetailView'> <div class='river-photo'>
+<a href="/content/Photo/detail/photoid/220/size/big/">
+<img class='river-photo' src="/photos/archive/medium/220.jpg">
+</a>
+<br>
+<i>Lower Falls, Irondequoit Creek</i><br><span class='caption'><i>Photo of Harry Marinakis on a winter descent by Harry Marinakis</i></span></div></div> <br style='clear:both'>
+</div>
+</div>
+<div class='river-break'></div>
+<h2 style='clear:both'>Gauge Information</h2>
+<table class='data_table'>
+<tr>
+<th>Name</th>
+<th>Range</th>
+<th>Difficulty</th>
+<th>Updated</th>
+<th>Level</th>
+</tr>
+<tr class='row-1'>
+<th colspan='5'>
+<a href='/content/Gauge2/detail/id/43501/'>Irondequoit Creek above Allen Creek</a>
+</th>
+</tr>
+<tr class='row-1'>
+<td rowspan='2' valign='top'>
+virtual-8534 </td>
+<td>
+300 - 2000 cfs
+<td>
+II(III) </td>
+<td>
+02h33m </td>
+<td class='river-low1'>
+94
+cfs
+(too low) </td>
+</tr>
+<tr class='row-1'>
+<td colspan='4' class='river-low1'>
+<img src='/resources/images/blank.gif' class='rl-icon-2gaugeinfo'>
+Approximate "too low" range; the range is not well known. </td>
+</tr>
+</table>
+<br>
+<br>
+<h2>River Description</h2>
+<p>
+<i>Updated May 7, 2001</i><br>
+<br>
+Irondequoit Creek is a small waterway that runs through Channing H. Philbrick Park (formerly
+Linear Park) in Penfield, New York.<br>
+Linear Park was formerly the site of a sewage treatment plant but now contains a city park, a
+road maintenance yard, and private housing.<br>
+Most of the year the creek literally runs at a trickle.<br>
+The highest recorded flood peak was 1,480 cfs on October 29, 1974.<br>
+<br>
+<i><b>PHOTO:</b> Harry Marinakis on a winter descent of Lower Falls.</i><br>
+<br>
+<b>THE PUTIN</b><br>
+<br>
+Access to Irondequoit Creek is from the parking lot at Channing H. Philbrick Park, on Linear Park
+Road, off Route 441 (Penfield Rd.) in Penfield.<br>
+From the bridge at the parking lot, follow the hiking trail upstream along the river-right
+bank.<br>
+Put in anywhere that looks good.<br>
+<br>
+<b>IRONDEQUOIT CREEK - CHANNING PHILBRICK PARK</b><br>
+<br>
+The stream drops steeply through Linear Park, providing an impressive half-mile run of class III
+whitewater with an average gradient of ~65 feet per mile. Irondequoit Creek is plagued with wood,
+so foot scouting is mandatory to locate the strainers.<br>
+<br>
+The drop through Linear Park occurs in two major stages: <b><i>Upper Falls</i></b> and
+<b><i>Lower Falls</i></b>. The more difficult of the two drops is <b><i>Upper Falls</i></b>,
+called <b><i>Sgoh-Sa-Is-Thah</i></b> by the Iroquois Indians. It is not a waterfall per se, but a
+steep cascade. In prior centuries the area was the site of industry that utilized the power of
+the creek. One can still see stone remnants of foundations through the thick brush and trees
+along the stream banks.<br>
+<br>
+<b><i>SGOH-SA-IS-THAH</i></b><br>
+(UPPER FALLS)<br>
+<br>
+<b><i>Upper Falls</i></b> is rated class III. Two boat-eating hydraulics form between the
+concrete platform (on river right) and the observation platform (on river left). This section is
+best when the concrete platform on river right is awash with water.<br>
+<br>
+A long, deep pool adjacent to the observation platform (on river left) gives the boater a chance
+to recover before the final drop into the bridge abutment. This pool is a great place to practice
+both left and right stern squirts in the swift current.<br>
+<br>
+The final drop to the bridge is steep and rocky. Generally, run river right and shoot through the
+right-hand tunnel under the bridge. Beware of the large pillow and vicious whirlpool that forms
+when the creek crashes into the bridge buttress on far river right. A fatal pin is reported to
+have occurred at this spot. As soon as you complete the drop, paddle like a possessed demon for
+the left side of the right-hand tunnel so that you don't get swept into the whirlpool and pinned.
+Also be sure to scout under the bridge as strainers often jam under there.<br>
+<br>
+After the creek passes under the bridge, the creek becomes wide and shallow for a long, straight
+class-II run. Downstream the creek starts a gentle turn left and divides around an island. The
+gradient increases noticeably, forewarning the proximity of Lower Falls.<br>
+<br>
+<b>LOWER FALLS</b><br>
+<br>
+<b><i>Lower Falls</i></b> is the other difficult segment of the Linear Park Run. The water forms
+four large wave/holes in quick succession as the creek drops over a few small ledges.<br>
+<br>
+<b>THE TAKEOUT</b><br>
+<br>
+After <b><i>Lower Falls</i></b>, the creek makes a 90-degree turn to the right and passes under
+the highway. Takeout at a sandy beach on river-right just before you pass under the bridge. It is
+a 3-minute hike through Linear Park back to the parking lot.<br>
+<br>
+<b>AVERAGE DAILY PEAK FLOW</b><br>
+<b>(BY WEEK OF THE MONTH)</b><br>
+<br>
+The following data was computed by averaging the daily peak flow (by week of the month) over the
+years 1986-1996. Table values are in cubic feet per second (cfs). The computations were performed
+by downloading U.S.G.S. data strings into an Excel spreadsheet.
+</p>
+<table cellpadding="5" border="1">
+<tbody>
+<tr align="center" valign="center">
+<td>
+<b>Month</b>
+</td>
+<td>
+<b>1st Week</b>
+</td>
+<td>
+<b>2nd Week</b>
+</td>
+<td>
+<b>3rd Week</b>
+</td>
+<td>
+<b>4th Week</b>
+</td>
+<td>
+<b>10-Year</b><br>
+<b>Monthly Range</b>
+</td>
+</tr>
+<tr align="right" valign="center">
+<td>
+<b>JAN</b>
+</td>
+<td>
+125
+</td>
+<td>
+94
+</td>
+<td>
+214
+</td>
+<td>
+149
+</td>
+<td>
+&nbsp;
+</td>
+</tr>
+<tr align="right" valign="center">
+<td>
+<b>FEB</b>
+</td>
+<td>
+126
+</td>
+<td>
+123
+</td>
+<td>
+179
+</td>
+<td>
+172
+</td>
+<td>
+&nbsp;
+</td>
+</tr>
+<tr align="right" valign="center">
+<td>
+<b>MAR</b>
+</td>
+<td>
+186
+</td>
+<td>
+195
+</td>
+<td>
+198
+</td>
+<td>
+277
+</td>
+<td>
+&nbsp;
+</td>
+</tr>
+<tr align="right" valign="center">
+<td>
+<b>APR</b>
+</td>
+<td>
+356
+</td>
+<td>
+261
+</td>
+<td>
+239
+</td>
+<td>
+207
+</td>
+<td>
+&nbsp;
+</td>
+</tr>
+<tr align="right" valign="center">
+<td>
+<b>MAY</b>
+</td>
+<td>
+159
+</td>
+<td>
+199
+</td>
+<td>
+171
+</td>
+<td>
+105
+</td>
+<td>
+&nbsp;
+</td>
+</tr>
+<tr align="right" valign="center">
+<td>
+<b>JUN</b>
+</td>
+<td>
+96
+</td>
+<td>
+105
+</td>
+<td>
+107
+</td>
+<td>
+100
+</td>
+<td>
+&nbsp;
+</td>
+</tr>
+<tr align="right" valign="center">
+<td>
+<b>JUL</b>
+</td>
+<td>
+81
+</td>
+<td>
+67
+</td>
+<td>
+102
+</td>
+<td>
+72
+</td>
+<td>
+&nbsp;
+</td>
+</tr>
+<tr align="right" valign="center">
+<td>
+<b>AUG</b>
+</td>
+<td>
+106
+</td>
+<td>
+92
+</td>
+<td>
+66
+</td>
+<td>
+84
+</td>
+<td>
+&nbsp;
+</td>
+</tr>
+<tr align="right" valign="center">
+<td>
+<b>SEP</b>
+</td>
+<td>
+69
+</td>
+<td>
+63
+</td>
+<td>
+70
+</td>
+<td>
+81
+</td>
+<td>
+&nbsp;
+</td>
+</tr>
+<tr align="right" valign="center">
+<td>
+<b>OCT</b>
+</td>
+<td>
+94
+</td>
+<td>
+92
+</td>
+<td>
+134
+</td>
+<td>
+100
+</td>
+<td>
+&nbsp;
+</td>
+</tr>
+<tr align="right" valign="center">
+<td>
+<b>NOV</b>
+</td>
+<td>
+109
+</td>
+<td>
+114
+</td>
+<td>
+99
+</td>
+<td>
+140
+</td>
+<td>
+&nbsp;
+</td>
+</tr>
+<tr align="right" valign="center">
+<td>
+<b>DEC</b>
+</td>
+<td>
+179
+</td>
+<td>
+122
+</td>
+<td>
+153
+</td>
+<td>
+134
+</td>
+<td>
+&nbsp;
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+&nbsp;
+</p> <br>
+<div style='clear:both'>
+<div><b>StreamTeam Status: </b>Not Verified</div>
+<div><b>Last Updated: </b>2009-07-03 16:10:54</div>
+</div>
+</div>
+</div><div id='zzqh324sls6s0vsRiverRapidsGadget38' class='CRiverRapidsGadget-view-rapids CRiverRapidsGadget'> <h2>Rapid Descriptions</h2>
+<div><div id='zzqh324sls6s0vsMessageGadget39' class='CMessageGadget-message CMessageGadget'> <div class='message  msg_message'>
+<img alt='icon of message' src='/resources/images/messages/message.gif'/> No rapids entered. If you know names, and locations of the rapids please contact and advise the StreamTeam member for this run. </div>
+<div style='clear:both'></div>
+</div> <br style='clear:both'>
+</div>
+</div><div id='zzqh324sls6s0vsCommentGadget42' class='CCommentGadget-view CCommentGadget'><div id='zzqh324sls6s0vsCommentGadget42-1'>  
+<div class='comment-container' style=''>
+<table class='comments'>
+<tr>
+<td><h2>User Comments</h2></td>
+</tr>
+<tr>
+<td>
+<hr>
+<div class='commentinfo comment_comment'>
+2014-03-28 01:22:05 (64 days ago)
+<div id='contact-155374'>kmyersjc (155374)</div> </div>
+<div class='commentbox'>
+300 is a good minimum level, although 250 works fine as well </div>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+<div class='commentinfo comment_comment'>
+2013-05-03 10:52:41 (393 days ago)
+<div id='contact-155374'>kmyersjc (155374)</div> </div>
+<div class='commentbox'>
+On Weds 5/1 we were confronted by a Penfield Parks & Rec authority and informed we could not put in<br/>
+on park property. Considering the 2005 comment by Andy, we were not surprised. However, we were<br/>
+surprised when he also advised us we could not even float down the creek past the park if we put in<br/>
+outside park property. He stated quite strongly that he would call the police if he sees us even<br/>
+passing through on the creek in our kayaks. We did find a couple statements in a Penfield Parks &<br/>
+Rec document that imply the town owns the water in all Penfield parks and no boating of any sort is<br/>
+allowed. However, we also have found A LOT of legal documentation that since it is a navigatible<br/>
+waterway we are entitled to use it. We'll let you know where this all goes. </div>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+<div class='commentinfo comment_comment'>
+2013-05-03 10:51:16 (393 days ago)
+<div id='contact-155374'>kmyersjc (155374)</div> </div>
+<div class='commentbox'>
+Oh, btw ... we got rid of that big tree across the river after the right bend after the<br/>
+bridge/tunnels. We also got rid of the lower tree across the lower falls. </div>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+<div class='commentinfo comment_warning'>
+2013-03-12 08:42:12 (445 days ago)
+<div id='contact-153725'>AbNormative (153725)</div> </div>
+<div class='commentbox'>
+There's a river-wide strainer, a log that is several inches above the water at 300-400 cfs. It is<br/>
+about 100 ft after a sharp right bend, so there's not much time to react. That's the first sharp<br/>
+right bend after the bridge-with-tunnels (Linear Park Dr / N Washington St). </div>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+<div class='commentinfo comment_warning'>
+2005-09-19 11:08:47 (3176 days ago)
+<div id='contact-5991'><span class='name'>Andy Cook</span><span class='send-message'><a href="/content/Contact/view/contactid/5991/display/detail/">Details</a></span></div> </div>
+<div class='commentbox'>
+According to the authorities, it is illegal to put in or take out on property owned by the Town of<br/>
+Penfield. This includes all of Linear Park on the river right.<br/>
+<br/>
+At present 9/05, the bridge at the base of upper falls is completely blocked by some nasty looking<br/>
+strainers. </div>
+</td>
+</tr>
+</table>
+</div>
+Users can submit comments.</div></div> <br style='clear:both'>
+</div>
+</div>
+<div id="tab-flow" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/show-gauge-info/reachid/3421/revision/0/.dialog' title='Flow Info'>
+</div>
+<div id="tab-map" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/map/id/3421/revision/0/.rawhtml' title='Map'>
+</div>
+<div id="tab-directions" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/show-directions/reachid/3421/revision/0/.rawhtml' title='Directions'>
+</div>
+<div id="tab-weather" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/Weather/detail/zip/14526/.rawhtml' title='Weather'>
+</div>
+<div id="tab-news" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/river-news/id/3421/.rawhtml' title='News (0) & Accidents'>
+</div>
+<div id="tab-photos" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/Photo/do-search/reachid/3421/orderby/id/incphotos/on/incvideos/on/dosearch/Photo%2BSearch/.rawhtml' title='Photos (5)'>
+</div>
+<div id="tab-credits" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/credits/reachid/3421/.dialog' title='Credits & Network'>
+</div>
+</div>
+</div> <br style='clear:both'>
+</div>
+</div> 
+</div> 
+</div> 
+<div id="block_3">
+<div class="gutter">
+<div class="boxcontent CContainerView" id='zzqh324sls6s0vsContainerView14'>
+<div><div id='zzqh324sls6s0vsArticleGadget6Container' class='CArticleGadget-view CArticleGadget'><div id='zzqh324sls6s0vsArticleGadget6-1' class='contents'><h3 style="text-align: center; margin-top: 15px;">
+Do more than just check gauges; join over 5,000 AW members today.
+</h3>
+<div style="text-align:center; margin:10px;">
+<a style="display: block;" href="https://www.americanwhitewater.org/content/Membership/join-aw?utm_source=americanwhitewater.org&amp;utm_medium=banner&amp;utm_content=HTML_ad_001&amp;utm_campaign=join_or_renew">
+<img width="100" height="60" alt="Join_or_Renew_Logo-200px" src="http://www.americanwhitewater.org/resources/repository/Join_or_Renew_Logo-200px.png"></a>
+<h3 style="color: rgb(0, 0, 238); margin-top: 10px;">
+<a style="display: block;" href="https://www.americanwhitewater.org/content/Membership/join-aw?utm_source=americanwhitewater.org&amp;utm_medium=banner&amp;utm_content=HTML_ad_001&amp;utm_campaign=join_or_renew">
+Join or Renew</a>
+</h3>
+</div>
+<hr>
+<h3 style="text-align: center; margin-top: 10px;">
+Or, consider donating
+</h3>
+<div style="text-align:center; margin:10px;">
+<a style="display: block;" href="https://www.americanwhitewater.org/content/Membership/donate?utm_source=americanwhitewater.org&amp;utm_medium=banner&amp;utm_content=HTML_ad_001&amp;utm_campaign=donate">
+<img width="100" height="60" alt="Donate_Logo-200px" src="http://www.americanwhitewater.org/resources/repository/Donate_Logo-200px.png"></a>
+<h3 style="color: rgb(0, 0, 238); margin-top: 10px;">
+<a style="display: block;" href="https://www.americanwhitewater.org/content/Membership/donate?utm_source=americanwhitewater.org&amp;utm_medium=banner&amp;utm_content=HTML_ad_001&amp;utm_campaign=donate">
+Donate</a>
+</h3>
+</div></div></div> <br style='clear:both'>
+</div>
+</div> 
+</div> 
+</div> 
+<br style='clear:all'>
+</div> 
+<div id='footer'>
+<div style='' class="CFooterGadget" id='zzqh324sls6s0vsFooterGadget94'> &#169; 1999-2014 American Whitewater (<a href='/content/Wiki/aw:tos'>terms of use</a>) | PO Box 1540 | Cullowhee, NC 28723 | 1-866-262-8429 | <a href="mailto:info@americanwhitewater.org">info@americanwhitewater.org</a>
+</div><div><div style='' class="CContainerView" id='zzqh324sls6s0vsContainerView23'> <div><div id='zzqh324sls6s0vsArticleGadget18Container' class='CArticleGadget-view CArticleGadget'><div id='zzqh324sls6s0vsArticleGadget18-1' class='contents'></div></div> <br style='clear:both'>
+</div>
+</div></div><div><div style='' class="CNewsFeedGadget" id='zzqh324sls6s0vsNewsFeedGadget73'> <div class='feed'>
+<a class='nodecoration' href='/content/River/detail/id/3421/.mobile'>
+<img src='/resources/images/blank.gif' class='mobile'></a>&nbsp;Channing H. Philbrick Park, Irondequoit Creek New York, US (mobile)&nbsp;&nbsp;
+</div>
+</div></div><div><div style='' class="CContainerView" id='zzqh324sls6s0vsContainerView88'> <div><div id='zzqh324sls6s0vsArticleGadget83Container' class='CArticleGadget-view CArticleGadget'><div id='zzqh324sls6s0vsArticleGadget83-1' class='contents'></div></div> <br style='clear:both'>
+</div>
+</div></div> </div> 
+<br>
+<div style='display:none'>
+<span id='server-time' style='text-size:50%'></span>
+<span id='client-time' style='text-size:50%'></span>
+</div>
+<script type='text/javascript'>
+				require(['dojo/dom','dojo/ready','dojo/_base/xhr'],function(dom,ready,xhr){
+					
+			ready(
+				function(){
+					var roundNumber = function(num, dec) {
+						var result = Math.round(num*Math.pow(10,dec))/Math.pow(10,dec);
+						return result;
+					}
+						var clienttime = ((new Date().getTime()) - wh2timer)/1000;
+						var servertime = (0.17776203155518);
+						var servermemory = (17958384)/(1024*1024);
+						dom.byId('client-time').innerHTML=(clienttime+" sec. client ");
+						dom.byId('server-time').innerHTML=(servertime+" sec. server ");
+						dom.byId('server-time').innerHTML+= (servermemory.toFixed(2)+" MB");
+						if(!Math.floor(Math.random()*101))
+						{
+							var url = document.location;
+							var data = {server_time: servertime, client_time: clienttime, url:url};
+							xhr.post({
+								url: '/content/Performance/update/',
+								content: data	});
+							
+						}
+					}
+				);						
+					
+					
+				});
+						</script>
+ 
+</div>  
+</div> 
+</div> 
+</div> 
+</body>
+</html>

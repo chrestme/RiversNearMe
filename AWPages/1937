@@ -1,0 +1,804 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd" >
+<html>
+ 
+<head>
+<meta name="title" content="American Whitewater - Fairfax Dam to The Potomac River, Goose Creek Virginia, US">
+<meta name="description" content="American Whitewater is the primary advocate for the preservation and protection of whitewater rivers throughout the United States and connects the interests of human-powered recreational river users with ecological and science-based data to achieve goals within our mission. ">
+<title>American Whitewater - Fairfax Dam to The Potomac River, Goose Creek Virginia, US</title>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+<meta name="Language" content="English">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="global">
+<link rel="SHORTCUT ICON" href="/logo/myfile.ico">
+<link rel="stylesheet" type="text/css" href="/resources/css/style.css">
+<!--[if lte IE 7]>
+			<link rel="stylesheet" type="text/css" href="/resources/css/iestyle.css" />
+		<![endif]-->
+<!--[if lte IE 6]>
+			<link rel="stylesheet" type="text/css" href="/resources/css/iestyle6.css" />
+		<![endif]-->
+<style type='text/css'>.dojoTabPaneWrapper{width:100%;}</style>
+<script type='text/javascript'>
+			var wh2timer = new Date().getTime();
+		</script>
+<link rel="image_src" href="http://www.americanwhitewater.org/resources/images/assets6.5/awlogo.png"> <script type='text/javascript'>
+						if(typeof(djConfig) != 'undefined')
+						{
+							djConfig['gMapKey'] = 'AIzaSyAu7JAMzqGEKuwhxB-6ePHQim0g5hX8wpw';
+						}
+					</script>
+<script src='https://www.google.com/jsapi?key=AIzaSyAu7JAMzqGEKuwhxB-6ePHQim0g5hX8wpw' type='text/javascript'></script>
+<script type='text/javascript'>
+					google.load("maps", "2.x");	
+					
+					
+					</script>
+<script type='text/javascript' djConfig=' parseOnLoad:true ' src='/resources/js/dojo/release/dojo/dojo/dojo.js'></script>
+<style type='text/css'>@import "/resources/js/dojo/release/dojo//dijit/themes/tundra/tundra.css";</style>
+<script type='text/javascript' djConfig='parseOnLoad:true' src='/resources/js/dojo/release/dojo/dojo/dialog.js'></script>
+<script type='text/javascript' djConfig='parseOnLoad:true' src='/resources/js/dojo/release/dojo/dojo/tabs.js'></script> <link rel="alternate" type="text/html" title="Fairfax Dam to The Potomac River, Goose Creek Virginia, US (mobile)" href="/content/River/detail/id/1937/.mobile"> <style type='text/css'>.dojoTabPane{padding:0.75em;overflow:auto;}</style>
+<script type='text/javascript'>
+							dojo.require('dojo.parser'); 
+					var _gaq = _gaq || [];
+					_gaq.push(['_setAccount', 'UA-3113277-1']);
+					_gaq.push(['_trackPageview']);
+					
+				    (function() {
+				      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				    })();
+								dojo.require("aw.widget.AWMap");						dojo.require('dijit.Tooltip');
+						dojo.require('aw.widget.ToolTipSeeker');					dojo.require("aw.formathelper.forms.dialog");
+					dojo.require("aw.widget.Dialog");
+					dojo.require("aw.formathelper.dialog");
+					dojo.require("aw.widget.ContentPane");
+														dojo.require("aw.widget.TabContainer");
+								dojo.require("aw.widget.ContentPane");
+								
+								
+															dojo.require("aw.menu");		</script>
+<script id='onloadscript' type='text/javascript'>
+		dojo.addOnLoad(function(){					{
+					var killhandle = aw.formathelper.dialog.listener('comment',function(e)
+						{
+							
+							{
+								aw.formathelper.dialog.process('zzqqsc4dml1mq40CommentGadget58-1','/content/Comment/view/section/river/reachid/1937/notifylist/148359%3A146359%3A4601/.dialog',null,function()
+								{
+									//make sure our event gets removed if the parent element disappears.
+									if(!dojo.byId('zzqqsc4dml1mq40CommentGadget58-1'))
+									{
+										dojo.unsubscribe(killhandle);
+									}
+								}
+								);
+							}
+						}
+						);
+					} });		</script>
+</head>
+<body class="two-col-right tundra wh2o ">
+<div id="width">
+<div id="minwidth">
+<div id="layout">
+<div id="content-container">
+<div id='toptonav'>
+<div id="header" class='header-bg'>
+<div class='top'>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style='border: #789876'>
+<tr>
+<td width="38%" align="left" class="logo">
+<a href="/"><img class='logo' src="/resources/css/../images/nothing.gif" alt="American White Water" title="American White Water"></a>
+</td>
+<td width="62%" valign="top" align="right">
+<div style='' class="CUserLoginView" id='zzqqsc4dml1mq40UserLoginView114'> <div class='neutral'>
+<div id="header-right">
+<div class="left-img">&nbsp;</div>
+<div class="topbox-bg">
+<form action="https://www.americanwhitewater.org/content/User/do-login/**sm6AhKLwFg" method='POST'>
+<table>
+<tr>
+<td colspan='2' id='login-upper'>
+<label for='username'>Username</label>
+<input name="username" type="text" class="inputbox"/>
+<label for='password'>Password</label>
+<input name="password" autocomplete='off' type="password" class="inputbox"/>
+<input type="submit" value="Login"/>
+</td>
+</tr>
+<tr>
+<td>
+<label for='remember' class='login-lower'>Remember Me</label>
+<input type='checkbox' checked='true' name='remember'>
+</td>
+<td align='right' class='login-lower'>
+<a href='/content/Membership/get-password/**sm6AhKLwFg' class='login-link1'>Forgot your password?</a>
+|
+<a href='/content/Membership/view/' class='login-link1'>Sign Up</a>
+</td>
+</tr>
+</table>
+</form>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+ 
+<div id="nav-wrapper">
+<div id="navigation">
+<div style='' class="CMenuGadget" id='zzqqsc4dml1mq40MenuGadget115'>
+<div id='menu0'><ul dojoType="aw.menu" class='menulist' id="menu"> <li>
+<a href='/content/Welcome/view/'>
+<span>Our Organization</span>
+</a>
+<div id='menu1'><ul class='menulist'> <li>
+<a href='/content/Wiki/aw:about/'>
+<span>About AW</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:outdooralliance/'>
+<span>Outdoor Alliance</span>
+</a>
+</li>
+<li>
+<a href='/content/News/view/type/frontpagenews/showarchive/1/'>
+<span>News</span>
+</a>
+</li>
+<li>
+<a href='/content/Stewardship/view/'>
+<span>Stewardship</span>
+</a>
+</li>
+<li>
+<a href='/content/Safety/view/'>
+<span>Safety</span>
+</a>
+</li>
+<li>
+<a href='/content/Events/view/'>
+<span>Events</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:contact_us/'>
+<span>Contact Us</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:board_of_directors/'>
+<span>Board of Directors</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:staff/'>
+<span>Professional Staff</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/Wiki/aw:shop/'>
+<span>Support AW</span>
+</a>
+<div id='menu2'><ul class='menulist'> <li>
+<a href='/content/Membership/join-aw/'>
+<span>Join or Renew</span>
+</a>
+</li>
+<li>
+<a href='/content/Membership/donate/'>
+<span>Donate</span>
+</a>
+</li>
+<li>
+<a href='/content/Membership/gift/'>
+<span>Gift Membership</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:giving/'>
+<span>Giving</span>
+</a>
+</li>
+<li>
+<a href='/content/Volunteer/view/'>
+<span>Become a Volunteer</span>
+</a>
+</li>
+<li>
+<a href='/content/Store'>
+<span>AW Store</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:partnership/'>
+<span>Industry Partner Program</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:advertising/'>
+<span>Advertising Information</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/Menu/summarize/area/community/'>
+<span>Community</span>
+</a>
+<div id='menu3'><ul class='menulist'> <li>
+<a href='/content/Affiliate/view/'>
+<span>Clubs</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:sponsorship/'>
+<span>Industry Partners</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/River/view/'>
+<span>River Info</span>
+</a>
+<div id='menu4'><ul class='menulist'> <li>
+<a href='/content/River/view/'>
+<span>National River Database</span>
+</a>
+</li>
+<li>
+<a href='/content/Report/list-recent/'>
+<span>Recent River Reports</span>
+</a>
+</li>
+<li>
+<a href='/content/StreamTeam/info/'>
+<span>Stream Team</span>
+</a>
+</li>
+<li>
+<a href='/content/River/list-permits/'>
+<span>Permit Information</span>
+</a>
+</li>
+<li>
+<a href='/content/Release/view/'>
+<span>Release Information</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/Menu/summarize/area/multimedia/'>
+<span>Library</span>
+</a>
+<div id='menu5'><ul class='menulist'> <li>
+<a href='/content/Photo/view/'>
+<span>Photo/Video</span>
+</a>
+</li>
+<li>
+<a href='/content/Journal/archive/'>
+<span>AW Journal</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:logos/'>
+<span>Logos</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/Search/view/'>
+<span>Search</span>
+</a>
+</li>
+<li>
+<a href='/content/Membership/view/'>
+<span>Login</span>
+</a>
+<div id='menu6'><ul class='menulist'> <li>
+<a href='/content/User/register/**sm6AhKLwFg'>
+<span>New Account</span>
+</a>
+</li>
+<li>
+<a href='/content/User/get-password/**sm6AhKLwFg'>
+<span>Password Reminder</span>
+</a>
+</li>
+</ul></div> </li>
+</ul></div></div><div style='' class="CCrumbsGadget" id='zzqqsc4dml1mq40CrumbsGadget116'><ul class='bread_crumb'>
+<li class="emphasize bread_crumb">Recent Pages:</li>
+<li class='bread_crumb'><a href='/content/River/detail/id/1937/'>Fairfax Dam to The Potomac River, Goose Creek Virginia, US</a></li></ul></div> </div> 
+</div> 
+ 
+<div id="warnings" class="hide-all">
+<h2 class="hide-all">Old browser warning</h2>
+<p><em>Site look funky?</em>&nbsp;
+Your browser is either Internet Explorer (hit refresh (F5) several times due to a bug in Microsoft's code
+that we can't work around) or is 10 years old and
+<a href="http://www.webstandards.org/about/" title="Click to visit Web Standards Project mission page.">standards-based</a> layouts and styling confuse it.
+&nbsp; Consider updating.&nbsp; One excellent option is
+<a href="http://www.mozilla.org/products/firefox/" title="Click to visit the Mozilla Firefox download page.">
+Mozilla Firefox</a>, versions of which are available for Linux, Mac and Windows. Safari 1.0+ and IE 6.0+ are also supported.</p>
+</div>
+ 
+ 
+</div> 
+<div id="container">
+<div id="block_1_wrapper">
+<div id="block_1">
+ 
+<div class="boxcontent CContainerView" id='zzqqsc4dml1mq40ContainerView125'>
+<div><div id='zzqqsc4dml1mq40RiverDetailGadget2' class='CRiverDetailGadget-detail CRiverDetailGadget'><div class='controls'><h1>Goose Creek - Fairfax Dam to The Potomac River</h1>
+<div><div id='zzqqsc4dml1mq40ArticleGadget26Container' class='CArticleGadget-view CArticleGadget'><div id='zzqqsc4dml1mq40ArticleGadget26-1' class='contents'></div></div> <br style='clear:both'>
+</div>
+</div> <div class='tabcontainer' doLayout='false' id="zzqqsc4dml1mq40ContainerView108tabc" dojoType="aw.widget.TabContainer" enableBack="true">
+<div id="zzqqsc4dml1mq40ContainerView104" trackAsMain='true' class='CContainerView' dojoType="aw.widget.ContentPane" title='RiverMain'>
+<div><div id='zzqqsc4dml1mq40RiverMainGadget33' class='CRiverMainGadget-main CRiverMainGadget'>
+<div parseWidgets='false' class='nodecoration river-description'>
+<table class='nodecoration'>
+<tr>
+<td>
+<h1>Goose Creek, Virginia, US</h1>
+</td>
+<td valign=top>
+<a href="/content/Wiki/rivers:info:disclaimer/"><img align=right alt=Disclaimer src="/resources/images/disclaimerclick.gif" width=72 height=21></a>
+</td>
+</tr>
+</table>
+<h2>Fairfax Dam to The Potomac River </h2>
+<table class='data_table river-stats'>
+<tr class='row-1'>
+<th>Usual Difficulty</th>
+<td>I-II(III) (for normal flows) </td>
+</tr>
+<tr class='row-2'>
+<th>Length</th>
+<td>2.7 Miles </td>
+</tr>
+<tr class='row-3'>
+<th>Avg. Gradient</th>
+<td>9 fpm</td>
+</tr>
+<tr class='row-4'>
+<th>Max Gradient</th>
+<td>9 fpm</td>
+</tr>
+</table>
+<div class='river-photo'>
+<div class='controls'>
+<h1>Golf Course Rapid Top</h1>
+</div>
+<div><div id='zzqqsc4dml1mq40PhotoDetailView128' class='CPhotoDetailView-view CPhotoDetailView'> <div class='river-photo'>
+<a href="/content/Photo/detail/photoid/878274/size/big/">
+<img class='river-photo' src="/photos/archive/medium/878274.jpg">
+</a>
+<br>
+<i>Golf Course Rapid Top</i><br><span class='caption'><i>Photo by Colin Abernethy taken 03/28/11 @ 2.25 ft</i></span></div></div> <br style='clear:both'>
+</div>
+</div>
+<div class='river-break'></div>
+<h2 style='clear:both'>Gauge Information</h2>
+<table class='data_table'>
+<tr>
+<th>Name</th>
+<th>Range</th>
+<th>Difficulty</th>
+<th>Updated</th>
+<th>Level</th>
+</tr>
+<tr class='row-1'>
+<th colspan='5'>
+<a href='/content/Gauge2/detail/id/6368/'>GOOSE CREEK NEAR LEESBURG, VA</a>
+</th>
+</tr>
+<tr class='row-1'>
+<td rowspan='2' valign='top'>
+usgs-01644000 </td>
+<td>
+2.00 - 4.00 ft
+<td>
+I-II(III) </td>
+<td>
+01h21m </td>
+<td class='river-med1'>
+2.31
+ft
+(running) </td>
+</tr>
+</table>
+<br>
+<br>
+<h2>River Description</h2>
+<p>
+This stream has changed quite a bit in the past 10 years. After 9/11 security measures now
+prevent you from putting in at the Fairfax City Reservoir Dam, and Loudoun County has put in a
+new kayak and canoe launch in the Belmont Ridge neighborhood called Kephart Bridge Landing which
+is at 43942 Riverfront Drive Leesburg, VA 20176. This new takeout saves you the long (6 mile)
+flatwater paddle to the old takeout at Algonkian Park on the Potomac
+</p>
+<p>
+You now have only a few options for put-ins on this section, the first being the half-mile carry
+on the Washington and Old Dominion trail from the Belmont Ridge Road parking area, or at
+&quot;Keep Loudoun Beautiful Park&quot; which is located next to the Goose Creek Countryclub golf
+course off of Route 7 and Crosstrail Boulevard. The old option of parking on Cochran Mill Rd and
+carrying on the W&amp;OD trail&nbsp;is no longer available as the former parking areas have been
+either walled off or posted. &nbsp;If you choose to put in at the W&amp;OD trail, walk over the
+bridge which crosses Goose Creek and head down the equestrian trail on your right at the
+information kiosk and picnic tables. Instead of heading right after passing through the line of
+trees, continue walking straight (perpendicular to the W&amp;OD trail) and you will come to
+Sycolin Creek which flows into Goose Creek a few hundred feet down its course. Sycolin offers
+much better opportunities for launching just upstream of the confluence with Goose Creek as the
+banks are lower, and an area with a collection of small boulders in the stream offers superior
+stability to the muddy and steep banks of the Goose. If you choose to put in at the launch at
+Keep Loudoun Beautiful Park, you will have to paddle the long pool up-stream to reach &quot;Golf
+Course&quot; rapid (Cooke's Mill) and then carry up the river left bank next to the mill and
+locks to run the rapid itself. Keep Loudoun Beautiful Park can also act as a takeout for those
+who only want to run the rock garden just below Sycolin Creek confluence and Golf Course
+rapid.&nbsp;<br>
+<br>
+The run from the W&amp;OD Trail is only 2.7 miles to Kephart Landing which is the best takeout
+for this section of the river. The run consists mainly of mild rapids with stretches of flatwater
+in between.&nbsp;&nbsp;There are 5 rapids on the run, a class I rock garden just below the
+confluence with Sycolin Creek which is best run left of center, &quot;Golf Course&quot; rapid
+(Cooke's Mill) a Class III at normal flows and III+ in levels above 3.5' which can be run on the
+right by intermediate or higher skilled paddlers or on the left by shepherded novices, another
+Class I rock garden under the Route 7 bridge, a Class II+ mill dam (Elizabeth's Mill) which can
+easily be run by all levels either left or right of center after the Riverside Parkway bridge,
+and a Class II rock garden (Kephart Bridge) which is best run left of center with a nice sized
+hole and wave train at the end. The takeout at Kephart Landing is immediately on river right
+after the final rock garden with an easy eddie and backwater with great access to the shore line.
+</p>
+<p>
+This quiet and uncrowded stream is a must for anyone who loves history as well as whitewater.
+Goose Creek is home to the remains of a 12 mile canal system built by the Little River and Goose
+Creek Navigation Company between 1849 and 1854. The canal stretched from the Potomac River at
+Elizabeth Mills all the way to Ball's Mill (now Evergreen Mills) but low water and drought meant
+that only one boat ever ran the entire length of the system. The canal's final undoing was the
+sacking and destruction of the various mills and locks along its length by Union soldiers during
+the civil war. The ruins can still be seen along the entire watercourse with some of the best
+examples being the dam and locks at Cooke's Mill (Golf Course Rapid) and Elizabeth's Mill (Old
+Mill Dam Rapid). Remains of the locks and the bridge that spanned Goose Creek on the famous
+&quot;Carolina Road&quot; &nbsp;which has since been moved and re-named US-15.
+</p> <br>
+<div style='clear:both'>
+<div><b>StreamTeam Status: </b>Not Verified</div>
+<div><b>Last Updated: </b>2011-03-31 14:14:30</div>
+<div class='controls'>
+<h1>Editors</h1>
+</div>
+<div><div id='zzqqsc4dml1mq40ContactView40' class='CContactView-view CContactView'></div><div id='zzqqsc4dml1mq40ContactView45' class='CContactView-view CContactView'><div class='contact' id='contact-1'><div class='title'>Stream team editor</div><div class='name'> </div><div class='send-message'><a href="/content/Contact/profile/contactid/1/">Details</a></div></div></div> <br style='clear:both'>
+</div>
+</div>
+</div>
+</div><div id='zzqqsc4dml1mq40RiverRapidsGadget48' class='CRiverRapidsGadget-view-rapids CRiverRapidsGadget'> <h2>Rapid Summary</h2>
+<table class='data_table'>
+<tr class='row-0'>
+<th>Mile</th>
+<th>Rapid Name</th>
+<th>Class</th>
+<th>Features (<a href="/content/Wiki/view/id/river%3Ainfo%3Afeature_legend/">Legend</a>)</th>
+</tr>
+<tr class='row-1'><td class='big'>0.0</td><td class='big'><a href="#rapid101441">Sycolin Creek Put In</a></td><td class=big>N/A</td><td><img alt="Putin " src="/resources/images/rapid_icon/rapid_icon_putin.gif"></td></tr>
+<tr class='row-0'><td class='big'>0.0</td><td class='big'><a href="#rapid101440">Sycolin Creek Rock Garden</a></td><td class=big>I</td><td></td></tr>
+<tr class='row-1'><td class='big'>0.5</td><td class='big'><a href="#rapid117">Golf Course Rapids (Cooke's Mill)</a></td><td class=big>III</td><td><img alt="Playspot " src="/resources/images/rapid_icon/rapid_icon_playspot.gif"><img alt="Photo " src="/resources/images/rapid_icon/rapid_icon_photo.gif"></td></tr>
+<tr class='row-0'><td class='big'>1.3</td><td class='big'><a href="#rapid101443">Keep Loudon Beautiful Park</a></td><td class=big>N/A</td><td><img alt="Putin " src="/resources/images/rapid_icon/rapid_icon_putin.gif"><img alt="Takeout " src="/resources/images/rapid_icon/rapid_icon_takeout.gif"><img alt="Access " src="/resources/images/rapid_icon/rapid_icon_access.gif"></td></tr>
+<tr class='row-1'><td class='big'>1.4</td><td class='big'><a href="#rapid101442">Route 7 Bridge Rapid</a></td><td class=big>N/A</td><td></td></tr>
+<tr class='row-0'><td class='big'>2.0</td><td class='big'><a href="#rapid5695">Old Mill Dam (Elizabeth's Mill)</a></td><td class=big>II+</td><td><img alt="Portage " src="/resources/images/rapid_icon/rapid_icon_portage.gif"><img alt="Playspot " src="/resources/images/rapid_icon/rapid_icon_playspot.gif"><img alt="Photo " src="/resources/images/rapid_icon/rapid_icon_photo.gif"></td></tr>
+<tr class='row-1'><td class='big'>2.6</td><td class='big'><a href="#rapid5696">Rock Garden</a></td><td class=big>II</td><td><img alt="Playspot " src="/resources/images/rapid_icon/rapid_icon_playspot.gif"></td></tr>
+<tr class='row-0'><td class='big'>2.7</td><td class='big'><a href="#rapid101444">Kephart Bridge Landing </a></td><td class=big>N/A</td><td><img alt="Takeout " src="/resources/images/rapid_icon/rapid_icon_takeout.gif"><img alt="Access " src="/resources/images/rapid_icon/rapid_icon_access.gif"><img alt="Photo " src="/resources/images/rapid_icon/rapid_icon_photo.gif"></td></tr>
+</table>
+<h2>Rapid Descriptions</h2>
+<div><div id='zzqqsc4dml1mq40RiverRapidView49' class='CRiverRapidView-view CRiverRapidView'> <b><a name="rapid101441">Sycolin Creek Put In</a></b> (Class N/A)<br>
+<p>Put in on Sycolin Creek just off of the equestrian trail on the W&amp;OD trail.</p><br>
+<br clear=right>
+</div><div id='zzqqsc4dml1mq40RiverRapidView50' class='CRiverRapidView-view CRiverRapidView'> <b><a name="rapid101440">Sycolin Creek Rock Garden</a></b> (Class I, Mile 0.0)<br>
+<p>A straight-forward Class I rock garden best run from river left of center to center or river right. Scraping is expected at flows below 2.10 feet on the Leesburg gauge and it becomes washed out at levels above 3.5 feet.</p><br>
+<br clear=right>
+</div><div id='zzqqsc4dml1mq40RiverRapidView51' class='CRiverRapidView-view CRiverRapidView'> <b><a name="rapid117">Golf Course Rapids (Cooke's Mill)</a></b> (Class III, Mile 0.5)<br>
+<div class='rapid-inline'>
+<div class='controls'>
+<h1>Golf Course Rapid Top</h1>
+</div>
+<div><div id='zzqqsc4dml1mq40PhotoDetailView132' class='CPhotoDetailView-view CPhotoDetailView'> <div class='photo-inline'>
+<a href="/content/Photo/detail/photoid/878274/size/big/">
+<img class='riverdetail' src="/photos/archive/medium/878274.jpg">
+</a>
+<i>Golf Course Rapid Top</i></div><div>Photo by Colin Abernethy taken 03/28/11 @ 2.25 ft</div></div> <br style='clear:both'>
+</div>
+</div> 
+<p>A lower class III at 2-2.5' that quickly becomes a strong III at higher levels. Novices should scout from river left by the old locks and mill race of Cooke's Mill. Paddlers of lower skill can sneak this rapid on the left without much trouble and only a few bumps. More skilled paddlers will find the river-right route over three drops into decent sized holes will be farm more fun and challenging. The final hole offers excellent play and surfing opportunities.</p><br>
+<br clear=right>
+</div><div id='zzqqsc4dml1mq40RiverRapidView52' class='CRiverRapidView-view CRiverRapidView'> <b><a name="rapid101443">Keep Loudon Beautiful Park</a></b> (Class N/A, Mile 1.3)<br>
+<p>This is one of the alternate put-in/take-out points of this trip. Loudon county states that there is a kayak launch here. I've never used it personally, but have met people on Goose Creek that have.</p><br>
+<br clear=right>
+</div><div id='zzqqsc4dml1mq40RiverRapidView53' class='CRiverRapidView-view CRiverRapidView'> <b><a name="rapid101442">Route 7 Bridge Rapid</a></b> (Class N/A, Mile 1.4)<br>
+<p>This is a simple and straight forward cobble bar with a few small boulders sticking up. It sits directly underneath the old truss bridge and the modern route 7 bridge. Run river left in low water to avoid scraping on rocks that have rolled down from the bridge abutments.&nbsp;</p><br>
+<br clear=right>
+</div><div id='zzqqsc4dml1mq40RiverRapidView54' class='CRiverRapidView-view CRiverRapidView'> <b><a name="rapid5695">Old Mill Dam (Elizabeth's Mill)</a></b> (Class II+, Mile 2.0)<br>
+<div class='rapid-inline'>
+<div class='controls'>
+<h1>Mill Dam</h1>
+</div>
+<div><div id='zzqqsc4dml1mq40PhotoDetailView136' class='CPhotoDetailView-view CPhotoDetailView'> <div class='photo-inline'>
+<a href="/content/Photo/detail/photoid/878276/size/big/">
+<img class='riverdetail' src="/photos/archive/medium/878276.jpg">
+</a>
+<i>Mill Dam</i></div><div>Photo by Colin Abernethy taken 03/28/11 @ 2.25 ft</div></div> <br style='clear:both'>
+</div>
+</div> 
+<p>The old mill dam to historic Elizabeth's Mill who's mill race and wheelhouse remains still stand on the river right bank. This dam is easily run by all paddlers either left or right of center. The right of center run offers the best play hole of this rapid as the center portion of the dam creates an excellent eddy for upstream ferrying.&nbsp;</p><br>
+<br clear=right>
+</div><div id='zzqqsc4dml1mq40RiverRapidView55' class='CRiverRapidView-view CRiverRapidView'> <b><a name="rapid5696">Rock Garden</a></b> (Class II, Mile 2.6)<br>
+<p>A basic rock garden with easy to read lines. Best run river left at normal flows to avoid the rocky river right bank. There is a nice sized hole guaranteed to get you wet at the bottom. Remember to eddy out on river right after this rapid for the Kephart Bridge Landing take-out.</p> <p>&nbsp;</p><br>
+<br clear=right>
+</div><div id='zzqqsc4dml1mq40RiverRapidView56' class='CRiverRapidView-view CRiverRapidView'> <b><a name="rapid101444">Kephart Bridge Landing </a></b> (Class N/A, Mile 2.7)<br>
+<div class='rapid-inline'>
+<div class='controls'>
+<h1>Kephart Landing Lock Wall</h1>
+</div>
+<div><div id='zzqqsc4dml1mq40PhotoDetailView140' class='CPhotoDetailView-view CPhotoDetailView'> <div class='photo-inline'>
+<a href="/content/Photo/detail/photoid/878279/size/big/">
+<img class='riverdetail' src="/photos/archive/medium/878279.jpg">
+</a>
+<i>Kephart Landing Lock Wall</i></div><div>Photo by Colin Abernethy taken 03/28/11 @ 2.25 ft</div></div> <br style='clear:both'>
+</div>
+</div> 
+<p>This is the best takeout for the trip. Unless you decide to continue down to Algonkian Park or across the potomac to Edwards Ferry, this is where you want to take out to avoide long flat-water paddles. You'll know you're there when you exit the final rock garden and see the man-made stone bridge abutment on the river right. The remains of the original 1 mile long lock to Elizabeth's Mill are still visible here. It's a short (100 foot) walk to the parking lot on a wood-chip path.</p><br>
+<br clear=right>
+</div> <br style='clear:both'>
+</div>
+</div><div id='zzqqsc4dml1mq40CommentGadget58' class='CCommentGadget-view CCommentGadget'><div id='zzqqsc4dml1mq40CommentGadget58-1'>  
+<div class='comment-container' style=''>
+<table class='comments'>
+<tr>
+<td><h2>User Comments</h2></td>
+</tr>
+<tr>
+<td>
+<hr>
+<div class='commentinfo comment_warning'>
+2013-05-19 10:40:31 (377 days ago)
+<div id='contact-155446'>ByronThree (155446)</div> </div>
+<div class='commentbox'>
+Be careful of fallen tree acting as a strainer at the golf course rapids. The tree is in the center<br/>
+of the rapids and anyone running river right can find themselves under this tree quickly if not<br/>
+careful, as I found myself over the weekend. Another tree or branch is under water and not seen<br/>
+only feet to the left of the fallen tree, it will pin you further after your boat becomes pinned<br/>
+under the visible fallen tree. Scout and plan well prior to going river right, otherwise stay on<br/>
+the left. If you find yourself racing towards the strainer be prepared to exit and saddle yourself<br/>
+on the tree. Your boat will sink and wedge itself between the tree you saddle and the branch or<br/>
+tree that is under water. So long as water levels are low you can safely move on the left side of<br/>
+the under water tree/branch to remove your kayak, though it will take a lot of work. Be sure to<br/>
+have a safety ready while you do this. </div>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+<div class='commentinfo comment_comment'>
+2012-03-07 10:36:09 (815 days ago)
+<div id='contact-148359'><span class='name'>Colin Abernethy</span><span class='send-message'><a href="/content/Contact/view/contactid/148359/display/detail/">Details</a></span></div> </div>
+<div class='commentbox'>
+River main and maps have been updated to reflect the current put-in, take-out, and parking<br/>
+situations. Rapids have been updated with pertinent info and pictures as well. You can see video of<br/>
+the more major rapids and takeout here: http://www.youtube.com/embed/pcOustXpPTA 03/07/2012 Edit:<br/>
+Recently found a new video from some fellow paddlers on the Goose. How to not make a successful run<br/>
+of Golf Course Rapid: http://youtu.be/QTdlyZz_hNI </div>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+<div class='commentinfo comment_comment'>
+2009-06-23 11:50:44 (1803 days ago)
+<div id='contact-146359'><span class='name'>Liam Oliver</span><span class='send-message'><a href="/content/Contact/view/contactid/146359/display/detail/">Details</a></span></div> </div>
+<div class='commentbox'>
+If you are polite, and speak to the property owner in a professional manner he/she will probably<br/>
+grant you access to put in on the river. The owner of the residence is used to highschoolers<br/>
+causing trouble around the bridge, and his skeptical of people on his property. With the new take<br/>
+out after the Rock Garden, this is a nice beginners run. It would be an excellent place to teach a<br/>
+new paddler. Even at higher levels this river is not necessarily very pushy. </div>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+<div class='commentinfo comment_comment'>
+2008-04-30 05:57:52 (2222 days ago)
+<div id='contact-1'>x (1)</div> </div>
+<div class='commentbox'>
+Bob Franz and Andy Collins ran Golf Course Rapids at 2.58 water level. The walk in from Cochran<br/>
+Road via the W O and D path is .5 mile. Go in next to the information stand and walk along the tree<br/>
+line next to the bridge to the waters edge of Sycolin Creek to get in. There is a new County take<br/>
+out at 43942 Riverpoint Drive in Landsdown just beyond River Creek Bridge and the long rock garden<br/>
+rapids Class II. Parking and a portajohn a short walk on wood chips from the Goose Creek take out.<br/>
+Look for the Manmade rock structure on river right. </div>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+<div class='commentinfo comment_'>
+2006-03-20 22:42:02 (2994 days ago)
+<div id='contact-12054'><span class='name'>Craig Cook</span><span class='send-message'><a href="/content/Contact/view/contactid/12054/display/detail/">Details</a></span></div> </div>
+<div class='commentbox'>
+I have run the Goose Creek Dam to route 7 many times but not in the last several years. It didn't<br/>
+bother me to portage my canoe down the steep little trail on the right side of the Dam, but is that<br/>
+now totally inaccessible?! ( I was planning on going again this Spring )<br/>
+This is a great little run though....the golf course rapid is fun. Best tact is to start straight<br/>
+down the middle, then hard right thru a flume that passes thru a jagged ledge...then hard rudder<br/>
+left to avoid slamming against a rock wall! ( easier than it sounds )<br/>
+If you continue past the rt. 7 bridge, it's a loooong mostly flat paddle to the take out at<br/>
+Algonquin Park on the Potomac but there are some intersting areas....about a mile past bridge there<br/>
+is a 3/4 dam which is runnable at proper water level, if not it's an easy portage.<br/>
+I caught several very nice largemouth bass here several years ago! There is one nice, fairly long<br/>
+rock garden rapid ( II ) which requires manuvering about a mile below this dam. Then it's a long,<br/>
+painful padddle to Algonquin. If you know someone you can take out at the River Creek Country Club<br/>
+on left just before the confluence. </div>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+<div class='commentinfo comment_'>
+2005-06-11 20:32:28 (3276 days ago)
+<div id='contact-3562'><span class='name'>Stephen J. Ettinger</span><span class='send-message'><a href="/content/Contact/view/contactid/3562/display/detail/">Details</a></span></div> </div>
+<div class='commentbox'>
+The best way to run Golfcourse Rapid, in high water, is to come down Sycolin Creek (2.3 miles of up<br/>
+to class II+), which deposits you about a quarter mile above that rapid. Unfortunately, this is not<br/>
+a trip you can plan far in advance -- just go when the Limestone Branch gauge is above 50 cfs. </div>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+<div class='commentinfo comment_'>
+2005-04-04 14:49:10 (3344 days ago)
+<div id='contact-8661'><span class='name'>Scott Parker</span><span class='send-message'><a href="/content/Contact/view/contactid/8661/display/detail/">Details</a></span></div> </div>
+<div class='commentbox'>
+What does this run look like beyond that takeout at Rt. 7? Just looking at a map, it seems that a<br/>
+natural extention would be to continue down to the Potomac and take out at Algonquin Regional Park?<br/>
+Anyone have any info on this stretch of water? </div>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+<div class='commentinfo comment_'>
+2004-03-18 16:01:21 (3726 days ago)
+<div id='contact-6106'><span class='name'>Danny O'Brie</span><span class='send-message'><a href="/content/Contact/view/contactid/6106/display/detail/">Details</a></span></div> </div>
+<div class='commentbox'>
+I have attempted the putin ot the Dam but it is cut off now. Does anyone know of another spot above<br/>
+or below the dam that is good and will not upset any property owners? Thanks </div>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+<div class='commentinfo comment_'>
+2003-06-16 09:57:41 (4002 days ago)
+<div id='contact-5067'><span class='name'>Michael Pearson</span><span class='send-message'><a href="/content/Contact/view/contactid/5067/display/detail/">Details</a></span></div> </div>
+<div class='commentbox'>
+Don't attempt to putin at the bridge on Sycolin Road, above the dam. The property owners in this<br/>
+area are very sensitive, even to kayakers walking down along the roadside to the bridge. </div>
+</td>
+</tr>
+</table>
+</div>
+Users can submit comments.</div></div> <br style='clear:both'>
+</div>
+</div>
+<div id="tab-flow" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/show-gauge-info/reachid/1937/revision/0/.dialog' title='Flow Info'>
+</div>
+<div id="tab-map" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/map/id/1937/revision/0/.rawhtml' title='Map'>
+</div>
+<div id="tab-directions" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/show-directions/reachid/1937/revision/0/.rawhtml' title='Directions'>
+</div>
+<div id="tab-weather" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/Weather/detail/zip/20176/.rawhtml' title='Weather'>
+</div>
+<div id="tab-news" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/river-news/id/1937/.rawhtml' title='News (0) & Accidents'>
+</div>
+<div id="tab-photos" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/Photo/do-search/reachid/1937/orderby/id/incphotos/on/incvideos/on/dosearch/Photo%2BSearch/.rawhtml' title='Photos (16)'>
+</div>
+<div id="tab-credits" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/credits/reachid/1937/.dialog' title='Credits & Network'>
+</div>
+</div>
+</div> <br style='clear:both'>
+</div>
+</div> 
+</div> 
+</div> 
+<div id="block_3">
+<div class="gutter">
+<div class="boxcontent CContainerView" id='zzqqsc4dml1mq40ContainerView14'>
+<div><div id='zzqqsc4dml1mq40ArticleGadget6Container' class='CArticleGadget-view CArticleGadget'><div id='zzqqsc4dml1mq40ArticleGadget6-1' class='contents'><h3 style="text-align: center; margin-top: 15px;">
+Do more than just check gauges; join over 5,000 AW members today.
+</h3>
+<div style="text-align:center; margin:10px;">
+<a style="display: block;" href="https://www.americanwhitewater.org/content/Membership/join-aw?utm_source=americanwhitewater.org&amp;utm_medium=banner&amp;utm_content=HTML_ad_001&amp;utm_campaign=join_or_renew">
+<img width="100" height="60" alt="Join_or_Renew_Logo-200px" src="http://www.americanwhitewater.org/resources/repository/Join_or_Renew_Logo-200px.png"></a>
+<h3 style="color: rgb(0, 0, 238); margin-top: 10px;">
+<a style="display: block;" href="https://www.americanwhitewater.org/content/Membership/join-aw?utm_source=americanwhitewater.org&amp;utm_medium=banner&amp;utm_content=HTML_ad_001&amp;utm_campaign=join_or_renew">
+Join or Renew</a>
+</h3>
+</div>
+<hr>
+<h3 style="text-align: center; margin-top: 10px;">
+Or, consider donating
+</h3>
+<div style="text-align:center; margin:10px;">
+<a style="display: block;" href="https://www.americanwhitewater.org/content/Membership/donate?utm_source=americanwhitewater.org&amp;utm_medium=banner&amp;utm_content=HTML_ad_001&amp;utm_campaign=donate">
+<img width="100" height="60" alt="Donate_Logo-200px" src="http://www.americanwhitewater.org/resources/repository/Donate_Logo-200px.png"></a>
+<h3 style="color: rgb(0, 0, 238); margin-top: 10px;">
+<a style="display: block;" href="https://www.americanwhitewater.org/content/Membership/donate?utm_source=americanwhitewater.org&amp;utm_medium=banner&amp;utm_content=HTML_ad_001&amp;utm_campaign=donate">
+Donate</a>
+</h3>
+</div></div></div> <br style='clear:both'>
+</div>
+</div> 
+</div> 
+</div> 
+<br style='clear:all'>
+</div> 
+<div id='footer'>
+<div style='' class="CFooterGadget" id='zzqqsc4dml1mq40FooterGadget142'> &#169; 1999-2014 American Whitewater (<a href='/content/Wiki/aw:tos'>terms of use</a>) | PO Box 1540 | Cullowhee, NC 28723 | 1-866-262-8429 | <a href="mailto:info@americanwhitewater.org">info@americanwhitewater.org</a>
+</div><div><div style='' class="CContainerView" id='zzqqsc4dml1mq40ContainerView23'> <div><div id='zzqqsc4dml1mq40ArticleGadget18Container' class='CArticleGadget-view CArticleGadget'><div id='zzqqsc4dml1mq40ArticleGadget18-1' class='contents'></div></div> <br style='clear:both'>
+</div>
+</div></div><div><div style='' class="CNewsFeedGadget" id='zzqqsc4dml1mq40NewsFeedGadget109'> <div class='feed'>
+<a class='nodecoration' href='/content/River/detail/id/1937/.mobile'>
+<img src='/resources/images/blank.gif' class='mobile'></a>&nbsp;Fairfax Dam to The Potomac River, Goose Creek Virginia, US (mobile)&nbsp;&nbsp;
+</div>
+</div></div><div><div style='' class="CContainerView" id='zzqqsc4dml1mq40ContainerView124'> <div><div id='zzqqsc4dml1mq40ArticleGadget119Container' class='CArticleGadget-view CArticleGadget'><div id='zzqqsc4dml1mq40ArticleGadget119-1' class='contents'></div></div> <br style='clear:both'>
+</div>
+</div></div> </div> 
+<br>
+<div style='display:none'>
+<span id='server-time' style='text-size:50%'></span>
+<span id='client-time' style='text-size:50%'></span>
+</div>
+<script type='text/javascript'>
+				require(['dojo/dom','dojo/ready','dojo/_base/xhr'],function(dom,ready,xhr){
+					
+			ready(
+				function(){
+					var roundNumber = function(num, dec) {
+						var result = Math.round(num*Math.pow(10,dec))/Math.pow(10,dec);
+						return result;
+					}
+						var clienttime = ((new Date().getTime()) - wh2timer)/1000;
+						var servertime = (0.17874193191528);
+						var servermemory = (18279952)/(1024*1024);
+						dom.byId('client-time').innerHTML=(clienttime+" sec. client ");
+						dom.byId('server-time').innerHTML=(servertime+" sec. server ");
+						dom.byId('server-time').innerHTML+= (servermemory.toFixed(2)+" MB");
+						if(!Math.floor(Math.random()*101))
+						{
+							var url = document.location;
+							var data = {server_time: servertime, client_time: clienttime, url:url};
+							xhr.post({
+								url: '/content/Performance/update/',
+								content: data	});
+							
+						}
+					}
+				);						
+					
+					
+				});
+						</script>
+ 
+</div>  
+</div> 
+</div> 
+</div> 
+</body>
+</html>

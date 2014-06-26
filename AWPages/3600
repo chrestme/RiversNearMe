@@ -1,0 +1,798 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd" >
+<html>
+ 
+<head>
+<meta name="title" content="American Whitewater - Goffstown, Piscataquog New Hampshire, US">
+<meta name="description" content="American Whitewater is the primary advocate for the preservation and protection of whitewater rivers throughout the United States and connects the interests of human-powered recreational river users with ecological and science-based data to achieve goals within our mission. ">
+<title>American Whitewater - Goffstown, Piscataquog New Hampshire, US</title>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+<meta name="Language" content="English">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="global">
+<link rel="SHORTCUT ICON" href="/logo/myfile.ico">
+<link rel="stylesheet" type="text/css" href="/resources/css/style.css">
+<!--[if lte IE 7]>
+			<link rel="stylesheet" type="text/css" href="/resources/css/iestyle.css" />
+		<![endif]-->
+<!--[if lte IE 6]>
+			<link rel="stylesheet" type="text/css" href="/resources/css/iestyle6.css" />
+		<![endif]-->
+<style type='text/css'>.dojoTabPaneWrapper{width:100%;}</style>
+<script type='text/javascript'>
+			var wh2timer = new Date().getTime();
+		</script>
+<link rel="image_src" href="http://www.americanwhitewater.org/resources/images/assets6.5/awlogo.png"> <script type='text/javascript'>
+						if(typeof(djConfig) != 'undefined')
+						{
+							djConfig['gMapKey'] = 'AIzaSyAu7JAMzqGEKuwhxB-6ePHQim0g5hX8wpw';
+						}
+					</script>
+<script src='https://www.google.com/jsapi?key=AIzaSyAu7JAMzqGEKuwhxB-6ePHQim0g5hX8wpw' type='text/javascript'></script>
+<script type='text/javascript'>
+					google.load("maps", "2.x");	
+					
+					
+					</script>
+<script type='text/javascript' djConfig=' parseOnLoad:true ' src='/resources/js/dojo/release/dojo/dojo/dojo.js'></script>
+<style type='text/css'>@import "/resources/js/dojo/release/dojo//dijit/themes/tundra/tundra.css";</style>
+<script type='text/javascript' djConfig='parseOnLoad:true' src='/resources/js/dojo/release/dojo/dojo/dialog.js'></script>
+<script type='text/javascript' djConfig='parseOnLoad:true' src='/resources/js/dojo/release/dojo/dojo/tabs.js'></script> <link rel="alternate" type="text/html" title="Goffstown, Piscataquog New Hampshire, US (mobile)" href="/content/River/detail/id/3600/.mobile"> <style type='text/css'>.dojoTabPane{padding:0.75em;overflow:auto;}</style>
+<script type='text/javascript'>
+							dojo.require('dojo.parser'); 
+					var _gaq = _gaq || [];
+					_gaq.push(['_setAccount', 'UA-3113277-1']);
+					_gaq.push(['_trackPageview']);
+					
+				    (function() {
+				      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				    })();
+								dojo.require("aw.widget.AWMap");						dojo.require('dijit.Tooltip');
+						dojo.require('aw.widget.ToolTipSeeker');					dojo.require("aw.formathelper.forms.dialog");
+					dojo.require("aw.widget.Dialog");
+					dojo.require("aw.formathelper.dialog");
+					dojo.require("aw.widget.ContentPane");
+														dojo.require("aw.widget.TabContainer");
+								dojo.require("aw.widget.ContentPane");
+								
+								
+															dojo.require("aw.menu");		</script>
+<script id='onloadscript' type='text/javascript'>
+		dojo.addOnLoad(function(){					{
+					var killhandle = aw.formathelper.dialog.listener('comment',function(e)
+						{
+							
+							{
+								aw.formathelper.dialog.process('zzqfipk8flitjvCommentGadget42-1','/content/Comment/view/section/river/reachid/3600/notifylist/153%3A2485%3A612%3A3862%3A3413/.dialog',null,function()
+								{
+									//make sure our event gets removed if the parent element disappears.
+									if(!dojo.byId('zzqfipk8flitjvCommentGadget42-1'))
+									{
+										dojo.unsubscribe(killhandle);
+									}
+								}
+								);
+							}
+						}
+						);
+					} });		</script>
+</head>
+<body class="two-col-right tundra wh2o ">
+<div id="width">
+<div id="minwidth">
+<div id="layout">
+<div id="content-container">
+<div id='toptonav'>
+<div id="header" class='header-bg'>
+<div class='top'>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style='border: #789876'>
+<tr>
+<td width="38%" align="left" class="logo">
+<a href="/"><img class='logo' src="/resources/css/../images/nothing.gif" alt="American White Water" title="American White Water"></a>
+</td>
+<td width="62%" valign="top" align="right">
+<div style='' class="CUserLoginView" id='zzqfipk8flitjvUserLoginView63'> <div class='neutral'>
+<div id="header-right">
+<div class="left-img">&nbsp;</div>
+<div class="topbox-bg">
+<form action="https://www.americanwhitewater.org/content/User/do-login/**dCiIVQvPN1" method='POST'>
+<table>
+<tr>
+<td colspan='2' id='login-upper'>
+<label for='username'>Username</label>
+<input name="username" type="text" class="inputbox"/>
+<label for='password'>Password</label>
+<input name="password" autocomplete='off' type="password" class="inputbox"/>
+<input type="submit" value="Login"/>
+</td>
+</tr>
+<tr>
+<td>
+<label for='remember' class='login-lower'>Remember Me</label>
+<input type='checkbox' checked='true' name='remember'>
+</td>
+<td align='right' class='login-lower'>
+<a href='/content/Membership/get-password/**dCiIVQvPN1' class='login-link1'>Forgot your password?</a>
+|
+<a href='/content/Membership/view/' class='login-link1'>Sign Up</a>
+</td>
+</tr>
+</table>
+</form>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+ 
+<div id="nav-wrapper">
+<div id="navigation">
+<div style='' class="CMenuGadget" id='zzqfipk8flitjvMenuGadget64'>
+<div id='menu0'><ul dojoType="aw.menu" class='menulist' id="menu"> <li>
+<a href='/content/Welcome/view/'>
+<span>Our Organization</span>
+</a>
+<div id='menu1'><ul class='menulist'> <li>
+<a href='/content/Wiki/aw:about/'>
+<span>About AW</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:outdooralliance/'>
+<span>Outdoor Alliance</span>
+</a>
+</li>
+<li>
+<a href='/content/News/view/type/frontpagenews/showarchive/1/'>
+<span>News</span>
+</a>
+</li>
+<li>
+<a href='/content/Stewardship/view/'>
+<span>Stewardship</span>
+</a>
+</li>
+<li>
+<a href='/content/Safety/view/'>
+<span>Safety</span>
+</a>
+</li>
+<li>
+<a href='/content/Events/view/'>
+<span>Events</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:contact_us/'>
+<span>Contact Us</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:board_of_directors/'>
+<span>Board of Directors</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:staff/'>
+<span>Professional Staff</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/Wiki/aw:shop/'>
+<span>Support AW</span>
+</a>
+<div id='menu2'><ul class='menulist'> <li>
+<a href='/content/Membership/join-aw/'>
+<span>Join or Renew</span>
+</a>
+</li>
+<li>
+<a href='/content/Membership/donate/'>
+<span>Donate</span>
+</a>
+</li>
+<li>
+<a href='/content/Membership/gift/'>
+<span>Gift Membership</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:giving/'>
+<span>Giving</span>
+</a>
+</li>
+<li>
+<a href='/content/Volunteer/view/'>
+<span>Become a Volunteer</span>
+</a>
+</li>
+<li>
+<a href='/content/Store'>
+<span>AW Store</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:partnership/'>
+<span>Industry Partner Program</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:advertising/'>
+<span>Advertising Information</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/Menu/summarize/area/community/'>
+<span>Community</span>
+</a>
+<div id='menu3'><ul class='menulist'> <li>
+<a href='/content/Affiliate/view/'>
+<span>Clubs</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:sponsorship/'>
+<span>Industry Partners</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/River/view/'>
+<span>River Info</span>
+</a>
+<div id='menu4'><ul class='menulist'> <li>
+<a href='/content/River/view/'>
+<span>National River Database</span>
+</a>
+</li>
+<li>
+<a href='/content/Report/list-recent/'>
+<span>Recent River Reports</span>
+</a>
+</li>
+<li>
+<a href='/content/StreamTeam/info/'>
+<span>Stream Team</span>
+</a>
+</li>
+<li>
+<a href='/content/River/list-permits/'>
+<span>Permit Information</span>
+</a>
+</li>
+<li>
+<a href='/content/Release/view/'>
+<span>Release Information</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/Menu/summarize/area/multimedia/'>
+<span>Library</span>
+</a>
+<div id='menu5'><ul class='menulist'> <li>
+<a href='/content/Photo/view/'>
+<span>Photo/Video</span>
+</a>
+</li>
+<li>
+<a href='/content/Journal/archive/'>
+<span>AW Journal</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:logos/'>
+<span>Logos</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/Search/view/'>
+<span>Search</span>
+</a>
+</li>
+<li>
+<a href='/content/Membership/view/'>
+<span>Login</span>
+</a>
+<div id='menu6'><ul class='menulist'> <li>
+<a href='/content/User/register/**dCiIVQvPN1'>
+<span>New Account</span>
+</a>
+</li>
+<li>
+<a href='/content/User/get-password/**dCiIVQvPN1'>
+<span>Password Reminder</span>
+</a>
+</li>
+</ul></div> </li>
+</ul></div></div><div style='' class="CCrumbsGadget" id='zzqfipk8flitjvCrumbsGadget65'><ul class='bread_crumb'>
+<li class="emphasize bread_crumb">Recent Pages:</li>
+<li class='bread_crumb'><a href='/content/River/detail/id/3600/'>Goffstown, Piscataquog New Hampshire, US</a></li></ul></div> </div> 
+</div> 
+ 
+<div id="warnings" class="hide-all">
+<h2 class="hide-all">Old browser warning</h2>
+<p><em>Site look funky?</em>&nbsp;
+Your browser is either Internet Explorer (hit refresh (F5) several times due to a bug in Microsoft's code
+that we can't work around) or is 10 years old and
+<a href="http://www.webstandards.org/about/" title="Click to visit Web Standards Project mission page.">standards-based</a> layouts and styling confuse it.
+&nbsp; Consider updating.&nbsp; One excellent option is
+<a href="http://www.mozilla.org/products/firefox/" title="Click to visit the Mozilla Firefox download page.">
+Mozilla Firefox</a>, versions of which are available for Linux, Mac and Windows. Safari 1.0+ and IE 6.0+ are also supported.</p>
+</div>
+ 
+ 
+</div> 
+<div id="container">
+<div id="block_1_wrapper">
+<div id="block_1">
+ 
+<div class="boxcontent CContainerView" id='zzqfipk8flitjvContainerView74'>
+<div><div id='zzqfipk8flitjvRiverDetailGadget2' class='CRiverDetailGadget-detail CRiverDetailGadget'><div class='controls'><h1>Piscataquog - Goffstown</h1>
+<div><div id='zzqfipk8flitjvArticleGadget26Container' class='CArticleGadget-view CArticleGadget'><div id='zzqfipk8flitjvArticleGadget26-1' class='contents'></div></div> <br style='clear:both'>
+</div>
+</div> <div class='tabcontainer' doLayout='false' id="zzqfipk8flitjvContainerView57tabc" dojoType="aw.widget.TabContainer" enableBack="true">
+<div id="zzqfipk8flitjvContainerView53" trackAsMain='true' class='CContainerView' dojoType="aw.widget.ContentPane" title='RiverMain'>
+<div><div id='zzqfipk8flitjvRiverMainGadget33' class='CRiverMainGadget-main CRiverMainGadget'>
+<div parseWidgets='false' class='nodecoration river-description'>
+<table class='nodecoration'>
+<tr>
+<td>
+<h1>Piscataquog, New Hampshire, US</h1>
+</td>
+<td valign=top>
+<a href="/content/Wiki/rivers:info:disclaimer/"><img align=right alt=Disclaimer src="/resources/images/disclaimerclick.gif" width=72 height=21></a>
+</td>
+</tr>
+</table>
+<h2>Goffstown (Sunshines Little River)</h2>
+<table class='data_table river-stats'>
+<tr class='row-1'>
+<th>Usual Difficulty</th>
+<td>II (for normal flows) </td>
+</tr>
+<tr class='row-2'>
+<th>Length</th>
+<td>3.1 Miles </td>
+</tr>
+<tr class='row-3'>
+<th>Avg. Gradient</th>
+<td>15 fpm</td>
+</tr>
+<tr class='row-4'>
+<th>Max Gradient</th>
+<td>25 fpm</td>
+</tr>
+</table>
+<div class='river-photo'>
+<div class='controls'>
+<h1>Piscataquog put in</h1>
+</div>
+<div><div id='zzqfipk8flitjvPhotoDetailView77' class='CPhotoDetailView-view CPhotoDetailView'> <div class='river-photo'>
+<a href="/content/Photo/detail/photoid/999/size/big/">
+<img class='river-photo' src="/photos/archive/medium/999.jpg">
+</a>
+<br>
+<i>Piscataquog put in</i><br><span class='caption'><i>Photo of Various paddling groups by Mark Lacroix taken 11/03/01 @ 5.6'</i></span></div></div> <br style='clear:both'>
+</div>
+</div>
+<div class='river-break'></div>
+<h2 style='clear:both'>Gauge Information</h2>
+<table class='data_table'>
+<tr>
+<th>Name</th>
+<th>Range</th>
+<th>Difficulty</th>
+<th>Updated</th>
+<th>Level</th>
+</tr>
+<tr class='row-1'>
+<th colspan='5'>
+<a href='/content/Gauge2/detail/id/73/'>PISCATAQUOG RIVER NEAR GOFFSTOWN, NH</a>
+</th>
+</tr>
+<tr class='row-1'>
+<td rowspan='2' valign='top'>
+usgs-01091500 </td>
+<td>
+4.70 - 9.00 ft
+<td>
+II </td>
+<td>
+01h27m </td>
+<td class='river-med1'>
+4.74
+ft
+(running) </td>
+</tr>
+</table>
+<br>
+<br>
+<h2>River Description</h2>
+<p>
+The Piscataquog is a great novice river and is fairly dependable even early in spring. The dam at
+the put in causes the river to rise and fall regularly throughout the winter; this keeps ice from
+building up under all but the coldest conditions. The first mile has most of the whitewater, with
+several nice class II drops. There are good play opportunities along the way the best being just
+past a clearing for power lines that run overhead. This play spot is called the Toilet Bowl.
+Depending on level it is either a hole or series of waves. Just before the bridge to Pinardville,
+there is a small drop that contains some rebar from an old dam. The bridge to Pinardville (1
+mile) is an alternate take out if you are only interested in the upper section or your time is
+limited. Below the bridge the river flattens out with only two good drops, although these drops
+are more intense (but shorter) than the ones above. There is also a nice squirt line at a river
+bend where the river takes a sharp right. The take out is located at a power line crossing as the
+river flattens out to the backwater from another dam downstream.<br>
+<br>
+Go here for a <a href="http://www.youtube.com/watch?v=QUgQxlL4xK4">YouTube video of boaters
+surfing on the Piscat</a>.
+</p>
+<p>
+&nbsp;
+</p>
+<p>
+<b>Thanks to Sunshine for the following description.</b><br>
+The beginning of the river is the hardest in my opinion. I usually lead newbies directly through
+the upper section just left of the middle through a rock garden. For others there is a large eddy
+at the beginning of the class II rapid on river right. From there you can catch an easy wave
+right beside the eddy. This is an excellent section to practice your eddy hops. At the end of the
+rapid (marked by the last large boulder on river left) there is a playspot that is nearly river
+wide. This is good to surf and maybe sidesurf. Maybe 50 yards downstream, the river takes a hard
+turn to the left. I make sure newbies have their bows pointed river left as they take the turn
+and then they paddle through the waves to a large eddy on river right. Experienced paddlers can
+catch a playspot at the top of the corner on river right, and others a little below that. There
+are a couple of other eddies on the right, I just don?t have the newbies catch them at first.
+After the large newbie eddy, the river has a number of small surfing spots that helps build
+confidence. Many like the waves under the powerlines. To catch the first one, you need to eddy
+out before the powerlines on river left and back into the top one. After that there are 3 eddies
+on the left near each wave spot. The top two however can?t be reached if you miss that particular
+eddy. In the center of the river just before that first eddy is a playhole that has been known to
+grab at timid paddlers. This is not a keeper hole, but it?s always fun to see the cocky ones
+struggle a little to get out. There is a lot play in this section. Toward the end of this (short)
+rapid are a few waves that anyone can catch. We usually still get to them from river left. Just
+after the powerlines, there is a fun little section on river right and center. just downstream is
+my favorite spot, the ledges. It?s fairly easy to get on and off this wave, although it breaks at
+a little bit of an angle and needs a little concentration at first. But the eddy line will bring
+you right up to the wave. There are waves across this section and it is pretty deep to roll. The
+eddy is large enough so as not to miss getting back in line. From here you will see a couple of
+boulders in the center of the river. The yahoos boof it through the middle, you need to be
+paddling on a river left line as you go through. Everyone else runs in just to the right of the
+rocks, angling left around the corner. There is a stern squirt line on river left near a barking
+dog. The river gauge is around the corner on river left. There is a nice small wave to play on
+just right of the middle above the playspot. The eddy is on river right. You can catch this wave
+in a number of spots, at lower levels 4.5 to 5.5, it gets a little sticky on river left. Many
+people take out here? but not us. Paddle down a meandering section. As the river makes a right
+turn stay out of the corner. There is a squirrelly eddy line and the current really tries to slam
+the newbies into a tree on river left. But, at the large rock just after the corner is the
+strongest stern squirt line on the river. I have my beginners practicing their peel outs here.
+Paddle a little ways and the river bends to the left. You can paddle on either side of Nurses
+Hole. As a playspot it?s doable but weak. Again a little more quick water paddling. At the ball
+field there are a couple small waves. The last one is nice and wide and excellent for
+sidesurfing. Now, as you look down river, you can see trees. This is where the river makes a
+sharp turn to the left and the one and only ?drop? on the river. I do not think it needs to be
+scouted, but the eddy on river right just above the drop is huge. I always tell my newbies to run
+it just right of center, lean forward and paddle through the couple of standing waves. Make sure
+you line up the boat ahead of the drop, if you get pushed too far river right, at low levels it
+is really rocky. For the yahoos or those who will carry their boats back up a few times, there is
+a rock to boof in the center of river left. If you hit it squarely you will drop a foot or two,
+if you hit the right hand side you will slide down. Either way, if there is a flip, it is deep
+enough to roll. This is it, you now need to paddle about a half mile to the takeout on river
+right.
+</p>
+<p>
+&nbsp;
+</p>
+<h3>
+Technical info
+</h3>
+<pre>
+Put in elevation........208'
+Take out elevation......172'
+Total drop..............36'
+Average drop/mile.......15'
+Distance................2.4 miles
+River width average.....25'
+1st mile drop...........25'
+2nd mile drop...........8'
+2.4 mile drop...........3' (7.5' average)
+River geology...........schists, small boulders, some ledge 
+River water quality.....good, clarity; good to neutral.  
+Scenery.................Good, first mile in secluded valley, occasional homes
+                        on the latter half of river.
+Wildlife................Occasional deer, merganzers, great blue herons
+</pre>
+<p>
+&nbsp;
+</p>
+<p>
+<br>
+<br>
+<b>Message posted by Tom McIntire on 4/3/02</b><br>
+I was talking to one of the dam operators tonight at the put-in to the Piscataquog in Goffstown,
+NH, and he told me that there has been a little grumbling in the office. Apparently some people
+have been parking their cars at the bottom of the hill next to the dam. Please do not. You are
+perfectly welcome to drive down to drop off boats and gear, but please park at the top of the
+hill. If people park at the bottom, it gets difficult to turn a vehicle around, etc.<br>
+This dam is a case where outside of the relicensing procedure we have managed to maintain a good
+working relationship with the dam owners and operators. They schedule drawdowns, etc., so that
+they benefit the paddling community, and even on occasion hold water back during the day and
+release it during prime paddling hours instead. They also allowed us to rebuild the put-in, and
+we now have a nice set of rock stairs as a result.<br>
+Bear in mind, under their current FERC license, they are probably under no obligation to even
+allow us on the site. The reality is, however, that they want to be good community members, and
+part of being a community member is working with the local paddlers instead of against them. So,
+if you can just be sure to take care of the site, move vehicles back to the top of the hill after
+unloading (and I have seen it work on a day when there were probably 100 people on the river),
+and just be nice if you see people working there. If you do, we all can continue to enjoy this
+resource. It is, after all, a nice after-work run in close proximity to Manchester. And remember,
+some of the operators are also paddlers!
+</p>
+<p>
+&nbsp;
+</p>
+<center>
+<strong>Piscataquog&nbsp;recreational release October&nbsp;31st 2009</strong>
+</center>
+<p>
+&nbsp;
+</p>
+<p>
+(Thanks to Nancy G for the below info.)
+</p>
+<p>
+&nbsp;
+</p>
+<div align="left" style="margin: 0in 0in 0pt;">
+Please join us for the annual Piscataquog run on Saturday October 31st.
+</div>
+<p>
+&nbsp;
+</p>
+<div style="margin: 0in 0in 0pt;">
+The time is near for our annual P Cat Draw down and BBQ!&nbsp;
+</div>
+<div style="margin: 0in 0in 0pt;">
+&nbsp;
+</div>
+<div style="margin: 0in 0in 0pt;">
+Mark this on your calendars.&nbsp;
+</div>
+<div style="margin: 0in 0in 0pt;">
+Saturday October 31st on Haloween Day.
+</div>
+<div style="margin: 0in 0in 0pt;">
+Release usually starts at 10:00am.
+</div>
+<div style="margin: 0in 0in 0pt;">
+Costumes Welcome!
+</div>
+<div style="margin: 0in 0in 0pt;">
+&nbsp;
+</div>
+<div style="margin: 0in 0in 0pt;">
+The MVP has once again made arrangements to have the drawdown done on a weekend instead of a week
+day so we may have water to run on our day off.
+</div>
+<div style="margin: 0in 0in 0pt;">
+In addition to this fun filled release of water, the MVP and NH AMC Paddlers will once again be
+holding a free bbq for all paddlers.
+</div>
+<div style="margin: 0in 0in 0pt;">
+And once again, thanks to the generous contributions of both clubs, there will be good food
+aplenty!
+</div>
+<div style="margin: 0in 0in 0pt;">
+Tell all your boating friends!&nbsp; Spread the word!&nbsp; Everyone is welcome!
+</div>
+<div style="margin: 0in 0in 0pt;">
+&nbsp;
+</div>
+<div style="margin: 0in 0in 0pt;">
+<br>
+<div align="left" style="margin: 0in 0in 0pt;">
+<div style="margin: 0in 0in 0pt;">
+This years Menu:
+</div>
+<div style="margin: 0in 0in 0pt;">
+&nbsp;
+</div>
+<div style="margin: 0in 0in 0pt;">
+Melt in your mouth marinated steak tips
+</div>
+<div style="margin: 0in 0in 0pt;">
+Steaming hot baked potatoes w/sour cream
+</div>
+<div style="margin: 0in 0in 0pt;">
+baked beans
+</div>
+<div style="margin: 0in 0in 0pt;">
+Homemade chicken soup
+</div>
+<div style="margin: 0in 0in 0pt;">
+salad
+</div>
+<div style="margin: 0in 0in 0pt;">
+rolls
+</div>
+<div style="margin: 0in 0in 0pt;">
+&nbsp;
+</div>
+<div style="margin: 0in 0in 0pt;">
+As in the past, I would like to ask for dessert donations to take the pressure off of me as I
+have plenty of other food to prepare.
+</div>
+<div style="margin: 0in 0in 10pt;">
+&nbsp;I would also like to mention that this is BYOB.
+</div>
+<div style="margin: 0in 0in 10pt;">
+And, in conclusion, please bring a lawn chair if you would like to sit down.
+</div>
+<div style="margin: 0in 0in 10pt;">
+&nbsp;If anyone has a grill we can use, we could sure use it!&nbsp; It helps to have lots of
+grills going to speed things up.
+</div>
+<div style="margin: 0in 0in 10pt;">
+Thanks to everyone&nbsp;in advance!&nbsp;
+</div>
+</div>
+</div> <br>
+<div style='clear:both'>
+<div><b>StreamTeam Status: </b>Not Verified</div>
+<div><b>Last Updated: </b>2009-11-03 22:32:11</div>
+</div>
+</div>
+</div><div id='zzqfipk8flitjvRiverRapidsGadget38' class='CRiverRapidsGadget-view-rapids CRiverRapidsGadget'> <h2>Rapid Descriptions</h2>
+<div><div id='zzqfipk8flitjvMessageGadget39' class='CMessageGadget-message CMessageGadget'> <div class='message  msg_message'>
+<img alt='icon of message' src='/resources/images/messages/message.gif'/> No rapids entered. If you know names, and locations of the rapids please contact and advise the StreamTeam member for this run. </div>
+<div style='clear:both'></div>
+</div> <br style='clear:both'>
+</div>
+</div><div id='zzqfipk8flitjvCommentGadget42' class='CCommentGadget-view CCommentGadget'><div id='zzqfipk8flitjvCommentGadget42-1'>  
+<div class='comment-container' style=''>
+<table class='comments'>
+<tr>
+<td><h2>User Comments</h2></td>
+</tr>
+<tr>
+<td>
+<hr>
+<div class='commentinfo comment_comment'>
+2011-03-24 07:43:33 (1164 days ago)
+<div id='contact-1'>x (1)</div> </div>
+<div class='commentbox'>
+The takeout location on the map is no longer available to boaters. The new takeout is on the same<br/>
+road but further down past the residential area is a parking area across the road from a little<br/>
+boat launch. It makes for some extra flatwater paddling but worth it to paddle the whole run. There<br/>
+is an alternate takeout halfway through the run where the river goes under a bridge but usually<br/>
+used only when time is a factor. </div>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+<div class='commentinfo comment_warning'>
+2010-06-13 08:49:18 (1448 days ago)
+<div id='contact-1'>x (1)</div> </div>
+<div class='commentbox'>
+A river wide strainer (large oak tree) about mid-way on the &quot;bottom&quot; section 8/2/09 -- At levels<br/>
+6.3 ft and above you can paddle around the leafy end in the weeds. </div>
+</td>
+</tr>
+</table>
+</div>
+Users can submit comments.</div></div> <br style='clear:both'>
+</div>
+</div>
+<div id="tab-flow" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/show-gauge-info/reachid/3600/revision/0/.dialog' title='Flow Info'>
+</div>
+<div id="tab-map" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/map/id/3600/revision/0/.rawhtml' title='Map'>
+</div>
+<div id="tab-directions" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/show-directions/reachid/3600/revision/0/.rawhtml' title='Directions'>
+</div>
+<div id="tab-weather" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/Weather/detail/zip/03045/.rawhtml' title='Weather'>
+</div>
+<div id="tab-news" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/river-news/id/3600/.rawhtml' title='News (0) & Accidents'>
+</div>
+<div id="tab-photos" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/Photo/do-search/reachid/3600/orderby/id/incphotos/on/incvideos/on/dosearch/Photo%2BSearch/.rawhtml' title='Photos (10)'>
+</div>
+<div id="tab-credits" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/credits/reachid/3600/.dialog' title='Credits & Network'>
+</div>
+</div>
+</div> <br style='clear:both'>
+</div>
+</div> 
+</div> 
+</div> 
+<div id="block_3">
+<div class="gutter">
+<div class="boxcontent CContainerView" id='zzqfipk8flitjvContainerView14'>
+<div><div id='zzqfipk8flitjvArticleGadget6Container' class='CArticleGadget-view CArticleGadget'><div id='zzqfipk8flitjvArticleGadget6-1' class='contents'><h3 style="text-align: center; margin-top: 15px;">
+Do more than just check gauges; join over 5,000 AW members today.
+</h3>
+<div style="text-align:center; margin:10px;">
+<a style="display: block;" href="https://www.americanwhitewater.org/content/Membership/join-aw?utm_source=americanwhitewater.org&amp;utm_medium=banner&amp;utm_content=HTML_ad_001&amp;utm_campaign=join_or_renew">
+<img width="100" height="60" alt="Join_or_Renew_Logo-200px" src="http://www.americanwhitewater.org/resources/repository/Join_or_Renew_Logo-200px.png"></a>
+<h3 style="color: rgb(0, 0, 238); margin-top: 10px;">
+<a style="display: block;" href="https://www.americanwhitewater.org/content/Membership/join-aw?utm_source=americanwhitewater.org&amp;utm_medium=banner&amp;utm_content=HTML_ad_001&amp;utm_campaign=join_or_renew">
+Join or Renew</a>
+</h3>
+</div>
+<hr>
+<h3 style="text-align: center; margin-top: 10px;">
+Or, consider donating
+</h3>
+<div style="text-align:center; margin:10px;">
+<a style="display: block;" href="https://www.americanwhitewater.org/content/Membership/donate?utm_source=americanwhitewater.org&amp;utm_medium=banner&amp;utm_content=HTML_ad_001&amp;utm_campaign=donate">
+<img width="100" height="60" alt="Donate_Logo-200px" src="http://www.americanwhitewater.org/resources/repository/Donate_Logo-200px.png"></a>
+<h3 style="color: rgb(0, 0, 238); margin-top: 10px;">
+<a style="display: block;" href="https://www.americanwhitewater.org/content/Membership/donate?utm_source=americanwhitewater.org&amp;utm_medium=banner&amp;utm_content=HTML_ad_001&amp;utm_campaign=donate">
+Donate</a>
+</h3>
+</div></div></div> <br style='clear:both'>
+</div>
+</div> 
+</div> 
+</div> 
+<br style='clear:all'>
+</div> 
+<div id='footer'>
+<div style='' class="CFooterGadget" id='zzqfipk8flitjvFooterGadget79'> &#169; 1999-2014 American Whitewater (<a href='/content/Wiki/aw:tos'>terms of use</a>) | PO Box 1540 | Cullowhee, NC 28723 | 1-866-262-8429 | <a href="mailto:info@americanwhitewater.org">info@americanwhitewater.org</a>
+</div><div><div style='' class="CContainerView" id='zzqfipk8flitjvContainerView23'> <div><div id='zzqfipk8flitjvArticleGadget18Container' class='CArticleGadget-view CArticleGadget'><div id='zzqfipk8flitjvArticleGadget18-1' class='contents'></div></div> <br style='clear:both'>
+</div>
+</div></div><div><div style='' class="CNewsFeedGadget" id='zzqfipk8flitjvNewsFeedGadget58'> <div class='feed'>
+<a class='nodecoration' href='/content/River/detail/id/3600/.mobile'>
+<img src='/resources/images/blank.gif' class='mobile'></a>&nbsp;Goffstown, Piscataquog New Hampshire, US (mobile)&nbsp;&nbsp;
+</div>
+</div></div><div><div style='' class="CContainerView" id='zzqfipk8flitjvContainerView73'> <div><div id='zzqfipk8flitjvArticleGadget68Container' class='CArticleGadget-view CArticleGadget'><div id='zzqfipk8flitjvArticleGadget68-1' class='contents'></div></div> <br style='clear:both'>
+</div>
+</div></div> </div> 
+<br>
+<div style='display:none'>
+<span id='server-time' style='text-size:50%'></span>
+<span id='client-time' style='text-size:50%'></span>
+</div>
+<script type='text/javascript'>
+				require(['dojo/dom','dojo/ready','dojo/_base/xhr'],function(dom,ready,xhr){
+					
+			ready(
+				function(){
+					var roundNumber = function(num, dec) {
+						var result = Math.round(num*Math.pow(10,dec))/Math.pow(10,dec);
+						return result;
+					}
+						var clienttime = ((new Date().getTime()) - wh2timer)/1000;
+						var servertime = (0.17931318283081);
+						var servermemory = (17892128)/(1024*1024);
+						dom.byId('client-time').innerHTML=(clienttime+" sec. client ");
+						dom.byId('server-time').innerHTML=(servertime+" sec. server ");
+						dom.byId('server-time').innerHTML+= (servermemory.toFixed(2)+" MB");
+						if(!Math.floor(Math.random()*101))
+						{
+							var url = document.location;
+							var data = {server_time: servertime, client_time: clienttime, url:url};
+							xhr.post({
+								url: '/content/Performance/update/',
+								content: data	});
+							
+						}
+					}
+				);						
+					
+					
+				});
+						</script>
+ 
+</div>  
+</div> 
+</div> 
+</div> 
+</body>
+</html>

@@ -1,0 +1,937 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd" >
+<html>
+ 
+<head>
+<meta name="title" content="American Whitewater - Headwaters to confluence with Grande Ronde River, Joseph Creek Oregon, US/Washington, US">
+<meta name="description" content="American Whitewater is the primary advocate for the preservation and protection of whitewater rivers throughout the United States and connects the interests of human-powered recreational river users with ecological and science-based data to achieve goals within our mission. ">
+<title>American Whitewater - Headwaters to confluence with Grande Ronde River, Joseph Creek Oregon, US/Washington, US</title>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+<meta name="Language" content="English">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="global">
+<link rel="SHORTCUT ICON" href="/logo/myfile.ico">
+<link rel="stylesheet" type="text/css" href="/resources/css/style.css">
+<!--[if lte IE 7]>
+			<link rel="stylesheet" type="text/css" href="/resources/css/iestyle.css" />
+		<![endif]-->
+<!--[if lte IE 6]>
+			<link rel="stylesheet" type="text/css" href="/resources/css/iestyle6.css" />
+		<![endif]-->
+<style type='text/css'>.dojoTabPaneWrapper{width:100%;}</style>
+<script type='text/javascript'>
+			var wh2timer = new Date().getTime();
+		</script>
+<link rel="image_src" href="http://www.americanwhitewater.org/resources/images/assets6.5/awlogo.png"> <script type='text/javascript'>
+						if(typeof(djConfig) != 'undefined')
+						{
+							djConfig['gMapKey'] = 'AIzaSyAu7JAMzqGEKuwhxB-6ePHQim0g5hX8wpw';
+						}
+					</script>
+<script src='https://www.google.com/jsapi?key=AIzaSyAu7JAMzqGEKuwhxB-6ePHQim0g5hX8wpw' type='text/javascript'></script>
+<script type='text/javascript'>
+					google.load("maps", "2.x");	
+					
+					
+					</script>
+<script type='text/javascript' djConfig=' parseOnLoad:true ' src='/resources/js/dojo/release/dojo/dojo/dojo.js'></script>
+<style type='text/css'>@import "/resources/js/dojo/release/dojo//dijit/themes/tundra/tundra.css";</style>
+<script type='text/javascript' djConfig='parseOnLoad:true' src='/resources/js/dojo/release/dojo/dojo/dialog.js'></script>
+<script type='text/javascript' djConfig='parseOnLoad:true' src='/resources/js/dojo/release/dojo/dojo/tabs.js'></script> <link rel="alternate" type="text/html" title="Headwaters to confluence with Grande Ronde River, Joseph Creek Oregon, US/Washington, US (mobile)" href="/content/River/detail/id/4298/.mobile"> <style type='text/css'>.dojoTabPane{padding:0.75em;overflow:auto;}</style>
+<script type='text/javascript'>
+							dojo.require('dojo.parser'); 
+					var _gaq = _gaq || [];
+					_gaq.push(['_setAccount', 'UA-3113277-1']);
+					_gaq.push(['_trackPageview']);
+					
+				    (function() {
+				      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				    })();
+								dojo.require("aw.widget.AWMap");						dojo.require('dijit.Tooltip');
+						dojo.require('aw.widget.ToolTipSeeker');					dojo.require("aw.formathelper.forms.dialog");
+					dojo.require("aw.widget.Dialog");
+					dojo.require("aw.formathelper.dialog");
+					dojo.require("aw.widget.ContentPane");
+														dojo.require("aw.widget.TabContainer");
+								dojo.require("aw.widget.ContentPane");
+								
+								
+															dojo.require("aw.menu");		</script>
+<script id='onloadscript' type='text/javascript'>
+		dojo.addOnLoad(function(){					{
+					var killhandle = aw.formathelper.dialog.listener('comment',function(e)
+						{
+							
+							{
+								aw.formathelper.dialog.process('zzqpuv17li4rqbfCommentGadget47-1','/content/Comment/view/section/river/reachid/4298/notifylist/6088%3A580/.dialog',null,function()
+								{
+									//make sure our event gets removed if the parent element disappears.
+									if(!dojo.byId('zzqpuv17li4rqbfCommentGadget47-1'))
+									{
+										dojo.unsubscribe(killhandle);
+									}
+								}
+								);
+							}
+						}
+						);
+					} });		</script>
+</head>
+<body class="two-col-right tundra wh2o ">
+<div id="width">
+<div id="minwidth">
+<div id="layout">
+<div id="content-container">
+<div id='toptonav'>
+<div id="header" class='header-bg'>
+<div class='top'>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style='border: #789876'>
+<tr>
+<td width="38%" align="left" class="logo">
+<a href="/"><img class='logo' src="/resources/css/../images/nothing.gif" alt="American White Water" title="American White Water"></a>
+</td>
+<td width="62%" valign="top" align="right">
+<div style='' class="CUserLoginView" id='zzqpuv17li4rqbfUserLoginView79'> <div class='neutral'>
+<div id="header-right">
+<div class="left-img">&nbsp;</div>
+<div class="topbox-bg">
+<form action="https://www.americanwhitewater.org/content/User/do-login/**PKBbzK7d3U" method='POST'>
+<table>
+<tr>
+<td colspan='2' id='login-upper'>
+<label for='username'>Username</label>
+<input name="username" type="text" class="inputbox"/>
+<label for='password'>Password</label>
+<input name="password" autocomplete='off' type="password" class="inputbox"/>
+<input type="submit" value="Login"/>
+</td>
+</tr>
+<tr>
+<td>
+<label for='remember' class='login-lower'>Remember Me</label>
+<input type='checkbox' checked='true' name='remember'>
+</td>
+<td align='right' class='login-lower'>
+<a href='/content/Membership/get-password/**PKBbzK7d3U' class='login-link1'>Forgot your password?</a>
+|
+<a href='/content/Membership/view/' class='login-link1'>Sign Up</a>
+</td>
+</tr>
+</table>
+</form>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+ 
+<div id="nav-wrapper">
+<div id="navigation">
+<div style='' class="CMenuGadget" id='zzqpuv17li4rqbfMenuGadget80'>
+<div id='menu0'><ul dojoType="aw.menu" class='menulist' id="menu"> <li>
+<a href='/content/Welcome/view/'>
+<span>Our Organization</span>
+</a>
+<div id='menu1'><ul class='menulist'> <li>
+<a href='/content/Wiki/aw:about/'>
+<span>About AW</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:outdooralliance/'>
+<span>Outdoor Alliance</span>
+</a>
+</li>
+<li>
+<a href='/content/News/view/type/frontpagenews/showarchive/1/'>
+<span>News</span>
+</a>
+</li>
+<li>
+<a href='/content/Stewardship/view/'>
+<span>Stewardship</span>
+</a>
+</li>
+<li>
+<a href='/content/Safety/view/'>
+<span>Safety</span>
+</a>
+</li>
+<li>
+<a href='/content/Events/view/'>
+<span>Events</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:contact_us/'>
+<span>Contact Us</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:board_of_directors/'>
+<span>Board of Directors</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:staff/'>
+<span>Professional Staff</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/Wiki/aw:shop/'>
+<span>Support AW</span>
+</a>
+<div id='menu2'><ul class='menulist'> <li>
+<a href='/content/Membership/join-aw/'>
+<span>Join or Renew</span>
+</a>
+</li>
+<li>
+<a href='/content/Membership/donate/'>
+<span>Donate</span>
+</a>
+</li>
+<li>
+<a href='/content/Membership/gift/'>
+<span>Gift Membership</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:giving/'>
+<span>Giving</span>
+</a>
+</li>
+<li>
+<a href='/content/Volunteer/view/'>
+<span>Become a Volunteer</span>
+</a>
+</li>
+<li>
+<a href='/content/Store'>
+<span>AW Store</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:partnership/'>
+<span>Industry Partner Program</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:advertising/'>
+<span>Advertising Information</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/Menu/summarize/area/community/'>
+<span>Community</span>
+</a>
+<div id='menu3'><ul class='menulist'> <li>
+<a href='/content/Affiliate/view/'>
+<span>Clubs</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:sponsorship/'>
+<span>Industry Partners</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/River/view/'>
+<span>River Info</span>
+</a>
+<div id='menu4'><ul class='menulist'> <li>
+<a href='/content/River/view/'>
+<span>National River Database</span>
+</a>
+</li>
+<li>
+<a href='/content/Report/list-recent/'>
+<span>Recent River Reports</span>
+</a>
+</li>
+<li>
+<a href='/content/StreamTeam/info/'>
+<span>Stream Team</span>
+</a>
+</li>
+<li>
+<a href='/content/River/list-permits/'>
+<span>Permit Information</span>
+</a>
+</li>
+<li>
+<a href='/content/Release/view/'>
+<span>Release Information</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/Menu/summarize/area/multimedia/'>
+<span>Library</span>
+</a>
+<div id='menu5'><ul class='menulist'> <li>
+<a href='/content/Photo/view/'>
+<span>Photo/Video</span>
+</a>
+</li>
+<li>
+<a href='/content/Journal/archive/'>
+<span>AW Journal</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:logos/'>
+<span>Logos</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/Search/view/'>
+<span>Search</span>
+</a>
+</li>
+<li>
+<a href='/content/Membership/view/'>
+<span>Login</span>
+</a>
+<div id='menu6'><ul class='menulist'> <li>
+<a href='/content/User/register/**PKBbzK7d3U'>
+<span>New Account</span>
+</a>
+</li>
+<li>
+<a href='/content/User/get-password/**PKBbzK7d3U'>
+<span>Password Reminder</span>
+</a>
+</li>
+</ul></div> </li>
+</ul></div></div><div style='' class="CCrumbsGadget" id='zzqpuv17li4rqbfCrumbsGadget81'><ul class='bread_crumb'>
+<li class="emphasize bread_crumb">Recent Pages:</li>
+<li class='bread_crumb'><a href='/content/River/detail/id/4298/'>Headwaters to confluence with Grande Ronde River, Joseph Creek Oregon, US/Washington, US</a></li></ul></div> </div> 
+</div> 
+ 
+<div id="warnings" class="hide-all">
+<h2 class="hide-all">Old browser warning</h2>
+<p><em>Site look funky?</em>&nbsp;
+Your browser is either Internet Explorer (hit refresh (F5) several times due to a bug in Microsoft's code
+that we can't work around) or is 10 years old and
+<a href="http://www.webstandards.org/about/" title="Click to visit Web Standards Project mission page.">standards-based</a> layouts and styling confuse it.
+&nbsp; Consider updating.&nbsp; One excellent option is
+<a href="http://www.mozilla.org/products/firefox/" title="Click to visit the Mozilla Firefox download page.">
+Mozilla Firefox</a>, versions of which are available for Linux, Mac and Windows. Safari 1.0+ and IE 6.0+ are also supported.</p>
+</div>
+ 
+ 
+</div> 
+<div id="container">
+<div id="block_1_wrapper">
+<div id="block_1">
+ 
+<div class="boxcontent CContainerView" id='zzqpuv17li4rqbfContainerView90'>
+<div><div id='zzqpuv17li4rqbfMessageGadget69' class='CMessageGadget-warning CMessageGadget'> <div class='message  msg_warning'>
+A 32 day old warning about this river was added. Click on comments below to read it. </div>
+<div style='clear:both'></div>
+</div><div id='zzqpuv17li4rqbfRiverDetailGadget2' class='CRiverDetailGadget-detail CRiverDetailGadget'><div class='controls'><h1>Joseph Creek - Headwaters to confluence with Grande Ronde River</h1>
+<div><div id='zzqpuv17li4rqbfArticleGadget26Container' class='CArticleGadget-view CArticleGadget'><div id='zzqpuv17li4rqbfArticleGadget26-1' class='contents'></div></div> <br style='clear:both'>
+</div>
+</div> <div class='tabcontainer' doLayout='false' id="zzqpuv17li4rqbfContainerView73tabc" dojoType="aw.widget.TabContainer" enableBack="true">
+<div id="zzqpuv17li4rqbfContainerView68" trackAsMain='true' class='CContainerView' dojoType="aw.widget.ContentPane" title='RiverMain'>
+<div><div id='zzqpuv17li4rqbfRiverMainGadget33' class='CRiverMainGadget-main CRiverMainGadget'>
+<div parseWidgets='false' class='nodecoration river-description'>
+<table class='nodecoration'>
+<tr>
+<td>
+<h1>Joseph Creek, Oregon, US/Washington, US</h1>
+</td>
+<td valign=top>
+<a href="/content/Wiki/rivers:info:disclaimer/"><img align=right alt=Disclaimer src="/resources/images/disclaimerclick.gif" width=72 height=21></a>
+</td>
+</tr>
+</table>
+<h2>Headwaters to confluence with Grande Ronde River </h2>
+<table class='data_table river-stats'>
+<tr class='row-1'>
+<th>Usual Difficulty</th>
+<td>II-III(IV) (for normal flows) </td>
+</tr>
+<tr class='row-2'>
+<th>Length</th>
+<td>47.9 Miles </td>
+</tr>
+<tr class='row-3'>
+<th>Avg. Gradient</th>
+<td>50 fpm</td>
+</tr>
+</table>
+<div class='river-photo'>
+<div class='controls'>
+<h1>Typical Scenery along Joseph Creek</h1>
+</div>
+<div><div id='zzqpuv17li4rqbfPhotoDetailView93' class='CPhotoDetailView-view CPhotoDetailView'> <div class='river-photo'>
+<a href="/content/Photo/detail/photoid/41399/size/big/">
+<img class='river-photo' src="/photos/archive/medium/41399.jpg">
+</a>
+<br>
+<i>Typical Scenery along Joseph Creek</i><br><span class='caption'><i>Photo by Ken Giles taken 04/28/08 @ 400-500 cfs</i></span></div></div> <br style='clear:both'>
+</div>
+</div>
+<div class='river-break'></div>
+<br>
+<br>
+<h2>River Description</h2>
+<p></p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+The following is a (rare) trip report by Ken Giles. Thanks very much for your beta, Ken!
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+&nbsp;
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+<span style="font-family: Arial;">JOSEPH</span> <span style="font-family: Arial;">CREEK<span class="507532515-18062008">,&nbsp;OREGON&nbsp;</span></span><span style="font-family: Arial;">:&nbsp;From headwaters to its confluence with</span> <a href="http://www.americanwhitewater.org/content/River_detail_id_3081_"><span style="font-family: Arial;">Grande</span> <span style="font-family: Arial;">Ronde</span> <span style="font-family: Arial;">River</span></a>
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;"></p>
+<p></p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+<span style="font-family: Arial;">&nbsp;</span>
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+<span style="font-family: Arial;">LENGTH: 48 miles, (3 days / 2 nights)</span>
+</p>
+<p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;"></p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+<span style="font-family: Arial;">RECOMMENDED BOAT TYPE: Kayaks and IK&rsquo;s. Not suitable for
+rafts or even small catarafts.</span><span style="font-family: Arial;"><br></span>
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+&nbsp;
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+<span style="font-family: Arial;">DIFFICULTY OF RAPIDS: Continuous Class II increasing steadily
+to continuous Class III; several short Class III+ or Class IV- drops easily
+portaged.</span><span style="font-family: Arial;"><br></span>
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+&nbsp;
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+<span style="font-family: Arial;">HAZARDS: This run is not for novices; it contains many tree
+blockages, debris piles and sweepers, often located on blind tight turns in fast-moving Class III
+water. We portaged a number of river-wide tree jams and took sneak routes around and under at
+least a dozen other blockages that we would have had to portage if we were in IK&rsquo;s. The
+waters are frigid on the upper section of the river. Much of the river&rsquo;s banks are lined
+with brush or small trees whose low branches hang out over the water, at about the height of a
+kayaker&rsquo;s head, often interfering with maneuvering and making it difficult to eddy out.
+Springtime high water undermines some of these small trees which then collapse across the stream
+and block it. The river frequently divides into channels around small trees growing in the
+streambed, splitting the river into shallow channels with one or both channels clogged with
+debris. At the beginning of the run,</span> <span style="font-family: Arial;">Joseph</span>
+<span style="font-family: Arial;">Creek</span> <span style="font-family: Arial;">is only about
+10-15 feet wide and 12&quot; deep (using my paddle blade as a measuring stick). It gradually
+grows in size from the half dozen small side streams coming in so that it is about 20-30 feet
+wide and about 24&quot; deep at it&rsquo;s confluence with the Grande Ronde. (See comments below
+for estimated depths at higher and lower flows.) The hydraulics don&rsquo;t have enough punch to
+knock over an experienced kayaker; however, the river is so shallow that you are constantly
+bouncing off the bottom and it would be easy to get banged up doing a roll in the shallow water
+if an unexpected boulder caused an upset.</span> <span style="font-family: Arial;"><br></span>
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+&nbsp;
+</p>
+<p></p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+<span style="font-family: Arial;">TRIP DATE: Put-in was April 26, 2008 at 400 cfs, take-out was
+April 28, 2008 at 500 cfs.</span>
+</p>
+<p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;"></p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+<span style="font-family: Arial;">AUTHOR: Ken Giles</span><span style="font-family: Arial;"><br></span>
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+&nbsp;
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+<span style="font-family: Arial;">SEASON:</span> <span style="font-family: Arial;">Joseph</span>
+<span style="font-family: Arial;">Creek</span> <span style="font-family: Arial;">is only boatable
+during a brief two- to three-week window in April or May immediately after the snowpack in the
+surrounding</span> <span style="font-family: Arial;">Joseph</span> <span style="font-family: Arial;">Creek</span> <span style="font-family: Arial;">drainage melts. The river
+drainage covers a relatively small area and lies at a modest elevation of around 4,500 feet or
+less, so the snowmelt occurs sooner than most people think and does not last very long. It is
+difficult to plan a trip because the season is so unpredictable. Historical hydrographs dating
+back to 2004 are available on the Washington State Dept. of Ecology website.</span><span style="font-family: Arial;"><br></span>
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+&nbsp;
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+<span style="font-family: Arial;">GRADIENT: 50 feet per mile. The current is fast and continuous,
+there are no pools nor eddies nor flat sections, nor are there any drops that produce fun rapids.
+The river speed is astounding; we boated the 48 miles of river in a little over 11 hours
+including portages and scouts, averaging about 3 mph on day 1, increasing to 3.7 mph on day 2,
+and increasing again to 5.2 mph on day 3.</span><span style="font-family: Arial;"><br></span>
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+&nbsp;
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+<span style="font-family: Arial;">CHARACTER: This is a rarely boated river, located in a very
+remote and isolated deep canyon--forested at the put-in, changing to semi-arid high-desert at the
+take-out. The attraction is its remoteness, not its whitewater. If you are interested in running
+whitewater, there are many better and logistically easier rivers than this
+one.</span><span style="font-family: Arial;"><br></span>
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+&nbsp;
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+<span style="font-family: Arial;">LAUNCH ACCESS: There is no public access point at the put-in.
+Nearly all the property on both sides of</span> <span style="font-family: Arial;">Joseph Creek
+Road</span><span style="font-family: Arial;">, the access road, is privately owned and there is a
+locked gate about 6.5 miles downstream from its intersection with Road #5020. The Wallowa Whitman
+National Forest map shows a single small strip of public land on both sides of the road extending
+to the river, located about 4.25 miles downstream from the intersection with Road #5020, which is
+where we launched. I called the Forest Service office at</span> <span style="font-family: Arial;">Enterprise</span> <span style="font-family: Arial;">prior to our trip and
+was advised to stop and talk to the local rancher(s) along the access road and ask permission
+before launching.&nbsp; As we drove in, we met Tom Birkmaier, who owns the upper ranch
+along</span> <span style="font-family: Arial;">Joseph</span> <span style="font-family: Arial;">Creek</span><span style="font-family: Arial;">; he gave us directions on
+where to launch and asked for a copy of my trip report when we were done because he is interested
+in boating the river someday. (Tom and his family live on the property which is too remote to
+have phone service, so it is not possible to contact him ahead of time to ask permission.) After
+the trip, I spoke on the phone with Dub Darneille, the owner of</span> <a href="http://www.ninebarkoutfitters.com"><span style="font-family: Arial;">NineBark
+Outfitters</span></a><span style="font-family: Arial;">, which has the property behind the locked
+gate at the end of the road. Dub says that kayakers must obtain permission from him before
+boating through his property, which he has granted in the past, but only if they ask beforehand
+and if they sign his standard release form. Dub lives in Joseph, not at the ranch behind the
+locked gate, so he has both email and phone access and can be contacted ahead of time by email
+at</span> <a title="mailto:ninebark@oregontrail.net" href="mailto:ninebark@oregontrail.net"><span style="font-family: Arial;">ninebark@oregontrail.net</span></a><span style="font-family: Arial;">, or
+by phone at 541-426-4855. Dub strongly discourages trip reports such as this one because he fears
+it will trigger more boat traffic and eventually lead to potential conflicts between kayakers and
+landowners. I too share his concern, but feel the stream is more hazardous than most kayakers
+believe and they need to have the information.</span><span style="font-family: Arial;"><br></span>
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+&nbsp;
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+<span style="font-family: Arial;">CAMPING ACCESS: Although</span> <span style="font-family: Arial;">Joseph</span> <span style="font-family: Arial;">Creek</span> <span style="font-family: Arial;">is a designated &ldquo;Wild and</span> <span style="font-family: Arial;">Scenic</span><span style="font-family: Arial;">River</span><span style="font-family: Arial;">&rdquo;, nearly all of the land in the bottom of</span> <span style="font-family: Arial;">Joseph</span> <span style="font-family: Arial;">Canyon</span> <span style="font-family: Arial;">is privately owned by ranchers who have run cattle and maintained a handful
+of cabins along the river for generations since it was homesteaded in the early 1900&rsquo;s.
+The</span> <span style="font-family: Arial;">Wallowa</span> <span style="font-family: Arial;">Whitman</span> <span style="font-family: Arial;">National Forest</span>
+<span style="font-family: Arial;">map suggests that only about 12-15 miles of the river bank is
+in BLM or US Forest Service ownership, and these miles are spread out in bits and pieces and
+difficult to identify as you paddle past. From the point of view of the landowners,</span>
+<span style="font-family: Arial;">Joseph</span> <span style="font-family: Arial;">Creek</span>
+<span style="font-family: Arial;">may not meet the legal requirements of a navigable river, in
+which case the public would not have an inherent right to kayak though the privately owned
+sections to get to the publicly owned sections. The ranchers are well aware of boat traffic down
+at the bottom of the remote canyon--we passed two horseback riders and an ATV carrying two people
+along the section of river accessible by way of the Paradise pack trail, and Dub Darneille knew
+within a few days that two kayakers had hiked in down the Paradise pack trail the prior weekend
+and boated the lower half of the river. The point is that <b>boaters should exercise discretion
+and attempt to camp on public land</b> if they can figure out where it is, and when they
+encounter a local, to be polite and recognize they are treading on thin ice because they are most
+likely trespassing on someone&rsquo;s land.</span><span style="font-family: Arial;"><br></span>
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+&nbsp;
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+<span style="font-family: Arial;">TAKE OUT ACCESS: The take-out we used is a public park on river
+left on the</span> <span style="font-family: Arial;">Grande</span> <span style="font-family: Arial;">Ronde</span> <span style="font-family: Arial;">River</span> <span style="font-family: Arial;">about 2 miles downstream from the confluence with</span> <span style="font-family: Arial;">Joseph</span> <span style="font-family: Arial;">Creek</span> <span style="font-family: Arial;">and a mile or two from the confluence with the</span> <span style="font-family: Arial;">Snake River</span><span style="font-family: Arial;">. Our shuttle service
+says this parking area is safe and they use it routinely for their summer shuttles for boaters
+doing the lower section of the</span> <span style="font-family: Arial;">Grande</span>
+<span style="font-family: Arial;">Ronde</span> <span style="font-family: Arial;">River</span><span style="font-family: Arial;">. Note that you need to buy a
+state of</span> <span style="font-family: Arial;">Washington</span> <span style="font-family: Arial;">parking pass to park in any of these areas. We passed another public
+parking area on</span> <span style="font-family: Arial;">Joseph</span> <span style="font-family: Arial;">Creek</span> <span style="font-family: Arial;">about a mile or so upstream
+from the confluence, which would shorten the trip by a few miles if you took out there, however
+it may not be as safe to leave your car there overnight.</span><span style="font-family: Arial;"><br></span>
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+&nbsp;
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+<span style="font-family: Arial;">SHUTTLE: Boggan&rsquo;s Oasis did our shuttle, located where
+Oregon Highway 3 crosses the</span> <span style="font-family: Arial;">Grande</span> <span style="font-family: Arial;">Ronde</span> <span style="font-family: Arial;">River</span> <span style="font-family: Arial;">about an hours drive north of</span> <span style="font-family: Arial;">Enterprise</span><span style="font-family: Arial;">.&nbsp;The
+owners/managers are Bill and Farrel Vail, contact them by phone at 509-256-3372 or email
+at</span> <a title="mailto:boggans@valint.net" href="mailto:boggans@valint.net"><span style="font-family: Arial;">boggans@valint.net</span></a><span style="font-family: Arial;">. The have
+done shuttles on the</span> <span style="font-family: Arial;">Grande</span> <span style="font-family: Arial;">Ronde</span> <span style="font-family: Arial;">River</span> <span style="font-family: Arial;">for years, but had never done a shuttle on</span> <span style="font-family: Arial;">Joseph</span> <span style="font-family: Arial;">Creek</span> <span style="font-family: Arial;">until us, which gives an indication of how rarely</span> <span style="font-family: Arial;">Joseph</span> <span style="font-family: Arial;">Creek</span> <span style="font-family: Arial;">is boated.&nbsp; We paid $160 for the shuttle and felt it was well worth
+it. Our shuttle driver was Dell, about 70+ years old, whose grandparents homesteaded in
+the</span> <span style="font-family: Arial;">Paradise</span> area; his father made a living
+trapping and so did Dell up until WWII. Dell knew the history of every homestead and kept us
+entertained with stories during the 1-hour drive in. Note that the shorter Elk Creek road in was
+blocked by snow about 2 miles from its turn off of Highway 3, so we had to drive to Enterprise
+and then take the longer way in by way of Crow Creek Road.
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+&nbsp;
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+<span style="font-family: Arial;">NO PACK TRAIL: The map shows a pack trail starting at the
+locked gate and winding its way down the canyon and crisscrossing the river frequently using low
+water fords. At the trip beginning we did see a trail along the river down as far as Swamp Creek,
+but I don&rsquo;t think there is no way for the public to access the trail because of the locked
+gate at the end of the road. We did see an ATV trail crisscrossing the river in the</span>
+<span style="font-family: Arial;">Rush</span> <span style="font-family: Arial;">Creek</span>
+<span style="font-family: Arial;">area (private property), apparently heavily used in the summer
+at low water and accessed by dropping down off the rim from above. I asked the forest service
+about the trail and was told that much of the trail has disappeared over the years, it has not
+been used or maintained and public access is difficult...the only access is from on top from the
+Chico trailhead. After we passed by Tamarack Creek, the canyon walls closed in and there was no
+evidence anywhere of a way to walk down the canyon, unless you walk down the middle of the stream
+bed at low water. So if you get in trouble below Tamarack Creek, the only way out is to climb the
+canyon walls 2,000 to 3,000 feet to the top.</span><span style="font-family: Arial;"><br></span>
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+&nbsp;
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+<span style="font-family: Arial;">RIVER LOG:</span><span style="font-family: Arial;"><br></span>
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+<span style="font-family: Arial;"><u>Mile 0</u> Put-in on shoulder of road next to creek on
+publicly owned stretch of land, after talking to local landowner. The next 5 miles are meandering
+shallow stream among the willows in privately owned ranchland. Within a mile of the put in, we
+encountered a log blocking the river which we could pass under at one end. This was followed by
+numerous partial blockages including a small beaver dam which we passed over. No whitewater in
+this section, fairly slow speed. Boring.</span><span style="font-family: Arial;"><br></span>
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+<span style="font-family: Arial;"><u>Mile 4.8</u> Pass under bridge to NineBark Outfitters, ranch
+buildings on both sides, we are now downstream of the locked gate.&nbsp; Private property on both
+sides of river for the next &frac34; mile according the USFS map, then public land almost to
+Swamp Creek. In this next section of the river we had to portage around one log that blocked the
+river and snuck around 2-3 partial debris blockages. Shallow, hit lots of rocks, average depth
+about 12&quot;, river is about 10-15 feet wide. Water is frigid. Beautiful stands of tall
+ponderosa pines on grassy benches along the river that would make wonderful lunch or camp spots.
+Very scenic, class II water, pleasant boating in the forest.</span><span style="font-family: Arial;"><br></span>
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+<span style="font-family: Arial;"><u>Mile 10.0</u>&nbsp; Swamp Creek on left. Private property on
+both sides of river, NineBark Outfitters cabin on left, abandoned barn on right, intermittent
+private and public lands next 3-4 miles according to USFS map. Swamp Creek adds enough water that
+the river is a few inches deeper and moves a bit faster. Continue to encounter partial blockages
+from debris and wood.&nbsp; Narrow winding river canyon with poor down steam visibility in many
+places from overhanging branches. Saw two groups of mountain sheep, bald eagles, hawks, ducks and
+deer. From memory (not on my notes) I think there is a log across the river about 5 miles below
+Swamp Creek that we were able to pass under. About 6 portages to get to this point if we were in
+IK&rsquo;s, only one if in kayaks. Overall very scenic, class II water, easy boating other than
+dealing with the debris and wood.</span><span style="font-family: Arial;"><br></span>
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+<span style="font-family: Arial;"><u>Mile 15.5</u> Abandoned and collapsed building on right with
+shiny metal roof visible through the brush, old farm implements (rake, plow, wagon bed) on river
+left, not clear from USFS map whether public or private property, assume private. 5 hours on the
+river (excluding lunch stop) from put-in to get to this point, average speed 3.1 mph despite
+portage and very slow water at beginning. Canyon has opened up a bit, no more tall ponderosa
+pines, becoming more arid and open as we drop in elevation, nice flat grassy benches along river
+in many places.&nbsp; From this point downstream to</span> <span style="font-family: Arial;">Rush</span> <span style="font-family: Arial;">Creek</span><span style="font-family: Arial;">, we encountered 3-4 log jams, portaged one and should have portaged
+another that involved somewhat tricky move. At about mile 16-17, we encountered a sharp drop
+where river turns 90 degrees and crashes into the wall on river right in a tight turn&hellip;.the
+first true rapid we encountered on the river. Stopped to scout and decided to just drag boats
+around instead of spending time to climb the steep bank and do a proper scout--could have run it
+in hindsight after seeing that the downstream runout was clear of debris. Also in this section,
+or perhaps in the section below (my notes are not clear), we encountered two more short drops,
+one where river crashes down into large boulder(s) on river left forming a boulder sieve, another
+with logs and large boulders clogging up the river. We found sneak routes around both, did not
+scout. From this point all the way to the take-out, have to fight overhanging branches and poor
+downstream visibility on tight turns with debris and brush. Class II whitewater overall, other
+than the specific drops mentioned, not difficult from a whitewater
+perspective.</span><span style="font-family: Arial;"><br></span>
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+<span style="font-family: Arial;"><u>Mile 16.6</u> Old camp trailer visible on right bank. Just
+downstream on river left, a trail winds down from the rim 2,500 feet above and joins the well
+used ATV trail which runs downstream all the way to</span> <span style="font-family: Arial;">Rush</span> <span style="font-family: Arial;">Creek</span><span style="font-family: Arial;">. (Wonder if the camp trailer somehow was towed down that trailhead years
+ago?) The marks on the river banks beginning at this section of river are where ATV&rsquo;s climb
+in and out of stream bed as they ford the river in the summer.</span><span style="font-family: Arial;"><br></span>
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+<span style="font-family: Arial;"><u>Mile 17.8</u> Peavine Creek enters on
+right.</span><u><span style="font-family: Arial;"><span style="text-decoration: none;"><br></span></span></u>
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+<span style="font-family: Arial;"><u>Mile 26.7</u> Rush Creek enters on river right just
+downstream of a nice fenced cabin located on river left, which had two saddled horses in front
+yard as we went by.&nbsp; Abandoned two story farmhouse on river right at mouth of</span>
+<span style="font-family: Arial;">Rush</span> <span style="font-family: Arial;">Creek</span>
+<span style="font-family: Arial;">on private property. The map shows another trail coming down
+from canyon rim 2,500 feet above on river left across from</span> <span style="font-family: Arial;">Rush</span> <span style="font-family: Arial;">Creek</span><span style="font-family: Arial;">, but we did not see it. The ATV trail peters out 3-4 miles below</span>
+<span style="font-family: Arial;">Rush</span> <span style="font-family: Arial;">Creek</span><span style="font-family: Arial;">. After Rush Creek, river
+becomes continuous class III whitewater with interludes of class II+, very technical pushy water,
+lots of boulders, overhanging branches, water up the tree trunks on shore, logs and debris hung
+up frequently in mid-channel and on trees, very dangerous section, must pay attention, but only a
+couple of spots where hydraulics have any punch, not big water. Average water depth has increased
+to about 24&quot; because of added flow from side streams and river velocity has increased
+significantly.&nbsp;River is perhaps 15-20 feet wide. Water is not as frigid as at put-in. ATV's
+passed by twice on opposite bank carrying two people, we waved to each other. ATV trail looks
+heavily used in</span> <span style="font-family: Arial;">Rush</span> <span style="font-family: Arial;">Creek</span> <span style="font-family: Arial;">area. Water is currently too
+high for ATV's to cross the river, so they are stuck traveling up and down the west bank until
+water drops. On river left about 2 miles below Rush Creek where river makes hairpin bend on map,
+watch for a small warm springs dripping down the left bank marked by lush green plants, the
+remains of an old rock enclosure around the spring source are about 20 feet up on the steep bank,
+located at the edge of the barbed wire fence line, it's all tumbled in and nasty/mucky from heavy
+use as a wallow by cows and elk.</span><span style="font-family: Arial;"><br></span>
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+<span style="font-family: Arial;"><u>Mile 32.4</u> Tamarack Creek enters on river right. The next
+9 miles of river are my favorite; this is the only section with no evidence of people or trails
+and is the only truly remote and inaccessible part of the canyon. The USFS map shows private
+property from the mouth of Tamarack Creek downstream about 3 miles, public property then begins
+and continues all the way off the margin of the map into the State of</span> <span style="font-family: Arial;">Washington</span><span style="font-family: Arial;">. The canyon gradually
+narrows as you move downstream from Tamarack Creek and becomes steeper with sections of vertical
+rock wall for the first time on the trip; there is no evidence of any trail on either side of the
+river. <b>It would not be possible to walk out along the river banks for help if you got in
+trouble.</b> If the Nez Perce Indians used this canyon as their annual migration route for
+hundreds of people and livestock, they must have walked up the river bed at low water or just
+bypassed this section of canyon. We camped on river left at river mile 35.8, about 4 miles below
+Tamarack Creek, on a lush grassy bench next to the river. We passed terrific campsites on both
+sides of the river beginning about midway down this section. Saw wild turkeys, eagles, river
+otters and fish jumping. Beautiful warm weather. The added flow from Tamarack Creek and
+narrowness of the canyon causes the speed to increase yet again and produces fun continuous Class
+III water from here to the bridge, but the rapids still lack punch and there was no risk of being
+knocked over. We paddled the 12.1 miles from our camp to the takeout in 2.3 hours for an average
+speed of 5.2 mph in this section. We encountered two more trees across the river, found a sneak
+route around one and had a near disaster on the other one. The river spits around a midstream
+island and we took the left channel, mistakenly thinking the tree blocking the channel did not
+extend all the way to the bank. It did. I managed to jump my kayak over the mostly submerged tree
+trunk, then paddle back and grab the nose loop on my companion&rsquo;s kayak which was stuck on
+the tree and yank him across before he was pinned. In this section there are many small islands
+dividing the river, with one or both channels full of wood, blind corners, tight turns and low
+visibility from the overhanging branches, with little time to make choices because of high speed
+of river. You should not commit yourself down any blind corners in this section unless you can
+see an eddy to safely stop in should the channel turn out to be blocked with
+wood.</span><span style="font-family: Arial;"><br></span>
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+<span style="font-family: Arial;"><u>Mile 41.2</u> Bridge over River. Beginning of agricultural
+land which runs on both sides of river from bridge to confluence with Grande Ronde. Encountered a
+tree blocking the river in this section just upstream of next bridge and dragged our boats around
+blockage. Saw large herd of elk (about 70 head) crossing river in front of us, about 100&rsquo;
+away.</span><span style="font-family: Arial;"><br></span>
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+<span style="font-family: Arial;"><u>Mile 43.7</u> Bridge over River and parking area on right
+bank. Potential place to leave car. The two miles from this bridge to the confluence with the
+Grande Ronde are fun class III water, would be a good training ground for local beginning
+kayakers.</span> <span style="font-family: Arial;"><br></span>
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+<span style="font-family: Arial;"><u>Mile 45.6</u> Confluence with</span> <span style="font-family: Arial;">Grande</span> <span style="font-family: Arial;">Ronde</span> <span style="font-family: Arial;">River</span><span style="font-family: Arial;">. Nice wave trains on
+corners, class II to takeout. Saw eagle in tree.</span><span style="font-family: Arial;"><br></span>
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+<span style="font-family: Arial;"><u>Mile 47.9</u> Takeout at parking area on river left. Car is
+easily visible from road, lots of homes nearby to provide sense of security.</span>
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+&nbsp;
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+<i>Latitude / longitude coordinates of the putin are from Google Earth; the coordinates of the
+takeout are from GPS.</i>
+</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;">
+&nbsp;
+</p> <br>
+<div style='clear:both'>
+<div><b>StreamTeam Status: </b>Not Verified</div>
+<div><b>Last Updated: </b>2011-02-28 06:26:32</div>
+<div class='controls'>
+<h1>Editors</h1>
+</div>
+<div><div id='zzqpuv17li4rqbfContactView40' class='CContactView-view CContactView'></div> <br style='clear:both'>
+</div>
+</div>
+</div>
+</div><div id='zzqpuv17li4rqbfRiverRapidsGadget43' class='CRiverRapidsGadget-view-rapids CRiverRapidsGadget'> <h2>Rapid Descriptions</h2>
+<div><div id='zzqpuv17li4rqbfMessageGadget44' class='CMessageGadget-message CMessageGadget'> <div class='message  msg_message'>
+<img alt='icon of message' src='/resources/images/messages/message.gif'/> No rapids entered. If you know names, and locations of the rapids please contact and advise the StreamTeam member for this run. </div>
+<div style='clear:both'></div>
+</div> <br style='clear:both'>
+</div>
+</div><div id='zzqpuv17li4rqbfCommentGadget47' class='CCommentGadget-view CCommentGadget'><div id='zzqpuv17li4rqbfCommentGadget47-1'>  
+<div class='comment-container' style=''>
+<table class='comments'>
+<tr>
+<td><h2>User Comments</h2></td>
+</tr>
+<tr>
+<td>
+<hr>
+<div class='commentinfo comment_warning'>
+2014-04-29 12:53:48 (32 days ago)
+<div id='contact-6669'><span class='name'>Troy Langley</span><span class='send-message'><a href="/content/Contact/view/contactid/6669/display/detail/">Details</a></span></div> </div>
+<div class='commentbox'>
+Ken's review is accurate. I would like to emphasize a few points. Expert boat control and some luck<br/>
+are required to make it through the frequent wood hazards. Some spots combine running a class<br/>
+(III-IV) rapid, plus avoiding a river wide log jam, plus navigating through groves of small trees<br/>
+actually growing in the river channel, all at the same time. Also, as mentioned, careful prior<br/>
+coordination with land owners is required for access to avoid conflict. Finally, the river moves so<br/>
+fast that it is very difficult to find public property for camps without a GPS and pre-entered<br/>
+waypoints. Have fun. Be safe! </div>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+<div class='commentinfo comment_comment'>
+2014-04-24 10:18:19 (37 days ago)
+<div id='contact-6088'><span class='name'>Nick Borelli</span><span class='send-message'><a href="/content/Contact/view/contactid/6088/display/detail/">Details</a></span></div> </div>
+<div class='commentbox'>
+I've run Joseph Creek 3 times and with proper care and handling, have had cooperation not conflict<br/>
+the local landowners. Trespassing is not an option and you need to respect their land. As far as<br/>
+wood goes, there was plenty of warning in these reports - so take heed!. Class IV skills and safety<br/>
+procedures needed for a safe run. </div>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+<div class='commentinfo comment_comment'>
+2014-04-24 01:03:56 (37 days ago)
+<div id='contact-6669'><span class='name'>Troy Langley</span><span class='send-message'><a href="/content/Contact/view/contactid/6669/display/detail/">Details</a></span></div> </div>
+<div class='commentbox'>
+Nick, I agree with your feedback. Thanks for the correction. I've updated my comment. </div>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+<div class='commentinfo comment_warning'>
+2011-04-21 06:23:59 (1136 days ago)
+<div id='contact-7849'><span class='name'>Brian Vogt</span><span class='send-message'><a href="/content/Contact/view/contactid/7849/display/detail/">Details</a></span></div> </div>
+<div class='commentbox'>
+Ran Joseph Creek April 16-17, 2011. Flow was dropping from 2100, highest ever flow I've seen.<br/>
+Launched at 550, took out at 925 after heavy rain the first night. Much wood has been re-arranged.<br/>
+there used to be 2 portages above Swamp creek, these were now runnable. In the section from Swamp<br/>
+to Peavine Creek, we had 3 portages. the first 2 were fairly obvious and quick, short portages. The<br/>
+third was where the old mobile home is visible on river right. A tight bend to the right with a<br/>
+large midstream boulder creates 2 narrow channels, both blocked with wood. Longer portage via the<br/>
+old road bed. Many many more strainers and logs, but nothing requiring portage at these flows.<br/>
+Several were river wide and would require portage at lower flows though. One other very significant<br/>
+hazard 1 mile above the 2nd bridge (where the gauge and takeout are located). A fish trap in the<br/>
+river looks runnable, but 2 nearly invisible cables are across the river and only about 4&quot; off the<br/>
+water. Very dangerous. This is a great run, though it is not for class III boaters. the water is<br/>
+continuous, as is the wood, and swimmers will need to self-rescue. One of my favorite trips<br/>
+anywhere. </div>
+</td>
+</tr>
+</table>
+</div>
+Users can submit comments.</div></div> <br style='clear:both'>
+</div>
+</div>
+<div id="tab-flow" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/show-gauge-info/reachid/4298/revision/0/.dialog' title='Flow Info'>
+</div>
+<div id="tab-map" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/map/id/4298/revision/0/.rawhtml' title='Map'>
+</div>
+<div id="tab-directions" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/show-directions/reachid/4298/revision/0/.rawhtml' title='Directions'>
+</div>
+<div id="tab-weather" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/Weather/detail/zip/97842/.rawhtml' title='Weather'>
+</div>
+<div id="tab-news" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/river-news/id/4298/.rawhtml' title='News (0) & Accidents'>
+</div>
+<div id="tab-photos" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/Photo/do-search/reachid/4298/orderby/id/incphotos/on/incvideos/on/dosearch/Photo%2BSearch/.rawhtml' title='Photos (9)'>
+</div>
+<div id="tab-credits" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/credits/reachid/4298/.dialog' title='Credits & Network'>
+</div>
+</div>
+</div> <br style='clear:both'>
+</div>
+</div> 
+</div> 
+</div> 
+<div id="block_3">
+<div class="gutter">
+<div class="boxcontent CContainerView" id='zzqpuv17li4rqbfContainerView14'>
+<div><div id='zzqpuv17li4rqbfArticleGadget6Container' class='CArticleGadget-view CArticleGadget'><div id='zzqpuv17li4rqbfArticleGadget6-1' class='contents'><h3 style="text-align: center; margin-top: 15px;">
+Do more than just check gauges; join over 5,000 AW members today.
+</h3>
+<div style="text-align:center; margin:10px;">
+<a style="display: block;" href="https://www.americanwhitewater.org/content/Membership/join-aw?utm_source=americanwhitewater.org&amp;utm_medium=banner&amp;utm_content=HTML_ad_001&amp;utm_campaign=join_or_renew">
+<img width="100" height="60" alt="Join_or_Renew_Logo-200px" src="http://www.americanwhitewater.org/resources/repository/Join_or_Renew_Logo-200px.png"></a>
+<h3 style="color: rgb(0, 0, 238); margin-top: 10px;">
+<a style="display: block;" href="https://www.americanwhitewater.org/content/Membership/join-aw?utm_source=americanwhitewater.org&amp;utm_medium=banner&amp;utm_content=HTML_ad_001&amp;utm_campaign=join_or_renew">
+Join or Renew</a>
+</h3>
+</div>
+<hr>
+<h3 style="text-align: center; margin-top: 10px;">
+Or, consider donating
+</h3>
+<div style="text-align:center; margin:10px;">
+<a style="display: block;" href="https://www.americanwhitewater.org/content/Membership/donate?utm_source=americanwhitewater.org&amp;utm_medium=banner&amp;utm_content=HTML_ad_001&amp;utm_campaign=donate">
+<img width="100" height="60" alt="Donate_Logo-200px" src="http://www.americanwhitewater.org/resources/repository/Donate_Logo-200px.png"></a>
+<h3 style="color: rgb(0, 0, 238); margin-top: 10px;">
+<a style="display: block;" href="https://www.americanwhitewater.org/content/Membership/donate?utm_source=americanwhitewater.org&amp;utm_medium=banner&amp;utm_content=HTML_ad_001&amp;utm_campaign=donate">
+Donate</a>
+</h3>
+</div></div></div> <br style='clear:both'>
+</div>
+</div> 
+</div> 
+</div> 
+<br style='clear:all'>
+</div> 
+<div id='footer'>
+<div style='' class="CFooterGadget" id='zzqpuv17li4rqbfFooterGadget95'> &#169; 1999-2014 American Whitewater (<a href='/content/Wiki/aw:tos'>terms of use</a>) | PO Box 1540 | Cullowhee, NC 28723 | 1-866-262-8429 | <a href="mailto:info@americanwhitewater.org">info@americanwhitewater.org</a>
+</div><div><div style='' class="CContainerView" id='zzqpuv17li4rqbfContainerView23'> <div><div id='zzqpuv17li4rqbfArticleGadget18Container' class='CArticleGadget-view CArticleGadget'><div id='zzqpuv17li4rqbfArticleGadget18-1' class='contents'></div></div> <br style='clear:both'>
+</div>
+</div></div><div><div style='' class="CNewsFeedGadget" id='zzqpuv17li4rqbfNewsFeedGadget74'> <div class='feed'>
+<a class='nodecoration' href='/content/River/detail/id/4298/.mobile'>
+<img src='/resources/images/blank.gif' class='mobile'></a>&nbsp;Headwaters to confluence with Grande Ronde River, Joseph Creek Oregon, US/Washington, US (mobile)&nbsp;&nbsp;
+</div>
+</div></div><div><div style='' class="CContainerView" id='zzqpuv17li4rqbfContainerView89'> <div><div id='zzqpuv17li4rqbfArticleGadget84Container' class='CArticleGadget-view CArticleGadget'><div id='zzqpuv17li4rqbfArticleGadget84-1' class='contents'></div></div> <br style='clear:both'>
+</div>
+</div></div> </div> 
+<br>
+<div style='display:none'>
+<span id='server-time' style='text-size:50%'></span>
+<span id='client-time' style='text-size:50%'></span>
+</div>
+<script type='text/javascript'>
+				require(['dojo/dom','dojo/ready','dojo/_base/xhr'],function(dom,ready,xhr){
+					
+			ready(
+				function(){
+					var roundNumber = function(num, dec) {
+						var result = Math.round(num*Math.pow(10,dec))/Math.pow(10,dec);
+						return result;
+					}
+						var clienttime = ((new Date().getTime()) - wh2timer)/1000;
+						var servertime = (0.18530893325806);
+						var servermemory = (17555072)/(1024*1024);
+						dom.byId('client-time').innerHTML=(clienttime+" sec. client ");
+						dom.byId('server-time').innerHTML=(servertime+" sec. server ");
+						dom.byId('server-time').innerHTML+= (servermemory.toFixed(2)+" MB");
+						if(!Math.floor(Math.random()*101))
+						{
+							var url = document.location;
+							var data = {server_time: servertime, client_time: clienttime, url:url};
+							xhr.post({
+								url: '/content/Performance/update/',
+								content: data	});
+							
+						}
+					}
+				);						
+					
+					
+				});
+						</script>
+ 
+</div>  
+</div> 
+</div> 
+</div> 
+</body>
+</html>

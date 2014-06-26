@@ -1,0 +1,750 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd" >
+<html>
+ 
+<head>
+<meta name="title" content="American Whitewater - Rock Creek Park, Rock Creek District of Columbia, US">
+<meta name="description" content="American Whitewater is the primary advocate for the preservation and protection of whitewater rivers throughout the United States and connects the interests of human-powered recreational river users with ecological and science-based data to achieve goals within our mission. ">
+<title>American Whitewater - Rock Creek Park, Rock Creek District of Columbia, US</title>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+<meta name="Language" content="English">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="global">
+<link rel="SHORTCUT ICON" href="/logo/myfile.ico">
+<link rel="stylesheet" type="text/css" href="/resources/css/style.css">
+<!--[if lte IE 7]>
+			<link rel="stylesheet" type="text/css" href="/resources/css/iestyle.css" />
+		<![endif]-->
+<!--[if lte IE 6]>
+			<link rel="stylesheet" type="text/css" href="/resources/css/iestyle6.css" />
+		<![endif]-->
+<style type='text/css'>.dojoTabPaneWrapper{width:100%;}</style>
+<script type='text/javascript'>
+			var wh2timer = new Date().getTime();
+		</script>
+<link rel="image_src" href="http://www.americanwhitewater.org/resources/images/assets6.5/awlogo.png"> <script type='text/javascript'>
+						if(typeof(djConfig) != 'undefined')
+						{
+							djConfig['gMapKey'] = 'AIzaSyAu7JAMzqGEKuwhxB-6ePHQim0g5hX8wpw';
+						}
+					</script>
+<script src='https://www.google.com/jsapi?key=AIzaSyAu7JAMzqGEKuwhxB-6ePHQim0g5hX8wpw' type='text/javascript'></script>
+<script type='text/javascript'>
+					google.load("maps", "2.x");	
+					
+					
+					</script>
+<script type='text/javascript' djConfig=' parseOnLoad:true ' src='/resources/js/dojo/release/dojo/dojo/dojo.js'></script>
+<style type='text/css'>@import "/resources/js/dojo/release/dojo//dijit/themes/tundra/tundra.css";</style>
+<script type='text/javascript' djConfig='parseOnLoad:true' src='/resources/js/dojo/release/dojo/dojo/dialog.js'></script>
+<script type='text/javascript' djConfig='parseOnLoad:true' src='/resources/js/dojo/release/dojo/dojo/tabs.js'></script> <link rel="alternate" type="text/html" title="Rock Creek Park, Rock Creek District of Columbia, US (mobile)" href="/content/River/detail/id/2587/.mobile"> <style type='text/css'>.dojoTabPane{padding:0.75em;overflow:auto;}</style>
+<script type='text/javascript'>
+							dojo.require('dojo.parser'); 
+					var _gaq = _gaq || [];
+					_gaq.push(['_setAccount', 'UA-3113277-1']);
+					_gaq.push(['_trackPageview']);
+					
+				    (function() {
+				      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				    })();
+								dojo.require("aw.widget.AWMap");						dojo.require('dijit.Tooltip');
+						dojo.require('aw.widget.ToolTipSeeker');					dojo.require("aw.formathelper.forms.dialog");
+					dojo.require("aw.widget.Dialog");
+					dojo.require("aw.formathelper.dialog");
+					dojo.require("aw.widget.ContentPane");
+														dojo.require("aw.widget.TabContainer");
+								dojo.require("aw.widget.ContentPane");
+								
+								
+															dojo.require("aw.menu");		</script>
+<script id='onloadscript' type='text/javascript'>
+		dojo.addOnLoad(function(){					{
+					var killhandle = aw.formathelper.dialog.listener('comment',function(e)
+						{
+							
+							{
+								aw.formathelper.dialog.process('zzq4bvv3a4468j7CommentGadget47-1','/content/Comment/view/section/river/reachid/2587/notifylist/172%3A4601/.dialog',null,function()
+								{
+									//make sure our event gets removed if the parent element disappears.
+									if(!dojo.byId('zzq4bvv3a4468j7CommentGadget47-1'))
+									{
+										dojo.unsubscribe(killhandle);
+									}
+								}
+								);
+							}
+						}
+						);
+					} });		</script>
+</head>
+<body class="two-col-right tundra wh2o ">
+<div id="width">
+<div id="minwidth">
+<div id="layout">
+<div id="content-container">
+<div id='toptonav'>
+<div id="header" class='header-bg'>
+<div class='top'>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style='border: #789876'>
+<tr>
+<td width="38%" align="left" class="logo">
+<a href="/"><img class='logo' src="/resources/css/../images/nothing.gif" alt="American White Water" title="American White Water"></a>
+</td>
+<td width="62%" valign="top" align="right">
+<div style='' class="CUserLoginView" id='zzq4bvv3a4468j7UserLoginView83'> <div class='neutral'>
+<div id="header-right">
+<div class="left-img">&nbsp;</div>
+<div class="topbox-bg">
+<form action="https://www.americanwhitewater.org/content/User/do-login/**q!atFNWyjo" method='POST'>
+<table>
+<tr>
+<td colspan='2' id='login-upper'>
+<label for='username'>Username</label>
+<input name="username" type="text" class="inputbox"/>
+<label for='password'>Password</label>
+<input name="password" autocomplete='off' type="password" class="inputbox"/>
+<input type="submit" value="Login"/>
+</td>
+</tr>
+<tr>
+<td>
+<label for='remember' class='login-lower'>Remember Me</label>
+<input type='checkbox' checked='true' name='remember'>
+</td>
+<td align='right' class='login-lower'>
+<a href='/content/Membership/get-password/**q!atFNWyjo' class='login-link1'>Forgot your password?</a>
+|
+<a href='/content/Membership/view/' class='login-link1'>Sign Up</a>
+</td>
+</tr>
+</table>
+</form>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+ 
+<div id="nav-wrapper">
+<div id="navigation">
+<div style='' class="CMenuGadget" id='zzq4bvv3a4468j7MenuGadget84'>
+<div id='menu0'><ul dojoType="aw.menu" class='menulist' id="menu"> <li>
+<a href='/content/Welcome/view/'>
+<span>Our Organization</span>
+</a>
+<div id='menu1'><ul class='menulist'> <li>
+<a href='/content/Wiki/aw:about/'>
+<span>About AW</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:outdooralliance/'>
+<span>Outdoor Alliance</span>
+</a>
+</li>
+<li>
+<a href='/content/News/view/type/frontpagenews/showarchive/1/'>
+<span>News</span>
+</a>
+</li>
+<li>
+<a href='/content/Stewardship/view/'>
+<span>Stewardship</span>
+</a>
+</li>
+<li>
+<a href='/content/Safety/view/'>
+<span>Safety</span>
+</a>
+</li>
+<li>
+<a href='/content/Events/view/'>
+<span>Events</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:contact_us/'>
+<span>Contact Us</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:board_of_directors/'>
+<span>Board of Directors</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:staff/'>
+<span>Professional Staff</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/Wiki/aw:shop/'>
+<span>Support AW</span>
+</a>
+<div id='menu2'><ul class='menulist'> <li>
+<a href='/content/Membership/join-aw/'>
+<span>Join or Renew</span>
+</a>
+</li>
+<li>
+<a href='/content/Membership/donate/'>
+<span>Donate</span>
+</a>
+</li>
+<li>
+<a href='/content/Membership/gift/'>
+<span>Gift Membership</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:giving/'>
+<span>Giving</span>
+</a>
+</li>
+<li>
+<a href='/content/Volunteer/view/'>
+<span>Become a Volunteer</span>
+</a>
+</li>
+<li>
+<a href='/content/Store'>
+<span>AW Store</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:partnership/'>
+<span>Industry Partner Program</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:advertising/'>
+<span>Advertising Information</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/Menu/summarize/area/community/'>
+<span>Community</span>
+</a>
+<div id='menu3'><ul class='menulist'> <li>
+<a href='/content/Affiliate/view/'>
+<span>Clubs</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:sponsorship/'>
+<span>Industry Partners</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/River/view/'>
+<span>River Info</span>
+</a>
+<div id='menu4'><ul class='menulist'> <li>
+<a href='/content/River/view/'>
+<span>National River Database</span>
+</a>
+</li>
+<li>
+<a href='/content/Report/list-recent/'>
+<span>Recent River Reports</span>
+</a>
+</li>
+<li>
+<a href='/content/StreamTeam/info/'>
+<span>Stream Team</span>
+</a>
+</li>
+<li>
+<a href='/content/River/list-permits/'>
+<span>Permit Information</span>
+</a>
+</li>
+<li>
+<a href='/content/Release/view/'>
+<span>Release Information</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/Menu/summarize/area/multimedia/'>
+<span>Library</span>
+</a>
+<div id='menu5'><ul class='menulist'> <li>
+<a href='/content/Photo/view/'>
+<span>Photo/Video</span>
+</a>
+</li>
+<li>
+<a href='/content/Journal/archive/'>
+<span>AW Journal</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:logos/'>
+<span>Logos</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/Search/view/'>
+<span>Search</span>
+</a>
+</li>
+<li>
+<a href='/content/Membership/view/'>
+<span>Login</span>
+</a>
+<div id='menu6'><ul class='menulist'> <li>
+<a href='/content/User/register/**q!atFNWyjo'>
+<span>New Account</span>
+</a>
+</li>
+<li>
+<a href='/content/User/get-password/**q!atFNWyjo'>
+<span>Password Reminder</span>
+</a>
+</li>
+</ul></div> </li>
+</ul></div></div><div style='' class="CCrumbsGadget" id='zzq4bvv3a4468j7CrumbsGadget85'><ul class='bread_crumb'>
+<li class="emphasize bread_crumb">Recent Pages:</li>
+<li class='bread_crumb'><a href='/content/River/detail/id/2587/'>Rock Creek Park, Rock Creek District of Columbia, US</a></li></ul></div> </div> 
+</div> 
+ 
+<div id="warnings" class="hide-all">
+<h2 class="hide-all">Old browser warning</h2>
+<p><em>Site look funky?</em>&nbsp;
+Your browser is either Internet Explorer (hit refresh (F5) several times due to a bug in Microsoft's code
+that we can't work around) or is 10 years old and
+<a href="http://www.webstandards.org/about/" title="Click to visit Web Standards Project mission page.">standards-based</a> layouts and styling confuse it.
+&nbsp; Consider updating.&nbsp; One excellent option is
+<a href="http://www.mozilla.org/products/firefox/" title="Click to visit the Mozilla Firefox download page.">
+Mozilla Firefox</a>, versions of which are available for Linux, Mac and Windows. Safari 1.0+ and IE 6.0+ are also supported.</p>
+</div>
+ 
+ 
+</div> 
+<div id="container">
+<div id="block_1_wrapper">
+<div id="block_1">
+ 
+<div class="boxcontent CContainerView" id='zzq4bvv3a4468j7ContainerView94'>
+<div><div id='zzq4bvv3a4468j7RiverDetailGadget2' class='CRiverDetailGadget-detail CRiverDetailGadget'><div class='controls'><h1>Rock Creek - Rock Creek Park</h1>
+<div><div id='zzq4bvv3a4468j7ArticleGadget26Container' class='CArticleGadget-view CArticleGadget'><div id='zzq4bvv3a4468j7ArticleGadget26-1' class='contents'></div></div> <br style='clear:both'>
+</div>
+</div> <div class='tabcontainer' doLayout='false' id="zzq4bvv3a4468j7ContainerView77tabc" dojoType="aw.widget.TabContainer" enableBack="true">
+<div id="zzq4bvv3a4468j7ContainerView73" trackAsMain='true' class='CContainerView' dojoType="aw.widget.ContentPane" title='RiverMain'>
+<div><div id='zzq4bvv3a4468j7RiverMainGadget33' class='CRiverMainGadget-main CRiverMainGadget'>
+<div parseWidgets='false' class='nodecoration river-description'>
+<table class='nodecoration'>
+<tr>
+<td>
+<h1>Rock Creek, District of Columbia, US</h1>
+</td>
+<td valign=top>
+<a href="/content/Wiki/rivers:info:disclaimer/"><img align=right alt=Disclaimer src="/resources/images/disclaimerclick.gif" width=72 height=21></a>
+</td>
+</tr>
+</table>
+<h2>Rock Creek Park (Above Military Road to Pierce Mill Dam)</h2>
+<table class='data_table river-stats'>
+<tr class='row-1'>
+<th>Usual Difficulty</th>
+<td>II-III(IV) (for normal flows) </td>
+</tr>
+<tr class='row-2'>
+<th>Length</th>
+<td>2.07 Miles </td>
+</tr>
+<tr class='row-3'>
+<th>Avg. Gradient</th>
+<td>40 fpm</td>
+</tr>
+</table>
+<div class='river-photo'>
+<div class='controls'>
+<h1>Photo#303061</h1>
+</div>
+<div><div id='zzq4bvv3a4468j7PhotoDetailView97' class='CPhotoDetailView-view CPhotoDetailView'> <div class='river-photo'>
+<a href="/content/Photo/detail/photoid/303061/size/big/">
+<img class='river-photo' src="/photos/archive/medium/303061.jpg">
+</a>
+<br>
+<span class='caption'><i>Photo by Julie Fitzpatrick taken 08/23/09</i></span></div></div> <br style='clear:both'>
+</div>
+</div>
+<div class='river-break'></div>
+<h2 style='clear:both'>Gauge Information</h2>
+<table class='data_table'>
+<tr>
+<th>Name</th>
+<th>Range</th>
+<th>Difficulty</th>
+<th>Updated</th>
+<th>Level</th>
+</tr>
+<tr class='row-1'>
+<th colspan='5'>
+<a href='/content/Gauge2/detail/id/36011/'>ROCK CREEK AT SHERRILL DRIVE WASHINGTON, DC</a>
+</th>
+</tr>
+<tr class='row-1'>
+<td rowspan='2' valign='top'>
+usgs-01648000 </td>
+<td>
+175 - 2000 cfs
+<td>
+II-III(IV) </td>
+<td>
+02h24m </td>
+<td class='river-low1'>
+93
+cfs
+(too low) </td>
+</tr>
+<tr class='row-1'>
+<td colspan='4' class='river-low1'>
+</td>
+</tr>
+</table>
+<br>
+<br>
+<h2>River Description</h2>
+<p>
+Runs after heavy thunderstorms, the hardest rapids are near the Park Police Headquarters on Beach
+Drive. Be alert and take out above the lowhead dam at Pierce Mill even though it is occasionally
+runnable on far river right (river left is a very bad keeper and very dangerous at most runnable
+levels).
+</p>
+<p>
+Class: III (IV)
+</p>
+<p>
+&nbsp;
+</p>
+<p>
+<strong>Put in:</strong>&nbsp; There is a large parking area on Beach Drive NW, just upstream of
+the Military Road bridge.&nbsp;&nbsp; The main whitewater starts just downstream of Military
+Road.&nbsp; There are numerous alternative put in locations, accessing easier paddling upstream
+of this point.&nbsp;
+</p>
+<p>
+<strong>Take out:</strong>&nbsp; There is a large parking area on Beach Drive NW just upstream
+of&nbsp; Pierce Mill.<br>
+<br>
+In 1999 several boaters were escorted off the creek by Park Service Police. American Whitewater
+successfully resolved the conflict over access, and it is now legal to boat on Rock Creek.
+However, it is not legal to swim, wade, or fish in the creek. The swimming restriction is based
+on the fact that the water quality is low and storm sewers dump directly into this beautiful
+urban waterway. Stay upright, don't drink the water, and watch out for the dam at Pierce Mill.
+</p>
+<p>
+&nbsp;
+</p>
+<hr>
+<p>
+&nbsp;
+</p>
+<center>
+<h2>
+Rock Creek Park (DC): Access Secured!
+</h2>
+</center>
+<p>
+January 17, 2000<br>
+By Jason Robertson<br>
+<br>
+Great news! Rock Creek Park Police stated today that they will not prevent kayakers or canoeists
+from boating on the creek in the future. These statements come in response to American
+Whitewater's discussions with the Park's administrators after two pairs of boaters were prevented
+from boating on the creek when it was moderately swollen by Hurricane Dennis in September
+1999.<br>
+<br>
+In a discussion this morning, Park Police Lieutenant Kass reported that his research confirmed
+that there is a CFR rule banning recreation in the creek. However, the Lieutenant's research also
+confirmed that former Superintendent Shields waived this regulation for kayakers and canoeists
+more than 20 years ago and that former Superintendent Ellerd later dropped all registration
+requirements in the mid-80's. The Lieutenant added that Assistant Superintendent Cox,
+representing Superintendent Coleman, respects her predecessor's decisions. The practical result
+for experienced whitewater canoeists and kayakers is that we will be permitted to continue
+floating the Class III (IV) creek, regardless of water level and that no special permits or
+permissions will be required.
+</p>
+<blockquote>
+<em>NOTE: MR. Kass forwarded a copy of a file to AW dated 4/27/1993, which states &quot;Kayaking
+is permittted [sic] on Rock Creek- no permit needed. USPP requested that a warning sign be placed
+along the creek to warn of Pierce Mill Falls ahead. Park stated that they would look at it.&quot;
+This memo also includes a handwritten note by Lt. Kass affirming that the superintendent had
+upheld this decision.</em><br>
+<br>
+</blockquote>
+<p>
+The Lieutenant cautioned that his staff are not trained in swift water rescue and are not
+lifeguards. He also explained that the DC Fire Department is responsible for all emergency calls
+on the creek but that the department's river rescue kit only consists of a single foam life ring.
+In other words, boaters must continue taking personal responsibility for their actions and
+personal rescues. Additionally, boaters must wear lifejackets and helmets, and be aware of the
+unique hazards associated with running this urban creek, including strainers, coliform and urban
+runoff, low bridges, and the 8-foot dam at Pierce Mill.<br>
+<br>
+American Whitewater wishes to thank: Ron Knipling and Martin Radigan for reporting the access
+problems on Rock Creek; Lieutenant Kass and Assistant Superintendent Cox for their cooperation in
+resolving the problem and working with us to address the issue; and Mac Thornton and Ed Gertler
+for sharing documents detailing the history of the 1980's access agreements with the Park's
+superintendents.<br>
+<br>
+Contact American Whitewater, if you encounter any future access difficulties on Rock Creek or
+other streams in the region.
+</p>
+<hr>
+<p>
+&nbsp;
+</p>
+<h2>
+<strong>HEALTH ALERT</strong>
+</h2>
+<p>
+In May 2001, District Health Commissioner, Dr. Ivan Walks, issued the warning, &quot;We are not
+recommending that people use Rock Creek and enter Rock Creek because of standing high bacteria
+levels...&quot;
+</p>
+<p>
+Dr. Walks added that the <strong><u>bacteria levels in Rock Creek are too high for human
+contact</u></strong>, and have been for the last year.
+</p>
+<p>
+---
+</p>
+<p>
+Mark Anderson commented in 2001 that, &quot;While the water quality is unquestionably
+questionable, the combined sewer overflows on Rock Creek are located south of the commonly-run
+whitewater section. The first overflows are on Piney Branch Creek and there are almost 30 from
+here to the mouth of the Potomac River. D.C. health warnings and decisions to boat this creek
+should be taken in that context. North of Piney Branch, Rock Creek is subject to more routine
+urban surface runoff ills
+</p>
+<p>
+&nbsp;
+</p>
+<p>
+&nbsp;
+</p>
+<p>
+<strong>Other Information Sources:</strong>&nbsp;<br>
+<a href="http://www.nps.gov/rocr/index.htm">Rock Creek National Park</a>&nbsp;<br>
+<strong><a href="http://www.nps.gov/rocr/faqs.htm#CP_JUMP_69609" id="CP___PAGEID=67099,faqs.htm#CP_JUMP_69609,2848|">Can I kayak/canoe in Rock
+Creek?</a>&nbsp;&nbsp;</strong>Rock Creek NP faq.
+</p> <br>
+<div style='clear:both'>
+<div><b>StreamTeam Status: </b>Not Verified</div>
+<div><b>Last Updated: </b>2009-08-24 18:53:14</div>
+<div class='controls'>
+<h1>Editors</h1>
+</div>
+<div><div id='zzq4bvv3a4468j7ContactView40' class='CContactView-view CContactView'></div> <br style='clear:both'>
+</div>
+</div>
+</div>
+</div><div id='zzq4bvv3a4468j7RiverRapidsGadget43' class='CRiverRapidsGadget-view-rapids CRiverRapidsGadget'> <h2>Rapid Descriptions</h2>
+<div><div id='zzq4bvv3a4468j7MessageGadget44' class='CMessageGadget-message CMessageGadget'> <div class='message  msg_message'>
+<img alt='icon of message' src='/resources/images/messages/message.gif'/> No rapids entered. If you know names, and locations of the rapids please contact and advise the StreamTeam member for this run. </div>
+<div style='clear:both'></div>
+</div> <br style='clear:both'>
+</div>
+</div><div id='zzq4bvv3a4468j7CommentGadget47' class='CCommentGadget-view CCommentGadget'><div id='zzq4bvv3a4468j7CommentGadget47-1'>  
+<div class='comment-container' style=''>
+<table class='comments'>
+<tr>
+<td><h2>User Comments</h2></td>
+</tr>
+<tr>
+<td>
+<hr>
+<div class='commentinfo comment_comment'>
+2008-09-08 12:59:26 (2091 days ago)
+<div id='contact-9008'><span class='name'>Robert Butera</span><span class='send-message'><a href="/content/Contact/view/contactid/9008/display/detail/">Details</a></span></div> </div>
+<div class='commentbox'>
+Ran it today at 2.75 on the Military Rd gauge. It was fun and not too scrapy, but I would not go<br/>
+too much lower (this is my first time, but 2.5 sounds like a good lower bound given our<br/>
+experiences). Correlation point: When we returned from our takeout shuttle the bridge gauge was<br/>
+down to about 2.65. Checking online, the online gauge at Sherrill Rd read 3.29 at that time. </div>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+<div class='commentinfo comment_'>
+2007-04-22 07:39:16 (2596 days ago)
+<div id='contact-145165'><span class='name'>Hal DuBois</span><span class='send-message'><a href="/content/Contact/view/contactid/145165/display/detail/">Details</a></span></div> </div>
+<div class='commentbox'>
+The Rock Creek Park website states (in the FAQ) that boating is allowed when the level is greater<br/>
+than 2 ft. Today, the level was exactly 2 ft and with the exception of two fallen trees completely<br/>
+blocking the creek and a few shallow spots, it was a good ride. </div>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+<div class='commentinfo comment_'>
+2005-08-09 20:20:36 (3217 days ago)
+<div id='contact-1131'><span class='name'>Mark Anderson</span><span class='send-message'><a href="/content/Contact/view/contactid/1131/display/detail/">Details</a></span></div> </div>
+<div class='commentbox'>
+There is a USGS stick gauge on Rock Creek. It is located at on the southwest side of a smaller<br/>
+bridge on Joyce Road that crosses the creek near the intersection of Beach Drive and Joyce (Joyce<br/>
+provides access via ramps to Military Road, which has a larger and higher bridge just to the<br/>
+north).<br/>
+<br/>
+A reading of 2.5 feet on this gauge is a good paddling zero.<br/>
+<br/>
+I have found Rock Creek to be running numerous times when Difficult Run is up. While I can't offer<br/>
+an exact correlation, I will say Rock Creek is worth looking at whenever the Difficult Run gauge<br/>
+spikes. </div>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+<div class='commentinfo comment_'>
+2002-03-03 14:58:41 (4472 days ago)
+<div id='contact-1131'><span class='name'>Mark Anderson</span><span class='send-message'><a href="/content/Contact/view/contactid/1131/display/detail/">Details</a></span></div> </div>
+<div class='commentbox'>
+There appears to be a new USGS stick gauge on Rock Creek. It is located at on the southwest side of<br/>
+a smaller bridge on Joyce Road that crosses the creek near the intersection of Beach Drive and<br/>
+Joyce (Joyce provides access via ramps to Military Road, which has a larger and higher bridge just<br/>
+to the north). A reading of 2.5 feet on this gauge is probably a good paddling zero. </div>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+<div class='commentinfo comment_'>
+2001-11-14 11:34:33 (4581 days ago)
+<div id='contact-1131'><span class='name'>Mark Anderson</span><span class='send-message'><a href="/content/Contact/view/contactid/1131/display/detail/">Details</a></span></div> </div>
+<div class='commentbox'>
+While the water quality is unquestionably questionable, the combined sewer overflows on Rock Creek<br/>
+are located south of the commonly-run whitewater section. The first overflows are on Piney Branch<br/>
+Creek and there are almost 30 from here to the mouth of the Potomac River. D.C. health warnings and<br/>
+decisions to boat this creek should be taken in that context. North of Piney Branch, Rock Creek is<br/>
+subject to more routine urban surface runoff ills, park service officials say. There is another<br/>
+gauge located on a footbridge near the bottom of the whitewater section and accessible from Beach<br/>
+Drive. One to three feet is good on this gauge. </div>
+</td>
+</tr>
+</table>
+</div>
+Users can submit comments.</div></div> <br style='clear:both'>
+</div>
+</div>
+<div id="tab-flow" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/show-gauge-info/reachid/2587/revision/0/.dialog' title='Flow Info'>
+</div>
+<div id="tab-map" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/map/id/2587/revision/0/.rawhtml' title='Map'>
+</div>
+<div id="tab-directions" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/show-directions/reachid/2587/revision/0/.rawhtml' title='Directions'>
+</div>
+<div id="tab-weather" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/Weather/detail/zip/20010/.rawhtml' title='Weather'>
+</div>
+<div id="tab-news" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/river-news/id/2587/.rawhtml' title='News (2) & Accidents'>
+</div>
+<div id="tab-photos" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/Photo/do-search/reachid/2587/orderby/id/incphotos/on/incvideos/on/dosearch/Photo%2BSearch/.rawhtml' title='Photos (2)'>
+</div>
+<div id="tab-credits" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/credits/reachid/2587/.dialog' title='Credits & Network'>
+</div>
+</div>
+</div> <br style='clear:both'>
+</div>
+</div> 
+</div> 
+</div> 
+<div id="block_3">
+<div class="gutter">
+<div class="boxcontent CContainerView" id='zzq4bvv3a4468j7ContainerView14'>
+<div><div id='zzq4bvv3a4468j7ArticleGadget6Container' class='CArticleGadget-view CArticleGadget'><div id='zzq4bvv3a4468j7ArticleGadget6-1' class='contents'><h3 style="text-align: center; margin-top: 15px;">
+Do more than just check gauges; join over 5,000 AW members today.
+</h3>
+<div style="text-align:center; margin:10px;">
+<a style="display: block;" href="https://www.americanwhitewater.org/content/Membership/join-aw?utm_source=americanwhitewater.org&amp;utm_medium=banner&amp;utm_content=HTML_ad_001&amp;utm_campaign=join_or_renew">
+<img width="100" height="60" alt="Join_or_Renew_Logo-200px" src="http://www.americanwhitewater.org/resources/repository/Join_or_Renew_Logo-200px.png"></a>
+<h3 style="color: rgb(0, 0, 238); margin-top: 10px;">
+<a style="display: block;" href="https://www.americanwhitewater.org/content/Membership/join-aw?utm_source=americanwhitewater.org&amp;utm_medium=banner&amp;utm_content=HTML_ad_001&amp;utm_campaign=join_or_renew">
+Join or Renew</a>
+</h3>
+</div>
+<hr>
+<h3 style="text-align: center; margin-top: 10px;">
+Or, consider donating
+</h3>
+<div style="text-align:center; margin:10px;">
+<a style="display: block;" href="https://www.americanwhitewater.org/content/Membership/donate?utm_source=americanwhitewater.org&amp;utm_medium=banner&amp;utm_content=HTML_ad_001&amp;utm_campaign=donate">
+<img width="100" height="60" alt="Donate_Logo-200px" src="http://www.americanwhitewater.org/resources/repository/Donate_Logo-200px.png"></a>
+<h3 style="color: rgb(0, 0, 238); margin-top: 10px;">
+<a style="display: block;" href="https://www.americanwhitewater.org/content/Membership/donate?utm_source=americanwhitewater.org&amp;utm_medium=banner&amp;utm_content=HTML_ad_001&amp;utm_campaign=donate">
+Donate</a>
+</h3>
+</div></div></div> <br style='clear:both'>
+</div>
+</div> 
+</div> 
+</div> 
+<br style='clear:all'>
+</div> 
+<div id='footer'>
+<div style='' class="CFooterGadget" id='zzq4bvv3a4468j7FooterGadget99'> &#169; 1999-2014 American Whitewater (<a href='/content/Wiki/aw:tos'>terms of use</a>) | PO Box 1540 | Cullowhee, NC 28723 | 1-866-262-8429 | <a href="mailto:info@americanwhitewater.org">info@americanwhitewater.org</a>
+</div><div><div style='' class="CContainerView" id='zzq4bvv3a4468j7ContainerView23'> <div><div id='zzq4bvv3a4468j7ArticleGadget18Container' class='CArticleGadget-view CArticleGadget'><div id='zzq4bvv3a4468j7ArticleGadget18-1' class='contents'></div></div> <br style='clear:both'>
+</div>
+</div></div><div><div style='' class="CNewsFeedGadget" id='zzq4bvv3a4468j7NewsFeedGadget78'> <div class='feed'>
+<a class='nodecoration' href='/content/River/detail/id/2587/.mobile'>
+<img src='/resources/images/blank.gif' class='mobile'></a>&nbsp;Rock Creek Park, Rock Creek District of Columbia, US (mobile)&nbsp;&nbsp;
+</div>
+</div></div><div><div style='' class="CContainerView" id='zzq4bvv3a4468j7ContainerView93'> <div><div id='zzq4bvv3a4468j7ArticleGadget88Container' class='CArticleGadget-view CArticleGadget'><div id='zzq4bvv3a4468j7ArticleGadget88-1' class='contents'></div></div> <br style='clear:both'>
+</div>
+</div></div> </div> 
+<br>
+<div style='display:none'>
+<span id='server-time' style='text-size:50%'></span>
+<span id='client-time' style='text-size:50%'></span>
+</div>
+<script type='text/javascript'>
+				require(['dojo/dom','dojo/ready','dojo/_base/xhr'],function(dom,ready,xhr){
+					
+			ready(
+				function(){
+					var roundNumber = function(num, dec) {
+						var result = Math.round(num*Math.pow(10,dec))/Math.pow(10,dec);
+						return result;
+					}
+						var clienttime = ((new Date().getTime()) - wh2timer)/1000;
+						var servertime = (0.17899489402771);
+						var servermemory = (17977488)/(1024*1024);
+						dom.byId('client-time').innerHTML=(clienttime+" sec. client ");
+						dom.byId('server-time').innerHTML=(servertime+" sec. server ");
+						dom.byId('server-time').innerHTML+= (servermemory.toFixed(2)+" MB");
+						if(!Math.floor(Math.random()*101))
+						{
+							var url = document.location;
+							var data = {server_time: servertime, client_time: clienttime, url:url};
+							xhr.post({
+								url: '/content/Performance/update/',
+								content: data	});
+							
+						}
+					}
+				);						
+					
+					
+				});
+						</script>
+ 
+</div>  
+</div> 
+</div> 
+</div> 
+</body>
+</html>

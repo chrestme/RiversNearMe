@@ -1,0 +1,727 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd" >
+<html>
+ 
+<head>
+<meta name="title" content="American Whitewater - Woodbine to Woodstock, Patapsco, S. Branch Maryland, US">
+<meta name="description" content="American Whitewater is the primary advocate for the preservation and protection of whitewater rivers throughout the United States and connects the interests of human-powered recreational river users with ecological and science-based data to achieve goals within our mission. ">
+<title>American Whitewater - Woodbine to Woodstock, Patapsco, S. Branch Maryland, US</title>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+<meta name="Language" content="English">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="global">
+<link rel="SHORTCUT ICON" href="/logo/myfile.ico">
+<link rel="stylesheet" type="text/css" href="/resources/css/style.css">
+<!--[if lte IE 7]>
+			<link rel="stylesheet" type="text/css" href="/resources/css/iestyle.css" />
+		<![endif]-->
+<!--[if lte IE 6]>
+			<link rel="stylesheet" type="text/css" href="/resources/css/iestyle6.css" />
+		<![endif]-->
+<style type='text/css'>.dojoTabPaneWrapper{width:100%;}</style>
+<script type='text/javascript'>
+			var wh2timer = new Date().getTime();
+		</script>
+<link rel="image_src" href="http://www.americanwhitewater.org/resources/images/assets6.5/awlogo.png"> <script type='text/javascript'>
+						if(typeof(djConfig) != 'undefined')
+						{
+							djConfig['gMapKey'] = 'AIzaSyAu7JAMzqGEKuwhxB-6ePHQim0g5hX8wpw';
+						}
+					</script>
+<script src='https://www.google.com/jsapi?key=AIzaSyAu7JAMzqGEKuwhxB-6ePHQim0g5hX8wpw' type='text/javascript'></script>
+<script type='text/javascript'>
+					google.load("maps", "2.x");	
+					
+					
+					</script>
+<script type='text/javascript' djConfig=' parseOnLoad:true ' src='/resources/js/dojo/release/dojo/dojo/dojo.js'></script>
+<style type='text/css'>@import "/resources/js/dojo/release/dojo//dijit/themes/tundra/tundra.css";</style>
+<script type='text/javascript' djConfig='parseOnLoad:true' src='/resources/js/dojo/release/dojo/dojo/dialog.js'></script>
+<script type='text/javascript' djConfig='parseOnLoad:true' src='/resources/js/dojo/release/dojo/dojo/tabs.js'></script> <link rel="alternate" type="text/html" title="Woodbine to Woodstock, Patapsco, S. Branch Maryland, US (mobile)" href="/content/River/detail/id/736/.mobile"> <style type='text/css'>.dojoTabPane{padding:0.75em;overflow:auto;}</style>
+<script type='text/javascript'>
+							dojo.require('dojo.parser'); 
+					var _gaq = _gaq || [];
+					_gaq.push(['_setAccount', 'UA-3113277-1']);
+					_gaq.push(['_trackPageview']);
+					
+				    (function() {
+				      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				    })();
+								dojo.require("aw.widget.AWMap");						dojo.require('dijit.Tooltip');
+						dojo.require('aw.widget.ToolTipSeeker');					dojo.require("aw.formathelper.forms.dialog");
+					dojo.require("aw.widget.Dialog");
+					dojo.require("aw.formathelper.dialog");
+					dojo.require("aw.widget.ContentPane");
+														dojo.require("aw.widget.TabContainer");
+								dojo.require("aw.widget.ContentPane");
+								
+								
+															dojo.require("aw.menu");		</script>
+<script id='onloadscript' type='text/javascript'>
+		dojo.addOnLoad(function(){					{
+					var killhandle = aw.formathelper.dialog.listener('comment',function(e)
+						{
+							
+							{
+								aw.formathelper.dialog.process('zzq2dv5edeg914gCommentGadget44-1','/content/Comment/view/section/river/reachid/736/notifylist/4601/.dialog',null,function()
+								{
+									//make sure our event gets removed if the parent element disappears.
+									if(!dojo.byId('zzq2dv5edeg914gCommentGadget44-1'))
+									{
+										dojo.unsubscribe(killhandle);
+									}
+								}
+								);
+							}
+						}
+						);
+					} });		</script>
+</head>
+<body class="two-col-right tundra wh2o ">
+<div id="width">
+<div id="minwidth">
+<div id="layout">
+<div id="content-container">
+<div id='toptonav'>
+<div id="header" class='header-bg'>
+<div class='top'>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style='border: #789876'>
+<tr>
+<td width="38%" align="left" class="logo">
+<a href="/"><img class='logo' src="/resources/css/../images/nothing.gif" alt="American White Water" title="American White Water"></a>
+</td>
+<td width="62%" valign="top" align="right">
+<div style='' class="CUserLoginView" id='zzq2dv5edeg914gUserLoginView75'> <div class='neutral'>
+<div id="header-right">
+<div class="left-img">&nbsp;</div>
+<div class="topbox-bg">
+<form action="https://www.americanwhitewater.org/content/User/do-login/**aMQSQgr575" method='POST'>
+<table>
+<tr>
+<td colspan='2' id='login-upper'>
+<label for='username'>Username</label>
+<input name="username" type="text" class="inputbox"/>
+<label for='password'>Password</label>
+<input name="password" autocomplete='off' type="password" class="inputbox"/>
+<input type="submit" value="Login"/>
+</td>
+</tr>
+<tr>
+<td>
+<label for='remember' class='login-lower'>Remember Me</label>
+<input type='checkbox' checked='true' name='remember'>
+</td>
+<td align='right' class='login-lower'>
+<a href='/content/Membership/get-password/**aMQSQgr575' class='login-link1'>Forgot your password?</a>
+|
+<a href='/content/Membership/view/' class='login-link1'>Sign Up</a>
+</td>
+</tr>
+</table>
+</form>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+ 
+<div id="nav-wrapper">
+<div id="navigation">
+<div style='' class="CMenuGadget" id='zzq2dv5edeg914gMenuGadget76'>
+<div id='menu0'><ul dojoType="aw.menu" class='menulist' id="menu"> <li>
+<a href='/content/Welcome/view/'>
+<span>Our Organization</span>
+</a>
+<div id='menu1'><ul class='menulist'> <li>
+<a href='/content/Wiki/aw:about/'>
+<span>About AW</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:outdooralliance/'>
+<span>Outdoor Alliance</span>
+</a>
+</li>
+<li>
+<a href='/content/News/view/type/frontpagenews/showarchive/1/'>
+<span>News</span>
+</a>
+</li>
+<li>
+<a href='/content/Stewardship/view/'>
+<span>Stewardship</span>
+</a>
+</li>
+<li>
+<a href='/content/Safety/view/'>
+<span>Safety</span>
+</a>
+</li>
+<li>
+<a href='/content/Events/view/'>
+<span>Events</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:contact_us/'>
+<span>Contact Us</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:board_of_directors/'>
+<span>Board of Directors</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:staff/'>
+<span>Professional Staff</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/Wiki/aw:shop/'>
+<span>Support AW</span>
+</a>
+<div id='menu2'><ul class='menulist'> <li>
+<a href='/content/Membership/join-aw/'>
+<span>Join or Renew</span>
+</a>
+</li>
+<li>
+<a href='/content/Membership/donate/'>
+<span>Donate</span>
+</a>
+</li>
+<li>
+<a href='/content/Membership/gift/'>
+<span>Gift Membership</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:giving/'>
+<span>Giving</span>
+</a>
+</li>
+<li>
+<a href='/content/Volunteer/view/'>
+<span>Become a Volunteer</span>
+</a>
+</li>
+<li>
+<a href='/content/Store'>
+<span>AW Store</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:partnership/'>
+<span>Industry Partner Program</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:advertising/'>
+<span>Advertising Information</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/Menu/summarize/area/community/'>
+<span>Community</span>
+</a>
+<div id='menu3'><ul class='menulist'> <li>
+<a href='/content/Affiliate/view/'>
+<span>Clubs</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:sponsorship/'>
+<span>Industry Partners</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/River/view/'>
+<span>River Info</span>
+</a>
+<div id='menu4'><ul class='menulist'> <li>
+<a href='/content/River/view/'>
+<span>National River Database</span>
+</a>
+</li>
+<li>
+<a href='/content/Report/list-recent/'>
+<span>Recent River Reports</span>
+</a>
+</li>
+<li>
+<a href='/content/StreamTeam/info/'>
+<span>Stream Team</span>
+</a>
+</li>
+<li>
+<a href='/content/River/list-permits/'>
+<span>Permit Information</span>
+</a>
+</li>
+<li>
+<a href='/content/Release/view/'>
+<span>Release Information</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/Menu/summarize/area/multimedia/'>
+<span>Library</span>
+</a>
+<div id='menu5'><ul class='menulist'> <li>
+<a href='/content/Photo/view/'>
+<span>Photo/Video</span>
+</a>
+</li>
+<li>
+<a href='/content/Journal/archive/'>
+<span>AW Journal</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:logos/'>
+<span>Logos</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/Search/view/'>
+<span>Search</span>
+</a>
+</li>
+<li>
+<a href='/content/Membership/view/'>
+<span>Login</span>
+</a>
+<div id='menu6'><ul class='menulist'> <li>
+<a href='/content/User/register/**aMQSQgr575'>
+<span>New Account</span>
+</a>
+</li>
+<li>
+<a href='/content/User/get-password/**aMQSQgr575'>
+<span>Password Reminder</span>
+</a>
+</li>
+</ul></div> </li>
+</ul></div></div><div style='' class="CCrumbsGadget" id='zzq2dv5edeg914gCrumbsGadget77'><ul class='bread_crumb'>
+<li class="emphasize bread_crumb">Recent Pages:</li>
+<li class='bread_crumb'><a href='/content/River/detail/id/736/'>Woodbine to Woodstock, Patapsco, S. Branch Maryland, US</a></li></ul></div> </div> 
+</div> 
+ 
+<div id="warnings" class="hide-all">
+<h2 class="hide-all">Old browser warning</h2>
+<p><em>Site look funky?</em>&nbsp;
+Your browser is either Internet Explorer (hit refresh (F5) several times due to a bug in Microsoft's code
+that we can't work around) or is 10 years old and
+<a href="http://www.webstandards.org/about/" title="Click to visit Web Standards Project mission page.">standards-based</a> layouts and styling confuse it.
+&nbsp; Consider updating.&nbsp; One excellent option is
+<a href="http://www.mozilla.org/products/firefox/" title="Click to visit the Mozilla Firefox download page.">
+Mozilla Firefox</a>, versions of which are available for Linux, Mac and Windows. Safari 1.0+ and IE 6.0+ are also supported.</p>
+</div>
+ 
+ 
+</div> 
+<div id="container">
+<div id="block_1_wrapper">
+<div id="block_1">
+ 
+<div class="boxcontent CContainerView" id='zzq2dv5edeg914gContainerView86'>
+<div><div id='zzq2dv5edeg914gRiverDetailGadget2' class='CRiverDetailGadget-detail CRiverDetailGadget'><div class='controls'><h1>Patapsco, S. Branch - Woodbine to Woodstock</h1>
+<div><div id='zzq2dv5edeg914gArticleGadget26Container' class='CArticleGadget-view CArticleGadget'><div id='zzq2dv5edeg914gArticleGadget26-1' class='contents'></div></div> <br style='clear:both'>
+</div>
+</div> <div class='tabcontainer' doLayout='false' id="zzq2dv5edeg914gContainerView69tabc" dojoType="aw.widget.TabContainer" enableBack="true">
+<div id="zzq2dv5edeg914gContainerView65" trackAsMain='true' class='CContainerView' dojoType="aw.widget.ContentPane" title='RiverMain'>
+<div><div id='zzq2dv5edeg914gRiverMainGadget33' class='CRiverMainGadget-main CRiverMainGadget'>
+<div parseWidgets='false' class='nodecoration river-description'>
+<table class='nodecoration'>
+<tr>
+<td>
+<h1>Patapsco, S. Branch, Maryland, US</h1>
+</td>
+<td valign=top>
+<a href="/content/Wiki/rivers:info:disclaimer/"><img align=right alt=Disclaimer src="/resources/images/disclaimerclick.gif" width=72 height=21></a>
+</td>
+</tr>
+</table>
+<h2>Woodbine to Woodstock (South Branch)</h2>
+<table class='data_table river-stats'>
+<tr class='row-1'>
+<th>Usual Difficulty</th>
+<td>I-III(IV) (for normal flows) </td>
+</tr>
+<tr class='row-2'>
+<th>Length</th>
+<td>14 Miles </td>
+</tr>
+<tr class='row-3'>
+<th>Avg. Gradient</th>
+<td>17 fpm</td>
+</tr>
+<tr class='row-4'>
+<th>Max Gradient</th>
+<td>25 fpm</td>
+</tr>
+</table>
+<div class='river-photo'>
+<div class='controls'>
+<h1>mckeldon falls perspective</h1>
+</div>
+<div><div id='zzq2dv5edeg914gPhotoDetailView89' class='CPhotoDetailView-view CPhotoDetailView'> <div class='river-photo'>
+<a href="/content/Photo/detail/photoid/4487/size/big/">
+<img class='river-photo' src="/photos/archive/medium/4487.jpg">
+</a>
+<br>
+<i>mckeldon falls perspective</i><br><span class='caption'><i>Photo by mike kemp taken 2003 @ unknown</i></span></div></div> <br style='clear:both'>
+</div>
+</div>
+<div class='river-break'></div>
+<h2 style='clear:both'>Gauge Information</h2>
+<table class='data_table'>
+<tr>
+<th>Name</th>
+<th>Range</th>
+<th>Difficulty</th>
+<th>Updated</th>
+<th>Level</th>
+</tr>
+<tr class='row-1'>
+<th colspan='5'>
+<a href='/content/Gauge2/detail/id/6578/'>PATAPSCO RIVER AT HOLLOFIELD, MD</a>
+</th>
+</tr>
+<tr class='row-1'>
+<td rowspan='2' valign='top'>
+usgs-01589000 </td>
+<td>
+2.50 - 10.00 ft
+<td>
+I-III(IV) </td>
+<td>
+02h33m </td>
+<td class='river-low1'>
+2.45
+ft
+(too low) </td>
+</tr>
+<tr class='row-1'>
+<td colspan='4' class='river-low1'>
+</td>
+</tr>
+</table>
+<br>
+<br>
+<h2>River Description</h2>
+<p>
+Note:&nbsp;read below and/or click the Map tab to see the multiple access points for this
+section.
+</p>
+<p>
+This seldom paddled, (and seldom paddleable), little gem flows through a progressively deepening
+gorge that separates Howard and Carroll County and makes a delightful jaunt for either a day
+trip, or for a much shorter paddle when done in sections. Difficulty consists of a good deal of
+moving flatwater, a great selection of class 2+ ledges, and a couple of easy class 3's. With
+enough water, one class 4 waits downstream to excite the bored or terrify the challenged. Pray
+for rain though; it's going to be a long day without enough water.<br>
+<br>
+Put on at Woodbine Road (Route 94) for the full trip, and proceed downstream through mostly
+'moving' flatwater with a few class 1-2 rapids. You might notice that the river here is less than
+half the width of the main section downstream, which it will continue to be for the next 11 miles
+or so. The top of this section is seldom a 'pretty' trip, with plenty of structures and abodes
+peeking through the trees at the river, even in the lushest part of spring. And you will
+certainly know it if a train comes along on the often-used river left tracks that are seemingly
+overhead in certain areas. Depending on the whim of the river, strainers may be sparse, or
+ever-present for the three-mile trip to Route 97, and beyond to Gaither Road. Keep an eye peeled
+through here for the prevalent deer, groundhog, heron, and the occasional beaver.<br>
+<br>
+When you see Route 97 ahead, be aware of the rubble left over from a breached dam. It usually
+doesn't require a scout, unless logs jam the two paths of the main current. Portage or run this
+concrete mess and proceed downstream through a couple of monstrous, river-wide strainers that
+allow a good deal of current through some twisted (unrunnable) arboreal chutes. Portage around,
+and continue to Gaither Road.<br>
+<br>
+After passing underneath Gaither Road (an excellent starting point for shorter trips) the river
+starts to realize its potential. It now begins cutting into a gorge that continues to shelter it
+all the way to the confluence and beyond. Rapids are frequent and mostly easy with tumbles down
+boulder piles and ledges with a lazy, flat, but moving current in between. On no other place in
+the Patapsco watershed can you find as many class 2 to 3- rapids. There are some slightly
+technical, mini-boulder gardens and an occasional (but almost never river wide) strainer, but the
+trip is mostly just an interesting and highly entertaining ride all the way down into
+Sykesville.<br>
+<br>
+After picking a line down the last rapid, you'll notice Baldwin Station, a restaurant built on
+the edge of the train tracks, dead ahead on river left. Outdoor dining in the summertime usually
+provides a small audience in case you decide to crash and burn. Proceed past (through?) downtown
+Sykesville to either the Main Street bridge, or the far larger Route 32 overpass for good takeout
+spots at both places. Or enjoy a series of continuous, rocky rapids into the Patapsco State Park.
+River Road, visible through the trees on river right, is also a good place to take out/put in,
+depending on where you're headed to/from. When the river takes a sharp right over a steep gravel
+bar, and then abrupt left to avoid flowing into the roadway, take care in picking a line. At high
+water, the current will try and put you directly into the (ragged concrete) river right bank,
+which would love to borrow a good deal of your unprotected skin.<br>
+<br>
+A few boulder gardens and several riffles later, the river returns to a narrow, placid, winding
+waterway that wanders through the park. Scenery is very good here, and the rapids are mild. There
+are some narrow passages, and strainers do live here from time to time, but not with the
+frequency of their larger, more irritating, river-wide kin upstream. After a mile or so, notice a
+modern, barn-like structure through the trees on river left. This marks the beginning of three
+steep drops that, with enough water, will definitely surprise the unwary. Past these obstacles,
+the river continues to wind until it takes a sharp left, and then a sharp right into a
+spectacular jog jam. The current is very strong through (and under) here, and a flip could be bad
+for your health. Get out on river right and portage before you get into the turn.<br>
+<br>
+Another mile or so provides another take out/put in opportunity at Henryton Road. Look for the
+remnants of an old bridge on both sides of the river, and a cement pipe that creates a surfable
+hydraulic at some levels. The river becomes even more shallow from here, and continues to meander
+down through the park with only occasional, small rapids. Scout the train bridge before running
+its culverts just downstream: they can be jammed with debris. At least one is usually passable.
+The next take out/put in is just downstream at Marriottsville Road. Continuing past here commits
+you to for another three miles and a meeting with confluence of the North Branch, which has been
+thoroughly dammed up at Liberty Reservoir.<br>
+<br>
+Proceed from here with caution, for just a few hundred yards downstream lies McKeldin Falls, the
+largest single rapid on the Patapsco River. It's a solid class 4, quadruple-ledge drop that falls
+a total of about 12 feet over 20 yards. When the hills on river left become high and canyonesque,
+listen for it, and get out (river left) to scout. The portage is a wickedly steep climb up the
+hill/cliff on the left, and then around to a large pool at the bottom. For the experienced, a
+variety of routes can be used depending on water level, but beware of small sieves against either
+shore, and a very wide, flat, mildly undercut rock (usually submerged and creating a strange
+looking hydraulic) at the dead center of the river near the bottom. It looks as if it would love
+to eat the nice flat bow of a playboat.<br>
+<br>
+From here, the river calms again for the next 3/4 mile to the confluence, and remains in
+character for next 2 miles to the takeout at Woodstock Road (steep climb out on the right) to the
+parking lot across from a roadside bar. Don't miss this high overpass: Daniel's Dam is the next
+best takeout, after a further five miles (of mostly flat water) downstream.<br>
+<br>
+For the most bang for your buck, when time is of essence, the run from Gaither Road to River Road
+(just past Sykesville) offers the most fun. For those with a little more time, a continuation
+down to the falls is worthwhile, and one can take out here just afterwards on river left by
+planting a shuttle car at the top of the hill in the McKeldin area of Patapsco State Park for a
+mere $2 per person. Make sure you pick the correct parking lot (marked McKeldin Rapids) or the
+hike out could be somewhat traumatic.&nbsp;
+</p> <br>
+<div style='clear:both'>
+<div><b>StreamTeam Status: </b>Not Verified</div>
+<div><b>Last Updated: </b>2011-04-10 14:24:01</div>
+</div>
+</div>
+</div><div id='zzq2dv5edeg914gRiverRapidsGadget38' class='CRiverRapidsGadget-view-rapids CRiverRapidsGadget'> <h2>Rapid Summary</h2>
+<table class='data_table'>
+<tr class='row-0'>
+<th>Mile</th>
+<th>Rapid Name</th>
+<th>Class</th>
+<th>Features (<a href="/content/Wiki/view/id/river%3Ainfo%3Afeature_legend/">Legend</a>)</th>
+</tr>
+<tr class='row-1'><td class='big'>3.0</td><td class='big'><a href="#rapid101474">Rte. 97 and Concrete Rubble</a></td><td class=big>N/A</td><td><img alt="Takeout " src="/resources/images/rapid_icon/rapid_icon_takeout.gif"><img alt="Portage " src="/resources/images/rapid_icon/rapid_icon_portage.gif"><img alt="Hazard " src="/resources/images/rapid_icon/rapid_icon_hazard.gif"></td></tr>
+<tr class='row-0'><td class='big'>4.2</td><td class='big'><a href="#rapid101264">Gaither Road</a></td><td class=big>N/A</td><td><img alt="Putin " src="/resources/images/rapid_icon/rapid_icon_putin.gif"><img alt="Access " src="/resources/images/rapid_icon/rapid_icon_access.gif"></td></tr>
+<tr class='row-1'><td class='big'>6.0</td><td class='big'><a href="#rapid101265">River Road, Sykesville</a></td><td class=big>N/A</td><td><img alt="Access " src="/resources/images/rapid_icon/rapid_icon_access.gif"></td></tr>
+<tr class='row-0'><td class='big'>17.0</td><td class='big'><a href="#rapid101266">McKeldin Falls</a></td><td class=big>IV</td><td><img alt="Hazard " src="/resources/images/rapid_icon/rapid_icon_hazard.gif"><img alt="Photo " src="/resources/images/rapid_icon/rapid_icon_photo.gif"></td></tr>
+</table>
+<h2>Rapid Descriptions</h2>
+<div><div id='zzq2dv5edeg914gRiverRapidView39' class='CRiverRapidView-view CRiverRapidView'> <b><a name="rapid101474">Rte. 97 and Concrete Rubble</a></b> (Class N/A, Mile 3.0)<br>
+<p>When you see Route 97 ahead, be aware of the rubble left over from a breached dam. It usually doesn't require a scout, unless logs jam the two paths of the main current. Portage or run this concrete mess and proceed downstream through a couple of monstrous, river-wide strainers that allow a good deal of current through some twisted (unrunnable) arboreal chutes. Portage around, and continue to Gaither Road.</p><br>
+<br clear=right>
+</div><div id='zzq2dv5edeg914gRiverRapidView40' class='CRiverRapidView-view CRiverRapidView'> <b><a name="rapid101264">Gaither Road</a></b> (Class N/A, Mile 4.2)<br>
+<p>An excellent starting point for shorter trips.</p><br>
+<br clear=right>
+</div><div id='zzq2dv5edeg914gRiverRapidView41' class='CRiverRapidView-view CRiverRapidView'> <b><a name="rapid101265">River Road, Sykesville</a></b> (Class N/A, Mile 6.0)<br>
+<p>For the most bang for your buck, when time is of essence, the run from Gaither Road to River Road (just past Sykesville) offers the most fun.<br/><em>Note:&nbsp;River Road runs along the river for about half a mile. The coordinates listed here are roughly the last location before the road diverges from the river. Choose your takeout based on what you see.</em></p><br>
+<br clear=right>
+</div><div id='zzq2dv5edeg914gRiverRapidView42' class='CRiverRapidView-view CRiverRapidView'> <b><a name="rapid101266">McKeldin Falls</a></b> (Class IV, Mile 17.0)<br>
+<div class='rapid-inline'>
+<div class='controls'>
+<h1>mckeldon falls</h1>
+</div>
+<div><div id='zzq2dv5edeg914gPhotoDetailView93' class='CPhotoDetailView-view CPhotoDetailView'> <div class='photo-inline'>
+<a href="/content/Photo/detail/photoid/4486/size/big/">
+<img class='riverdetail' src="/photos/archive/medium/4486.jpg">
+</a>
+<i>mckeldon falls</i></div><div>Photo by mike kemp taken 2003 @ unknown</div></div> <br style='clear:both'>
+</div>
+</div> 
+<p>McKeldin Falls is the largest single rapid on the Patapsco River. It's a solid class 4, quadruple ledge drop that falls a total of about 12 feet over 20 yards. When the hills on river left become high and canyonesque, listen for it, and get out (river left) to scout. The portage is a wickedly steep climb up the hill/cliff on the left, and then around to a large pool at the bottom. For the experienced, a variety of routes can be used depending on water level, but beware of small sieves against either shore, and a very wide, flat, mildly undercut rock (usually submerged and creating a strange looking hydraulic) at the dead center of the river near the bottom. It looks as if it would love to eat the nice flat bow of a playboat.<br/><em>Lat/longitude coords are approximate, from online maps.</em></p><br>
+<br clear=right>
+</div> <br style='clear:both'>
+</div>
+</div><div id='zzq2dv5edeg914gCommentGadget44' class='CCommentGadget-view CCommentGadget'><div id='zzq2dv5edeg914gCommentGadget44-1'>  
+<div class='comment-container' style=''>
+<table class='comments'>
+<tr>
+<td><h2>User Comments</h2></td>
+</tr>
+<tr>
+<td>
+<hr>
+<div class='commentinfo comment_comment'>
+2009-10-26 05:23:51 (1678 days ago)
+<div id='contact-12888'><span class='name'>Jared Espley</span><span class='send-message'><a href="/content/Contact/view/contactid/12888/display/detail/">Details</a></span></div> </div>
+<div class='commentbox'>
+We ran from Skyesville to McKeldin Falls on 25Oct09. It had poured the night before and the<br/>
+Cedarhurst NB Patapsco gauge peaked at 870 cfs. However, looking at it after the fact, it looks<br/>
+like that by the time we ran it that it had dropped to 108 cfs. The section was barely runnable but<br/>
+we still were happy to be out on a beautiful fall day. We never had to walk but we did get<br/>
+temporarily stuck on gravel bars several times. Mckeldin was runnable but boney. Given the same<br/>
+level again, if it was a choice between not paddling and doing this, I'd paddle this. But if there<br/>
+were anything else you could paddle I'd probably recommend that. </div>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+<div class='commentinfo comment_comment'>
+2009-06-15 01:24:05 (1811 days ago)
+<div id='contact-150588'>alienrace (150588)</div> </div>
+<div class='commentbox'>
+Ran this with about 180 cfs on the Little Patuxent guage, 60 on NB at Cedarhurst. Level was pretty<br/>
+low, but passable and still fun on the bigger rapids. The rapids below McKeldin Falls to the<br/>
+confluence are alot of fun too, making it worthwhile to go down to Woodstock. Aside from the class<br/>
+IV McKeldin Falls, the toughest rapids seem to be the three steep, bouldery drops past that barn. </div>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+<div class='commentinfo comment_'>
+2004-04-05 23:38:37 (3707 days ago)
+<div id='contact-6157'><span class='name'>tom resch</span><span class='send-message'><a href="/content/Contact/view/contactid/6157/display/detail/">Details</a></span></div> </div>
+<div class='commentbox'>
+Paddle from Gaither Rd. to Henryton Rd. on April 3, 2004, No river wide strainers, was a branch in<br/>
+the second part of No Way Out rapid no problem just keep to left of it. Level was around 3.50' on<br/>
+the Hollifield Gauge about 1300cfs </div>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+<div class='commentinfo comment_'>
+2003-11-02 19:37:26 (3863 days ago)
+<div id='contact-5541'><span class='name'>Jen MacPherson</span><span class='send-message'><a href="/content/Contact/view/contactid/5541/display/detail/">Details</a></span></div> </div>
+<div class='commentbox'>
+Ran Gaither Road to McKeldon, 4 hours, on 11/2/03 at 2.6. Scrapey but runnable. Another 6&quot; -<br/>
+1' on the guage would be ideal for passing through all the rock gardens. Whatever log jam used to<br/>
+be is no longer there. Had to portage 2 riverwide strainers, both in flat water, - 1 just below<br/>
+Gaither Rd and the other in the park. </div>
+</td>
+</tr>
+</table>
+</div>
+Users can submit comments.</div></div> <br style='clear:both'>
+</div>
+</div>
+<div id="tab-flow" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/show-gauge-info/reachid/736/revision/0/.dialog' title='Flow Info'>
+</div>
+<div id="tab-map" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/map/id/736/revision/0/.rawhtml' title='Map'>
+</div>
+<div id="tab-directions" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/show-directions/reachid/736/revision/0/.rawhtml' title='Directions'>
+</div>
+<div id="tab-weather" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/Weather/detail/zip/21797/.rawhtml' title='Weather'>
+</div>
+<div id="tab-news" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/river-news/id/736/.rawhtml' title='News (0) & Accidents'>
+</div>
+<div id="tab-photos" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/Photo/do-search/reachid/736/orderby/id/incphotos/on/incvideos/on/dosearch/Photo%2BSearch/.rawhtml' title='Photos (7)'>
+</div>
+<div id="tab-credits" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/credits/reachid/736/.dialog' title='Credits & Network'>
+</div>
+</div>
+</div> <br style='clear:both'>
+</div>
+</div> 
+</div> 
+</div> 
+<div id="block_3">
+<div class="gutter">
+<div class="boxcontent CContainerView" id='zzq2dv5edeg914gContainerView14'>
+<div><div id='zzq2dv5edeg914gArticleGadget6Container' class='CArticleGadget-view CArticleGadget'><div id='zzq2dv5edeg914gArticleGadget6-1' class='contents'><h3 style="text-align: center; margin-top: 15px;">
+Do more than just check gauges; join over 5,000 AW members today.
+</h3>
+<div style="text-align:center; margin:10px;">
+<a style="display: block;" href="https://www.americanwhitewater.org/content/Membership/join-aw?utm_source=americanwhitewater.org&amp;utm_medium=banner&amp;utm_content=HTML_ad_001&amp;utm_campaign=join_or_renew">
+<img width="100" height="60" alt="Join_or_Renew_Logo-200px" src="http://www.americanwhitewater.org/resources/repository/Join_or_Renew_Logo-200px.png"></a>
+<h3 style="color: rgb(0, 0, 238); margin-top: 10px;">
+<a style="display: block;" href="https://www.americanwhitewater.org/content/Membership/join-aw?utm_source=americanwhitewater.org&amp;utm_medium=banner&amp;utm_content=HTML_ad_001&amp;utm_campaign=join_or_renew">
+Join or Renew</a>
+</h3>
+</div>
+<hr>
+<h3 style="text-align: center; margin-top: 10px;">
+Or, consider donating
+</h3>
+<div style="text-align:center; margin:10px;">
+<a style="display: block;" href="https://www.americanwhitewater.org/content/Membership/donate?utm_source=americanwhitewater.org&amp;utm_medium=banner&amp;utm_content=HTML_ad_001&amp;utm_campaign=donate">
+<img width="100" height="60" alt="Donate_Logo-200px" src="http://www.americanwhitewater.org/resources/repository/Donate_Logo-200px.png"></a>
+<h3 style="color: rgb(0, 0, 238); margin-top: 10px;">
+<a style="display: block;" href="https://www.americanwhitewater.org/content/Membership/donate?utm_source=americanwhitewater.org&amp;utm_medium=banner&amp;utm_content=HTML_ad_001&amp;utm_campaign=donate">
+Donate</a>
+</h3>
+</div></div></div> <br style='clear:both'>
+</div>
+</div> 
+</div> 
+</div> 
+<br style='clear:all'>
+</div> 
+<div id='footer'>
+<div style='' class="CFooterGadget" id='zzq2dv5edeg914gFooterGadget95'> &#169; 1999-2014 American Whitewater (<a href='/content/Wiki/aw:tos'>terms of use</a>) | PO Box 1540 | Cullowhee, NC 28723 | 1-866-262-8429 | <a href="mailto:info@americanwhitewater.org">info@americanwhitewater.org</a>
+</div><div><div style='' class="CContainerView" id='zzq2dv5edeg914gContainerView23'> <div><div id='zzq2dv5edeg914gArticleGadget18Container' class='CArticleGadget-view CArticleGadget'><div id='zzq2dv5edeg914gArticleGadget18-1' class='contents'></div></div> <br style='clear:both'>
+</div>
+</div></div><div><div style='' class="CNewsFeedGadget" id='zzq2dv5edeg914gNewsFeedGadget70'> <div class='feed'>
+<a class='nodecoration' href='/content/River/detail/id/736/.mobile'>
+<img src='/resources/images/blank.gif' class='mobile'></a>&nbsp;Woodbine to Woodstock, Patapsco, S. Branch Maryland, US (mobile)&nbsp;&nbsp;
+</div>
+</div></div><div><div style='' class="CContainerView" id='zzq2dv5edeg914gContainerView85'> <div><div id='zzq2dv5edeg914gArticleGadget80Container' class='CArticleGadget-view CArticleGadget'><div id='zzq2dv5edeg914gArticleGadget80-1' class='contents'></div></div> <br style='clear:both'>
+</div>
+</div></div> </div> 
+<br>
+<div style='display:none'>
+<span id='server-time' style='text-size:50%'></span>
+<span id='client-time' style='text-size:50%'></span>
+</div>
+<script type='text/javascript'>
+				require(['dojo/dom','dojo/ready','dojo/_base/xhr'],function(dom,ready,xhr){
+					
+			ready(
+				function(){
+					var roundNumber = function(num, dec) {
+						var result = Math.round(num*Math.pow(10,dec))/Math.pow(10,dec);
+						return result;
+					}
+						var clienttime = ((new Date().getTime()) - wh2timer)/1000;
+						var servertime = (0.16836905479431);
+						var servermemory = (17991224)/(1024*1024);
+						dom.byId('client-time').innerHTML=(clienttime+" sec. client ");
+						dom.byId('server-time').innerHTML=(servertime+" sec. server ");
+						dom.byId('server-time').innerHTML+= (servermemory.toFixed(2)+" MB");
+						if(!Math.floor(Math.random()*101))
+						{
+							var url = document.location;
+							var data = {server_time: servertime, client_time: clienttime, url:url};
+							xhr.post({
+								url: '/content/Performance/update/',
+								content: data	});
+							
+						}
+					}
+				);						
+					
+					
+				});
+						</script>
+ 
+</div>  
+</div> 
+</div> 
+</div> 
+</body>
+</html>

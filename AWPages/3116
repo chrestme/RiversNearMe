@@ -1,0 +1,622 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd" >
+<html>
+ 
+<head>
+<meta name="title" content="American Whitewater - Clearwater Creek to Heisters Creek, Nooksack, Middle Fork Washington, US">
+<meta name="description" content="American Whitewater is the primary advocate for the preservation and protection of whitewater rivers throughout the United States and connects the interests of human-powered recreational river users with ecological and science-based data to achieve goals within our mission. ">
+<title>American Whitewater - Clearwater Creek to Heisters Creek, Nooksack, Middle Fork Washington, US</title>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+<meta name="Language" content="English">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="global">
+<link rel="SHORTCUT ICON" href="/logo/myfile.ico">
+<link rel="stylesheet" type="text/css" href="/resources/css/style.css">
+<!--[if lte IE 7]>
+			<link rel="stylesheet" type="text/css" href="/resources/css/iestyle.css" />
+		<![endif]-->
+<!--[if lte IE 6]>
+			<link rel="stylesheet" type="text/css" href="/resources/css/iestyle6.css" />
+		<![endif]-->
+<style type='text/css'>.dojoTabPaneWrapper{width:100%;}</style>
+<script type='text/javascript'>
+			var wh2timer = new Date().getTime();
+		</script>
+<link rel="image_src" href="http://www.americanwhitewater.org/resources/images/assets6.5/awlogo.png"> <script type='text/javascript'>
+						if(typeof(djConfig) != 'undefined')
+						{
+							djConfig['gMapKey'] = 'AIzaSyAu7JAMzqGEKuwhxB-6ePHQim0g5hX8wpw';
+						}
+					</script>
+<script src='https://www.google.com/jsapi?key=AIzaSyAu7JAMzqGEKuwhxB-6ePHQim0g5hX8wpw' type='text/javascript'></script>
+<script type='text/javascript'>
+					google.load("maps", "2.x");	
+					
+					
+					</script>
+<script type='text/javascript' djConfig=' parseOnLoad:true ' src='/resources/js/dojo/release/dojo/dojo/dojo.js'></script>
+<style type='text/css'>@import "/resources/js/dojo/release/dojo//dijit/themes/tundra/tundra.css";</style>
+<script type='text/javascript' djConfig='parseOnLoad:true' src='/resources/js/dojo/release/dojo/dojo/dialog.js'></script>
+<script type='text/javascript' djConfig='parseOnLoad:true' src='/resources/js/dojo/release/dojo/dojo/tabs.js'></script> <link rel="alternate" type="text/html" title="Clearwater Creek to Heisters Creek, Nooksack, Middle Fork Washington, US (mobile)" href="/content/River/detail/id/3116/.mobile"> <style type='text/css'>.dojoTabPane{padding:0.75em;overflow:auto;}</style>
+<script type='text/javascript'>
+							dojo.require('dojo.parser'); 
+					var _gaq = _gaq || [];
+					_gaq.push(['_setAccount', 'UA-3113277-1']);
+					_gaq.push(['_trackPageview']);
+					
+				    (function() {
+				      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				    })();
+								dojo.require("aw.widget.AWMap");						dojo.require('dijit.Tooltip');
+						dojo.require('aw.widget.ToolTipSeeker');					dojo.require("aw.formathelper.forms.dialog");
+					dojo.require("aw.widget.Dialog");
+					dojo.require("aw.formathelper.dialog");
+					dojo.require("aw.widget.ContentPane");
+														dojo.require("aw.widget.TabContainer");
+								dojo.require("aw.widget.ContentPane");
+								
+								
+															dojo.require("aw.menu");		</script>
+<script id='onloadscript' type='text/javascript'>
+		dojo.addOnLoad(function(){					{
+					var killhandle = aw.formathelper.dialog.listener('comment',function(e)
+						{
+							
+							{
+								aw.formathelper.dialog.process('zzqi8jeg94idd8fCommentGadget61-1','/content/Comment/view/section/river/reachid/3116/notifylist/3042%3A580/.dialog',null,function()
+								{
+									//make sure our event gets removed if the parent element disappears.
+									if(!dojo.byId('zzqi8jeg94idd8fCommentGadget61-1'))
+									{
+										dojo.unsubscribe(killhandle);
+									}
+								}
+								);
+							}
+						}
+						);
+					} });		</script>
+</head>
+<body class="two-col-right tundra wh2o ">
+<div id="width">
+<div id="minwidth">
+<div id="layout">
+<div id="content-container">
+<div id='toptonav'>
+<div id="header" class='header-bg'>
+<div class='top'>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style='border: #789876'>
+<tr>
+<td width="38%" align="left" class="logo">
+<a href="/"><img class='logo' src="/resources/css/../images/nothing.gif" alt="American White Water" title="American White Water"></a>
+</td>
+<td width="62%" valign="top" align="right">
+<div style='' class="CUserLoginView" id='zzqi8jeg94idd8fUserLoginView77'> <div class='neutral'>
+<div id="header-right">
+<div class="left-img">&nbsp;</div>
+<div class="topbox-bg">
+<form action="https://www.americanwhitewater.org/content/User/do-login/**+a7YJSxURr" method='POST'>
+<table>
+<tr>
+<td colspan='2' id='login-upper'>
+<label for='username'>Username</label>
+<input name="username" type="text" class="inputbox"/>
+<label for='password'>Password</label>
+<input name="password" autocomplete='off' type="password" class="inputbox"/>
+<input type="submit" value="Login"/>
+</td>
+</tr>
+<tr>
+<td>
+<label for='remember' class='login-lower'>Remember Me</label>
+<input type='checkbox' checked='true' name='remember'>
+</td>
+<td align='right' class='login-lower'>
+<a href='/content/Membership/get-password/**+a7YJSxURr' class='login-link1'>Forgot your password?</a>
+|
+<a href='/content/Membership/view/' class='login-link1'>Sign Up</a>
+</td>
+</tr>
+</table>
+</form>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+ 
+<div id="nav-wrapper">
+<div id="navigation">
+<div style='' class="CMenuGadget" id='zzqi8jeg94idd8fMenuGadget78'>
+<div id='menu0'><ul dojoType="aw.menu" class='menulist' id="menu"> <li>
+<a href='/content/Welcome/view/'>
+<span>Our Organization</span>
+</a>
+<div id='menu1'><ul class='menulist'> <li>
+<a href='/content/Wiki/aw:about/'>
+<span>About AW</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:outdooralliance/'>
+<span>Outdoor Alliance</span>
+</a>
+</li>
+<li>
+<a href='/content/News/view/type/frontpagenews/showarchive/1/'>
+<span>News</span>
+</a>
+</li>
+<li>
+<a href='/content/Stewardship/view/'>
+<span>Stewardship</span>
+</a>
+</li>
+<li>
+<a href='/content/Safety/view/'>
+<span>Safety</span>
+</a>
+</li>
+<li>
+<a href='/content/Events/view/'>
+<span>Events</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:contact_us/'>
+<span>Contact Us</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:board_of_directors/'>
+<span>Board of Directors</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:staff/'>
+<span>Professional Staff</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/Wiki/aw:shop/'>
+<span>Support AW</span>
+</a>
+<div id='menu2'><ul class='menulist'> <li>
+<a href='/content/Membership/join-aw/'>
+<span>Join or Renew</span>
+</a>
+</li>
+<li>
+<a href='/content/Membership/donate/'>
+<span>Donate</span>
+</a>
+</li>
+<li>
+<a href='/content/Membership/gift/'>
+<span>Gift Membership</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:giving/'>
+<span>Giving</span>
+</a>
+</li>
+<li>
+<a href='/content/Volunteer/view/'>
+<span>Become a Volunteer</span>
+</a>
+</li>
+<li>
+<a href='/content/Store'>
+<span>AW Store</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:partnership/'>
+<span>Industry Partner Program</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:advertising/'>
+<span>Advertising Information</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/Menu/summarize/area/community/'>
+<span>Community</span>
+</a>
+<div id='menu3'><ul class='menulist'> <li>
+<a href='/content/Affiliate/view/'>
+<span>Clubs</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:sponsorship/'>
+<span>Industry Partners</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/River/view/'>
+<span>River Info</span>
+</a>
+<div id='menu4'><ul class='menulist'> <li>
+<a href='/content/River/view/'>
+<span>National River Database</span>
+</a>
+</li>
+<li>
+<a href='/content/Report/list-recent/'>
+<span>Recent River Reports</span>
+</a>
+</li>
+<li>
+<a href='/content/StreamTeam/info/'>
+<span>Stream Team</span>
+</a>
+</li>
+<li>
+<a href='/content/River/list-permits/'>
+<span>Permit Information</span>
+</a>
+</li>
+<li>
+<a href='/content/Release/view/'>
+<span>Release Information</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/Menu/summarize/area/multimedia/'>
+<span>Library</span>
+</a>
+<div id='menu5'><ul class='menulist'> <li>
+<a href='/content/Photo/view/'>
+<span>Photo/Video</span>
+</a>
+</li>
+<li>
+<a href='/content/Journal/archive/'>
+<span>AW Journal</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:logos/'>
+<span>Logos</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/Search/view/'>
+<span>Search</span>
+</a>
+</li>
+<li>
+<a href='/content/Membership/view/'>
+<span>Login</span>
+</a>
+<div id='menu6'><ul class='menulist'> <li>
+<a href='/content/User/register/**+a7YJSxURr'>
+<span>New Account</span>
+</a>
+</li>
+<li>
+<a href='/content/User/get-password/**+a7YJSxURr'>
+<span>Password Reminder</span>
+</a>
+</li>
+</ul></div> </li>
+</ul></div></div><div style='' class="CCrumbsGadget" id='zzqi8jeg94idd8fCrumbsGadget79'><ul class='bread_crumb'>
+<li class="emphasize bread_crumb">Recent Pages:</li>
+<li class='bread_crumb'><a href='/content/River/detail/id/3116/'>Clearwater Creek to Heisters Creek, Nooksack, Middle Fork Washington, US</a></li></ul></div> </div> 
+</div> 
+ 
+<div id="warnings" class="hide-all">
+<h2 class="hide-all">Old browser warning</h2>
+<p><em>Site look funky?</em>&nbsp;
+Your browser is either Internet Explorer (hit refresh (F5) several times due to a bug in Microsoft's code
+that we can't work around) or is 10 years old and
+<a href="http://www.webstandards.org/about/" title="Click to visit Web Standards Project mission page.">standards-based</a> layouts and styling confuse it.
+&nbsp; Consider updating.&nbsp; One excellent option is
+<a href="http://www.mozilla.org/products/firefox/" title="Click to visit the Mozilla Firefox download page.">
+Mozilla Firefox</a>, versions of which are available for Linux, Mac and Windows. Safari 1.0+ and IE 6.0+ are also supported.</p>
+</div>
+ 
+ 
+</div> 
+<div id="container">
+<div id="block_1_wrapper">
+<div id="block_1">
+ 
+<div class="boxcontent CContainerView" id='zzqi8jeg94idd8fContainerView88'>
+<div><div id='zzqi8jeg94idd8fRiverDetailGadget2' class='CRiverDetailGadget-detail CRiverDetailGadget'><div class='controls'><h1>Nooksack, Middle Fork - Clearwater Creek to Heisters Creek</h1>
+<div><div id='zzqi8jeg94idd8fArticleGadget40Container' class='CArticleGadget-view CArticleGadget'><div id='zzqi8jeg94idd8fArticleGadget40-1' class='contents'></div></div> <br style='clear:both'>
+</div>
+</div> <div class='tabcontainer' doLayout='false' id="zzqi8jeg94idd8fContainerView71tabc" dojoType="aw.widget.TabContainer" enableBack="true">
+<div id="zzqi8jeg94idd8fContainerView67" trackAsMain='true' class='CContainerView' dojoType="aw.widget.ContentPane" title='RiverMain'>
+<div><div id='zzqi8jeg94idd8fRiverMainGadget47' class='CRiverMainGadget-main CRiverMainGadget'>
+<div parseWidgets='false' class='nodecoration river-description'>
+<table class='nodecoration'>
+<tr>
+<td>
+<h1>Nooksack, Middle Fork, Washington, US</h1>
+</td>
+<td valign=top>
+<a href="/content/Wiki/rivers:info:disclaimer/"><img align=right alt=Disclaimer src="/resources/images/disclaimerclick.gif" width=72 height=21></a>
+</td>
+</tr>
+</table>
+<h2>Clearwater Creek to Heisters Creek </h2>
+<table class='data_table river-stats'>
+<tr class='row-1'>
+<th>Usual Difficulty</th>
+<td>V (for normal flows) </td>
+</tr>
+<tr class='row-2'>
+<th>Length</th>
+<td>4.5 Miles </td>
+</tr>
+<tr class='row-3'>
+<th>Avg. Gradient</th>
+<td>156 fpm</td>
+</tr>
+</table>
+<div class='river-photo'>
+<div class='controls'>
+<h1>Photo#7845</h1>
+</div>
+<div><div id='zzqi8jeg94idd8fPhotoDetailView91' class='CPhotoDetailView-view CPhotoDetailView'> <div class='river-photo'>
+<a href="/content/Photo/detail/photoid/7845/size/big/">
+<img class='river-photo' src="/photos/archive/medium/7845.jpg">
+</a>
+<br>
+<span class='caption'><i>Photo of Wade Pruitt by Hale Hanaway</i></span></div></div> <br style='clear:both'>
+</div>
+</div>
+<div class='river-break'></div>
+<h2 style='clear:both'>Gauge Information</h2>
+<table class='data_table'>
+<tr>
+<th>Name</th>
+<th>Range</th>
+<th>Difficulty</th>
+<th>Updated</th>
+<th>Level</th>
+</tr>
+<tr class='row-1'>
+<th colspan='5'>
+<a href='/content/Gauge2/detail/id/4845/'>MF NOOKSACK RIVER NEAR DEMING, WA</a>
+</th>
+</tr>
+<tr class='row-1'>
+<td rowspan='2' valign='top'>
+usgs-12208000 </td>
+<td>
+400 - 600 cfs
+<td>
+V </td>
+<td>
+01h51m </td>
+<td class='river-hi1'>
+678
+cfs
+(too high) </td>
+</tr>
+</table>
+<br>
+<br>
+<h2>River Description</h2>
+<p>
+LOGISTICS: The take-out is on the river left side of the only bridge that crosses the Middle Fork
+of the Nooksack on Mosquito Lake Rd. To Reach the half way put in at the dam (more commonly
+used). Head North on Mosquito Lake Road, and take your first right on the unmarked Middle Fork of
+the Nooksack Road (FR 38). Drive upstream to mile 2.6 and a locked gate on the right. Park here
+and hike down to the diversion dam.
+</p>
+<p>
+For the upper put-in, keep driving past the dam turn-off a couple miles and over the bridge at
+Clearwater Creek to a Y in the Road. Go right at the Y, to a bridge with a locked gate over the
+Middle Fork. Put in here.
+</p>
+<p>
+DESCRIPTION: From the upper put-in, the Upper Middle Fork provides a brief warm up till
+Clearwater Creek comes in on the right. From Clearwater Creek to the diversion dam, the Upper
+Middle is almost one continuous rapid. Two or three times, the rapids culminate in class V moves,
+but everything in between is constant class IV to IV+. When the water is high, this section gets
+considerably harder. If you don't know when the dam is coming, be extra cautious. The dam is run
+depending on whether or not the city is diverting and depending on flows, but there are parts of
+the dam you don't want to get sucked over regardless of conditions. If the dam is not to your
+liking, portage on the left.
+</p>
+<p>
+Once you've left the eddy below the dam, you'll be committed to the gorge. The Gorge is actually
+a notch easier than the upper middle, but the two hundred foot vertical walls are going to make
+it a little more intimidating. The first rapid below the bridge is Ice Box Paradise. This is the
+obvious rapid seen from the bridge with the hole on the right next to an undercut grotto. It
+doesn't look like much from the bridge, but don't worry, it'll be bigger from the seat of your
+boat. At higher water a sneak route cleans up on the left. The next drop is Leap of Faith. This
+is just around the corner from what can be seen from the bridge. At Leap of Faith the gorge walls
+come down to about ten feet apart as the whole river drops down a chute into the netherworld.
+Luckily the rapid is easily run center right, but for first timers this can be a scary
+experience. A few more fun ledges in the heart of the gorge lead to Hawaii Five-0. Scout and run
+Hawaii Five-O on the right. It's my favorite on the trip! The next major rapid is S-Turn. This is
+marked by a landslide coming in from the right. I'm not going to describe it since the rapid
+changes so much, but scout on the right. The latest rendition of S-Turn has been the hardest yet.
+One more ledge after S-Turn is the last rapid in the Gorge, Super Boof. Super Boof used to be a
+fun straight forward boof down the center slot, but an old growth fir that fell in from the right
+cliff gives the rapid some serious consequence. Luckily a fixed line coming in from the cliff on
+the right gives the option of a scout and or portage.
+</p>
+<p>
+After Super Boof, the gorge opens up and the rapids get easier, except for Cheese Grater. A
+surprise rapid that comes when the river makes a turn to the left. At low water I usually walk
+this one on the left, because a missed line on the right and you're going to lose some skin.
+</p>
+<p>
+For another nearby run check out <a href="http://www.americanwhitewater.org/rivers/id/3583/">Clearwater Creek</a>.
+</p> <br>
+<div style='clear:both'>
+<div><b>StreamTeam Status: </b>Verified</div>
+<div><b>Last Updated: </b>2003-12-08 01:14:50</div>
+<div class='controls'>
+<h1>Editors</h1>
+</div>
+<div><div id='zzqi8jeg94idd8fContactView54' class='CContactView-view CContactView'></div> <br style='clear:both'>
+</div>
+</div>
+</div>
+</div><div id='zzqi8jeg94idd8fRiverRapidsGadget57' class='CRiverRapidsGadget-view-rapids CRiverRapidsGadget'> <h2>Rapid Descriptions</h2>
+<div><div id='zzqi8jeg94idd8fMessageGadget58' class='CMessageGadget-message CMessageGadget'> <div class='message  msg_message'>
+<img alt='icon of message' src='/resources/images/messages/message.gif'/> No rapids entered. If you know names, and locations of the rapids please contact and advise the StreamTeam member for this run. </div>
+<div style='clear:both'></div>
+</div> <br style='clear:both'>
+</div>
+</div><div id='zzqi8jeg94idd8fCommentGadget61' class='CCommentGadget-view CCommentGadget'><div id='zzqi8jeg94idd8fCommentGadget61-1'>  
+<div class='comment-container' style=''>
+<table class='comments'>
+<tr>
+<td><h2>User Comments</h2></td>
+</tr>
+<tr>
+<td>
+<hr>
+<div class='commentinfo comment_'>
+2005-03-01 15:55:38 (3378 days ago)
+<div id='contact-6206'><span class='name'>Hale Hanaway</span><span class='send-message'><a href="/content/Contact/view/contactid/6206/display/detail/">Details</a></span></div> </div>
+<div class='commentbox'>
+Since the floods this last thaknsgiving the middle fork has changed again.<br/>
+All of the rapids have cleaned up with the exception of Hawaii five O. Scouting would be a good<br/>
+idea here.<br/>
+S-bends no longer has the annoying pourover rock and has a nice snake like tongue through it. The<br/>
+log at super boof has shifted and is further downstream making it less of a consequence.<br/>
+Unfourtunately the 8 foot by 8 foot root ball is only hanging on by a small tree on the cliff wall.<br/>
+I am sure one group of paddelers will find it in the center stream someday. </div>
+</td>
+</tr>
+</table>
+</div>
+Users can submit comments.</div></div> <br style='clear:both'>
+</div>
+</div>
+<div id="tab-flow" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/show-gauge-info/reachid/3116/revision/0/.dialog' title='Flow Info'>
+</div>
+<div id="tab-map" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/map/id/3116/revision/0/.rawhtml' title='Map'>
+</div>
+<div id="tab-directions" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/show-directions/reachid/3116/revision/0/.rawhtml' title='Directions'>
+</div>
+<div id="tab-weather" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/Weather/detail/zip/98244/.rawhtml' title='Weather'>
+</div>
+<div id="tab-news" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/river-news/id/3116/.rawhtml' title='News (1) & Accidents'>
+</div>
+<div id="tab-photos" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/Photo/do-search/reachid/3116/orderby/id/incphotos/on/incvideos/on/dosearch/Photo%2BSearch/.rawhtml' title='Photos (12)'>
+</div>
+<div id="tab-credits" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/credits/reachid/3116/.dialog' title='Credits & Network'>
+</div>
+</div>
+</div> <br style='clear:both'>
+</div>
+</div> 
+</div> 
+</div> 
+<div id="block_3">
+<div class="gutter">
+<div class="boxcontent CContainerView" id='zzqi8jeg94idd8fContainerView14'>
+<div><div id='zzqi8jeg94idd8fArticleGadget6Container' class='CArticleGadget-view CArticleGadget'><div id='zzqi8jeg94idd8fArticleGadget6-1' class='contents'><h3 style="text-align: center; margin-top: 15px;">
+Do more than just check gauges; join over 5,000 AW members today.
+</h3>
+<div style="text-align:center; margin:10px;">
+<a style="display: block;" href="https://www.americanwhitewater.org/content/Membership/join-aw?utm_source=americanwhitewater.org&amp;utm_medium=banner&amp;utm_content=HTML_ad_001&amp;utm_campaign=join_or_renew">
+<img width="100" height="60" alt="Join_or_Renew_Logo-200px" src="http://www.americanwhitewater.org/resources/repository/Join_or_Renew_Logo-200px.png"></a>
+<h3 style="color: rgb(0, 0, 238); margin-top: 10px;">
+<a style="display: block;" href="https://www.americanwhitewater.org/content/Membership/join-aw?utm_source=americanwhitewater.org&amp;utm_medium=banner&amp;utm_content=HTML_ad_001&amp;utm_campaign=join_or_renew">
+Join or Renew</a>
+</h3>
+</div>
+<hr>
+<h3 style="text-align: center; margin-top: 10px;">
+Or, consider donating
+</h3>
+<div style="text-align:center; margin:10px;">
+<a style="display: block;" href="https://www.americanwhitewater.org/content/Membership/donate?utm_source=americanwhitewater.org&amp;utm_medium=banner&amp;utm_content=HTML_ad_001&amp;utm_campaign=donate">
+<img width="100" height="60" alt="Donate_Logo-200px" src="http://www.americanwhitewater.org/resources/repository/Donate_Logo-200px.png"></a>
+<h3 style="color: rgb(0, 0, 238); margin-top: 10px;">
+<a style="display: block;" href="https://www.americanwhitewater.org/content/Membership/donate?utm_source=americanwhitewater.org&amp;utm_medium=banner&amp;utm_content=HTML_ad_001&amp;utm_campaign=donate">
+Donate</a>
+</h3>
+</div></div></div> <br style='clear:both'>
+</div>
+</div> 
+<div class="boxcontent CSimpleTitleView" id='zzqi8jeg94idd8fSimpleTitleView18'>
+<h1>Associated Projects</h1><ul> <li><a href='/content/Project/view/id/nooksack/'>Nooksack Stewardship (WA)</a>
+<div>
+Public access, hydropower development, and resource stewardship are all ongoing issues on this river system. </div></li>
+</ul> </div> 
+<div class="boxcontent CSimpleTitleView" id='zzqi8jeg94idd8fSimpleTitleView29'>
+<h1>Associated News</h1> <div><div id='zzqi8jeg94idd8fArticleGadget20' class='CArticleGadget-view CArticleGadget'><p><a href='/content/Article/view/articleid/31760/display/full/'>Nooksack River Recreational Use Survey (WA)</a><br> <i>August 23, 2013</i></p></div> <br style='clear:both'>
+</div>
+</div> 
+</div> 
+</div> 
+<br style='clear:all'>
+</div> 
+<div id='footer'>
+<div style='' class="CFooterGadget" id='zzqi8jeg94idd8fFooterGadget93'> &#169; 1999-2014 American Whitewater (<a href='/content/Wiki/aw:tos'>terms of use</a>) | PO Box 1540 | Cullowhee, NC 28723 | 1-866-262-8429 | <a href="mailto:info@americanwhitewater.org">info@americanwhitewater.org</a>
+</div><div><div style='' class="CContainerView" id='zzqi8jeg94idd8fContainerView37'> <div><div id='zzqi8jeg94idd8fArticleGadget32Container' class='CArticleGadget-view CArticleGadget'><div id='zzqi8jeg94idd8fArticleGadget32-1' class='contents'></div></div> <br style='clear:both'>
+</div>
+</div></div><div><div style='' class="CNewsFeedGadget" id='zzqi8jeg94idd8fNewsFeedGadget72'> <div class='feed'>
+<a class='nodecoration' href='/content/River/detail/id/3116/.mobile'>
+<img src='/resources/images/blank.gif' class='mobile'></a>&nbsp;Clearwater Creek to Heisters Creek, Nooksack, Middle Fork Washington, US (mobile)&nbsp;&nbsp;
+</div>
+</div></div><div><div style='' class="CContainerView" id='zzqi8jeg94idd8fContainerView87'> <div><div id='zzqi8jeg94idd8fArticleGadget82Container' class='CArticleGadget-view CArticleGadget'><div id='zzqi8jeg94idd8fArticleGadget82-1' class='contents'></div></div> <br style='clear:both'>
+</div>
+</div></div> </div> 
+<br>
+<div style='display:none'>
+<span id='server-time' style='text-size:50%'></span>
+<span id='client-time' style='text-size:50%'></span>
+</div>
+<script type='text/javascript'>
+				require(['dojo/dom','dojo/ready','dojo/_base/xhr'],function(dom,ready,xhr){
+					
+			ready(
+				function(){
+					var roundNumber = function(num, dec) {
+						var result = Math.round(num*Math.pow(10,dec))/Math.pow(10,dec);
+						return result;
+					}
+						var clienttime = ((new Date().getTime()) - wh2timer)/1000;
+						var servertime = (0.18100905418396);
+						var servermemory = (18123992)/(1024*1024);
+						dom.byId('client-time').innerHTML=(clienttime+" sec. client ");
+						dom.byId('server-time').innerHTML=(servertime+" sec. server ");
+						dom.byId('server-time').innerHTML+= (servermemory.toFixed(2)+" MB");
+						if(!Math.floor(Math.random()*101))
+						{
+							var url = document.location;
+							var data = {server_time: servertime, client_time: clienttime, url:url};
+							xhr.post({
+								url: '/content/Performance/update/',
+								content: data	});
+							
+						}
+					}
+				);						
+					
+					
+				});
+						</script>
+ 
+</div>  
+</div> 
+</div> 
+</div> 
+</body>
+</html>

@@ -1,0 +1,807 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd" >
+<html>
+ 
+<head>
+<meta name="title" content="American Whitewater - 2. Bear Creek (Drumbeater) to South Fork confluence, Skykomish, N. Fork Washington, US">
+<meta name="description" content="American Whitewater is the primary advocate for the preservation and protection of whitewater rivers throughout the United States and connects the interests of human-powered recreational river users with ecological and science-based data to achieve goals within our mission. ">
+<title>American Whitewater - 2. Bear Creek (Drumbeater) to South Fork confluence, Skykomish, N. Fork Washington, US</title>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+<meta name="Language" content="English">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="global">
+<link rel="SHORTCUT ICON" href="/logo/myfile.ico">
+<link rel="stylesheet" type="text/css" href="/resources/css/style.css">
+<!--[if lte IE 7]>
+			<link rel="stylesheet" type="text/css" href="/resources/css/iestyle.css" />
+		<![endif]-->
+<!--[if lte IE 6]>
+			<link rel="stylesheet" type="text/css" href="/resources/css/iestyle6.css" />
+		<![endif]-->
+<style type='text/css'>.dojoTabPaneWrapper{width:100%;}</style>
+<script type='text/javascript'>
+			var wh2timer = new Date().getTime();
+		</script>
+<link rel="image_src" href="http://www.americanwhitewater.org/resources/images/assets6.5/awlogo.png"> <script type='text/javascript'>
+						if(typeof(djConfig) != 'undefined')
+						{
+							djConfig['gMapKey'] = 'AIzaSyAu7JAMzqGEKuwhxB-6ePHQim0g5hX8wpw';
+						}
+					</script>
+<script src='https://www.google.com/jsapi?key=AIzaSyAu7JAMzqGEKuwhxB-6ePHQim0g5hX8wpw' type='text/javascript'></script>
+<script type='text/javascript'>
+					google.load("maps", "2.x");	
+					
+					
+					</script>
+<script type='text/javascript' djConfig=' parseOnLoad:true ' src='/resources/js/dojo/release/dojo/dojo/dojo.js'></script>
+<style type='text/css'>@import "/resources/js/dojo/release/dojo//dijit/themes/tundra/tundra.css";</style>
+<script type='text/javascript' djConfig='parseOnLoad:true' src='/resources/js/dojo/release/dojo/dojo/dialog.js'></script>
+<script type='text/javascript' djConfig='parseOnLoad:true' src='/resources/js/dojo/release/dojo/dojo/tabs.js'></script> <link rel="alternate" type="text/html" title="2. Bear Creek (Drumbeater) to South Fork confluence, Skykomish, N. Fork Washington, US (mobile)" href="/content/River/detail/id/2212/.mobile"> <style type='text/css'>.dojoTabPane{padding:0.75em;overflow:auto;}</style>
+<script type='text/javascript'>
+							dojo.require('dojo.parser'); 
+					var _gaq = _gaq || [];
+					_gaq.push(['_setAccount', 'UA-3113277-1']);
+					_gaq.push(['_trackPageview']);
+					
+				    (function() {
+				      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				    })();
+								dojo.require("aw.widget.AWMap");						dojo.require('dijit.Tooltip');
+						dojo.require('aw.widget.ToolTipSeeker');					dojo.require("aw.formathelper.forms.dialog");
+					dojo.require("aw.widget.Dialog");
+					dojo.require("aw.formathelper.dialog");
+					dojo.require("aw.widget.ContentPane");
+														dojo.require("aw.widget.TabContainer");
+								dojo.require("aw.widget.ContentPane");
+								
+								
+															dojo.require("aw.menu");		</script>
+<script id='onloadscript' type='text/javascript'>
+		dojo.addOnLoad(function(){					{
+					var killhandle = aw.formathelper.dialog.listener('comment',function(e)
+						{
+							
+							{
+								aw.formathelper.dialog.process('zzq3f176mu14d99CommentGadget96-1','/content/Comment/view/section/river/reachid/2212/notifylist/580/.dialog',null,function()
+								{
+									//make sure our event gets removed if the parent element disappears.
+									if(!dojo.byId('zzq3f176mu14d99CommentGadget96-1'))
+									{
+										dojo.unsubscribe(killhandle);
+									}
+								}
+								);
+							}
+						}
+						);
+					} });		</script>
+</head>
+<body class="two-col-right tundra wh2o ">
+<div id="width">
+<div id="minwidth">
+<div id="layout">
+<div id="content-container">
+<div id='toptonav'>
+<div id="header" class='header-bg'>
+<div class='top'>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style='border: #789876'>
+<tr>
+<td width="38%" align="left" class="logo">
+<a href="/"><img class='logo' src="/resources/css/../images/nothing.gif" alt="American White Water" title="American White Water"></a>
+</td>
+<td width="62%" valign="top" align="right">
+<div style='' class="CUserLoginView" id='zzq3f176mu14d99UserLoginView127'> <div class='neutral'>
+<div id="header-right">
+<div class="left-img">&nbsp;</div>
+<div class="topbox-bg">
+<form action="https://www.americanwhitewater.org/content/User/do-login/**W+HuPzwZXX" method='POST'>
+<table>
+<tr>
+<td colspan='2' id='login-upper'>
+<label for='username'>Username</label>
+<input name="username" type="text" class="inputbox"/>
+<label for='password'>Password</label>
+<input name="password" autocomplete='off' type="password" class="inputbox"/>
+<input type="submit" value="Login"/>
+</td>
+</tr>
+<tr>
+<td>
+<label for='remember' class='login-lower'>Remember Me</label>
+<input type='checkbox' checked='true' name='remember'>
+</td>
+<td align='right' class='login-lower'>
+<a href='/content/Membership/get-password/**W+HuPzwZXX' class='login-link1'>Forgot your password?</a>
+|
+<a href='/content/Membership/view/' class='login-link1'>Sign Up</a>
+</td>
+</tr>
+</table>
+</form>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+ 
+<div id="nav-wrapper">
+<div id="navigation">
+<div style='' class="CMenuGadget" id='zzq3f176mu14d99MenuGadget128'>
+<div id='menu0'><ul dojoType="aw.menu" class='menulist' id="menu"> <li>
+<a href='/content/Welcome/view/'>
+<span>Our Organization</span>
+</a>
+<div id='menu1'><ul class='menulist'> <li>
+<a href='/content/Wiki/aw:about/'>
+<span>About AW</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:outdooralliance/'>
+<span>Outdoor Alliance</span>
+</a>
+</li>
+<li>
+<a href='/content/News/view/type/frontpagenews/showarchive/1/'>
+<span>News</span>
+</a>
+</li>
+<li>
+<a href='/content/Stewardship/view/'>
+<span>Stewardship</span>
+</a>
+</li>
+<li>
+<a href='/content/Safety/view/'>
+<span>Safety</span>
+</a>
+</li>
+<li>
+<a href='/content/Events/view/'>
+<span>Events</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:contact_us/'>
+<span>Contact Us</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:board_of_directors/'>
+<span>Board of Directors</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:staff/'>
+<span>Professional Staff</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/Wiki/aw:shop/'>
+<span>Support AW</span>
+</a>
+<div id='menu2'><ul class='menulist'> <li>
+<a href='/content/Membership/join-aw/'>
+<span>Join or Renew</span>
+</a>
+</li>
+<li>
+<a href='/content/Membership/donate/'>
+<span>Donate</span>
+</a>
+</li>
+<li>
+<a href='/content/Membership/gift/'>
+<span>Gift Membership</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:giving/'>
+<span>Giving</span>
+</a>
+</li>
+<li>
+<a href='/content/Volunteer/view/'>
+<span>Become a Volunteer</span>
+</a>
+</li>
+<li>
+<a href='/content/Store'>
+<span>AW Store</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:partnership/'>
+<span>Industry Partner Program</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:advertising/'>
+<span>Advertising Information</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/Menu/summarize/area/community/'>
+<span>Community</span>
+</a>
+<div id='menu3'><ul class='menulist'> <li>
+<a href='/content/Affiliate/view/'>
+<span>Clubs</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:sponsorship/'>
+<span>Industry Partners</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/River/view/'>
+<span>River Info</span>
+</a>
+<div id='menu4'><ul class='menulist'> <li>
+<a href='/content/River/view/'>
+<span>National River Database</span>
+</a>
+</li>
+<li>
+<a href='/content/Report/list-recent/'>
+<span>Recent River Reports</span>
+</a>
+</li>
+<li>
+<a href='/content/StreamTeam/info/'>
+<span>Stream Team</span>
+</a>
+</li>
+<li>
+<a href='/content/River/list-permits/'>
+<span>Permit Information</span>
+</a>
+</li>
+<li>
+<a href='/content/Release/view/'>
+<span>Release Information</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/Menu/summarize/area/multimedia/'>
+<span>Library</span>
+</a>
+<div id='menu5'><ul class='menulist'> <li>
+<a href='/content/Photo/view/'>
+<span>Photo/Video</span>
+</a>
+</li>
+<li>
+<a href='/content/Journal/archive/'>
+<span>AW Journal</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:logos/'>
+<span>Logos</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/Search/view/'>
+<span>Search</span>
+</a>
+</li>
+<li>
+<a href='/content/Membership/view/'>
+<span>Login</span>
+</a>
+<div id='menu6'><ul class='menulist'> <li>
+<a href='/content/User/register/**W+HuPzwZXX'>
+<span>New Account</span>
+</a>
+</li>
+<li>
+<a href='/content/User/get-password/**W+HuPzwZXX'>
+<span>Password Reminder</span>
+</a>
+</li>
+</ul></div> </li>
+</ul></div></div><div style='' class="CCrumbsGadget" id='zzq3f176mu14d99CrumbsGadget129'><ul class='bread_crumb'>
+<li class="emphasize bread_crumb">Recent Pages:</li>
+<li class='bread_crumb'><a href='/content/River/detail/id/2212/'>2. Bear Creek (Drumbeater) to South Fork confluence, Skykomish, N. Fork Washington, US</a></li></ul></div> </div> 
+</div> 
+ 
+<div id="warnings" class="hide-all">
+<h2 class="hide-all">Old browser warning</h2>
+<p><em>Site look funky?</em>&nbsp;
+Your browser is either Internet Explorer (hit refresh (F5) several times due to a bug in Microsoft's code
+that we can't work around) or is 10 years old and
+<a href="http://www.webstandards.org/about/" title="Click to visit Web Standards Project mission page.">standards-based</a> layouts and styling confuse it.
+&nbsp; Consider updating.&nbsp; One excellent option is
+<a href="http://www.mozilla.org/products/firefox/" title="Click to visit the Mozilla Firefox download page.">
+Mozilla Firefox</a>, versions of which are available for Linux, Mac and Windows. Safari 1.0+ and IE 6.0+ are also supported.</p>
+</div>
+ 
+ 
+</div> 
+<div id="container">
+<div id="block_1_wrapper">
+<div id="block_1">
+ 
+<div class="boxcontent CContainerView" id='zzq3f176mu14d99ContainerView138'>
+<div><div id='zzq3f176mu14d99RiverDetailGadget2' class='CRiverDetailGadget-detail CRiverDetailGadget'><div class='controls'><h1>Skykomish, N. Fork - 2. Bear Creek (Drumbeater) to South Fork confluence</h1>
+<div><div id='zzq3f176mu14d99ArticleGadget67Container' class='CArticleGadget-view CArticleGadget'><div id='zzq3f176mu14d99ArticleGadget67-1' class='contents'></div></div> <br style='clear:both'>
+</div>
+</div> <div class='tabcontainer' doLayout='false' id="zzq3f176mu14d99ContainerView121tabc" dojoType="aw.widget.TabContainer" enableBack="true">
+<div id="zzq3f176mu14d99ContainerView117" trackAsMain='true' class='CContainerView' dojoType="aw.widget.ContentPane" title='RiverMain'>
+<div><div id='zzq3f176mu14d99RiverMainGadget74' class='CRiverMainGadget-main CRiverMainGadget'>
+<div parseWidgets='false' class='nodecoration river-description'>
+<table class='nodecoration'>
+<tr>
+<td>
+<h1>Skykomish, N. Fork, Washington, US</h1>
+</td>
+<td valign=top>
+<a href="/content/Wiki/rivers:info:disclaimer/"><img align=right alt=Disclaimer src="/resources/images/disclaimerclick.gif" width=72 height=21></a>
+</td>
+</tr>
+</table>
+<h2>2. Bear Creek (Drumbeater) to South Fork confluence </h2>
+<table class='data_table river-stats'>
+<tr class='row-1'>
+<th>Usual Difficulty</th>
+<td>IV (for normal flows) </td>
+</tr>
+<tr class='row-2'>
+<th>Length</th>
+<td>12.5 Miles </td>
+</tr>
+<tr class='row-3'>
+<th>Avg. Gradient</th>
+<td>72 fpm</td>
+</tr>
+<tr class='row-4'>
+<th>Max Gradient</th>
+<td>130 fpm</td>
+</tr>
+</table>
+<div class='river-photo'>
+<div class='controls'>
+<h1>North Fork Skykomish</h1>
+</div>
+<div><div id='zzq3f176mu14d99PhotoDetailView141' class='CPhotoDetailView-view CPhotoDetailView'> <div class='river-photo'>
+<a href="/content/Photo/detail/photoid/141/size/big/">
+<img class='river-photo' src="/photos/archive/medium/141.jpg">
+</a>
+<br>
+<i>North Fork Skykomish</i><br><span class='caption'><i>Photo of Russ Reed by Thomas O'Keefe В©</i></span></div></div> <br style='clear:both'>
+</div>
+</div>
+<div class='river-break'></div>
+<h2 style='clear:both'>Gauge Information</h2>
+<table class='data_table'>
+<tr>
+<th>Name</th>
+<th>Range</th>
+<th>Difficulty</th>
+<th>Updated</th>
+<th>Level</th>
+</tr>
+<tr class='row-1'>
+<th colspan='5'>
+<a href='/content/Gauge2/detail/id/43457/'>Skykomish N. Fork at Index</a>
+</th>
+</tr>
+<tr class='row-1'>
+<td rowspan='2' valign='top'>
+virtual-6260 </td>
+<td>
+2250 - 4500 cfs
+<td>
+IV </td>
+<td>
+00h24m </td>
+<td class='river-low1'>
+1746
+cfs
+(too low) </td>
+</tr>
+</table>
+<br>
+<br>
+<h2>River Description</h2>
+<p>
+SEASON: November rains and spring snowmelt
+</p>
+<p>
+FUN FACT: One of the most diverse afternoon river trips starting with a short technical canyon
+and ending with a broader river with some power.
+</p>
+<p>
+ACCESS: From Highway 2 mile 35.6 turn north up the North Fork Road (becomes FR 63) at the Mt.
+Index Cafe. For a longer run, one potential access point for a take-out is at the Index Bridge 1
+mile up the road (upstream river right). There is another public parcel at mile 2.4 that is owned
+by State Parks and may one day be developed into a day use site (at levels above 4000 cfs at
+Goldbar this is a decent put-in for a run continuing on down to the Railroad Bridge on the main
+Sky). To reach the more commonly used takeout (privately owned by Outdoor Adventure Center and
+available for use with permission) continue to mile 6.1 and a takeout at the Trout Creek Bridge
+(elevation 840&#39;). An alternative take-out on Forest Service land is available at a pull-out
+upstream at mile 6.9. You&#39;ll pass a turn-off for Forest Road 6330 at mile 9.1 that crosses
+the river. If you want to scout El Nino, it is a couple hundred yards upstream of this turn-off.
+Continue on FR 63. You&#39;ll find a lower put-in near mile 10.9 where the river closely
+parallels the road (if you&#39;re putting in here you&#39;ll probably want to launch downstream
+of Rooster Tail). Continue on FR 63, 0.5 miles past the Troublesome Creek Bridge to mile 11.7 and
+the put-in to the upper canyon section at Drumbeater (elevation 1335&#39;). You&#39;ll be able to
+see the canyon through the trees past this bridge and there is a short trail once you get to a
+point where the river starts to become less visible. There is shoulder space for a couple cars.
+Check road conditions with <a href="http://www.fs.fed.us/r6/mbs/">Mt. Baker - Snoqulamie National
+Forest</a>; follow link to the forest road conditions report under the recreation link. Note that
+in the December 2006 storm the road washed out in several places and for the foreseeable future
+the only access up around the Beckler.
+</p>
+<p>
+DESCRIPTION: The North Fork offers a diverse range of paddling experiences over a relatively
+short reach of river. The run starts with a IV+ canyon. The typical put-in is at the pool below
+Drumbeater. The last pitch of Drumbeater is fairly straightforward, but don&#39;t make the
+mistake of putting in too high. A terminal hydraulic near the middle of the rapid has been the
+start of a very bad day for paddlers fool hardy enough to attempt it.
+</p>
+<p>
+The crux rapid, Let&#39;s Make a Deal, comes near the end of the canyon. Paddlers have a choice
+of several slots between a series of boulders lined up across the channel. It is common to see
+wood blocking at least one of the slots so it&#39;s wise to scout or get a wood report. The far
+left slot is often the easiest to boat scout. After Let&#39;s Make a Deal the river opens up and
+you pass through a boulder garden with the road to your right.
+</p>
+<p>
+As you parallel the road, the next horizon line marks Rooster Tail. Rooster Tail changed
+substantially during the 2006 floods and is an entirely different rapid. Pull out along the road
+(where the bank has been armored with rocks to protect the road) and continue along the trail
+through the woods to scout or portage the rapid. Paddlers that make it over the first pitch come
+through shining, but those who have trouble at the top compound their troubles as they continue
+through the rapid.
+</p>
+<p>
+After Rooster Tail the river calms down a notch to class IV and the rest of the run can be boat
+scouted. The main hazards are occasional trees and a few rapids that contain some significant
+holes.
+</p>
+<p>
+The next major rapid is El Nino which starts shortly after the confluence with Silver Creek which
+enters from river right. El Nino can be easily scouted from the road and the typical route hugs
+river left along the road. There is a great surfing wave at the bottom of El Nino on river right.
+</p>
+<p>
+After El Nino, the river picks up a notch in power although the rapids don&#39;t get any more
+difficult. There are three rapids with some big but mostly friendly holes called the Minefield.
+Potential takeouts begin to appear on river left and most use the access at Trout Creek.
+</p>
+<p>
+Boaters who want to make a longer day or those who want to put-in here for a less challenging
+class III run can continue from Trout Creek down to Index or even on to the South Fork confluence
+for another six miles of whitewater (use caution and check in with locals for current beta as
+there have been log jams in this section requiring a portage). On this stretch, the Index Bridge
+is one potential access point that is also a put-in for those running the main stem of the
+Skykomish. Below the bridge, the river continues for another mile and a half with more good class
+II and III rapids, including Llama Ledges, before joining with the <a href="http://www.americanwhitewater.org/rivers/id/2209/">South Fork Skykomish</a>.
+</p>
+<p>
+for additional information see:
+</p>
+<ul>
+<li>Bennett, J. and T. Bennett. 1997. A guide to the whitewater rivers of Washington, second
+edition. Swiftwater Publishing. Portland, OR.
+</li>
+<li>Skykomish Ranger District - <a href="http://%20www.fs.fed.us/r6/mbs/">USFS Mt. Baker -
+Snoqualmie National Forest website</a>
+</li>
+</ul> <br>
+<div style='clear:both'>
+<div><b>StreamTeam Status: </b>Not Verified</div>
+<div><b>Last Updated: </b>2012-07-06 02:42:20</div>
+<div class='controls'>
+<h1>Editors</h1>
+</div>
+<div><div id='zzq3f176mu14d99ContactView81' class='CContactView-view CContactView'></div> <br style='clear:both'>
+</div>
+</div>
+</div>
+</div><div id='zzq3f176mu14d99RiverRapidsGadget84' class='CRiverRapidsGadget-view-rapids CRiverRapidsGadget'> <h2>Rapid Summary</h2>
+<table class='data_table'>
+<tr class='row-0'>
+<th>Mile</th>
+<th>Rapid Name</th>
+<th>Class</th>
+<th>Features (<a href="/content/Wiki/view/id/river%3Ainfo%3Afeature_legend/">Legend</a>)</th>
+</tr>
+<tr class='row-1'><td class='big'>0.0</td><td class='big'><a href="#rapid127">Drumbeater</a></td><td class=big>5.0</td><td><img alt="Photo " src="/resources/images/rapid_icon/rapid_icon_photo.gif"></td></tr>
+<tr class='row-0'><td class='big'>0.7</td><td class='big'><a href="#rapid133">Let's Make a Deal</a></td><td class=big>IV+</td><td><img alt="Photo " src="/resources/images/rapid_icon/rapid_icon_photo.gif"></td></tr>
+<tr class='row-1'><td class='big'>0.9</td><td class='big'><a href="#rapid132">Rooster Tail</a></td><td class=big>IV+</td><td><img alt="Photo " src="/resources/images/rapid_icon/rapid_icon_photo.gif"></td></tr>
+<tr class='row-0'><td class='big'>2.6</td><td class='big'><a href="#rapid134">El Nino</a></td><td class=big>IV</td><td><img alt="Video " src="/resources/images/rapid_icon/rapid_icon_video.gif"></td></tr>
+<tr class='row-1'><td class='big'>4.5</td><td class='big'><a href="#rapid126">Minefield</a></td><td class=big>III+</td><td><img alt="Photo " src="/resources/images/rapid_icon/rapid_icon_photo.gif"></td></tr>
+<tr class='row-0'><td class='big'>5.0</td><td class='big'><a href="#rapid102090">Access Point</a></td><td class=big>N/A</td><td><img alt="Access " src="/resources/images/rapid_icon/rapid_icon_access.gif"></td></tr>
+<tr class='row-1'><td class='big'>5.8</td><td class='big'><a href="#rapid130">Trout Creek</a></td><td class=big>N/A</td><td><img alt="Takeout " src="/resources/images/rapid_icon/rapid_icon_takeout.gif"><img alt="Access " src="/resources/images/rapid_icon/rapid_icon_access.gif"></td></tr>
+<tr><td class='big'>11.1</td><td class=big>Index Bridge</td><td class=big></td><td><img alt="Access " src="/resources/images/rapid_icon/rapid_icon_access.gif"></td></tr>
+<tr class='row-1'><td class='big'>11.6</td><td class='big'><a href="#rapid128">LLama Ledges</a></td><td class=big>III</td><td><img alt="Access " src="/resources/images/rapid_icon/rapid_icon_access.gif"><img alt="Photo " src="/resources/images/rapid_icon/rapid_icon_photo.gif"></td></tr>
+<tr><td class='big'>12.5</td><td class=big>South Fork confluence</td><td class=big></td><td></td></tr>
+</table>
+<h2>Rapid Descriptions</h2>
+<div><div id='zzq3f176mu14d99RiverRapidView85' class='CRiverRapidView-view CRiverRapidView'> <b><a name="rapid127">Drumbeater</a></b> (Class 5.0)<br>
+<div class='rapid-inline'>
+<div class='controls'>
+<h1>North Fork Skykomish</h1>
+</div>
+<div><div id='zzq3f176mu14d99PhotoDetailView145' class='CPhotoDetailView-view CPhotoDetailView'> <div class='photo-inline'>
+<a href="/content/Photo/detail/photoid/141/size/big/">
+<img class='riverdetail' src="/photos/archive/medium/141.jpg">
+</a>
+<i>North Fork Skykomish</i></div><div>Photo of Russ Reed by Thomas O'Keefe В©</div></div> <br style='clear:both'>
+</div>
+</div> 
+<br clear=right>
+</div><div id='zzq3f176mu14d99RiverRapidView86' class='CRiverRapidView-view CRiverRapidView'> <b><a name="rapid133">Let's Make a Deal</a></b> (Class IV+, Mile 0.7)<br>
+<div class='rapid-inline'>
+<div class='controls'>
+<h1>Let's Make a Deal</h1>
+</div>
+<div><div id='zzq3f176mu14d99PhotoDetailView149' class='CPhotoDetailView-view CPhotoDetailView'> <div class='photo-inline'>
+<a href="/content/Photo/detail/photoid/540/size/big/">
+<img class='riverdetail' src="/photos/archive/medium/540.jpg">
+</a>
+<i>Let's Make a Deal</i></div><div>Photo by Thomas O'Keefe В©</div></div> <br style='clear:both'>
+</div>
+</div> 
+<br clear=right>
+</div><div id='zzq3f176mu14d99RiverRapidView87' class='CRiverRapidView-view CRiverRapidView'> <b><a name="rapid132">Rooster Tail</a></b> (Class IV+, Mile 0.9)<br>
+<div class='rapid-inline'>
+<div class='controls'>
+<h1>Rooster Tail</h1>
+</div>
+<div><div id='zzq3f176mu14d99PhotoDetailView153' class='CPhotoDetailView-view CPhotoDetailView'> <div class='photo-inline'>
+<a href="/content/Photo/detail/photoid/334/size/big/">
+<img class='riverdetail' src="/photos/archive/medium/334.jpg">
+</a>
+<i>Rooster Tail</i></div><div>Photo of Mike Rausch by Thomas O'Keefe В© taken 04/28/01 @ 2330 cfs (est)</div></div> <br style='clear:both'>
+</div>
+</div> 
+<br clear=right>
+</div><div id='zzq3f176mu14d99RiverRapidView88' class='CRiverRapidView-view CRiverRapidView'> <b><a name="rapid134">El Nino</a></b> (Class IV, Mile 2.6)<br>
+<i><a href="/content/Photo/detail/photoid/535/">Click Here For Video</a></i><br>
+<br clear=right>
+</div><div id='zzq3f176mu14d99RiverRapidView89' class='CRiverRapidView-view CRiverRapidView'> <b><a name="rapid126">Minefield</a></b> (Class III+, Mile 4.5)<br>
+<div class='rapid-inline'>
+<div class='controls'>
+<h1>Minefield</h1>
+</div>
+<div><div id='zzq3f176mu14d99PhotoDetailView157' class='CPhotoDetailView-view CPhotoDetailView'> <div class='photo-inline'>
+<a href="/content/Photo/detail/photoid/561/size/big/">
+<img class='riverdetail' src="/photos/archive/medium/561.jpg">
+</a>
+<i>Minefield</i></div><div>Photo of Jack Kennedy by Thomas O'Keefe В©</div></div> <br style='clear:both'>
+</div>
+</div> 
+<br clear=right>
+</div><div id='zzq3f176mu14d99RiverRapidView90' class='CRiverRapidView-view CRiverRapidView'> <b><a name="rapid102090">Access Point</a></b> (Class N/A, Mile 5.0)<br>
+<p>
+Public access at road mile 6.9.</p>
+<br>
+<br clear=right>
+</div><div id='zzq3f176mu14d99RiverRapidView91' class='CRiverRapidView-view CRiverRapidView'> <b><a name="rapid130">Trout Creek</a></b> (Class N/A, Mile 5.8)<br>
+<p>
+Private land providing access at Trout Creek is owned by Outdoor Adventure Center and may be used with permission.</p>
+<br>
+<br clear=right>
+</div><div id='zzq3f176mu14d99RiverRapidView92' class='CRiverRapidView-view CRiverRapidView'></div><div id='zzq3f176mu14d99RiverRapidView93' class='CRiverRapidView-view CRiverRapidView'> <b><a name="rapid128">LLama Ledges</a></b> (Class III, Mile 11.6)<br>
+<div class='rapid-inline'>
+<div class='controls'>
+<h1>Skyfest Slalom</h1>
+</div>
+<div><div id='zzq3f176mu14d99PhotoDetailView161' class='CPhotoDetailView-view CPhotoDetailView'> <div class='photo-inline'>
+<a href="/content/Photo/detail/photoid/560/size/big/">
+<img class='riverdetail' src="/photos/archive/medium/560.jpg">
+</a>
+<i>Skyfest Slalom</i></div><div>Photo of Tom Applewhite and Mike Lunenschloss by Thomas O'Keefe В© taken 07/10/01 @ 700 cfs (est)</div></div> <br style='clear:both'>
+</div>
+</div> 
+<br clear=right>
+</div><div id='zzq3f176mu14d99RiverRapidView94' class='CRiverRapidView-view CRiverRapidView'></div> <br style='clear:both'>
+</div>
+</div><div id='zzq3f176mu14d99CommentGadget96' class='CCommentGadget-view CCommentGadget'><div id='zzq3f176mu14d99CommentGadget96-1'>  
+<div class='comment-container' style=''>
+<table class='comments'>
+<tr>
+<td><h2>User Comments</h2></td>
+</tr>
+<tr>
+<td>
+<hr>
+<div class='commentinfo comment_warning'>
+2007-12-18 03:12:38 (2356 days ago)
+<div id='contact-580'><span class='name'>Thomas O'Keefe</span><span class='send-message'><a href="/content/Contact/view/contactid/580/display/detail/">Details</a></span></div> </div>
+<div class='commentbox'>
+During storms in December 2006 the Index Galena Road providing access to the North Fork Skykomish<br/>
+River was damaged in 8 separate locations with severe damage that washed away the entire road at<br/>
+several of these sites. The road is closed to the public from mile 6.4 to mile 14. The traditional<br/>
+take-out at Trout Creek is located at mile 6.1 and the put-in at Drumbbeater is at mile 11.7. The<br/>
+washouts near the take-out (at mile 6.4 and 6.9) represent the most significant damage and the<br/>
+county anticipates it will take 5-10 years to complete engineering, secure federal funding for<br/>
+repairs, complete the work, and open the road for public use. As an alternative access you can<br/>
+drive up the Beckler and over Jack Pass approaching the put-in from the upstream end (the county<br/>
+has arranged for plowing this road as resources allow). The road however is gated at mile 14.<br/>
+Private cabin owners have a key to the gate but this is not open to the public. In addition a new<br/>
+slide at mile 13 that occurred during December 2007 storms now blocks the road preventing access<br/>
+even by cabin owners. Some paddlers have put in at the gate at mile 14 (although the gate is<br/>
+sometimes left open it can be closed at any time). The put-in at mile 14 adds approximately 2.3<br/>
+miles on the run including a class II section and a portage at Bear Creek Falls and Drumbbeater (be<br/>
+sure you can recognize these). </div>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+<div class='commentinfo comment_'>
+2006-11-15 05:24:00 (2754 days ago)
+<div id='contact-11495'><span class='name'>MICHAEL HORNER</span><span class='send-message'><a href="/content/Contact/view/contactid/11495/display/detail/">Details</a></span></div> </div>
+<div class='commentbox'>
+The road is closed at Trout Creek. </div>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+<div class='commentinfo comment_'>
+2006-11-10 11:47:56 (2759 days ago)
+<div id='contact-11495'><span class='name'>MICHAEL HORNER</span><span class='send-message'><a href="/content/Contact/view/contactid/11495/display/detail/">Details</a></span></div> </div>
+<div class='commentbox'>
+11/11/2006 PLEASE NOTE: the gauge is reportedly off! A very experienced oarsman who knows the Sky<br/>
+intimately reported that 6500ish felt like 9000ish. The difference will be exponential with higher<br/>
+flows.... </div>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+<div class='commentinfo comment_'>
+2003-11-14 16:41:49 (3851 days ago)
+<div id='contact-580'><span class='name'>Thomas O'Keefe</span><span class='send-message'><a href="/content/Contact/view/contactid/580/display/detail/">Details</a></span></div> </div>
+<div class='commentbox'>
+As of 11NOV the North Fork was good to go and relatively free of hazards from Drumbeater down to<br/>
+Trout Creek. Slots through Let's Make a Deal were clean of wood. Rapids downstream of El Nino have<br/>
+changed and there are a couple new surprise holes. </div>
+</td>
+</tr>
+</table>
+</div>
+Users can submit comments.</div></div> <br style='clear:both'>
+</div>
+</div>
+<div id="tab-flow" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/show-gauge-info/reachid/2212/revision/0/.dialog' title='Flow Info'>
+</div>
+<div id="tab-map" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/map/id/2212/revision/0/.rawhtml' title='Map'>
+</div>
+<div id="tab-directions" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/show-directions/reachid/2212/revision/0/.rawhtml' title='Directions'>
+</div>
+<div id="tab-weather" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/Weather/detail/zip/98256/.rawhtml' title='Weather'>
+</div>
+<div id="tab-news" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/river-news/id/2212/.rawhtml' title='News (3) & Accidents'>
+</div>
+<div id="tab-photos" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/Photo/do-search/reachid/2212/orderby/id/incphotos/on/incvideos/on/dosearch/Photo%2BSearch/.rawhtml' title='Photos (16)'>
+</div>
+<div id="tab-credits" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/credits/reachid/2212/.dialog' title='Credits & Network'>
+</div>
+</div>
+</div> <br style='clear:both'>
+</div>
+</div> 
+</div> 
+</div> 
+<div id="block_3">
+<div class="gutter">
+<div class="boxcontent CContainerView" id='zzq3f176mu14d99ContainerView17'>
+<div><div id='zzq3f176mu14d99ArticleGadget9Container' class='CArticleGadget-view CArticleGadget'><div id='zzq3f176mu14d99ArticleGadget9-1' class='contents'><h3 style="text-align: center; margin-top: 15px;">
+Do more than just check gauges; join over 5,000 AW members today.
+</h3>
+<div style="text-align:center; margin:10px;">
+<a style="display: block;" href="https://www.americanwhitewater.org/content/Membership/join-aw?utm_source=americanwhitewater.org&amp;utm_medium=banner&amp;utm_content=HTML_ad_001&amp;utm_campaign=join_or_renew">
+<img width="100" height="60" alt="Join_or_Renew_Logo-200px" src="http://www.americanwhitewater.org/resources/repository/Join_or_Renew_Logo-200px.png"></a>
+<h3 style="color: rgb(0, 0, 238); margin-top: 10px;">
+<a style="display: block;" href="https://www.americanwhitewater.org/content/Membership/join-aw?utm_source=americanwhitewater.org&amp;utm_medium=banner&amp;utm_content=HTML_ad_001&amp;utm_campaign=join_or_renew">
+Join or Renew</a>
+</h3>
+</div>
+<hr>
+<h3 style="text-align: center; margin-top: 10px;">
+Or, consider donating
+</h3>
+<div style="text-align:center; margin:10px;">
+<a style="display: block;" href="https://www.americanwhitewater.org/content/Membership/donate?utm_source=americanwhitewater.org&amp;utm_medium=banner&amp;utm_content=HTML_ad_001&amp;utm_campaign=donate">
+<img width="100" height="60" alt="Donate_Logo-200px" src="http://www.americanwhitewater.org/resources/repository/Donate_Logo-200px.png"></a>
+<h3 style="color: rgb(0, 0, 238); margin-top: 10px;">
+<a style="display: block;" href="https://www.americanwhitewater.org/content/Membership/donate?utm_source=americanwhitewater.org&amp;utm_medium=banner&amp;utm_content=HTML_ad_001&amp;utm_campaign=donate">
+Donate</a>
+</h3>
+</div></div></div> <br style='clear:both'>
+</div>
+</div> 
+<div class="boxcontent CSimpleTitleView" id='zzq3f176mu14d99SimpleTitleView6'>
+<h1>Associated Projects</h1><ul> <li><a href='/content/Project/view/id/skykomish/'>Skykomish Stewardship (WA)</a>
+<div>
+AW is actively engaged in the conservation of the Skykomish River and its tributaries and advocacy for public access. </div></li>
+</ul> </div> 
+<div class="boxcontent CSimpleTitleView" id='zzq3f176mu14d99SimpleTitleView52'>
+<h1>Associated News</h1> <div><div id='zzq3f176mu14d99ArticleGadget20' class='CArticleGadget-view CArticleGadget'><p><a href='/content/Article/view/articleid/30042/display/full/'>Wild Sky Signed Into Law</a><br> <i>May 14, 2008</i></p></div><div id='zzq3f176mu14d99ArticleGadget28' class='CArticleGadget-view CArticleGadget'><p><a href='/content/Article/view/articleid/31297/display/full/'>North Fork Skykomish Road Repair Public Comment Period Open (WA)</a><br> <i>February 3, 2012</i></p></div><div id='zzq3f176mu14d99ArticleGadget36' class='CArticleGadget-view CArticleGadget'><p><a href='/content/Article/view/articleid/31437/display/full/'>Skykomish River Access Updates</a><br> <i>July 9, 2012</i></p></div><div id='zzq3f176mu14d99ArticleGadget44' class='CArticleGadget-view CArticleGadget'><p><a href='/content/Article/view/articleid/509/display/full/'>New Wilderness Proposed for Skykomish River (WA)</a><br> <i>May 14, 2008</i></p></div> <br style='clear:both'>
+</div>
+</div> 
+<div class="boxcontent CSimpleTitleView" id='zzq3f176mu14d99SimpleTitleView56'>
+<h1>Documents</h1> <ul>
+<li><a class='' href='/content/Document/view/documentid/1194/'>Skykomish Geothermal Comments</a> <p>
+Comments on the Environmental Assessment for the proposed Skykomish Geothermal Consent to Lease project </p></li>
+<li><a class='' href='/content/Document/view/documentid/1195/'>Skykomish Geothermal Scoping Comments</a> <p>
+Scoping Comments on the proposed Skykomish Geothermal Consent to Lease project </p></li>
+</ul>
+</div> 
+</div> 
+</div> 
+<br style='clear:all'>
+</div> 
+<div id='footer'>
+<div style='' class="CFooterGadget" id='zzq3f176mu14d99FooterGadget163'> &#169; 1999-2014 American Whitewater (<a href='/content/Wiki/aw:tos'>terms of use</a>) | PO Box 1540 | Cullowhee, NC 28723 | 1-866-262-8429 | <a href="mailto:info@americanwhitewater.org">info@americanwhitewater.org</a>
+</div><div><div style='' class="CContainerView" id='zzq3f176mu14d99ContainerView64'> <div><div id='zzq3f176mu14d99ArticleGadget59Container' class='CArticleGadget-view CArticleGadget'><div id='zzq3f176mu14d99ArticleGadget59-1' class='contents'></div></div> <br style='clear:both'>
+</div>
+</div></div><div><div style='' class="CNewsFeedGadget" id='zzq3f176mu14d99NewsFeedGadget122'> <div class='feed'>
+<a class='nodecoration' href='/content/River/detail/id/2212/.mobile'>
+<img src='/resources/images/blank.gif' class='mobile'></a>&nbsp;2. Bear Creek (Drumbeater) to South Fork confluence, Skykomish, N. Fork Washington, US (mobile)&nbsp;&nbsp;
+</div>
+</div></div><div><div style='' class="CContainerView" id='zzq3f176mu14d99ContainerView137'> <div><div id='zzq3f176mu14d99ArticleGadget132Container' class='CArticleGadget-view CArticleGadget'><div id='zzq3f176mu14d99ArticleGadget132-1' class='contents'></div></div> <br style='clear:both'>
+</div>
+</div></div> </div> 
+<br>
+<div style='display:none'>
+<span id='server-time' style='text-size:50%'></span>
+<span id='client-time' style='text-size:50%'></span>
+</div>
+<script type='text/javascript'>
+				require(['dojo/dom','dojo/ready','dojo/_base/xhr'],function(dom,ready,xhr){
+					
+			ready(
+				function(){
+					var roundNumber = function(num, dec) {
+						var result = Math.round(num*Math.pow(10,dec))/Math.pow(10,dec);
+						return result;
+					}
+						var clienttime = ((new Date().getTime()) - wh2timer)/1000;
+						var servertime = (0.20187902450562);
+						var servermemory = (18950088)/(1024*1024);
+						dom.byId('client-time').innerHTML=(clienttime+" sec. client ");
+						dom.byId('server-time').innerHTML=(servertime+" sec. server ");
+						dom.byId('server-time').innerHTML+= (servermemory.toFixed(2)+" MB");
+						if(!Math.floor(Math.random()*101))
+						{
+							var url = document.location;
+							var data = {server_time: servertime, client_time: clienttime, url:url};
+							xhr.post({
+								url: '/content/Performance/update/',
+								content: data	});
+							
+						}
+					}
+				);						
+					
+					
+				});
+						</script>
+ 
+</div>  
+</div> 
+</div> 
+</div> 
+</body>
+</html>

@@ -1,0 +1,912 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd" >
+<html>
+ 
+<head>
+<meta name="title" content="American Whitewater - Hwy 107 to Hwy 281, Whitewater River North Carolina, US">
+<meta name="description" content="American Whitewater is the primary advocate for the preservation and protection of whitewater rivers throughout the United States and connects the interests of human-powered recreational river users with ecological and science-based data to achieve goals within our mission. ">
+<title>American Whitewater - Hwy 107 to Hwy 281, Whitewater River North Carolina, US</title>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+<meta name="Language" content="English">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="global">
+<link rel="SHORTCUT ICON" href="/logo/myfile.ico">
+<link rel="stylesheet" type="text/css" href="/resources/css/style.css">
+<!--[if lte IE 7]>
+			<link rel="stylesheet" type="text/css" href="/resources/css/iestyle.css" />
+		<![endif]-->
+<!--[if lte IE 6]>
+			<link rel="stylesheet" type="text/css" href="/resources/css/iestyle6.css" />
+		<![endif]-->
+<style type='text/css'>.dojoTabPaneWrapper{width:100%;}</style>
+<script type='text/javascript'>
+			var wh2timer = new Date().getTime();
+		</script>
+<link rel="image_src" href="http://www.americanwhitewater.org/resources/images/assets6.5/awlogo.png"> <script type='text/javascript'>
+						if(typeof(djConfig) != 'undefined')
+						{
+							djConfig['gMapKey'] = 'AIzaSyAu7JAMzqGEKuwhxB-6ePHQim0g5hX8wpw';
+						}
+					</script>
+<script src='https://www.google.com/jsapi?key=AIzaSyAu7JAMzqGEKuwhxB-6ePHQim0g5hX8wpw' type='text/javascript'></script>
+<script type='text/javascript'>
+					google.load("maps", "2.x");	
+					
+					
+					</script>
+<script type='text/javascript' djConfig=' parseOnLoad:true ' src='/resources/js/dojo/release/dojo/dojo/dojo.js'></script>
+<style type='text/css'>@import "/resources/js/dojo/release/dojo//dijit/themes/tundra/tundra.css";</style>
+<script type='text/javascript' djConfig='parseOnLoad:true' src='/resources/js/dojo/release/dojo/dojo/dialog.js'></script>
+<script type='text/javascript' djConfig='parseOnLoad:true' src='/resources/js/dojo/release/dojo/dojo/tabs.js'></script> <link rel="alternate" type="text/html" title="Hwy 107 to Hwy 281, Whitewater River North Carolina, US (mobile)" href="/content/River/detail/id/3564/.mobile"> <style type='text/css'>.dojoTabPane{padding:0.75em;overflow:auto;}</style>
+<script type='text/javascript'>
+							dojo.require('dojo.parser'); 
+					var _gaq = _gaq || [];
+					_gaq.push(['_setAccount', 'UA-3113277-1']);
+					_gaq.push(['_trackPageview']);
+					
+				    (function() {
+				      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				    })();
+								dojo.require("aw.widget.AWMap");						dojo.require('dijit.Tooltip');
+						dojo.require('aw.widget.ToolTipSeeker');					dojo.require("aw.formathelper.forms.dialog");
+					dojo.require("aw.widget.Dialog");
+					dojo.require("aw.formathelper.dialog");
+					dojo.require("aw.widget.ContentPane");
+														dojo.require("aw.widget.TabContainer");
+								dojo.require("aw.widget.ContentPane");
+								
+								
+															dojo.require("aw.menu");		</script>
+<script id='onloadscript' type='text/javascript'>
+		dojo.addOnLoad(function(){					{
+					var killhandle = aw.formathelper.dialog.listener('comment',function(e)
+						{
+							
+							{
+								aw.formathelper.dialog.process('zzqkegn6g7uv0reCommentGadget60-1','/content/Comment/view/section/river/reachid/3564/notifylist/4337%3A156025/.dialog',null,function()
+								{
+									//make sure our event gets removed if the parent element disappears.
+									if(!dojo.byId('zzqkegn6g7uv0reCommentGadget60-1'))
+									{
+										dojo.unsubscribe(killhandle);
+									}
+								}
+								);
+							}
+						}
+						);
+					} });		</script>
+</head>
+<body class="two-col-right tundra wh2o ">
+<div id="width">
+<div id="minwidth">
+<div id="layout">
+<div id="content-container">
+<div id='toptonav'>
+<div id="header" class='header-bg'>
+<div class='top'>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style='border: #789876'>
+<tr>
+<td width="38%" align="left" class="logo">
+<a href="/"><img class='logo' src="/resources/css/../images/nothing.gif" alt="American White Water" title="American White Water"></a>
+</td>
+<td width="62%" valign="top" align="right">
+<div style='' class="CUserLoginView" id='zzqkegn6g7uv0reUserLoginView86'> <div class='neutral'>
+<div id="header-right">
+<div class="left-img">&nbsp;</div>
+<div class="topbox-bg">
+<form action="https://www.americanwhitewater.org/content/User/do-login/**fLRTzu+V8x" method='POST'>
+<table>
+<tr>
+<td colspan='2' id='login-upper'>
+<label for='username'>Username</label>
+<input name="username" type="text" class="inputbox"/>
+<label for='password'>Password</label>
+<input name="password" autocomplete='off' type="password" class="inputbox"/>
+<input type="submit" value="Login"/>
+</td>
+</tr>
+<tr>
+<td>
+<label for='remember' class='login-lower'>Remember Me</label>
+<input type='checkbox' checked='true' name='remember'>
+</td>
+<td align='right' class='login-lower'>
+<a href='/content/Membership/get-password/**fLRTzu+V8x' class='login-link1'>Forgot your password?</a>
+|
+<a href='/content/Membership/view/' class='login-link1'>Sign Up</a>
+</td>
+</tr>
+</table>
+</form>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+ 
+<div id="nav-wrapper">
+<div id="navigation">
+<div style='' class="CMenuGadget" id='zzqkegn6g7uv0reMenuGadget87'>
+<div id='menu0'><ul dojoType="aw.menu" class='menulist' id="menu"> <li>
+<a href='/content/Welcome/view/'>
+<span>Our Organization</span>
+</a>
+<div id='menu1'><ul class='menulist'> <li>
+<a href='/content/Wiki/aw:about/'>
+<span>About AW</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:outdooralliance/'>
+<span>Outdoor Alliance</span>
+</a>
+</li>
+<li>
+<a href='/content/News/view/type/frontpagenews/showarchive/1/'>
+<span>News</span>
+</a>
+</li>
+<li>
+<a href='/content/Stewardship/view/'>
+<span>Stewardship</span>
+</a>
+</li>
+<li>
+<a href='/content/Safety/view/'>
+<span>Safety</span>
+</a>
+</li>
+<li>
+<a href='/content/Events/view/'>
+<span>Events</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:contact_us/'>
+<span>Contact Us</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:board_of_directors/'>
+<span>Board of Directors</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:staff/'>
+<span>Professional Staff</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/Wiki/aw:shop/'>
+<span>Support AW</span>
+</a>
+<div id='menu2'><ul class='menulist'> <li>
+<a href='/content/Membership/join-aw/'>
+<span>Join or Renew</span>
+</a>
+</li>
+<li>
+<a href='/content/Membership/donate/'>
+<span>Donate</span>
+</a>
+</li>
+<li>
+<a href='/content/Membership/gift/'>
+<span>Gift Membership</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:giving/'>
+<span>Giving</span>
+</a>
+</li>
+<li>
+<a href='/content/Volunteer/view/'>
+<span>Become a Volunteer</span>
+</a>
+</li>
+<li>
+<a href='/content/Store'>
+<span>AW Store</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:partnership/'>
+<span>Industry Partner Program</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:advertising/'>
+<span>Advertising Information</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/Menu/summarize/area/community/'>
+<span>Community</span>
+</a>
+<div id='menu3'><ul class='menulist'> <li>
+<a href='/content/Affiliate/view/'>
+<span>Clubs</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:sponsorship/'>
+<span>Industry Partners</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/River/view/'>
+<span>River Info</span>
+</a>
+<div id='menu4'><ul class='menulist'> <li>
+<a href='/content/River/view/'>
+<span>National River Database</span>
+</a>
+</li>
+<li>
+<a href='/content/Report/list-recent/'>
+<span>Recent River Reports</span>
+</a>
+</li>
+<li>
+<a href='/content/StreamTeam/info/'>
+<span>Stream Team</span>
+</a>
+</li>
+<li>
+<a href='/content/River/list-permits/'>
+<span>Permit Information</span>
+</a>
+</li>
+<li>
+<a href='/content/Release/view/'>
+<span>Release Information</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/Menu/summarize/area/multimedia/'>
+<span>Library</span>
+</a>
+<div id='menu5'><ul class='menulist'> <li>
+<a href='/content/Photo/view/'>
+<span>Photo/Video</span>
+</a>
+</li>
+<li>
+<a href='/content/Journal/archive/'>
+<span>AW Journal</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:logos/'>
+<span>Logos</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/Search/view/'>
+<span>Search</span>
+</a>
+</li>
+<li>
+<a href='/content/Membership/view/'>
+<span>Login</span>
+</a>
+<div id='menu6'><ul class='menulist'> <li>
+<a href='/content/User/register/**fLRTzu+V8x'>
+<span>New Account</span>
+</a>
+</li>
+<li>
+<a href='/content/User/get-password/**fLRTzu+V8x'>
+<span>Password Reminder</span>
+</a>
+</li>
+</ul></div> </li>
+</ul></div></div><div style='' class="CCrumbsGadget" id='zzqkegn6g7uv0reCrumbsGadget88'><ul class='bread_crumb'>
+<li class="emphasize bread_crumb">Recent Pages:</li>
+<li class='bread_crumb'><a href='/content/River/detail/id/3564/'>Hwy 107 to Hwy 281, Whitewater River North Carolina, US</a></li></ul></div> </div> 
+</div> 
+ 
+<div id="warnings" class="hide-all">
+<h2 class="hide-all">Old browser warning</h2>
+<p><em>Site look funky?</em>&nbsp;
+Your browser is either Internet Explorer (hit refresh (F5) several times due to a bug in Microsoft's code
+that we can't work around) or is 10 years old and
+<a href="http://www.webstandards.org/about/" title="Click to visit Web Standards Project mission page.">standards-based</a> layouts and styling confuse it.
+&nbsp; Consider updating.&nbsp; One excellent option is
+<a href="http://www.mozilla.org/products/firefox/" title="Click to visit the Mozilla Firefox download page.">
+Mozilla Firefox</a>, versions of which are available for Linux, Mac and Windows. Safari 1.0+ and IE 6.0+ are also supported.</p>
+</div>
+ 
+ 
+</div> 
+<div id="container">
+<div id="block_1_wrapper">
+<div id="block_1">
+ 
+<div class="boxcontent CContainerView" id='zzqkegn6g7uv0reContainerView97'>
+<div><div id='zzqkegn6g7uv0reRiverDetailGadget2' class='CRiverDetailGadget-detail CRiverDetailGadget'><div class='controls'><h1>Whitewater River - Hwy 107 to Hwy 281</h1>
+<div><div id='zzqkegn6g7uv0reArticleGadget26Container' class='CArticleGadget-view CArticleGadget'><div id='zzqkegn6g7uv0reArticleGadget26-1' class='contents'></div></div> <br style='clear:both'>
+</div>
+</div> <div class='tabcontainer' doLayout='false' id="zzqkegn6g7uv0reContainerView80tabc" dojoType="aw.widget.TabContainer" enableBack="true">
+<div id="zzqkegn6g7uv0reContainerView76" trackAsMain='true' class='CContainerView' dojoType="aw.widget.ContentPane" title='RiverMain'>
+<div><div id='zzqkegn6g7uv0reRiverMainGadget33' class='CRiverMainGadget-main CRiverMainGadget'>
+<div parseWidgets='false' class='nodecoration river-description'>
+<table class='nodecoration'>
+<tr>
+<td>
+<h1>Whitewater River, North Carolina, US</h1>
+</td>
+<td valign=top>
+<a href="/content/Wiki/rivers:info:disclaimer/"><img align=right alt=Disclaimer src="/resources/images/disclaimerclick.gif" width=72 height=21></a>
+</td>
+</tr>
+</table>
+<h2>Hwy 107 to Hwy 281 (Upper Whitewater)</h2>
+<table class='data_table river-stats'>
+<tr class='row-1'>
+<th>Usual Difficulty</th>
+<td>IV-V+ (for normal flows) </td>
+</tr>
+<tr class='row-2'>
+<th>Length</th>
+<td>3.6 Miles </td>
+</tr>
+<tr class='row-3'>
+<th>Avg. Gradient</th>
+<td>150 fpm</td>
+</tr>
+<tr class='row-4'>
+<th>Max Gradient</th>
+<td>250 fpm</td>
+</tr>
+</table>
+<div class='river-photo'>
+<div class='controls'>
+<h1>Bounce and Boof</h1>
+</div>
+<div><div id='zzqkegn6g7uv0rePhotoDetailView100' class='CPhotoDetailView-view CPhotoDetailView'> <div class='river-photo'>
+<a href="/content/Photo/detail/photoid/17353/size/big/">
+<img class='river-photo' src="/photos/archive/medium/17353.jpg">
+</a>
+<br>
+<i>Bounce and Boof</i><br><span class='caption'><i>Photo of Kirk Eddlemon by Shane Day @ 7 inches</i></span></div></div> <br style='clear:both'>
+</div>
+</div>
+<div class='river-break'></div>
+<br>
+<br>
+<h2>River Description</h2>
+This run was featured in the Wayne Gentry Video "Southern Fried Creeking".
+<p>
+Mile by mile gradient: 35, 102, 210, 205
+</p>
+<p>
+The Whitewater River is the quickest run in the area, as the shuttle is only around 12-15 minutes
+and there is no hiking involved at all. There are only 7 big rapids and other than the boogie
+below the last few down to the takeout, the rest is mostly flatwater. The boogie is fun class 3
+and easy 4, so assuming one has the ability to scout well, set good safety and make good
+decisions, this run can be done by most competent class 4 boaters. There are some components to
+this run that require extreme caution though, and therefore the overall feel of the run is more
+in the class 5 realm.
+</p>
+<p>
+Shuttle: The takeout is located on the river right upstream end of the 281 bridge over the river.
+There is enough room for 3 cars parked single file. This is 7 miles south of the US 64
+intersection near Lake Toxaway. To reach the putin drive further south for a few miles and then
+make a right onto a connector that goes a few miles over to 107. Upon reaching 107 drive around 4
+miles to where the river comes right next to the road. Put in as far down as possible, as there
+is an unrunnable slide along the roadside section. There is a pullout 200 yards after the river
+comes into view that has a faint trail that descends 50 feet down to river level.
+</p>
+<p>
+To run Silver Run Falls, continue another mile to the signed parking area for Silver Run Falls.
+Take the trail 1/4 mile to the base of the falls and then hike carefully up the river right side
+and to above the entrance slide. It should be noted that Whitewater should be running at least at
+a medium to medium high level for Silver Run to be padded out enough for a safe run. People have
+run it real low but the risk of a green landing is high. More water brings about different issues
+though, so know what you are doing before taking this drop on. Either way, if you are paddling
+the Whitewater run below, take back out after running the falls, as the unrunnable slide is just
+a short distance below the confluence of Silver Run and Whitewater.
+</p>
+<p>
+After puting on there is basically 1.2 miles of flatwater with frequent logjams to deal with. At
+low water most are duckable or boofable, but higher flows may necessitate some annoying portages.
+After a mile of this, a short putin is reached at a small bridge across the river.
+</p>
+<p>
+This putin cuts out the flatwater paddle in. There is a system of roads just south of the
+standard roadside putin that lead a few miles or less into the river right corridor of the river
+to several cabins and homes. There is one spot where there is a bridge that crosses to river left
+to more houses. This makes a nice putin that cuts out the first mile of tree ducking/portaging.
+Try to park out of the way on USFS land and be discrete. If you putin here, you will float a few
+hundred more yards through an area with a number of nice cabins to your left. After the last of
+these the whitewater is about to begin with a serious bang.
+</p>
+<p>
+The first drop is a large and deadly sieve. Here the river flies down a bedrock drop into the
+river left wall some with some 15-20 feet of vertical drop. Missing the eddy would be the end
+here for sure. This is the most critical spot on the river and deserves respect. Most boaters
+catch an almost non existent eddy on river right immediately above the drop and scramble down the
+right bank along the bedrock and seal launch back in below. This eddy is dangerous to attempt
+with high water due to a strong rejector current coming off the top of the eddy and pushing into
+the portage, and even at low water it can be tricky to get out above the drop. Pile ups could be
+disastrous, so try to stage up further upsteam and go one by one with the prior person helping
+people get out safely. The problem below here is that the river goes only about 200 feet before
+the next big portage at the mini gorge.
+</p>
+<p>
+For almost anyone the mini gorge of the Whitewater is a must portage, and it is one of the most
+committing drops in the SE for sure. There is no way to set safety either. The mini gorge
+consists of a long lead in slide that lands on a rock. The river then drives off of a 10 foot
+spout with a nasty pocket and wood in the landing. The river then surges through several powerful
+hydraulics all with disgusting pockets and wood. The mini gorge ends in a beautiful 25-30 foot
+waterfall. The waterfall itself looks very easy and straightforward. Contact is kept with the
+drop as it is not quite vertical, and then a convenient little kicker 6 feet from the bottom
+angles the boat out a little so there is no hole and a perfect landing angle. The left can be run
+for a bigger and higher kick off of the boof flake halfway down, but the middle is more
+straightforward. Stay away from the right. The problem here is trying to get in above the
+waterfall but below the mini gorge. Seal launching off a sketchy spot on river right after
+portaging on the right is currently the method to run the falls, and due to the risk involved,
+most boaters portage on the left.
+</p>
+<p>
+To portage left, get out on the left immediately above the entrance slide, being extremely
+serious about not missing the tiny eddy. At higher flows this is one of the most crucial moves
+you will make as a kayaker. Take the little trail 100 yards up to a faint intersection, where
+another fisherman's trail that parallels the creek heads downstream. Take a right and follow this
+trail untill it breaks off slightly right and down a very steep slippery ditch to the base of
+this section. Put back in below and enjoy the view of the falls.
+</p>
+<p>
+Though I have not tried this yet, a better way to deal with the mini gorge and the portage above
+would be to get out a hundred yards or more above the first portage on the left and simply
+portage the whole set on river left. This would cut it down to one longer but easier walk, with
+no risky eddy hopping. The fisherman's trail on river left does go all the way up to the cabin
+area at the short putin but I am not sure how far you would have to walk away from the creek to
+reach it. It would not be more than 150 feet or so though, and would be quite flat going. I am
+almost certain too, that once someone further explores this option a connector path will be found
+that will make this the preferred method of portaging this section. Once this occurs this stretch
+will not be as exposed and risky as it currently is, and the new portage routes will be clearer,
+easier, and safer. It would also be nice if there was a path down to a lowering point on river
+left, where someone could be lowered into the pool right above the 25 footer. There is a small
+pool here to set up in above the big drop, and this would eliminate the need for the hell portage
+on river right, followed by the scary and risky seal launch into the river above the exit falls.
+</p>
+<p>
+Below the mini gorge the river passes through pleasant rhododendron groves and class 1-2 rapids
+for a short time before arriving at the next rapid. Bedrock Betty is a fun and long slide that is
+best scouted on river left. You can run the first 3 foot ledge far left and then get out and
+scout the rest. Most of the rapids have scouting/portage routes, you just have to know which side
+to get out on. This rapid is not hard and has no huge consequences. There are 3 drops here in the
+slide, with the last being a sloping shelf that steepens down to a final vertical drop of
+anywhere from 6-8 feet depending on where you decide to run. The top drops through a wide and
+shallow series of sliding ledges before fanning out more. Stay center to avoid drying out on the
+left and then cut back left right near the bottom for a sweet slide into a fun boof. This is just
+too much fun. From here it is a short distance to the next fun rapid.
+</p>
+<p>
+Merge lane is next, and though it is not real hard, there is a BIG hole at the bottom that at low
+flows can be menacing and at high flows can beat the crap out of you. Scout/portage on the left
+here. The line is to start far right on a shallow slide that angles to the left. The left side of
+the river is where almost all of the water is, and this side piles into the shelf on the left,
+and then channelizes and drives back to the center for the last 12 feet of drop into the pool
+below. Starting right, drive back left and merge into the flow continuing to drive left to avoid
+the meat of the hole. Invariably most boaters get thrown into the meat anyway, but its worth it
+to at least try, right?
+</p>
+<p>
+Below here are class 2-3 rapids for a little ways before the big boy of the run, 55 mph. Right
+above 55 mph is a 10 foot sliding drop above a big turn to the right in the gorge. Get out on the
+right after this, being careful not to flush into the rapid below. Here the river turns right and
+enters a super steep and tight gorge. Scout/portage 55mph on the right. Here the river flies down
+an awesome and sizable entrance bedrock slide that is very fast. The crux is where it flies off
+of a 15 foot drop into the chaos below. A few boaters have boofed into the eddy on the left, but
+most hit the big drop center and then keep driving right, away from the logs and undercuts that
+exist on the left. There is a hole on the right and an undercut there too though, so wait till
+you are past them before driving right. There is also rumor of a nasty piton rock in the landing,
+and several of the river's pioneers had run ins with this rock in the early days. This drop is
+similar to Stairway to Heaven on the Bear in Georgia, but not as big, yet more consequential.
+</p>
+<p>
+Below here the gorge opens back up for a few hundred yards, but quickly gains momentum into the
+next big drop. This ledge drops around 20 feet total. There are two lines, far right and far
+left. Far right is a big tricky boof into the pool below, and left is a little safer but more
+interesting as well. Left requires a tight line on the bank driving straight down off a ledge
+clapping right onto another ledge. No matter what the line here, a large boof is a great way to
+do it. The runout below here has some fun but sticky hole punching, and then after another few
+hundred yards the next rapid begins.
+</p>
+<p>
+Wheelchair Accessible is on a big bend to the left in the river. The horizon line is obvious. Get
+out on the right to check it out, though at high water it can be hard to walk down and look. The
+whole left side of the river here falls off a big 15-18 foot ledge onto rocks and trees. Luckily
+this rapid is wheelchair accessible down the ramp on the right. Just slide down far right and at
+the turn either rocks spin clockwise into a clever ferry back to the left or plane into the wall
+careful to make the turn into the runout ledge of 3 feet. Think of this as a giant version of
+Razorback on Wilson Creek. Below here a short boulder garden leads into the last big drop.
+</p>
+<p>
+The last big one is scouted/portaged on the left. Here the river drops an honest 20 footer into a
+pool that has rocks in the vicinity of the landing. There is a simple boof lip at center that is
+about 6 feet wide. As long as you come off here and know how to boof you will not hit any rocks.
+Anywhere else and you will get hurt. However, boofing 20 feet into a flat landing into relatively
+unaerated water tends to hurt sometimes, so many people do the quick portage on the left. At
+higher water the drop should be better padded.
+</p>
+<p>
+Immediately below is a fun class 4 twisty bedrock sluice which forms a nice beginning to the
+pleasant class 3-4 paddle out. The river has lots of fun boogie through here, but do be aware of
+a 5 foot ledge about 200 yards above the takeout that is terminal at most levels. Portage left or
+run it correctly. It is easy to set safety here. Just below is the Hwy 281 bridge. Get out on the
+right at a little side creek and take the trail up and back down, then across the ditch where the
+trail switchbacks back up to the back of the parking area. This is only 200 yards or so.
+</p>
+<p>
+If you haven't had enough you can go past the bridge for one or two more class 3-4 rapids, but
+immediately below these last drops lies the biggest waterfall in the SE at around 400 feet. The
+rapids consist of a long low angle slide leading into a bouncy twisty slide of about 15 feet
+called Twist and Shout. Don't miss that last eddy. If you want to run this last few hundred
+yards, don't park at the bridge, park at a pull off on the south side Hwy 281, just half a mile
+east of the bridge. Here a trail switchbacks a third of a mile down to the spot right above the
+last rapid above Whitewater falls. From the river you can just get out on river left and hike
+back up this trail to your car. If you are doing this option, be careful, you are playing with
+your life.
+</p>
+<p>
+Though it is good to scout for wood and changes on a first run, this run can be lapped with
+relative ease. The whole thing can be done in 2 hours or less quite easily, though first times
+can easily take as long as 5 hours or so. Another good run to combine in the day is Overflow
+Creek, as it runs often at the same time as Whitewater.
+</p> <br>
+<div style='clear:both'>
+<div><b>StreamTeam Status: </b>Not Verified</div>
+<div><b>Last Updated: </b>2007-01-05 16:03:11</div>
+<div class='controls'>
+<h1>Editors</h1>
+</div>
+<div><div id='zzqkegn6g7uv0reContactView40' class='CContactView-view CContactView'></div> <br style='clear:both'>
+</div>
+</div>
+</div>
+</div><div id='zzqkegn6g7uv0reRiverRapidsGadget43' class='CRiverRapidsGadget-view-rapids CRiverRapidsGadget'> <h2>Rapid Summary</h2>
+<table class='data_table'>
+<tr class='row-0'>
+<th>Mile</th>
+<th>Rapid Name</th>
+<th>Class</th>
+<th>Features (<a href="/content/Wiki/view/id/river%3Ainfo%3Afeature_legend/">Legend</a>)</th>
+</tr>
+<tr class='row-1'><td class='big'>0.0</td><td class='big'><a href="#rapid2964">Putin at Hwy 107</a></td><td class=big></td><td><img alt="Putin " src="/resources/images/rapid_icon/rapid_icon_putin.gif"><img alt="Photo " src="/resources/images/rapid_icon/rapid_icon_photo.gif"></td></tr>
+<tr class='row-0'><td class='big'>1.0</td><td class='big'><a href="#rapid2965">Short Putin</a></td><td class=big></td><td><img alt="Access " src="/resources/images/rapid_icon/rapid_icon_access.gif"></td></tr>
+<tr class='row-1'><td class='big'>1.2</td><td class='big'><a href="#rapid2966">Sieve Portage</a></td><td class=big></td><td><img alt="Portage " src="/resources/images/rapid_icon/rapid_icon_portage.gif"><img alt="Hazard " src="/resources/images/rapid_icon/rapid_icon_hazard.gif"><img alt="Waterfall " src="/resources/images/rapid_icon/rapid_icon_waterfall.gif"></td></tr>
+<tr class='row-0'><td class='big'>1.3</td><td class='big'><a href="#rapid2967">The Mini-Gorge</a></td><td class=big>5.3</td><td><img alt="Portage " src="/resources/images/rapid_icon/rapid_icon_portage.gif"><img alt="Hazard " src="/resources/images/rapid_icon/rapid_icon_hazard.gif"><img alt="Waterfall " src="/resources/images/rapid_icon/rapid_icon_waterfall.gif"></td></tr>
+<tr class='row-1'><td class='big'>1.3</td><td class='big'><a href="#rapid2971">Exit Falls</a></td><td class=big>5.0</td><td><img alt="Waterfall " src="/resources/images/rapid_icon/rapid_icon_waterfall.gif"><img alt="Photo " src="/resources/images/rapid_icon/rapid_icon_photo.gif"></td></tr>
+<tr class='row-0'><td class='big'>1.6</td><td class='big'><a href="#rapid2968">Bedrock Falls</a></td><td class=big>IV+</td><td><img alt="Waterfall " src="/resources/images/rapid_icon/rapid_icon_waterfall.gif"></td></tr>
+<tr class='row-1'><td class='big'>1.8</td><td class='big'><a href="#rapid2969">Merge Lane</a></td><td class=big>5.0</td><td><img alt="Waterfall " src="/resources/images/rapid_icon/rapid_icon_waterfall.gif"><img alt="Photo " src="/resources/images/rapid_icon/rapid_icon_photo.gif"></td></tr>
+<tr class='row-0'><td class='big'>2.0</td><td class='big'><a href="#rapid2970">55 mph</a></td><td class=big>5.2</td><td><img alt="Hazard " src="/resources/images/rapid_icon/rapid_icon_hazard.gif"><img alt="Waterfall " src="/resources/images/rapid_icon/rapid_icon_waterfall.gif"><img alt="Photo " src="/resources/images/rapid_icon/rapid_icon_photo.gif"></td></tr>
+<tr class='row-1'><td class='big'>2.2</td><td class='big'><a href="#rapid2972">Big Ledge</a></td><td class=big>IV+</td><td><img alt="Waterfall " src="/resources/images/rapid_icon/rapid_icon_waterfall.gif"><img alt="Photo " src="/resources/images/rapid_icon/rapid_icon_photo.gif"></td></tr>
+<tr class='row-0'><td class='big'>2.5</td><td class='big'><a href="#rapid2973">Wheelchair Accessible</a></td><td class=big>IV+</td><td><img alt="Hazard " src="/resources/images/rapid_icon/rapid_icon_hazard.gif"><img alt="Waterfall " src="/resources/images/rapid_icon/rapid_icon_waterfall.gif"></td></tr>
+<tr class='row-1'><td class='big'>2.6</td><td class='big'><a href="#rapid2974">Shallow Boof</a></td><td class=big>5.1</td><td><img alt="Portage " src="/resources/images/rapid_icon/rapid_icon_portage.gif"><img alt="Hazard " src="/resources/images/rapid_icon/rapid_icon_hazard.gif"><img alt="Waterfall " src="/resources/images/rapid_icon/rapid_icon_waterfall.gif"></td></tr>
+<tr class='row-0'><td class='big'>3.4</td><td class='big'><a href="#rapid2975">Terminal Ledge</a></td><td class=big>IV+</td><td><img alt="Hazard " src="/resources/images/rapid_icon/rapid_icon_hazard.gif"></td></tr>
+<tr class='row-1'><td class='big'>3.6</td><td class='big'><a href="#rapid2976">Takeout</a></td><td class=big></td><td><img alt="Takeout " src="/resources/images/rapid_icon/rapid_icon_takeout.gif"></td></tr>
+<tr class='row-0'><td class='big'>3.8</td><td class='big'><a href="#rapid2977">Low angle slide rapid</a></td><td class=big>III+</td><td><img alt="Hazard " src="/resources/images/rapid_icon/rapid_icon_hazard.gif"><img alt="Photo " src="/resources/images/rapid_icon/rapid_icon_photo.gif"></td></tr>
+<tr class='row-1'><td class='big'>3.9</td><td class='big'><a href="#rapid2978">Twist and Shout</a></td><td class=big>IV</td><td><img alt="Access " src="/resources/images/rapid_icon/rapid_icon_access.gif"><img alt="Hazard " src="/resources/images/rapid_icon/rapid_icon_hazard.gif"><img alt="Waterfall " src="/resources/images/rapid_icon/rapid_icon_waterfall.gif"></td></tr>
+</table>
+<h2>Rapid Descriptions</h2>
+<div><div id='zzqkegn6g7uv0reRiverRapidView44' class='CRiverRapidView-view CRiverRapidView'> <b><a name="rapid2964">Putin at Hwy 107</a></b> <br>
+<div class='rapid-inline'>
+<div class='controls'>
+<h1>Pull off for normal putin</h1>
+</div>
+<div><div id='zzqkegn6g7uv0rePhotoDetailView104' class='CPhotoDetailView-view CPhotoDetailView'> <div class='photo-inline'>
+<a href="/content/Photo/detail/photoid/17351/size/big/">
+<img class='riverdetail' src="/photos/archive/medium/17351.jpg">
+</a>
+<i>Pull off for normal putin</i></div><div>Photo of Kirk and Tony by Shane Day @ 7 inches</div></div> <br style='clear:both'>
+</div>
+</div> 
+Park at the pull off 150 yards North on Hwy 107 of where the river leaves the road on its journey downstream.<br>
+<br clear=right>
+</div><div id='zzqkegn6g7uv0reRiverRapidView45' class='CRiverRapidView-view CRiverRapidView'> <b><a name="rapid2965">Short Putin</a></b> <br>
+The road to this putin bridge is just a little ways south of the normal putin on the east side of Hwy 281. Do a little exploring and you will find it. This cuts out the flatwater and logjam filled paddle in.<br>
+<br clear=right>
+</div><div id='zzqkegn6g7uv0reRiverRapidView46' class='CRiverRapidView-view CRiverRapidView'> <b><a name="rapid2966">Sieve Portage</a></b> <br>
+Don't flush in to this one unless you have a death wish. Portaging can be done from the sketchy eddy right above on the right, or by getting out well in advance and picking up the fisherman's trail on river left.<br>
+<br clear=right>
+</div><div id='zzqkegn6g7uv0reRiverRapidView47' class='CRiverRapidView-view CRiverRapidView'> <b><a name="rapid2967">The Mini-Gorge</a></b> (Class 5.3, Mile 1.3)<br>
+Only been run around 5 times. Portage by getting out right above the entrance slide on the left. You can also get out on the right and portage the mini gorge but seal launch back in for the final 25-30 foot drop. This is not for the faint of heart though.<br>
+<br clear=right>
+</div><div id='zzqkegn6g7uv0reRiverRapidView48' class='CRiverRapidView-view CRiverRapidView'> <b><a name="rapid2971">Exit Falls</a></b> (Class 5.0, Mile 1.3)<br>
+<div class='rapid-inline'>
+<div class='controls'>
+<h1>Mini gorge exit falls</h1>
+</div>
+<div><div id='zzqkegn6g7uv0rePhotoDetailView108' class='CPhotoDetailView-view CPhotoDetailView'> <div class='photo-inline'>
+<a href="/content/Photo/detail/photoid/17357/size/big/">
+<img class='riverdetail' src="/photos/archive/medium/17357.jpg">
+</a>
+<i>Mini gorge exit falls</i></div><div>Photo by Shane Day @ 7 inches</div></div> <br style='clear:both'>
+</div>
+</div> 
+If only there was an easy way down to the little pool above this one.<br>
+<br clear=right>
+</div><div id='zzqkegn6g7uv0reRiverRapidView49' class='CRiverRapidView-view CRiverRapidView'> <b><a name="rapid2968">Bedrock Falls</a></b> (Class IV+, Mile 1.6)<br>
+Scout on the left, and watch the bottom hole at high water.<br>
+<br clear=right>
+</div><div id='zzqkegn6g7uv0reRiverRapidView50' class='CRiverRapidView-view CRiverRapidView'> <b><a name="rapid2969">Merge Lane</a></b> (Class 5.0, Mile 1.8)<br>
+<div class='rapid-inline'>
+<div class='controls'>
+<h1>Rapid number 3</h1>
+</div>
+<div><div id='zzqkegn6g7uv0rePhotoDetailView112' class='CPhotoDetailView-view CPhotoDetailView'> <div class='photo-inline'>
+<a href="/content/Photo/detail/photoid/17352/size/big/">
+<img class='riverdetail' src="/photos/archive/medium/17352.jpg">
+</a>
+<i>Rapid number 3</i></div><div>Photo of Kirk Eddlemon by Shane Day @ 7 inches</div></div> <br style='clear:both'>
+</div>
+</div> 
+Big hole at the bottom.<br>
+<br clear=right>
+</div><div id='zzqkegn6g7uv0reRiverRapidView51' class='CRiverRapidView-view CRiverRapidView'> <b><a name="rapid2970">55 mph</a></b> (Class 5.2, Mile 2.0)<br>
+<div class='rapid-inline'>
+<div class='controls'>
+<h1>Down the Barrel</h1>
+</div>
+<div><div id='zzqkegn6g7uv0rePhotoDetailView116' class='CPhotoDetailView-view CPhotoDetailView'> <div class='photo-inline'>
+<a href="/content/Photo/detail/photoid/17355/size/big/">
+<img class='riverdetail' src="/photos/archive/medium/17355.jpg">
+</a>
+<i>Down the Barrel</i></div><div>Photo by Shane Day @ 7 inches</div></div> <br style='clear:both'>
+</div>
+</div> 
+This one is packed with penalty points. Portage right. The whole rapid drops around 30 feet, and is in a really tight and impressive gorge.<br>
+<br clear=right>
+</div><div id='zzqkegn6g7uv0reRiverRapidView52' class='CRiverRapidView-view CRiverRapidView'> <b><a name="rapid2972">Big Ledge</a></b> (Class IV+, Mile 2.2)<br>
+<div class='rapid-inline'>
+<div class='controls'>
+<h1>Bounce and Boof</h1>
+</div>
+<div><div id='zzqkegn6g7uv0rePhotoDetailView120' class='CPhotoDetailView-view CPhotoDetailView'> <div class='photo-inline'>
+<a href="/content/Photo/detail/photoid/17353/size/big/">
+<img class='riverdetail' src="/photos/archive/medium/17353.jpg">
+</a>
+<i>Bounce and Boof</i></div><div>Photo of Kirk Eddlemon by Shane Day @ 7 inches</div></div> <br style='clear:both'>
+</div>
+</div> 
+Far right or Far left. Scout/portage left.<br>
+<br clear=right>
+</div><div id='zzqkegn6g7uv0reRiverRapidView53' class='CRiverRapidView-view CRiverRapidView'> <b><a name="rapid2973">Wheelchair Accessible</a></b> (Class IV+, Mile 2.5)<br>
+To the left is disaster, but a nice ramp down the right is great.<br>
+<br clear=right>
+</div><div id='zzqkegn6g7uv0reRiverRapidView54' class='CRiverRapidView-view CRiverRapidView'> <b><a name="rapid2974">Shallow Boof</a></b> (Class 5.1, Mile 2.6)<br>
+Better come off in the right place boofing. Stomping the boof could help reduce the pain upon impact.<br>
+<br clear=right>
+</div><div id='zzqkegn6g7uv0reRiverRapidView55' class='CRiverRapidView-view CRiverRapidView'> <b><a name="rapid2975">Terminal Ledge</a></b> (Class IV+, Mile 3.4)<br>
+5 foot ledge with a killer hole. <br>
+<br clear=right>
+</div><div id='zzqkegn6g7uv0reRiverRapidView56' class='CRiverRapidView-view CRiverRapidView'> <b><a name="rapid2976">Takeout</a></b> <br>
+Get out on the right at a little trail that rises up to an intersection. Take a left where the trail drops to cross a small feeder. After this the path switchbacks one time and comes out at the back of the parking area.<br>
+<br clear=right>
+</div><div id='zzqkegn6g7uv0reRiverRapidView57' class='CRiverRapidView-view CRiverRapidView'> <b><a name="rapid2977">Low angle slide rapid</a></b> (Class III+, Mile 3.8)<br>
+<div class='rapid-inline'>
+<div class='message  msg_message'>
+<img alt='icon of message' src='/resources/images/messages/message.gif'/> Photo removed </div>
+<div style='clear:both'></div>
+</div> 
+This leads into Twist and Shout, the final rapid above Whitewater Falls. Twist and Shout is the rapid in the bottom of the picture.<br>
+<br clear=right>
+</div><div id='zzqkegn6g7uv0reRiverRapidView58' class='CRiverRapidView-view CRiverRapidView'> <b><a name="rapid2978">Twist and Shout</a></b> (Class IV, Mile 3.9)<br>
+Don't miss the last eddy on the left. If you do that is all she wrote. Hike back up on river left 1/3 mile to parking area on Hwy 281<br>
+<br clear=right>
+</div> <br style='clear:both'>
+</div>
+</div><div id='zzqkegn6g7uv0reCommentGadget60' class='CCommentGadget-view CCommentGadget'><div id='zzqkegn6g7uv0reCommentGadget60-1'>  
+<div class='comment-container' style=''>
+<table class='comments'>
+<tr>
+<td><h2>User Comments</h2></td>
+</tr>
+<tr>
+<td>
+<hr>
+<div class='commentinfo comment_comment'>
+2013-03-16 09:00:04 (441 days ago)
+<div id='contact-155217'>bbell73271 (155217)</div> </div>
+<div class='commentbox'>
+There is currently a big hemlock log wedged under the river left rock shelf on merge lane that<br/>
+extends out into the river. Don't see this flushing out anytime soon and it looks pretty sketchy. I<br/>
+own the last cabin on river left before you get to the gorge. Stop and say hello if you come<br/>
+through. </div>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+<div class='commentinfo comment_comment'>
+2009-05-30 08:24:14 (1827 days ago)
+<div id='contact-1'>x (1)</div> </div>
+<div class='commentbox'>
+Dude, Whitewater river, because it has whitewater; location, click 'map'; headwaters, its a tiny<br/>
+creek, the whitewater river is the headwaters; basin, click 'map'; counties in the basin, click<br/>
+'map'; cities the river runs through, click 'map'; wildlife near the river, its western nc so, wnc<br/>
+wildlife; ditto on the plant life; interesting facts, its a site about whitewater boating and kirk<br/>
+did a great writeup of the WHITEWATER on the WHITEWATER river. Chill dude. </div>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+<div class='commentinfo comment_'>
+2004-04-13 23:18:10 (3699 days ago)
+<div id='contact-346'><span class='name'>Brad Roberts</span><span class='send-message'><a href="/content/Contact/view/contactid/346/display/detail/">Details</a></span></div> </div>
+<div class='commentbox'>
+Whitewater River Trip Report New<br/>
+<br/>
+Forum: BoaterTalk<br/>
+Date: Apr 14 2004, 2:44 GMT<br/>
+From: LVM<br/>
+<br/>
+http://www.lvmvideo.com/quicktime/tommywhitewater.mov<br/>
+<br/>
+<br/>
+It rained about 3 inches in the Joccasee gorges area early this morning and we switched our<br/>
+destination from the linville to the Toxaway.<br/>
+<br/>
+Not a drop of water, far as I can figure the baseflow drains out real quick in the area due to the<br/>
+solid rock and steep gradients to the SC valley below. Also the lakes above the putin slow up the<br/>
+flow, no water egardless,<br/>
+so we went to the upper whitewater and it was low. 6 inches on the gauge and dropping.<br/>
+<br/>
+The only thing of note was Tommy Hilleke's run of the box canyon of the the whitewater. This mini<br/>
+gorge is unique to the East Coast, existing no where else I know of (maybe in New York St. or<br/>
+something).<br/>
+<br/>
+Anyway, Corran is the only person we have heard of running it. There is always wood in it, as there<br/>
+was today, and it was kinda manky.<br/>
+<br/>
+But if it was clean it would be cooler than hell to run down through.<br/>
+<br/>
+Basic layout<br/>
+Big slide entry, lands on rock..<br/>
+8 footer lands in pothole, with what appears to be a large rootball and horizontal log.<br/>
+then right into a log across the river only 3 feet up on one side and in the river on the<br/>
+other.<br/>
+<br/>
+A couple of us portaged around and seal launched in above the bottom tw drops.<br/>
+<br/>
+The seal launch first scoped out by Dave was a wee bit wobly, but we were committed to it. Chris<br/>
+Granthams was unluky to be last, and instead of risking falling into the crack/drop half in kayak,<br/>
+he chose to throw his boat into the pothole upstream, jump in and clamber in his cockpit.<br/>
+<br/>
+The crack was about 4 feet wide and 15 feet tall. The final falls is a near vertical 25 footer.<br/>
+<br/>
+Most chose the river left hand double boof. From the bottom it looked good...down the middle.<br/>
+<br/>
+Daniel<br/>
+LVM<br/>
+</div>
+</td>
+</tr>
+</table>
+</div>
+Users can submit comments.</div></div> <br style='clear:both'>
+</div>
+</div>
+<div id="tab-flow" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/show-gauge-info/reachid/3564/revision/0/.dialog' title='Flow Info'>
+</div>
+<div id="tab-map" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/map/id/3564/revision/0/.rawhtml' title='Map'>
+</div>
+<div id="tab-directions" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/show-directions/reachid/3564/revision/0/.rawhtml' title='Directions'>
+</div>
+<div id="tab-weather" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/Weather/detail/zip/28774/.rawhtml' title='Weather'>
+</div>
+<div id="tab-news" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/river-news/id/3564/.rawhtml' title='News (0) & Accidents'>
+</div>
+<div id="tab-photos" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/Photo/do-search/reachid/3564/orderby/id/incphotos/on/incvideos/on/dosearch/Photo%2BSearch/.rawhtml' title='Photos (13)'>
+</div>
+<div id="tab-credits" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/credits/reachid/3564/.dialog' title='Credits & Network'>
+</div>
+</div>
+</div> <br style='clear:both'>
+</div>
+</div> 
+</div> 
+</div> 
+<div id="block_3">
+<div class="gutter">
+<div class="boxcontent CContainerView" id='zzqkegn6g7uv0reContainerView14'>
+<div><div id='zzqkegn6g7uv0reArticleGadget6Container' class='CArticleGadget-view CArticleGadget'><div id='zzqkegn6g7uv0reArticleGadget6-1' class='contents'><h3 style="text-align: center; margin-top: 15px;">
+Do more than just check gauges; join over 5,000 AW members today.
+</h3>
+<div style="text-align:center; margin:10px;">
+<a style="display: block;" href="https://www.americanwhitewater.org/content/Membership/join-aw?utm_source=americanwhitewater.org&amp;utm_medium=banner&amp;utm_content=HTML_ad_001&amp;utm_campaign=join_or_renew">
+<img width="100" height="60" alt="Join_or_Renew_Logo-200px" src="http://www.americanwhitewater.org/resources/repository/Join_or_Renew_Logo-200px.png"></a>
+<h3 style="color: rgb(0, 0, 238); margin-top: 10px;">
+<a style="display: block;" href="https://www.americanwhitewater.org/content/Membership/join-aw?utm_source=americanwhitewater.org&amp;utm_medium=banner&amp;utm_content=HTML_ad_001&amp;utm_campaign=join_or_renew">
+Join or Renew</a>
+</h3>
+</div>
+<hr>
+<h3 style="text-align: center; margin-top: 10px;">
+Or, consider donating
+</h3>
+<div style="text-align:center; margin:10px;">
+<a style="display: block;" href="https://www.americanwhitewater.org/content/Membership/donate?utm_source=americanwhitewater.org&amp;utm_medium=banner&amp;utm_content=HTML_ad_001&amp;utm_campaign=donate">
+<img width="100" height="60" alt="Donate_Logo-200px" src="http://www.americanwhitewater.org/resources/repository/Donate_Logo-200px.png"></a>
+<h3 style="color: rgb(0, 0, 238); margin-top: 10px;">
+<a style="display: block;" href="https://www.americanwhitewater.org/content/Membership/donate?utm_source=americanwhitewater.org&amp;utm_medium=banner&amp;utm_content=HTML_ad_001&amp;utm_campaign=donate">
+Donate</a>
+</h3>
+</div></div></div> <br style='clear:both'>
+</div>
+</div> 
+</div> 
+</div> 
+<br style='clear:all'>
+</div> 
+<div id='footer'>
+<div style='' class="CFooterGadget" id='zzqkegn6g7uv0reFooterGadget125'> &#169; 1999-2014 American Whitewater (<a href='/content/Wiki/aw:tos'>terms of use</a>) | PO Box 1540 | Cullowhee, NC 28723 | 1-866-262-8429 | <a href="mailto:info@americanwhitewater.org">info@americanwhitewater.org</a>
+</div><div><div style='' class="CContainerView" id='zzqkegn6g7uv0reContainerView23'> <div><div id='zzqkegn6g7uv0reArticleGadget18Container' class='CArticleGadget-view CArticleGadget'><div id='zzqkegn6g7uv0reArticleGadget18-1' class='contents'></div></div> <br style='clear:both'>
+</div>
+</div></div><div><div style='' class="CNewsFeedGadget" id='zzqkegn6g7uv0reNewsFeedGadget81'> <div class='feed'>
+<a class='nodecoration' href='/content/River/detail/id/3564/.mobile'>
+<img src='/resources/images/blank.gif' class='mobile'></a>&nbsp;Hwy 107 to Hwy 281, Whitewater River North Carolina, US (mobile)&nbsp;&nbsp;
+</div>
+</div></div><div><div style='' class="CContainerView" id='zzqkegn6g7uv0reContainerView96'> <div><div id='zzqkegn6g7uv0reArticleGadget91Container' class='CArticleGadget-view CArticleGadget'><div id='zzqkegn6g7uv0reArticleGadget91-1' class='contents'></div></div> <br style='clear:both'>
+</div>
+</div></div> </div> 
+<br>
+<div style='display:none'>
+<span id='server-time' style='text-size:50%'></span>
+<span id='client-time' style='text-size:50%'></span>
+</div>
+<script type='text/javascript'>
+				require(['dojo/dom','dojo/ready','dojo/_base/xhr'],function(dom,ready,xhr){
+					
+			ready(
+				function(){
+					var roundNumber = function(num, dec) {
+						var result = Math.round(num*Math.pow(10,dec))/Math.pow(10,dec);
+						return result;
+					}
+						var clienttime = ((new Date().getTime()) - wh2timer)/1000;
+						var servertime = (0.2220561504364);
+						var servermemory = (17718408)/(1024*1024);
+						dom.byId('client-time').innerHTML=(clienttime+" sec. client ");
+						dom.byId('server-time').innerHTML=(servertime+" sec. server ");
+						dom.byId('server-time').innerHTML+= (servermemory.toFixed(2)+" MB");
+						if(!Math.floor(Math.random()*101))
+						{
+							var url = document.location;
+							var data = {server_time: servertime, client_time: clienttime, url:url};
+							xhr.post({
+								url: '/content/Performance/update/',
+								content: data	});
+							
+						}
+					}
+				);						
+					
+					
+				});
+						</script>
+ 
+</div>  
+</div> 
+</div> 
+</div> 
+</body>
+</html>

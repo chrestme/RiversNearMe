@@ -1,0 +1,636 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd" >
+<html>
+ 
+<head>
+<meta name="title" content="American Whitewater - McClure Dam to Forestville Rd. (6.9 miles), Dead Michigan, US">
+<meta name="description" content="American Whitewater is the primary advocate for the preservation and protection of whitewater rivers throughout the United States and connects the interests of human-powered recreational river users with ecological and science-based data to achieve goals within our mission. ">
+<title>American Whitewater - McClure Dam to Forestville Rd. (6.9 miles), Dead Michigan, US</title>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+<meta name="Language" content="English">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="global">
+<link rel="SHORTCUT ICON" href="/logo/myfile.ico">
+<link rel="stylesheet" type="text/css" href="/resources/css/style.css">
+<!--[if lte IE 7]>
+			<link rel="stylesheet" type="text/css" href="/resources/css/iestyle.css" />
+		<![endif]-->
+<!--[if lte IE 6]>
+			<link rel="stylesheet" type="text/css" href="/resources/css/iestyle6.css" />
+		<![endif]-->
+<style type='text/css'>.dojoTabPaneWrapper{width:100%;}</style>
+<script type='text/javascript'>
+			var wh2timer = new Date().getTime();
+		</script>
+<link rel="image_src" href="http://www.americanwhitewater.org/resources/images/assets6.5/awlogo.png"> <script type='text/javascript'>
+						if(typeof(djConfig) != 'undefined')
+						{
+							djConfig['gMapKey'] = 'AIzaSyAu7JAMzqGEKuwhxB-6ePHQim0g5hX8wpw';
+						}
+					</script>
+<script src='https://www.google.com/jsapi?key=AIzaSyAu7JAMzqGEKuwhxB-6ePHQim0g5hX8wpw' type='text/javascript'></script>
+<script type='text/javascript'>
+					google.load("maps", "2.x");	
+					
+					
+					</script>
+<script type='text/javascript' djConfig=' parseOnLoad:true ' src='/resources/js/dojo/release/dojo/dojo/dojo.js'></script>
+<style type='text/css'>@import "/resources/js/dojo/release/dojo//dijit/themes/tundra/tundra.css";</style>
+<script type='text/javascript' djConfig='parseOnLoad:true' src='/resources/js/dojo/release/dojo/dojo/dialog.js'></script>
+<script type='text/javascript' djConfig='parseOnLoad:true' src='/resources/js/dojo/release/dojo/dojo/tabs.js'></script> <link rel="alternate" type="text/html" title="McClure Dam to Forestville Rd. (6.9 miles), Dead Michigan, US (mobile)" href="/content/River/detail/id/2624/.mobile"> <style type='text/css'>.dojoTabPane{padding:0.75em;overflow:auto;}</style>
+<script type='text/javascript'>
+							dojo.require('dojo.parser'); 
+					var _gaq = _gaq || [];
+					_gaq.push(['_setAccount', 'UA-3113277-1']);
+					_gaq.push(['_trackPageview']);
+					
+				    (function() {
+				      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				    })();
+								dojo.require("aw.widget.AWMap");						dojo.require('dijit.Tooltip');
+						dojo.require('aw.widget.ToolTipSeeker');					dojo.require("aw.formathelper.forms.dialog");
+					dojo.require("aw.widget.Dialog");
+					dojo.require("aw.formathelper.dialog");
+					dojo.require("aw.widget.ContentPane");
+														dojo.require("aw.widget.TabContainer");
+								dojo.require("aw.widget.ContentPane");
+								
+								
+															dojo.require("aw.menu");		</script>
+<script id='onloadscript' type='text/javascript'>
+		dojo.addOnLoad(function(){					{
+					var killhandle = aw.formathelper.dialog.listener('comment',function(e)
+						{
+							
+							{
+								aw.formathelper.dialog.process('zzq1c8h6udib5fiCommentGadget47-1','/content/Comment/view/section/river/reachid/2624/notifylist/151%3A377/.dialog',null,function()
+								{
+									//make sure our event gets removed if the parent element disappears.
+									if(!dojo.byId('zzq1c8h6udib5fiCommentGadget47-1'))
+									{
+										dojo.unsubscribe(killhandle);
+									}
+								}
+								);
+							}
+						}
+						);
+					} });		</script>
+</head>
+<body class="two-col-right tundra wh2o ">
+<div id="width">
+<div id="minwidth">
+<div id="layout">
+<div id="content-container">
+<div id='toptonav'>
+<div id="header" class='header-bg'>
+<div class='top'>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style='border: #789876'>
+<tr>
+<td width="38%" align="left" class="logo">
+<a href="/"><img class='logo' src="/resources/css/../images/nothing.gif" alt="American White Water" title="American White Water"></a>
+</td>
+<td width="62%" valign="top" align="right">
+<div style='' class="CUserLoginView" id='zzq1c8h6udib5fiUserLoginView63'> <div class='neutral'>
+<div id="header-right">
+<div class="left-img">&nbsp;</div>
+<div class="topbox-bg">
+<form action="https://www.americanwhitewater.org/content/User/do-login/**TErq+f93lm" method='POST'>
+<table>
+<tr>
+<td colspan='2' id='login-upper'>
+<label for='username'>Username</label>
+<input name="username" type="text" class="inputbox"/>
+<label for='password'>Password</label>
+<input name="password" autocomplete='off' type="password" class="inputbox"/>
+<input type="submit" value="Login"/>
+</td>
+</tr>
+<tr>
+<td>
+<label for='remember' class='login-lower'>Remember Me</label>
+<input type='checkbox' checked='true' name='remember'>
+</td>
+<td align='right' class='login-lower'>
+<a href='/content/Membership/get-password/**TErq+f93lm' class='login-link1'>Forgot your password?</a>
+|
+<a href='/content/Membership/view/' class='login-link1'>Sign Up</a>
+</td>
+</tr>
+</table>
+</form>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+ 
+<div id="nav-wrapper">
+<div id="navigation">
+<div style='' class="CMenuGadget" id='zzq1c8h6udib5fiMenuGadget64'>
+<div id='menu0'><ul dojoType="aw.menu" class='menulist' id="menu"> <li>
+<a href='/content/Welcome/view/'>
+<span>Our Organization</span>
+</a>
+<div id='menu1'><ul class='menulist'> <li>
+<a href='/content/Wiki/aw:about/'>
+<span>About AW</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:outdooralliance/'>
+<span>Outdoor Alliance</span>
+</a>
+</li>
+<li>
+<a href='/content/News/view/type/frontpagenews/showarchive/1/'>
+<span>News</span>
+</a>
+</li>
+<li>
+<a href='/content/Stewardship/view/'>
+<span>Stewardship</span>
+</a>
+</li>
+<li>
+<a href='/content/Safety/view/'>
+<span>Safety</span>
+</a>
+</li>
+<li>
+<a href='/content/Events/view/'>
+<span>Events</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:contact_us/'>
+<span>Contact Us</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:board_of_directors/'>
+<span>Board of Directors</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:staff/'>
+<span>Professional Staff</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/Wiki/aw:shop/'>
+<span>Support AW</span>
+</a>
+<div id='menu2'><ul class='menulist'> <li>
+<a href='/content/Membership/join-aw/'>
+<span>Join or Renew</span>
+</a>
+</li>
+<li>
+<a href='/content/Membership/donate/'>
+<span>Donate</span>
+</a>
+</li>
+<li>
+<a href='/content/Membership/gift/'>
+<span>Gift Membership</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:giving/'>
+<span>Giving</span>
+</a>
+</li>
+<li>
+<a href='/content/Volunteer/view/'>
+<span>Become a Volunteer</span>
+</a>
+</li>
+<li>
+<a href='/content/Store'>
+<span>AW Store</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:partnership/'>
+<span>Industry Partner Program</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:advertising/'>
+<span>Advertising Information</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/Menu/summarize/area/community/'>
+<span>Community</span>
+</a>
+<div id='menu3'><ul class='menulist'> <li>
+<a href='/content/Affiliate/view/'>
+<span>Clubs</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:sponsorship/'>
+<span>Industry Partners</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/River/view/'>
+<span>River Info</span>
+</a>
+<div id='menu4'><ul class='menulist'> <li>
+<a href='/content/River/view/'>
+<span>National River Database</span>
+</a>
+</li>
+<li>
+<a href='/content/Report/list-recent/'>
+<span>Recent River Reports</span>
+</a>
+</li>
+<li>
+<a href='/content/StreamTeam/info/'>
+<span>Stream Team</span>
+</a>
+</li>
+<li>
+<a href='/content/River/list-permits/'>
+<span>Permit Information</span>
+</a>
+</li>
+<li>
+<a href='/content/Release/view/'>
+<span>Release Information</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/Menu/summarize/area/multimedia/'>
+<span>Library</span>
+</a>
+<div id='menu5'><ul class='menulist'> <li>
+<a href='/content/Photo/view/'>
+<span>Photo/Video</span>
+</a>
+</li>
+<li>
+<a href='/content/Journal/archive/'>
+<span>AW Journal</span>
+</a>
+</li>
+<li>
+<a href='/content/Wiki/aw:logos/'>
+<span>Logos</span>
+</a>
+</li>
+</ul></div> </li>
+<li>
+<a href='/content/Search/view/'>
+<span>Search</span>
+</a>
+</li>
+<li>
+<a href='/content/Membership/view/'>
+<span>Login</span>
+</a>
+<div id='menu6'><ul class='menulist'> <li>
+<a href='/content/User/register/**TErq+f93lm'>
+<span>New Account</span>
+</a>
+</li>
+<li>
+<a href='/content/User/get-password/**TErq+f93lm'>
+<span>Password Reminder</span>
+</a>
+</li>
+</ul></div> </li>
+</ul></div></div><div style='' class="CCrumbsGadget" id='zzq1c8h6udib5fiCrumbsGadget65'><ul class='bread_crumb'>
+<li class="emphasize bread_crumb">Recent Pages:</li>
+<li class='bread_crumb'><a href='/content/River/detail/id/2624/'>McClure Dam to Forestville Rd. (6.9 miles), Dead Michigan, US</a></li></ul></div> </div> 
+</div> 
+ 
+<div id="warnings" class="hide-all">
+<h2 class="hide-all">Old browser warning</h2>
+<p><em>Site look funky?</em>&nbsp;
+Your browser is either Internet Explorer (hit refresh (F5) several times due to a bug in Microsoft's code
+that we can't work around) or is 10 years old and
+<a href="http://www.webstandards.org/about/" title="Click to visit Web Standards Project mission page.">standards-based</a> layouts and styling confuse it.
+&nbsp; Consider updating.&nbsp; One excellent option is
+<a href="http://www.mozilla.org/products/firefox/" title="Click to visit the Mozilla Firefox download page.">
+Mozilla Firefox</a>, versions of which are available for Linux, Mac and Windows. Safari 1.0+ and IE 6.0+ are also supported.</p>
+</div>
+ 
+ 
+</div> 
+<div id="container">
+<div id="block_1_wrapper">
+<div id="block_1">
+ 
+<div class="boxcontent CContainerView" id='zzq1c8h6udib5fiContainerView74'>
+<div><div id='zzq1c8h6udib5fiRiverDetailGadget2' class='CRiverDetailGadget-detail CRiverDetailGadget'><div class='controls'><h1>Dead - McClure Dam to Forestville Rd. (6.9 miles)</h1>
+<div><div id='zzq1c8h6udib5fiArticleGadget26Container' class='CArticleGadget-view CArticleGadget'><div id='zzq1c8h6udib5fiArticleGadget26-1' class='contents'></div></div> <br style='clear:both'>
+</div>
+</div> <div class='tabcontainer' doLayout='false' id="zzq1c8h6udib5fiContainerView57tabc" dojoType="aw.widget.TabContainer" enableBack="true">
+<div id="zzq1c8h6udib5fiContainerView53" trackAsMain='true' class='CContainerView' dojoType="aw.widget.ContentPane" title='RiverMain'>
+<div><div id='zzq1c8h6udib5fiRiverMainGadget33' class='CRiverMainGadget-main CRiverMainGadget'>
+<div parseWidgets='false' class='nodecoration river-description'>
+<table class='nodecoration'>
+<tr>
+<td>
+<h1>Dead, Michigan, US</h1>
+</td>
+<td valign=top>
+<a href="/content/Wiki/rivers:info:disclaimer/"><img align=right alt=Disclaimer src="/resources/images/disclaimerclick.gif" width=72 height=21></a>
+</td>
+</tr>
+</table>
+<h2>McClure Dam to Forestville Rd. (6.9 miles) </h2>
+<table class='data_table river-stats'>
+<tr class='row-1'>
+<th>Usual Difficulty</th>
+<td>IV-V+ (for normal flows) </td>
+</tr>
+<tr class='row-2'>
+<th>Length</th>
+<td>6.9 Miles </td>
+</tr>
+<tr class='row-3'>
+<th>Avg. Gradient</th>
+<td>59 fpm</td>
+</tr>
+<tr class='row-4'>
+<th>Max Gradient</th>
+<td>210 fpm</td>
+</tr>
+</table>
+<div class='river-photo'>
+</div>
+<div class='river-break'></div>
+<br>
+<br>
+<h2>River Description</h2>
+<p>
+What's in a name? Though the current reality came about after this stream's naming, the name is
+regrettably apt. About 70% of this river's 35 mile total length consists of a series of
+reservoirs and dewatered reaches due to extensive utilization for hydropower. The Dead arises at
+over 1800' of elevation (from it's headwaters in the McCormick Wilderness) and drops 1200' in 27
+linear miles to the waters of Lake Superior (if unfettered, an overall average of nearly 45 feet
+per mile). Much of this drop comes in the final 10 miles of river. Before being dammed, there
+were great falls and cascades (at least one near 100' in height) along the course of this river's
+precipitous descent.<br>
+<br>
+In the longest normally dewatered reach, described here, there are two sections of elevated
+gradient, roughly a mile each in length, separated by about four and one half miles of flatwater.
+The drops contained in these sections of gradient are not the biggest around, but a combination
+of the factors of bedrock type and configuration, in conjunction with their not inconsiderable
+size, may make this potentially some of the most challenging whitewater in the UP (Upper
+Peninsula, of Michigan).<br>
+<br>
+The greatest challenge though, is actually finding a runnable flow in this reach. The storage
+capacities of the reservoirs are great, especially considering the relatively small size of the
+river. Flow in this dewatered reach requires sufficient water to exceed the penstock (pipe that
+feeds the hydroplant) capacity, fill the reservoirs, and top the dams. The UPPCO hydro project
+here came up for FERC relicensing several years back. The Michigan DNR stated at the time that
+they were adamantly opposed to any recreational boating flow studies. That, in combination with
+the fact that at the time there were perhaps no more than twenty or thirty paddlers in the upper
+Midwest that likely had the skills and desires to tackle a reach such as this, caused us to
+advise the persons directly involved with the relicensing process to concentrate on opportunities
+that would greater potentially serve a larger portion of the paddling community.<br>
+<br>
+I have yet to see the first section of gradient (immediately below the McClure Dam) with a
+runnable flow. On site indicators suggest that this does occur, but is highly rare. Steep bedrock
+below the dam leads into a 6-8' vertical drop in a very narrow channel. Downstream lies a large,
+three step cascade and another cascading drop between rock walls below the LS&amp;I railway
+trestle. These are only the three largest drops of the first mile of gradient -- less significant
+drops exist between and below these.<br>
+<br>
+The second section of gradient (after the 4.5 miles of flatwater) is likely to be of more
+interest, as the potential for finding runnable flows here is greater (though still infrequent at
+best). Seepage from around McClure Dam, penstock leakage, and the additional watershed of this
+reach lead to a greater quantity of water in the natural streambed than will occur in the earlier
+part of the reach. This has been run once that I am aware of, as we came to the river one April
+afternoon and found a low but runnable flow. Unfortunately, the river was dropping as we set up
+and carried a mile to the head of this section of gradient. We ran some of the lesser drops, but
+the larger ones were looking too much like high-speed-impact injuries in the making so we opted
+out on those.<br>
+<br>
+This second section of gradient begins at the point where a high tension power-line crosses the
+river, about a mile west of Forestville Rd. Just upstream of the power-lines lies a narrowed
+channel between rock banks. A sequence of low ledges and boulder bed &quot;warm-up&quot; leads
+into a brief, abrupt canyon with a tight &quot;S&quot; manuever followed by a steep, irregular
+drop of perhaps 12-15' between vertical walls. The outflow from this runs into a pond which
+appears to have been created by an old earthen dam. The river exits ninety degrees to the
+right.<br>
+<br>
+The next drop, <strong>&quot;Dead Bang&quot;</strong>, will be a portage by most, river left.
+Though conceivably runnable, a mistake here would likely maim or worse. The river starts dropping
+far left, moving hard to the right, and straightens out to drop over a 15' vertical falls that
+lands on an upthrust spline of rock. The narrow slot between this rock and the face of the drop
+(not more than 4 or 5' wide and parallel to the face) is closed out completely on the right with
+the only outflow being tight back to the left. Sound complicated? It is. (There is a high water
+channel to the right which bypasses this but the chance of being able to use it is slightly less
+than that of hitting the lottery and being struck by lightning, in the same day.)<br>
+<br>
+Next encountered is a shelf drop (with the ledge near parallel to the current) and a fast run
+out. A brief stretch of low ledges and boulder-bed lead into
+<strong>&quot;Cleavage&quot;</strong>, towards the right. The approach consists of several low,
+sloping ledges creating a flume that leads into a vertical falls of 13-14'. Several feet below
+the lip, and not visible from the approach, the water crashes onto a pair of rock buttresses that
+flank a narrow slot in the center where much of the water falls. The small pool beneath here has
+decent depth near the face of the drop.<br>
+<br>
+Below this point, the river turns to the right and encounters a pair of steep boulder-bed/bedrock
+drops. The second of these opens with a horseshoe ledge of about 4', with &quot;interesting&quot;
+hydraulic, and then drops swiftly to finish by slamming into a wall and turning hard to the left.
+A brief pause is followed by a slot drop of perhaps 5' to the left of a large boulder. Right slot
+here is a nasty sieve. From here to the confluence with the powerplant outflow there are some
+low, straightforward ledges and light boulder-bed. A short flat-water paddle brings you to the
+take-out at the Forestville Road bridge.<br>
+<br>
+Since the odds of finding this running are so low, it is probably best to plan on running the
+<a href="http://www.americanwhitewater.org/content/River/detail/id/2622/">Lower Yellow
+Dog</a><a>, a highly recommended run, and swinging by here on the way to or from that river. Who
+knows? You might get lucky.<br>
+<br>
+<strong>Directions:</strong><br>
+<em>To McClure Dam,</em> from Hwy 41/28 between Marquette and Negaunee, turn north at either
+intersection of Cty 502 and proceed to Cty 510. Turn north onto Cty 510, cross the bridge over
+the Dead, and turn right (east) on the first road, NeeJee Rd. Drive east on NeeJee to McClure Dam
+Rd and turn right (south). Look for an UPPCO sign on the left which marks the road which leads to
+the dam. From the parking area here, there is an obvious trail which leads down to the river.<br>
+<em>To Forestville Rd take-out and powerplant,</em> from Hwy 41/28 just west of Marquette, turn
+north on Cty 492. Proceed north for about a mile until Forestville Rd branches off to the left.
+Take Forestville Rd to the bridge over the Dead. Proceeding past this point and taking the first
+left will bring you to the powerplant. The natural channel here is off to your left (facing the
+plant). To hike up and see the drops above, follow the trail along the penstock above the plant
+and veer off to the left on one of the lesser trails until you come to the river.<br>
+<em>To carry in for lower section only,</em> head south from the Forestville Rd bridge over the
+Dead to a wide, open high tension powerline frontage on the top of a rise. Carry west for about a
+mile and follow the powerlines down to the river.<br>
+<br></a>
+</p> <br>
+<div style='clear:both'>
+<div><b>StreamTeam Status: </b>Not Verified</div>
+<div><b>Last Updated: </b>2009-11-23 09:54:09</div>
+<div class='controls'>
+<h1>Editors</h1>
+</div>
+<div><div id='zzq1c8h6udib5fiContactView40' class='CContactView-view CContactView'></div> <br style='clear:both'>
+</div>
+</div>
+</div>
+</div><div id='zzq1c8h6udib5fiRiverRapidsGadget43' class='CRiverRapidsGadget-view-rapids CRiverRapidsGadget'> <h2>Rapid Summary</h2>
+<table class='data_table'>
+<tr class='row-0'>
+<th>Mile</th>
+<th>Rapid Name</th>
+<th>Class</th>
+<th>Features (<a href="/content/Wiki/view/id/river%3Ainfo%3Afeature_legend/">Legend</a>)</th>
+</tr>
+<tr><td class='big'>0.9</td><td class=big>end of upper gradient</td><td class=big>N/A</td><td></td></tr>
+<tr class='row-0'><td class='big'>5.1</td><td class='big'><a href="#rapid100181">gradient resumes</a></td><td class=big>N/A</td><td></td></tr>
+</table>
+<h2>Rapid Descriptions</h2>
+<div><div id='zzq1c8h6udib5fiRiverRapidView44' class='CRiverRapidView-view CRiverRapidView'></div><div id='zzq1c8h6udib5fiRiverRapidView45' class='CRiverRapidView-view CRiverRapidView'> <b><a name="rapid100181">gradient resumes</a></b> (Class N/A, Mile 5.1)<br>
+<p>As&nbsp;you encounter&nbsp;a nice mini-canyon, the river takes a sharp left bend and passes under power lines. Get out to scout (and likely portage) the next drop.</p><br>
+<br clear=right>
+</div> <br style='clear:both'>
+</div>
+</div><div id='zzq1c8h6udib5fiCommentGadget47' class='CCommentGadget-view CCommentGadget'><div id='zzq1c8h6udib5fiCommentGadget47-1'>  
+<div class='comment-container' style=''>
+<table class='comments'>
+<tr>
+<td><h2>User Comments</h2></td>
+</tr>
+<tr>
+<td>
+<hr>
+<div class='commentinfo comment_warning'>
+2008-11-12 10:53:15 (2026 days ago)
+<div id='contact-377'><span class='name'>Rob Smage</span><span class='send-message'><a href="/content/Contact/view/contactid/377/display/detail/">Details</a></span></div> </div>
+<div class='commentbox'>
+The penstock from McClure Basin (feeding the Forestville Power plant) ruptured last year, and is<br/>
+not expected to be repaired until late 2009. Boaters with the requisite skills will undoubtedly<br/>
+wish to take advantage of this opportunity to run this section of river! </div>
+</td>
+</tr>
+</table>
+</div>
+Users can submit comments.</div></div> <br style='clear:both'>
+</div>
+</div>
+<div id="tab-flow" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/show-gauge-info/reachid/2624/revision/0/.dialog' title='Flow Info'>
+</div>
+<div id="tab-map" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/map/id/2624/revision/0/.rawhtml' title='Map'>
+</div>
+<div id="tab-directions" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/show-directions/reachid/2624/revision/0/.rawhtml' title='Directions'>
+</div>
+<div id="tab-weather" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/Weather/detail/zip/49855/.rawhtml' title='Weather'>
+</div>
+<div id="tab-news" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/river-news/id/2624/.rawhtml' title='News (1) & Accidents'>
+</div>
+<div id="tab-photos" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/Photo/do-search/reachid/2624/orderby/id/incphotos/on/incvideos/on/dosearch/Photo%2BSearch/.rawhtml' title='Photos (2)'>
+</div>
+<div id="tab-credits" class='CContainerView' dojoType="aw.widget.ContentPane" preventCache="true" parseOnLoad="true" executeScripts='true' refreshOnShow='true' href='/content/River/credits/reachid/2624/.dialog' title='Credits & Network'>
+</div>
+</div>
+</div> <br style='clear:both'>
+</div>
+</div> 
+</div> 
+</div> 
+<div id="block_3">
+<div class="gutter">
+<div class="boxcontent CContainerView" id='zzq1c8h6udib5fiContainerView14'>
+<div><div id='zzq1c8h6udib5fiArticleGadget6Container' class='CArticleGadget-view CArticleGadget'><div id='zzq1c8h6udib5fiArticleGadget6-1' class='contents'><h3 style="text-align: center; margin-top: 15px;">
+Do more than just check gauges; join over 5,000 AW members today.
+</h3>
+<div style="text-align:center; margin:10px;">
+<a style="display: block;" href="https://www.americanwhitewater.org/content/Membership/join-aw?utm_source=americanwhitewater.org&amp;utm_medium=banner&amp;utm_content=HTML_ad_001&amp;utm_campaign=join_or_renew">
+<img width="100" height="60" alt="Join_or_Renew_Logo-200px" src="http://www.americanwhitewater.org/resources/repository/Join_or_Renew_Logo-200px.png"></a>
+<h3 style="color: rgb(0, 0, 238); margin-top: 10px;">
+<a style="display: block;" href="https://www.americanwhitewater.org/content/Membership/join-aw?utm_source=americanwhitewater.org&amp;utm_medium=banner&amp;utm_content=HTML_ad_001&amp;utm_campaign=join_or_renew">
+Join or Renew</a>
+</h3>
+</div>
+<hr>
+<h3 style="text-align: center; margin-top: 10px;">
+Or, consider donating
+</h3>
+<div style="text-align:center; margin:10px;">
+<a style="display: block;" href="https://www.americanwhitewater.org/content/Membership/donate?utm_source=americanwhitewater.org&amp;utm_medium=banner&amp;utm_content=HTML_ad_001&amp;utm_campaign=donate">
+<img width="100" height="60" alt="Donate_Logo-200px" src="http://www.americanwhitewater.org/resources/repository/Donate_Logo-200px.png"></a>
+<h3 style="color: rgb(0, 0, 238); margin-top: 10px;">
+<a style="display: block;" href="https://www.americanwhitewater.org/content/Membership/donate?utm_source=americanwhitewater.org&amp;utm_medium=banner&amp;utm_content=HTML_ad_001&amp;utm_campaign=donate">
+Donate</a>
+</h3>
+</div></div></div> <br style='clear:both'>
+</div>
+</div> 
+</div> 
+</div> 
+<br style='clear:all'>
+</div> 
+<div id='footer'>
+<div style='' class="CFooterGadget" id='zzq1c8h6udib5fiFooterGadget75'> &#169; 1999-2014 American Whitewater (<a href='/content/Wiki/aw:tos'>terms of use</a>) | PO Box 1540 | Cullowhee, NC 28723 | 1-866-262-8429 | <a href="mailto:info@americanwhitewater.org">info@americanwhitewater.org</a>
+</div><div><div style='' class="CContainerView" id='zzq1c8h6udib5fiContainerView23'> <div><div id='zzq1c8h6udib5fiArticleGadget18Container' class='CArticleGadget-view CArticleGadget'><div id='zzq1c8h6udib5fiArticleGadget18-1' class='contents'></div></div> <br style='clear:both'>
+</div>
+</div></div><div><div style='' class="CNewsFeedGadget" id='zzq1c8h6udib5fiNewsFeedGadget58'> <div class='feed'>
+<a class='nodecoration' href='/content/River/detail/id/2624/.mobile'>
+<img src='/resources/images/blank.gif' class='mobile'></a>&nbsp;McClure Dam to Forestville Rd. (6.9 miles), Dead Michigan, US (mobile)&nbsp;&nbsp;
+</div>
+</div></div><div><div style='' class="CContainerView" id='zzq1c8h6udib5fiContainerView73'> <div><div id='zzq1c8h6udib5fiArticleGadget68Container' class='CArticleGadget-view CArticleGadget'><div id='zzq1c8h6udib5fiArticleGadget68-1' class='contents'></div></div> <br style='clear:both'>
+</div>
+</div></div> </div> 
+<br>
+<div style='display:none'>
+<span id='server-time' style='text-size:50%'></span>
+<span id='client-time' style='text-size:50%'></span>
+</div>
+<script type='text/javascript'>
+				require(['dojo/dom','dojo/ready','dojo/_base/xhr'],function(dom,ready,xhr){
+					
+			ready(
+				function(){
+					var roundNumber = function(num, dec) {
+						var result = Math.round(num*Math.pow(10,dec))/Math.pow(10,dec);
+						return result;
+					}
+						var clienttime = ((new Date().getTime()) - wh2timer)/1000;
+						var servertime = (0.16127610206604);
+						var servermemory = (17117656)/(1024*1024);
+						dom.byId('client-time').innerHTML=(clienttime+" sec. client ");
+						dom.byId('server-time').innerHTML=(servertime+" sec. server ");
+						dom.byId('server-time').innerHTML+= (servermemory.toFixed(2)+" MB");
+						if(!Math.floor(Math.random()*101))
+						{
+							var url = document.location;
+							var data = {server_time: servertime, client_time: clienttime, url:url};
+							xhr.post({
+								url: '/content/Performance/update/',
+								content: data	});
+							
+						}
+					}
+				);						
+					
+					
+				});
+						</script>
+ 
+</div>  
+</div> 
+</div> 
+</div> 
+</body>
+</html>

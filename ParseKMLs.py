@@ -115,6 +115,23 @@ def getSectionNames():
             if section_name == None: section_name = ''
             line = str(row[0])+","+section_name+"\n"
             section_f.write(line)
+            
+def getAWpage():
+    urllib._urlopener = AppURLopener()
+    
+    conn = sqlite3.connect('placemark.db')
+    c = conn.cursor()
+    p = re.compile('HREF=\".*\">AW')
+    c.execute('''SELECT id, description FROM placemarks''')
+    rows = c.fetchall()
+    
+    for row in rows:
+        section_url = p.findall(row[1])[0][5:-3]
+        section_url =  section_url.strip('"')
+        section_url_parts = section_url.rsplit('/',2)
+        aw_file = "AWPages/%s" % section_url_parts[1]
+        print "%s - %s" % (aw_file,section_url)
+        urllib.urlretrieve(section_url.strip('"'),aw_file)
 
 #print entries
 def populateDB():
@@ -149,6 +166,7 @@ def populateDB():
 def main():
     #self_location = sys.argv[1]
     #print location_arg
+    getAWpage()
     
     
     #CalcDistance(self_location, river_location)
