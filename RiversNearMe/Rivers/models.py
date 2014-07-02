@@ -106,6 +106,7 @@ class Placemarks(models.Model):
     lat = models.FloatField(blank=True, null=True)
     lon = models.FloatField(blank=True, null=True)
     section = models.TextField(blank=True) # This field type is a guess.
+    usgs_gauge = models.TextField(blank=True)
     class Meta:
         managed = False
         db_table = 'placemarks'

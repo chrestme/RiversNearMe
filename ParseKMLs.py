@@ -116,6 +116,28 @@ def getSectionNames():
             line = str(row[0])+","+section_name+"\n"
             section_f.write(line)
             
+def getUSGSGauge():
+    conn = sqlite3.connect('/opt/RiversNearMe/RiversNearMe/placemark.db')
+    c = conn.cursor()
+    p = re.compile('/id/.*/">AW')
+    
+    c.execute('''SELECT id, description FROM placemarks''')
+    rows = c.fetchall()
+    
+    for row in rows:
+        section_id = row[0]
+        AWurl = p.findall(row[1])
+        AWpage = AWurl[0].split('/')[2]
+        page_path = "/opt/RiversNearMe/AWPages/" + AWpage
+        with open (page_path) as f:
+            soup = BeautifulSoup(f.read())
+        #try:
+        #    c.execute('''UPDATE placemarks SET usgs_gauge = ? WHERE id == ?''', (section_gauge,section_id))
+        #except sqlite3.Error as e:
+        #    print "Error executing gauge update: %s" % e
+        #conn.commit()
+    conn.close()
+    
 def getAWpage():
     urllib._urlopener = AppURLopener()
     
@@ -166,7 +188,8 @@ def populateDB():
 def main():
     #self_location = sys.argv[1]
     #print location_arg
-    getAWpage()
+    #getAWpage()
+    getUSGSGauge()
     
     
     #CalcDistance(self_location, river_location)
