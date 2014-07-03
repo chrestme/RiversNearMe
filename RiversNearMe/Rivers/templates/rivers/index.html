@@ -21,7 +21,7 @@
                 <th>Section</th>
                 <th>River</th>
                 <th>Class</th>
-                <th>State</th>
+                <th>Gauge</th>
                 <th>Distance (in miles)</th>
             </tr>
             {% for pm_dict in pm_list %}
@@ -29,7 +29,7 @@
                     <td>{{pm_dict.placemark.section}}</td>
                     <td>{{pm_dict.placemark.name}}</td>
                     <td>{{pm_dict.placemark.class_field}}</td>
-                    <td>{{pm_dict.placemark.state}}</td>
+                    <td><a href='http://waterdata.usgs.gov/usa/nwis/uv?{{pm_dict.placemark.usgs_gauge}}'>{{pm_dict.placemark.usgs_gauge}}</a></td>
                     <td>{{pm_dict.distance}}</td>
                 </tr>
             {% endfor %}

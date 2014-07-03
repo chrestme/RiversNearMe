@@ -120,6 +120,7 @@ def getUSGSGauge():
     conn = sqlite3.connect('/opt/RiversNearMe/RiversNearMe/placemark.db')
     c = conn.cursor()
     p = re.compile('/id/.*/">AW')
+    q = re.compile('usgs-[0-9]*')
     
     c.execute('''SELECT id, description FROM placemarks''')
     rows = c.fetchall()
@@ -130,12 +131,16 @@ def getUSGSGauge():
         AWpage = AWurl[0].split('/')[2]
         page_path = "/opt/RiversNearMe/AWPages/" + AWpage
         with open (page_path) as f:
-            soup = BeautifulSoup(f.read())
-        #try:
-        #    c.execute('''UPDATE placemarks SET usgs_gauge = ? WHERE id == ?''', (section_gauge,section_id))
-        #except sqlite3.Error as e:
-        #    print "Error executing gauge update: %s" % e
-        #conn.commit()
+            html = f.read()
+        usgs_gauges = q.findall(html)
+        for usgs_gauge in usgs_gauges:
+            a,section_gauge = usgs_gauge.split('usgs-')
+        #print gauge_id
+        try:
+            c.execute('''UPDATE placemarks SET usgs_gauge = ? WHERE id == ?''', (section_gauge,section_id))
+        except sqlite3.Error as e:
+            print "Error executing gauge update: %s" % e
+        conn.commit()
     conn.close()
     
 def getAWpage():
