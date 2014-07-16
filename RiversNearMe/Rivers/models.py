@@ -106,10 +106,23 @@ class Placemarks(models.Model):
     lat = models.FloatField(blank=True, null=True)
     lon = models.FloatField(blank=True, null=True)
     section = models.TextField(blank=True) # This field type is a guess.
-    usgs_gauge = models.TextField(blank=True)
+    usgs_gauge = models.ForeignKey('Gauges',to_field='usgs_gauge')
     class Meta:
-        managed = False
+        #managed = False
         db_table = 'placemarks'
+        
+    def __unicode__(self):
+        return self.name+"-"+self.section
+
+class Gauges(models.Model):
+    usgs_gauge = models.TextField(unique=True)
+    flow = models.IntegerField(blank=True, null=True)
+    stage = models.FloatField(blank=True, null=True)
+    last_update = models.DateTimeField(blank=True, null=True)
+    
+    class Meta:
+        #managed = False
+        db_table = 'gauges'
         
     def __unicode__(self):
         return self.name+"-"+self.section

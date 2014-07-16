@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Rivers Near ME</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Rivers Near Me">
+<meta name="author" content="Matt Chrestman">
+{% load staticfiles %}
+<!-- Le styles -->
+<link href="{{ STATIC_URL }}css/bootstrap.min.css" rel="stylesheet">
+<!--<link href="{{ STATIC_URL }}css/bootstrap-responsive.min.css" rel="stylesheet">-->
+<link href="{{ STATIC_URL }}css/style.css" rel="stylesheet">
+<link href="{{ STATIC_URL }}css/lightbox.css" rel="stylesheet">
+<script src="{{ STATIC_URL }}js/jquery.js"></script>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+            <ul class="nav navbar-nav">
+                <li><a href="{% url "Rivers.views.index" %}"><span class="glyphicon glyphicon-globe"></span> Rivers</a></li>
+            </ul>
+            <ul class="nav navbar-nav pull-right">
+                {% if not user.is_active %}
+                <li>
+                    <a href="/accounts/login/">Login</a>
+                </li>    
+                {% else %}
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Welcome, <strong>{% firstof user.first_name user.username %}</strong><b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li class="divider"></li>
+                            <li>
+                                <a href="/accounts/password_change/">Change Password</a>
+                            </li>
+                            <li>
+                                <a href="/accounts/logout/?next=/">Log Out</a>
+                            </li>
+                        </ul>
+                </li>
+                {% endif %}
+            </ul>
+        </nav>
+    </nav>
+</header>

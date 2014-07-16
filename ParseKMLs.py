@@ -137,7 +137,7 @@ def getUSGSGauge():
             a,section_gauge = usgs_gauge.split('usgs-')
         #print gauge_id
         try:
-            c.execute('''UPDATE placemarks SET usgs_gauge = ? WHERE id == ?''', (section_gauge,section_id))
+            c.execute('''INSERT INTO gauges (usgs_gauge) VALUES (?)''', (section_gauge,))
         except sqlite3.Error as e:
             print "Error executing gauge update: %s" % e
         conn.commit()
