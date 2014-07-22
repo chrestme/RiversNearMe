@@ -22,6 +22,9 @@
                 <th>River</th>
                 <th>Class</th>
                 <th>Gauge</th>
+                <th>Stage</th>
+                <th>Flow</th>
+                <th>Water Temp</th>
                 <th>Distance (in miles)</th>
             </tr>
             {% for pm_dict in pm_list %}
@@ -30,6 +33,9 @@
                     <td>{{pm_dict.placemark.name}}</td>
                     <td>{{pm_dict.placemark.class_field}}</td>
                     <td><a href='http://waterdata.usgs.gov/usa/nwis/uv?{{pm_dict.placemark.usgs_gauge}}'>{{pm_dict.placemark.usgs_gauge}}</a></td>
+                    <td>{{pm_dict.placemark.usgs_gauge.flow}} cfs</td>
+                    <td>{{pm_dict.placemark.usgs_gauge.stage}} ft</td>
+                    <td>{{pm_dict.placemark.usgs_gauge.water_temp}}</td>
                     <td>{{pm_dict.distance}}</td>
                 </tr>
             {% endfor %}

@@ -106,7 +106,7 @@ class Placemarks(models.Model):
     lat = models.FloatField(blank=True, null=True)
     lon = models.FloatField(blank=True, null=True)
     section = models.TextField(blank=True) # This field type is a guess.
-    usgs_gauge = models.ForeignKey('Gauges',to_field='usgs_gauge')
+    usgs_gauge = models.ForeignKey('Gauges', to_field='usgs_gauge', db_column='usgs_gauge')
     class Meta:
         #managed = False
         db_table = 'placemarks'
@@ -115,15 +115,20 @@ class Placemarks(models.Model):
         return self.name+"-"+self.section
 
 class Gauges(models.Model):
+    #placemark_id = models.ForeignKey('Placemarks', to_field='id', db_column='placemark_id')
     usgs_gauge = models.TextField(unique=True)
     flow = models.IntegerField(blank=True, null=True)
     stage = models.FloatField(blank=True, null=True)
+    water_temp = models.FloatField(blank=True, null=True)
     last_update = models.DateTimeField(blank=True, null=True)
+    flow_delta = models.FloatField(blank=True, null=True)
+    stage_delta = models.FloatField(blank=True,null=True)
+    temp_delta = models.FloatField(blank=True, null=True)
     
     class Meta:
         #managed = False
         db_table = 'gauges'
         
     def __unicode__(self):
-        return self.name+"-"+self.section
+        return self.usgs_gauge
 

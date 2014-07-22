@@ -1,6 +1,25 @@
 #!/usr/bin/python
 import requests
 import json
+import sqlite3
+import datetime
+from dateutil.parser import parse
+import sys
+
+query_interval = 900        #in seconds
+
+def calcRateofChange(first_time_value, last_time_value, first_value, last_value):
+    first_timestamp = parse(first_time_value)
+    last_timestamp = parse(last_time_value)
+    time_diff = last_timestamp-first_timestamp
+    diff_hours = time_diff.total_seconds() / 3600
+    
+    value_diff = float(last_value) - float(first_value)
+    try:
+        rateChange = "{0:.2f}".format(value_diff/diff_hours)
+    except ZeroDivisionError:
+        return "0.00"
+    return rateChange
 
 def getGaugeInfo(gauge_ids):
     STAGE_PARAM_CODE = "00060"
@@ -18,20 +37,73 @@ def getGaugeInfo(gauge_ids):
     #gauge_content['value']['timeSeries'][0]['values'][0]['value'][0]['value']      Temp
     #print len(gauge_content['value']['timeSeries'][0]['values'])
     
+    conn = sqlite3.connect('/opt/RiversNearMe/RiversNearMe/placemark.db')
+    c = conn.cursor()
+    
     for parameter in gauge_content['value']['timeSeries']:
         a, gauge_id, parameter_code, b = parameter['name'].split(':')
         param_unit_abbrev = parameter['variable']['unit']['unitAbbreviation']
         print "%s\t%s" % (gauge_id, parameter_code)
+        current_time = datetime.datetime.now().isoformat()
+        try:
+            c.execute('''UPDATE gauges SET last_update = ?''',(current_time,))
+        except sqlite3.Error as e:
+            raise e
+        time_values = parameter['values'][0]['value']
+
+        for time_value in time_values:
+            timestamp = time_value['dateTime']
+            parameter_value = time_value['value']
+            #print "%s\t%s %s" % (timestamp, parameter_value, param_unit_abbrev)
         
-        for parameter_values in parameter['values']:
-            for time_value in parameter_values['value']:
-                timestamp = time_value['dateTime']
-                parameter_value = time_value['value']
-                print "%s\t%s %s" % (timestamp, parameter_value, param_unit_abbrev)
-        print "\n"
+        if not time_values:
+            continue
+        first_timestamp = time_values[0]['dateTime']
+        last_timestamp = time_values[len(time_values)-1]['dateTime']
+        first_param_value = time_values[0]['value']
+        last_param_value = time_values[len(time_values)-1]['value']
+            
+        changeRate = calcRateofChange(first_timestamp,last_timestamp,first_param_value,last_param_value)
 
+        #print '''%s:\t%s\n%s:\t%s\n%s %s per hour''' % (first_timestamp,first_param_value,last_timestamp,last_param_value,changeRate,param_unit_abbrev)
+        
+        #parameter_value = time_value['value']
+        if parameter_code == STAGE_PARAM_CODE:
+            param_column = "stage"
+            change_column = "stage_delta"
+        elif parameter_code == DISCHARGE_PARAM_CODE:
+            param_column = "flow"
+            change_column = "flow_delta"
+        elif parameter_code == TEMPC_PARAM_CODE:
+            param_column = "water_temp"
+            change_column = "temp_delta"
+        else:
+            raise "Unknown parameter code"
+            
+        sql = "UPDATE gauges SET %s = ?,%s = ? WHERE usgs_gauge LIKE '%s'" % (param_column,change_column,gauge_id)
+        try:
+            c.execute(sql,(last_param_value,changeRate))
+        except sqlite3.Error as e:
+            raise e
+        
+        conn.commit()
+    conn.close()
 
-gauge_list = ("01648000","01646500","03076100")
+conn = sqlite3.connect('/opt/RiversNearMe/RiversNearMe/placemark.db')
+c = conn.cursor()
+c.execute('''SELECT usgs_gauge FROM gauges''')
+rows = c.fetchall()
+conn.close()
+
+for i in xrange(0,len(rows),20):
+    gauges_list = list()
+    gauge_tuples = rows[i:i+20]
+    for gauge in gauge_tuples:
+        gauges_list.append(gauge[0])
+    getGaugeInfo(gauges_list)
+    #sys.exit()
+
+#gauge_list = ("01648000","01646500","03076500")
 #gauge_list = list()
 #gauge_list.append("01646500")
-getGaugeInfo(gauge_list)
+#
