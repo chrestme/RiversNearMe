@@ -117,7 +117,7 @@ class Placemarks(models.Model):
 class Gauges(models.Model):
     #placemark_id = models.ForeignKey('Placemarks', to_field='id', db_column='placemark_id')
     usgs_gauge = models.TextField(unique=True)
-    flow = models.IntegerField(blank=True, null=True)
+    flow = models.FloatField(blank=True, null=True)
     stage = models.FloatField(blank=True, null=True)
     water_temp = models.FloatField(blank=True, null=True)
     last_update = models.DateTimeField(blank=True, null=True)
