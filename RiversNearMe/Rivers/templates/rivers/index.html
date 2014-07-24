@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
+    
 <div class="center">
     <form action="/rivers/" method="post">
         {% csrf_token %}
@@ -22,7 +23,8 @@
             <div class="panel-heading">
                 <h3 class="panel-title">Found {{pm_list|length}} rivers within {{distance}} miles of {{spec_location}}</h3>
             </div>
-        <table class="table table-striped" style="table-layout: fixed;">
+        <table id="RiverTable" class="table table-striped tablesorter" style="table-layout: fixed;">
+        <thead>
             <tr>
                 <th>Section</th>
                 <th>River</th>
@@ -33,6 +35,8 @@
                 <th>Water Temp</th>
                 <th>Distance (in miles)</th>
             </tr>
+        </thead>
+        <tbody>
             {% for pm_dict in pm_list %}
                 <tr>
                     <td>{{pm_dict.placemark.section}}</td>
@@ -45,7 +49,15 @@
                     <td>{{pm_dict.distance}}</td>
                 </tr>
             {% endfor %}
+        </tbody>
         </table>
+        <script>
+        $(document).ready(function(){
+            $(function(){
+                $("#RiverTable").tablesorter();
+            });
+        });
+</script>
     </div>
 {% endif %}
 {% endblock %}

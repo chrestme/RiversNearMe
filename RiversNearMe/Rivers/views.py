@@ -130,12 +130,12 @@ def index(request):
             #gauges.append(placemark.usgs_gauge)
             #gauge_update = parse(placemark.usgs_gauge.last_update)
             current_time  = datetime.datetime.now()
-            print current_time
-            print placemark.usgs_gauge.last_update
-            print placemark.usgs_gauge.last_update.replace(tzinfo=None)
+            #print current_time
+            #print placemark.usgs_gauge.last_update
+            #print placemark.usgs_gauge.last_update.replace(tzinfo=None)
             
             time_diff = current_time - placemark.usgs_gauge.last_update.replace(tzinfo=None)
-            print time_diff.total_seconds()
+            #print time_diff.total_seconds()
             if time_diff.total_seconds() > 900:
                 gauges.append(placemark.usgs_gauge.usgs_gauge)
                 #try:
