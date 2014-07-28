@@ -6,6 +6,7 @@ import requests
 import json
 import datetime
 from dateutil.parser import parse
+import re
 
 from math import radians, cos, sin, asin, sqrt
 from geopy import geocoders
@@ -59,13 +60,13 @@ def calcRateofChange(first_time_value, last_time_value, first_value, last_value)
     return rateChange
 
 def getGaugeInfo(gauges):
-    STAGE_PARAM_CODE = "00060"
-    DISCHARGE_PARAM_CODE = "00065"
+    STAGE_PARAM_CODE = "00065"
+    DISCHARGE_PARAM_CODE = "00060"
     TEMPC_PARAM_CODE = "00010"
     
     params = (STAGE_PARAM_CODE, DISCHARGE_PARAM_CODE, TEMPC_PARAM_CODE)
     
-    usgs_url = "http://waterservices.usgs.gov/nwis/iv/?format=json&sites=%s&period=PT2H&parameterCd=%s" % (','.join(gauges),','.join(params)) 
+    usgs_url = "http://waterservices.usgs.gov/nwis/iv/?format=json&sites=%s&period=PT2H&parameterCd=%s&modifiedSince=PT15M" % (','.join(gauges),','.join(params)) 
     r = requests.get(usgs_url)
     if r.status_code == 200:
         gauge_content = json.loads(r.content)
@@ -112,7 +113,6 @@ def getGaugeInfo(gauges):
 def index(request):
     location = "22192"
     local_location = (38.676929,-77.271296)     #My House
-    #local_location = (39.2, -74.79)
     distance = 60
     if request.method == "POST":
         location = request.POST['loc']
@@ -123,29 +123,19 @@ def index(request):
             print e
     pm_list=list()
     gauges = list()
+    p = re.compile('HREF=\".*\">AW')
     for placemark in Placemarks.objects.all().order_by('state'):
+        
         river_location = (float(placemark.lat),float(placemark.lon))
         haversine_distance = CalcDistance(local_location,river_location)
+        
         if haversine_distance <= distance:
-            #gauges.append(placemark.usgs_gauge)
-            #gauge_update = parse(placemark.usgs_gauge.last_update)
-            current_time  = datetime.datetime.now()
-            #print current_time
-            #print placemark.usgs_gauge.last_update
-            #print placemark.usgs_gauge.last_update.replace(tzinfo=None)
-            
-            time_diff = current_time - placemark.usgs_gauge.last_update.replace(tzinfo=None)
-            #print time_diff.total_seconds()
-            if time_diff.total_seconds() > 900:
-                gauges.append(placemark.usgs_gauge.usgs_gauge)
-                #try:
-                getGaugeInfo(gauges)
-                #except Exception as e:
-                #    RequestContext = {'error': e}
-                #    return render(request, 'rivers/index.html', RequestContext)
-            
+            section_url = p.findall(placemark.description)[0][5:-3]
+            section_url =  section_url.strip('"')
             pm_dict = {'placemark': placemark,
-                       'distance': "{0:.2f}".format(haversine_distance)}
+                       'distance': "{0:.2f}".format(haversine_distance),
+                       'AW_url': section_url,
+            }
             pm_list.append(pm_dict)
             
     RequestContext = {'pm_list': pm_list,

@@ -5,6 +5,7 @@ import sqlite3
 import datetime
 from dateutil.parser import parse
 import sys
+import logging
 
 query_interval = 900        #in seconds
 
@@ -22,16 +23,21 @@ def calcRateofChange(first_time_value, last_time_value, first_value, last_value)
     return rateChange
 
 def getGaugeInfo(gauge_ids):
-    STAGE_PARAM_CODE = "00060"
-    DISCHARGE_PARAM_CODE = "00065"
+    STAGE_PARAM_CODE = "00065"
+    DISCHARGE_PARAM_CODE = "00060"
     TEMPC_PARAM_CODE = "00010"
     
     params = (STAGE_PARAM_CODE, DISCHARGE_PARAM_CODE, TEMPC_PARAM_CODE)
     
-    usgs_url = "http://waterservices.usgs.gov/nwis/iv/?format=json&sites=%s&period=PT2H&parameterCd=%s" % (','.join(gauge_ids),','.join(params)) 
-    r = requests.get(usgs_url)
+    usgs_url = "http://waterservices.usgs.gov/nwis/iv/?format=json&sites=%s&period=PT2H&parameterCd=%s&modifiedSince=PT15M" % (','.join(gauge_ids),','.join(params)) 
+    try:
+        r = requests.get(usgs_url)
+    except Error as e:
+        logging.critical("Error performing request: %s -- %s" % (e,usgs_url) )
     if r.status_code == 200:
         gauge_content = json.loads(r.content)
+    else:
+        logging.critical("Received unexpected status code from USGS server: %d" % r.status_code)
     #gauge_content['value']['timeSeries'][2]['values'][0]['value'][0]['value']      Stage Height
     #gauge_content['value']['timeSeries'][1]['values'][0]['value'][0]['value']      Flow
     #gauge_content['value']['timeSeries'][0]['values'][0]['value'][0]['value']      Temp
@@ -43,12 +49,12 @@ def getGaugeInfo(gauge_ids):
     for parameter in gauge_content['value']['timeSeries']:
         a, gauge_id, parameter_code, b = parameter['name'].split(':')
         param_unit_abbrev = parameter['variable']['unit']['unitAbbreviation']
-        print "%s\t%s" % (gauge_id, parameter_code)
-        current_time = datetime.datetime.now().isoformat()
-        try:
-            c.execute('''UPDATE gauges SET last_update = ?''',(current_time,))
-        except sqlite3.Error as e:
-            raise e
+        #print "%s\t%s" % (gauge_id, parameter_code)
+        #current_time = datetime.datetime.now().isoformat()
+        #try:
+        #    c.execute('''UPDATE gauges SET last_update = ?''',(current_time,))
+        #except sqlite3.Error as e:
+        #    raise e
         time_values = parameter['values'][0]['value']
 
         for time_value in time_values:
@@ -80,27 +86,36 @@ def getGaugeInfo(gauge_ids):
         else:
             raise "Unknown parameter code"
             
-        sql = "UPDATE gauges SET %s = ?,%s = ? WHERE usgs_gauge LIKE '%s'" % (param_column,change_column,gauge_id)
+        sql = "UPDATE gauges SET %s = ?,%s = ?,last_update = ? WHERE usgs_gauge LIKE '%s'" % (param_column,change_column,gauge_id)
         try:
-            c.execute(sql,(last_param_value,changeRate))
+            c.execute(sql,(last_param_value,changeRate,last_timestamp))
         except sqlite3.Error as e:
             raise e
         
         conn.commit()
     conn.close()
 
+logging.basicConfig(filename='/var/log/rivers.log',level=logging.DEBUG)
+
 conn = sqlite3.connect('/opt/RiversNearMe/RiversNearMe/placemark.db')
 c = conn.cursor()
 c.execute('''SELECT usgs_gauge FROM gauges''')
-rows = c.fetchall()
+try:
+    rows = c.fetchall()
+except sqlite3.Error as e:
+    logging.critical("Error fetching gauges from database: %s" % e)
 conn.close()
+
 
 for i in xrange(0,len(rows),20):
     gauges_list = list()
     gauge_tuples = rows[i:i+20]
     for gauge in gauge_tuples:
         gauges_list.append(gauge[0])
-    getGaugeInfo(gauges_list)
+    try:
+        getGaugeInfo(gauges_list)
+    except Exception as e:
+        logging.critical("Error updating gauge info: %s" % e)
     #sys.exit()
 
 #gauge_list = ("01648000","01646500","03076500")
