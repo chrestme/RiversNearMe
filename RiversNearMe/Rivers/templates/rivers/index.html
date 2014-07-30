@@ -33,7 +33,6 @@
                 <th class="text-center">Flow</th>
                 <th class="text-center">Water Temp<br>(&deg C)</th>
                 <th class="text-center">Distance<br>(in miles)</th>
-                <th class="text-center">Last Update</th>
             </tr>
         </thead>
         <tbody>
@@ -42,10 +41,14 @@
                     <td><a href='{{pm_dict.AW_url}}'>{{pm_dict.placemark.section}}</a></td>
                     <td>{{pm_dict.placemark.name}}</td>
                     <td class="text-center">{{pm_dict.placemark.class_field}}</td>
-                    <td class="text-center"><a href='http://waterdata.usgs.gov/usa/nwis/uv?{{pm_dict.placemark.usgs_gauge}}'>{{pm_dict.placemark.usgs_gauge.stage}} ft
-                        <br><small>{{pm_dict.placemark.usgs_gauge.stage_delta}} ft/hr</small></a></td>
-                    <td class="text-center"><a href='http://waterdata.usgs.gov/usa/nwis/uv?{{pm_dict.placemark.usgs_gauge}}'>{{pm_dict.placemark.usgs_gauge.flow}} cfs
-                        <br><small>{{pm_dict.placemark.usgs_gauge.flow_delta}} cfs/hr</small></a></td>
+                    <td class="text-center">
+                        <a href='http://waterdata.usgs.gov/usa/nwis/uv?{{pm_dict.placemark.usgs_gauge}}' title='{{pm_dict.placemark.usgs_gauge.last_update}}'>{{pm_dict.placemark.usgs_gauge.stage}} ft
+                        <br><small>{{pm_dict.delta_sign |safe}} {{pm_dict.placemark.usgs_gauge.stage_delta}} ft/hr</small></a>
+                    </td>
+                    <td class="text-center">
+                        <a href='http://waterdata.usgs.gov/usa/nwis/uv?{{pm_dict.placemark.usgs_gauge}}' title='{{pm_dict.placemark.usgs_gauge.last_update}}'>{{pm_dict.placemark.usgs_gauge.flow}} cfs
+                        <br><small>{{pm_dict.delta_sign |safe}} {{pm_dict.placemark.usgs_gauge.flow_delta}} cfs/hr</small></a>
+                    </td>
                     {% if not pm_dict.placemark.usgs_gauge.water_temp%}
                         <td class="text-center">--</td>
                     {% else %}
@@ -53,7 +56,6 @@
                             <br><small>{{pm_dict.placemark.usgs_gauge.temp_delta}}</small></td>
                     {% endif %}
                     <td class="text-center">{{pm_dict.distance}}</td>
-                    <td class="text-center">{{pm_dict.placemark.usgs_gauge.last_update}}</td>
                 </tr>
             {% endfor %}
         </tbody>

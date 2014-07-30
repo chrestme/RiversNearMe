@@ -38,10 +38,6 @@ def getGaugeInfo(gauge_ids):
         gauge_content = json.loads(r.content)
     else:
         logging.critical("Received unexpected status code from USGS server: %d" % r.status_code)
-    #gauge_content['value']['timeSeries'][2]['values'][0]['value'][0]['value']      Stage Height
-    #gauge_content['value']['timeSeries'][1]['values'][0]['value'][0]['value']      Flow
-    #gauge_content['value']['timeSeries'][0]['values'][0]['value'][0]['value']      Temp
-    #print len(gauge_content['value']['timeSeries'][0]['values'])
     
     conn = sqlite3.connect('/opt/RiversNearMe/RiversNearMe/placemark.db')
     c = conn.cursor()
@@ -49,18 +45,11 @@ def getGaugeInfo(gauge_ids):
     for parameter in gauge_content['value']['timeSeries']:
         a, gauge_id, parameter_code, b = parameter['name'].split(':')
         param_unit_abbrev = parameter['variable']['unit']['unitAbbreviation']
-        #print "%s\t%s" % (gauge_id, parameter_code)
-        #current_time = datetime.datetime.now().isoformat()
-        #try:
-        #    c.execute('''UPDATE gauges SET last_update = ?''',(current_time,))
-        #except sqlite3.Error as e:
-        #    raise e
         time_values = parameter['values'][0]['value']
 
         for time_value in time_values:
             timestamp = time_value['dateTime']
             parameter_value = time_value['value']
-            #print "%s\t%s %s" % (timestamp, parameter_value, param_unit_abbrev)
         
         if not time_values:
             continue
@@ -70,10 +59,7 @@ def getGaugeInfo(gauge_ids):
         last_param_value = time_values[len(time_values)-1]['value']
             
         changeRate = calcRateofChange(first_timestamp,last_timestamp,first_param_value,last_param_value)
-
-        #print '''%s:\t%s\n%s:\t%s\n%s %s per hour''' % (first_timestamp,first_param_value,last_timestamp,last_param_value,changeRate,param_unit_abbrev)
         
-        #parameter_value = time_value['value']
         if parameter_code == STAGE_PARAM_CODE:
             param_column = "stage"
             change_column = "stage_delta"

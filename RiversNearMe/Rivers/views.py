@@ -132,9 +132,17 @@ def index(request):
         if haversine_distance <= distance:
             section_url = p.findall(placemark.description)[0][5:-3]
             section_url =  section_url.strip('"')
+            delta_sign = ''
+            if hasattr(placemark, 'usgs_gauge'):
+                if placemark.usgs_gauge.stage_delta > 0.0 or placemark.usgs_gauge.flow_delta > 0.0:
+                    delta_sign = '&#8663'
+                elif placemark.usgs_gauge.stage_delta < 0.0 or placemark.usgs_gauge.flow_delta < 0.0:
+                    delta_sign = '&#8664'
+            #print delta_sign
             pm_dict = {'placemark': placemark,
                        'distance': "{0:.2f}".format(haversine_distance),
                        'AW_url': section_url,
+                       'delta_sign': delta_sign,
             }
             pm_list.append(pm_dict)
             

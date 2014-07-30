@@ -126,6 +126,7 @@ def getUSGSGauge():
     rows = c.fetchall()
     
     for row in rows:
+        section_gauge = None
         section_id = row[0]
         AWurl = p.findall(row[1])
         AWpage = AWurl[0].split('/')[2]
@@ -135,9 +136,9 @@ def getUSGSGauge():
         usgs_gauges = q.findall(html)
         for usgs_gauge in usgs_gauges:
             a,section_gauge = usgs_gauge.split('usgs-')
-        #print gauge_id
+        print section_id, section_gauge
         try:
-            c.execute('''INSERT INTO gauges (usgs_gauge) VALUES (?)''', (section_gauge,))
+            c.execute('''UPDATE placemarks SET usgs_gauge = ? WHERE id = ?''', (section_gauge,section_id))
         except sqlite3.Error as e:
             print "Error executing gauge update: %s" % e
         conn.commit()
