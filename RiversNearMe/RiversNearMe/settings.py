@@ -83,3 +83,5 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = '/opt/RiversNearMe/RversNearMe/static/'
 STATICFILES_DIRS = ( os.path.join('static'), )
+
+LOGIN_REDIRECT_URL = '/'

@@ -47,6 +47,7 @@ class AuthUser(models.Model):
     is_staff = models.BooleanField()
     is_active = models.BooleanField()
     date_joined = models.DateTimeField()
+    placemarks = models.ManyToManyField('Placemarks')
     class Meta:
         managed = False
         db_table = 'auth_user'
@@ -107,6 +108,10 @@ class Placemarks(models.Model):
     lon = models.FloatField(blank=True, null=True)
     section = models.TextField(blank=True) # This field type is a guess.
     usgs_gauge = models.ForeignKey('Gauges', to_field='usgs_gauge', db_column='usgs_gauge')
+    flow_min = models.FloatField(blank=True, null=True)
+    flow_max = models.FloatField(blank=True, null=True)
+    stage_min = models.FloatField(blank=True, null=True)
+    stage_max = models.FloatField(blank=True, null=True)
     class Meta:
         #managed = False
         db_table = 'placemarks'

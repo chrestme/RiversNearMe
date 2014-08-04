@@ -161,6 +161,61 @@ def getAWpage():
         print "%s - %s" % (aw_file,section_url)
         urllib.urlretrieve(section_url.strip('"'),aw_file)
 
+def getRange():
+    conn = sqlite3.connect('/opt/RiversNearMe/RiversNearMe/placemark.db')
+    c = conn.cursor()
+    
+    for root, dirs, files in os.walk('/opt/RiversNearMe/AWPages'):
+        for filename in files:
+            #root = '/opt/RiversNearMe/AWPages'
+            #filename = '753'
+            print filename
+            with open(os.path.join(root,filename), 'r') as f:
+                html = f.read()
+            
+            td_gauge = None
+            td_range = None
+            min_val = None
+            max_val = None
+            unit = None
+            
+            soup = BeautifulSoup(html)
+            tables = soup.findAll('table', {'class': 'data_table'})
+            for table in tables:
+                if table.find('th', text='Range'):
+                    td_gauge = tables[1].find('td', {'rowspan': '2', 'valign': 'top'})
+                    if td_gauge:
+                        td_range = td_gauge.findNext('td')
+                        break
+            if td_range:
+                td_range = td_range.text.strip()
+                try:
+                    min_val, dash, max_val, unit = td_range.split()
+                except Exception as e:
+                    continue
+                print min_val, dash, max_val, unit
+                if unit == 'ft' or unit == 'inches':
+                    min_column = 'stage_min'
+                    max_column = 'stage_max'
+                elif unit == 'cfs' or unit == '%%':
+                    min_column = 'flow_min'
+                    max_column = 'flow_max'
+                else:
+                    continue
+                if max_val.lower() == "unknown":
+                    max_val = '999999'
+                if min_val.lower() == "unknown":
+                    min_val = '0'
+                
+                sql = '''UPDATE placemarks SET %s = ?, %s = ? WHERE description LIKE '%%id/%s/%%' ''' % (min_column, max_column,filename)
+                c.execute(sql, (min_val,max_val))
+            
+            else:continue
+        
+        conn.commit()
+    conn.close()
+            
+
 #print entries
 def populateDB():
     conn = sqlite3.connect('placemark.db')
@@ -195,8 +250,11 @@ def main():
     #self_location = sys.argv[1]
     #print location_arg
     #getAWpage()
-    getUSGSGauge()
-    
+    #getUSGSGauge()
+    try:
+        getRange()
+    except Exception as e:
+        print e
     
     #CalcDistance(self_location, river_location)
     

@@ -1,7 +1,7 @@
 from django.shortcuts import render
 #from django.http import HttpResponse
 from django.template import RequestContext
-from Rivers.models import Placemarks, Gauges
+from Rivers.models import Placemarks, Gauges, AuthUser
 import requests
 import json
 import datetime
@@ -111,6 +111,11 @@ def getGaugeInfo(gauges):
 
 # Create your views here.
 def index(request):
+    user_placemarks = None
+    if request.user.is_authenticated():
+        user = AuthUser.objects.get(username=request.user.username)
+        user_placemarks = user.placemarks.all()
+        
     location = "22192"
     local_location = (38.676929,-77.271296)     #My House
     distance = 60
@@ -128,6 +133,10 @@ def index(request):
         
         river_location = (float(placemark.lat),float(placemark.lon))
         haversine_distance = CalcDistance(local_location,river_location)
+        user_fav = False
+        if user_placemarks:
+            if placemark in user_placemarks:
+                user_fav = True
         
         if haversine_distance <= distance:
             section_url = p.findall(placemark.description)[0][5:-3]
@@ -135,14 +144,15 @@ def index(request):
             delta_sign = ''
             if hasattr(placemark, 'usgs_gauge'):
                 if placemark.usgs_gauge.stage_delta > 0.0 or placemark.usgs_gauge.flow_delta > 0.0:
-                    delta_sign = '&#8663'
+                    delta_sign = '&#10138'
                 elif placemark.usgs_gauge.stage_delta < 0.0 or placemark.usgs_gauge.flow_delta < 0.0:
-                    delta_sign = '&#8664'
+                    delta_sign = '&#10136'
             #print delta_sign
             pm_dict = {'placemark': placemark,
                        'distance': "{0:.2f}".format(haversine_distance),
                        'AW_url': section_url,
                        'delta_sign': delta_sign,
+                       'user_fav': user_fav
             }
             pm_list.append(pm_dict)
             

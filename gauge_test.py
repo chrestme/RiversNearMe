@@ -22,6 +22,10 @@ def calcRateofChange(first_time_value, last_time_value, first_value, last_value)
         return "0.00"
     return rateChange
 
+def convertDegrees(param_value):
+    degF = 9.0/5.0*float(param_value)+32.0
+    return degF
+
 def getGaugeInfo(gauge_ids):
     STAGE_PARAM_CODE = "00065"
     DISCHARGE_PARAM_CODE = "00060"
@@ -57,8 +61,6 @@ def getGaugeInfo(gauge_ids):
         last_timestamp = time_values[len(time_values)-1]['dateTime']
         first_param_value = time_values[0]['value']
         last_param_value = time_values[len(time_values)-1]['value']
-            
-        changeRate = calcRateofChange(first_timestamp,last_timestamp,first_param_value,last_param_value)
         
         if parameter_code == STAGE_PARAM_CODE:
             param_column = "stage"
@@ -69,8 +71,12 @@ def getGaugeInfo(gauge_ids):
         elif parameter_code == TEMPC_PARAM_CODE:
             param_column = "water_temp"
             change_column = "temp_delta"
+            last_param_value = convertDegrees(last_param_value)
+            first_param_value = convertDegrees(first_param_value)
         else:
             raise "Unknown parameter code"
+        
+        changeRate = calcRateofChange(first_timestamp,last_timestamp,first_param_value,last_param_value)
             
         sql = "UPDATE gauges SET %s = ?,%s = ?,last_update = ? WHERE usgs_gauge LIKE '%s'" % (param_column,change_column,gauge_id)
         try:
