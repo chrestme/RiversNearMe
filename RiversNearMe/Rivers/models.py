@@ -47,6 +47,8 @@ class AuthUser(models.Model):
     is_staff = models.BooleanField()
     is_active = models.BooleanField()
     date_joined = models.DateTimeField()
+    default_lat = models.FloatField(blank=True, null=True)
+    default_lon = models.FloatField(blank=True, null=True)
     placemarks = models.ManyToManyField('Placemarks')
     class Meta:
         managed = False

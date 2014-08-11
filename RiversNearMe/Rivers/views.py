@@ -1,6 +1,9 @@
 from django.shortcuts import render
-#from django.http import HttpResponse
+from django.http import HttpResponse
 from django.template import RequestContext
+from django.contrib.auth.decorators import login_required
+from django.views.decorators.http import require_safe
+from django.core.exceptions import PermissionDenied
 from Rivers.models import Placemarks, Gauges, AuthUser
 import requests
 import json
@@ -109,23 +112,33 @@ def getGaugeInfo(gauges):
         
         gauge_obj.save()
 
-# Create your views here.
-def index(request):
-    user_placemarks = None
-    if request.user.is_authenticated():
-        user = AuthUser.objects.get(username=request.user.username)
-        user_placemarks = user.placemarks.all()
-        
-    location = "22192"
-    local_location = (38.676929,-77.271296)     #My House
-    distance = 60
-    if request.method == "POST":
-        location = request.POST['loc']
-        distance = int(request.POST['dist'])
-        try:
-            local_location = getLocalCoords(location)
-        except Exception as e:
-            print e
+@login_required
+def add_fav(request, placemark):
+    user = AuthUser.objects.get(username=request.user.username)
+    pm_obj = Placemarks.objects.get(id=placemark)
+    try:
+        user.placemarks.add(pm_obj)
+    except:
+        return PermissionDenied
+    return HttpResponse("Success")
+
+@login_required
+def rem_fav(request, placemark):
+    user = AuthUser.objects.get(username=request.user.username)
+    pm_obj = Placemarks.objects.get(id=placemark)
+    try:
+        user.placemarks.remove(pm_obj)
+    except Exception as e:
+        print e
+        return PermissionDenied
+    return HttpResponse("Success")
+
+@login_required
+def my_rivers(request):
+    user = AuthUser.objects.get(username=request.user.username)
+    user_placemarks = user.placemarks.all()
+    
+def parsePlacemarks(placemarks, distance, local_location, user_placemarks):
     pm_list=list()
     gauges = list()
     p = re.compile('HREF=\".*\">AW')
@@ -156,7 +169,29 @@ def index(request):
             }
             pm_list.append(pm_dict)
             
+    return pm_list
+
+# Create your views here.
+def index(request):
+    user_placemarks = None
+    if request.user.is_authenticated():
+        user = AuthUser.objects.get(username=request.user.username)
+        user_placemarks = user.placemarks.all()
+        
+    location = "22192"
+    location_latlon = (38.676929,-77.271296)     #My House
+    max_distance = 60
+    if request.method == "POST":
+        location = request.POST['loc']
+        max_distance = int(request.POST['dist'])
+        try:
+            location_latlon = getLocalCoords(location)
+        except Exception as e:
+            print e
+            
+    pm_list = parsePlacemarks(Placemarks.objects.all().order_by('state'), max_distance, location_latlon, user_placemarks)
+            
     RequestContext = {'pm_list': pm_list,
-                      'distance': distance,
+                      'distance': max_distance,
                       'spec_location': location}
     return render(request, 'rivers/index.html', RequestContext)

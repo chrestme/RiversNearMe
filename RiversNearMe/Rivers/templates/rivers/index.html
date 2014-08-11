@@ -1,6 +1,38 @@
 {% extends "base.html" %}
 {% block content %}
     
+<script>
+function add_fav_ajax(placemark_id){
+    $.ajax({
+        url: "rivers/add_fav/"+ placemark_id +"/",
+        data: placemark_id,
+        success: function(data){
+            toggle_fav(placemark_id);
+        }
+    });
+}
+
+function rem_fav_ajax(placemark_id){
+    $.ajax({
+        url: "rivers/rem_fav/"+ placemark_id +"/",
+        data: placemark_id,
+        success: function(data){
+            toggle_fav(placemark_id);
+        }
+    });
+}
+
+function toggle_fav(placemark_id, mode){
+    var elements = document.getElementsByName(placemark_id)
+    for (i = 0; i < elements.length; i++){
+        if (elements[i].style.display == 'block')
+            elements[i].style.display = 'none';
+        else
+            elements[i].style.display = 'block';
+    }
+}
+</script>
+    
 <div class="center">
     <form action="/rivers/" method="post">
         {% csrf_token %}
@@ -41,9 +73,11 @@
                 <tr>
                     <td>
                         {% if pm_dict.user_fav %}
-                            &#9733;
+                            <a id="{{pm_dict.placemark.id}}" name='{{pm_dict.placemark.id}}' onclick="rem_fav_ajax({{pm_dict.placemark.id}}); return false;" style="display: block;"> &#9733;</a>
+                            <a id="{{pm_dict.placemark.id}}" name='{{pm_dict.placemark.id}}' onclick="add_fav_ajax({{pm_dict.placemark.id}}); return false;" style="display: none;"> &#9734;</a>
                         {% else %}
-                            &#9734;
+                            <a id="{{pm_dict.placemark.id}}" name='{{pm_dict.placemark.id}}' onclick="rem_fav_ajax({{pm_dict.placemark.id}}); return false;" style="display: none;"> &#9733;</a>
+                            <a id="{{pm_dict.placemark.id}}" name='{{pm_dict.placemark.id}}' onclick="add_fav_ajax({{pm_dict.placemark.id}}); return false;" style="display: block;"> &#9734;</a>
                         {% endif %}
                     </td>
                     <td><a href='{{pm_dict.AW_url}}'>{{pm_dict.placemark.section}}</a></td>
