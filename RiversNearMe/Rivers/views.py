@@ -132,18 +132,12 @@ def rem_fav(request, placemark):
         print e
         return PermissionDenied
     return HttpResponse("Success")
-
-@login_required
-def my_rivers(request):
-    user = AuthUser.objects.get(username=request.user.username)
-    user_placemarks = user.placemarks.all()
     
-def parsePlacemarks(placemarks, distance, local_location, user_placemarks):
+def parsePlacemarks(placemarks, distance, local_location, user_placemarks=None):
     pm_list=list()
     gauges = list()
     p = re.compile('HREF=\".*\">AW')
-    for placemark in Placemarks.objects.all().order_by('state'):
-        
+    for placemark in placemarks:
         river_location = (float(placemark.lat),float(placemark.lon))
         haversine_distance = CalcDistance(local_location,river_location)
         user_fav = False
@@ -160,7 +154,7 @@ def parsePlacemarks(placemarks, distance, local_location, user_placemarks):
                     delta_sign = '&#10138'
                 elif placemark.usgs_gauge.stage_delta < 0.0 or placemark.usgs_gauge.flow_delta < 0.0:
                     delta_sign = '&#10136'
-            #print delta_sign
+
             pm_dict = {'placemark': placemark,
                        'distance': "{0:.2f}".format(haversine_distance),
                        'AW_url': section_url,
@@ -170,6 +164,18 @@ def parsePlacemarks(placemarks, distance, local_location, user_placemarks):
             pm_list.append(pm_dict)
             
     return pm_list
+
+@login_required
+def my_rivers(request):
+    user = AuthUser.objects.get(username=request.user.username)
+    user_placemarks = user.placemarks.all()
+    user_default_latlon = (user.default_lat, user.default_lon)
+    pm_list = parsePlacemarks(user_placemarks, 9999, user_default_latlon, user_placemarks)
+    
+    RequestContext = {'pm_list': pm_list,
+                      'spec_location': user.default_loc}
+    
+    return render(request, 'rivers/my_rivers.html', RequestContext)
 
 # Create your views here.
 def index(request):
