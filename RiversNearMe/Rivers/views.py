@@ -1,9 +1,10 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from django.template import RequestContext
 from django.contrib.auth.decorators import login_required
 from django.views.decorators.http import require_safe
 from django.core.exceptions import PermissionDenied
+from django.forms import ModelForm
 from Rivers.models import Placemarks, Gauges, AuthUser
 import requests
 import json
@@ -132,6 +133,36 @@ def rem_fav(request, placemark):
         print e
         return PermissionDenied
     return HttpResponse("Success")
+
+class UserForm(ModelForm):
+    class Meta:
+        model = AuthUser
+        fields = ['first_name', 'last_name', 'default_loc', 'default_lat', 'default_lon']
+
+@login_required
+def user_profile(request):
+    user = AuthUser.objects.get(username=request.user.username)
+    
+    if request.method == 'POST':
+        form = UserForm(request.POST)
+        if form.is_valid():
+            print form.cleaned_data
+            user.first_name = form.cleaned_data['first_name']
+            user.last_name = form.cleaned_data['last_name']
+            if form.cleaned_data['default_loc']:
+                user.default_loc = form.cleaned_data['default_loc']
+                user.default_lat, user.default_lon = getLocalCoords(form.cleaned_data['default_loc'])
+            #else:
+            #    user.default_loc = "1600 Pennsylvania Ave, Washington, DC"
+            #    user.default_lat = 38.8977332
+            #    user.default_lon = -77.0365305
+            user.save()
+            return redirect(my_rivers)
+    
+    form = UserForm(instance = user)
+    return render(request, 'rivers/user_profile.html', {
+        'form': form
+    })
     
 def parsePlacemarks(placemarks, distance, local_location, user_placemarks=None):
     pm_list=list()
@@ -179,14 +210,18 @@ def my_rivers(request):
 
 # Create your views here.
 def index(request):
+    location = "The White House"
+    location_latlon = (38.8977332, -77.0365305)     #My House
+    max_distance = 60
     user_placemarks = None
+    
     if request.user.is_authenticated():
         user = AuthUser.objects.get(username=request.user.username)
         user_placemarks = user.placemarks.all()
-        
-    location = "22192"
-    location_latlon = (38.676929,-77.271296)     #My House
-    max_distance = 60
+        if user.default_loc:
+            location = user.default_loc
+            location_latlon = (float(user.default_lat), float(user.default_lon))
+
     if request.method == "POST":
         location = request.POST['loc']
         max_distance = int(request.POST['dist'])

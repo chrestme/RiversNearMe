@@ -37,7 +37,7 @@ function toggle_fav(placemark_id, mode){
     <form action="/rivers/" method="post">
         {% csrf_token %}
         <label for="loc">Location: </label>
-        <input id="loc" type="text" name="loc" value={{spec_location}}>
+        <input id="loc" type="text" name="loc" value="{{spec_location}}">
         <label for="dist">Max Distance: </label>
         <input id="dist" type="text" name="dist" maxlength="4" size="4" value={{distance}}>
         <button type="submit" class="btn btn-primary">Submit</button>
@@ -129,10 +129,12 @@ function toggle_fav(placemark_id, mode){
         <script>
         $(document).ready(function(){
             $(function(){
-                $("#RiverTable").tablesorter();
+                $("#RiverTable").tablesorter({
+                    sortList: [[7,0],[1,0]]
+                    });
             });
         });
-</script>
+    </script>
     </div>
 {% endif %}
 {% endblock %}
