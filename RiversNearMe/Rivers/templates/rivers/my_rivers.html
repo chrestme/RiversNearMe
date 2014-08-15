@@ -1,0 +1,127 @@
+{% extends "base.html" %}
+{% block content %}
+    
+<script>
+function add_fav_ajax(placemark_id){
+    $.ajax({
+        url: "rivers/add_fav/"+ placemark_id +"/",
+        data: placemark_id,
+        success: function(data){
+            toggle_fav(placemark_id);
+        }
+    });
+}
+
+function rem_fav_ajax(placemark_id){
+    $.ajax({
+        url: "rivers/rem_fav/"+ placemark_id +"/",
+        data: placemark_id,
+        success: function(data){
+            toggle_fav(placemark_id);
+        }
+    });
+}
+
+function toggle_fav(placemark_id, mode){
+    var elements = document.getElementsByName(placemark_id)
+    for (i = 0; i < elements.length; i++){
+        if (elements[i].style.display == 'block')
+            elements[i].style.display = 'none';
+        else
+            elements[i].style.display = 'block';
+    }
+}
+</script>
+
+{%if error %}
+    <div class="alert alert-danger">
+        <b>Error: </b>{{error}}
+    </div>
+{% endif %}
+
+{% if pm_list %}
+    <div style="margin-top: 20px;" class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">Found {{pm_list|length}} favorite rivers</h3>
+            </div>
+        <table id="RiverTable" class="table table-striped tablesorter table-condensed" style="table-layout: fixed;" class="text-center">
+        <thead>
+            <tr>
+                <th class="text-center" style="width: 20px">&#9733;</th>
+                <th>Section</th>
+                <th>River</th>
+                <th class="text-center">Class</th>
+                <th class="text-center">Stage</th>
+                <th class="text-center">Flow</th>
+                <th class="text-center">Water Temp<br>(&deg F)</th>
+                <th class="text-center">Distance<br>(in miles)</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for pm_dict in pm_list %}
+                <tr>
+                    <td>
+                        {% if pm_dict.user_fav %}
+                            <a id="{{pm_dict.placemark.id}}" name='{{pm_dict.placemark.id}}' onclick="rem_fav_ajax({{pm_dict.placemark.id}}); return false;" style="display: block;"> &#9733;</a>
+                            <a id="{{pm_dict.placemark.id}}" name='{{pm_dict.placemark.id}}' onclick="add_fav_ajax({{pm_dict.placemark.id}}); return false;" style="display: none;"> &#9734;</a>
+                        {% else %}
+                            <a id="{{pm_dict.placemark.id}}" name='{{pm_dict.placemark.id}}' onclick="rem_fav_ajax({{pm_dict.placemark.id}}); return false;" style="display: none;"> &#9733;</a>
+                            <a id="{{pm_dict.placemark.id}}" name='{{pm_dict.placemark.id}}' onclick="add_fav_ajax({{pm_dict.placemark.id}}); return false;" style="display: block;"> &#9734;</a>
+                        {% endif %}
+                    </td>
+                    <td><a href='{{pm_dict.AW_url}}'>{{pm_dict.placemark.section}}</a></td>
+                    <td>{{pm_dict.placemark.name}}</td>
+                    <td class="text-center">{{pm_dict.placemark.class_field}}</td>
+                    {% if pm_dict.placemark.stage_min and pm_dict.placemark.stage_max %}
+                        {% if pm_dict.placemark.usgs_gauge.stage < pm_dict.placemark.stage_min %}
+                            <td class="text-center danger">
+                        {% elif pm_dict.placemark.usgs_gauge.stage > pm_dict.placemark.stage_max %}
+                            <td class="text-center bg-primary">
+                        {% else %}
+                            <td class="text-center success">
+                        {% endif %}
+                    {% else %} 
+                        <td class="text-center">
+                    {% endif %}
+                        <a href='http://waterdata.usgs.gov/usa/nwis/uv?{{pm_dict.placemark.usgs_gauge}}' title='{{pm_dict.placemark.usgs_gauge.last_update}}'>{{pm_dict.placemark.usgs_gauge.stage}} ft
+                        <br><strong>{{pm_dict.delta_sign |safe}}</strong>
+                        <br><small>{{pm_dict.placemark.usgs_gauge.stage_delta}} ft/hr</small></a>
+                        </td>
+                            
+                    {% if pm_dict.placemark.flow_min and pm_dict.placemark.flow_max %}
+                        {% if pm_dict.placemark.usgs_gauge.flow < pm_dict.placemark.flow_min %}
+                            <td class="text-center danger">
+                        {% elif pm_dict.placemark.usgs_gauge.flow > pm_dict.placemark.flow_max %}
+                            <td class="text-center primary">
+                        {% else %}
+                            <td class="text-center success">
+                        {% endif %}
+                    {% else %}
+                        <td class="text-center">
+                    {% endif %}
+                        <a href='http://waterdata.usgs.gov/usa/nwis/uv?{{pm_dict.placemark.usgs_gauge}}' title='{{pm_dict.placemark.usgs_gauge.last_update}}'>{{pm_dict.placemark.usgs_gauge.flow}} cfs
+                        <br><strong>{{pm_dict.delta_sign |safe}}</strong>
+                        <br><small>{{pm_dict.placemark.usgs_gauge.flow_delta}} cfs/hr</small></a>
+                        </td>
+                        
+                    {% if not pm_dict.placemark.usgs_gauge.water_temp%}
+                        <td class="text-center">--</td>
+                    {% else %}
+                        <td class="text-center">{{pm_dict.placemark.usgs_gauge.water_temp}}&deg F
+                            <br><small>{{pm_dict.placemark.usgs_gauge.temp_delta}}</small></td>
+                    {% endif %}
+                    <td class="text-center">{{pm_dict.distance}}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+        </table>
+        <script>
+        $(document).ready(function(){
+            $(function(){
+                $("#RiverTable").tablesorter();
+            });
+        });
+</script>
+    </div>
+{% endif %}
+{% endblock %}
