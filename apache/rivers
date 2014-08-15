@@ -1,0 +1,49 @@
+<VirtualHost *:80>
+        ServerName www.riversnear.me
+        ServerAlias riversnear.me
+        ServerAdmin webmaster@riversnear.me
+
+        DocumentRoot /opt/RiversNearMe/RiversNearMe/RiversNearMe/
+
+        WSGIScriptAlias / /opt/RiversNearMe/RiversNearMe/RiversNearMe/wsgi.py
+        WSGIDaemonProcess riversnear.me processes=2 threads=15 display-name=%{GROUP} python-path=/opt/RiversNearMe/RiversNearMe/RiversNearMe/
+        WSGIProcessGroup riversnear.me
+
+        Alias /static/ /opt/RiversNearMe/RiversNearMe/static/
+        <Directory /opt/RiversNearMe/RiversNearMe/RiversNearMe>
+            <Files wsgi.py>
+                Order deny,allow
+                Allow From all
+            </Files>
+        </Directory>
+</VirtualHost>
+
+#<VirtualHost *:80>
+#
+#    ServerName www.riversnear.me
+#    ServerAlias riversnear.me
+#    ServerAdmin webmaster@riversnear.me
+#
+#    DocumentRoot /opt/RiversNearMe/RiversNearMe/RiversNearMe/
+#
+#    #Alias /robots.txt /usr/local/www/documents/robots.txt
+#    Alias /favicon.ico /usr/local/www/documents/favicon.ico
+#
+#    #Alias /media/ /usr/local/www/documents/media/
+#
+#    <Directory /usr/local/www/documents>
+#    Order allow,deny
+#    Allow from all
+#    </Directory>
+#
+#    WSGIDaemonProcess example.com processes=2 threads=15 display-name=%{GROUP}
+#    WSGIProcessGroup example.com
+#
+#    WSGIScriptAlias / /usr/local/www/wsgi-scripts/myapp.wsgi
+#
+#    <Directory /usr/local/www/wsgi-scripts>
+#    Order allow,deny
+#    Allow from all
+#    </Directory>
+#
+#</VirtualHost>
