@@ -43,7 +43,7 @@ def getGaugeInfo(gauge_ids):
     else:
         logging.critical("Received unexpected status code from USGS server: %d" % r.status_code)
     
-    conn = sqlite3.connect('/opt/RiversNearMe/RiversNearMe/placemark.db')
+    conn = sqlite3.connect('/opt/RiversNearMe/RiversNearMe/db/placemark.db')
     c = conn.cursor()
     
     for parameter in gauge_content['value']['timeSeries']:
@@ -89,7 +89,7 @@ def getGaugeInfo(gauge_ids):
 
 logging.basicConfig(filename='/var/log/rivers.log',level=logging.DEBUG)
 
-conn = sqlite3.connect('/opt/RiversNearMe/RiversNearMe/placemark.db')
+conn = sqlite3.connect('/opt/RiversNearMe/RiversNearMe/db/placemark.db')
 c = conn.cursor()
 c.execute('''SELECT usgs_gauge FROM gauges''')
 try:
