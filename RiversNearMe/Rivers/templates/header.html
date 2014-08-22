@@ -32,8 +32,28 @@
             </ul>
             <ul class="nav navbar-nav pull-right">
                 {% if not user.is_active %}
-                <li>
-                    <a href="/accounts/login/">Login</a>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" href="#" data-toggle="dropdown">Login<b class="caret"></b></a>
+                    <div class="dropdown-menu" style="padding: 15px; padding-bottom: 0px;">
+                        <form role="form" action='/accounts/login/' method="POST">
+                                {% csrf_token %}
+                                {% if form.errors %}
+                                    {{ form.errors }}
+                                {% endif %}
+                                <div class="form-group">
+                                    <label for="id_username">Username</label><br>
+                                    <input class="form-control" type="text" name="username" id="id_username"></p>
+                                </div>
+                                <div class="form-group">
+                                    <p><label for="id_password">Password</label>
+                                    <input class="form-control" type="password" name="password" id="id_password"></p>
+                                </div>
+                                <div class="form-group">
+                                    <p><input class="btn btn-primary" type="submit" value="Login" /></p>
+                                    <input type="hidden" name="next" value="{{ current_path }}" />
+                                </div>
+                        </form>
+                    </div>
                 </li>
                 <li>
                     <a href="/accounts/register/">Register</a>
