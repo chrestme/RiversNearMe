@@ -13,7 +13,7 @@ from dateutil.parser import parse
 import re
 
 from math import radians, cos, sin, asin, sqrt
-from geopy import geocoders
+from geopy import exc, geocoders
 
 def haversine(lon1, lat1, lon2, lat2):
     """
@@ -44,11 +44,16 @@ def CalcDistance(self_location, river_location):
 def getLocalCoords(location_arg):
     g = geocoders.GoogleV3()
     try:
-        place,  (local_lat, local_lon) = g.geocode(location_arg)
-    except Exception as e:
+        geocode_obj = g.geocode(location_arg)
+    except exc.GeopyError as e:
         raise "Error Getting Local Coordinates: %s" % e
-    local_location = (local_lat, local_lon)
-    return local_location
+    
+    if geocode_obj:
+        place,  (local_lat, local_lon) = geocode_obj
+        local_location = (local_lat, local_lon)
+        return local_location
+    
+    else: return None
 
 def calcRateofChange(first_time_value, last_time_value, first_value, last_value):
     first_timestamp = parse(first_time_value)
@@ -211,9 +216,11 @@ def my_rivers(request):
 # Create your views here.
 def index(request):
     location = "The White House"
-    location_latlon = (38.8977332, -77.0365305)     #My House
+    location_latlon = (38.8977332, -77.0365305)     #Lat/Lon Coordinates for The White House
     max_distance = 60
     user_placemarks = None
+    local_coords = None
+    errors = []
     
     if request.user.is_authenticated():
         user = AuthUser.objects.get(username=request.user.username)
@@ -226,13 +233,18 @@ def index(request):
         location = request.POST['loc']
         max_distance = int(request.POST['dist'])
         try:
-            location_latlon = getLocalCoords(location)
+            local_coords = getLocalCoords(location)
         except Exception as e:
-            print e
-            
+            errors.append(e)
+        if local_coords == None:
+            errors.append("Could not find coordinates for %s" % location)
+        else:
+            location_latlon = local_coords
+
     pm_list = parsePlacemarks(Placemarks.objects.all().order_by('state'), max_distance, location_latlon, user_placemarks)
             
     RequestContext = {'pm_list': pm_list,
                       'distance': max_distance,
-                      'spec_location': location}
+                      'spec_location': location,
+                      'errors': errors,}
     return render(request, 'rivers/index.html', RequestContext)

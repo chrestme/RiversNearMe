@@ -32,21 +32,52 @@ function toggle_fav(placemark_id, mode){
     }
 }
 </script>
+<script>
+function get_location() {
+    //if (Modernizr.geolocation) {
+        var element = document.getElementById("getLocButton");
+        element.disabled = true;
+        navigator.geolocation.getCurrentPosition(popCoords);
+    //} else {
+    // no native support; maybe try a fallback?
+    //}
+}
+    function popCoords(position) {
+        var lat = position.coords.latitude;
+        var lon = position.coords.longitude;
+        
+        var loc_input_element = document.getElementById("loc");
+        loc_input_element.value = lat+", "+lon;
+        
+        var loc_button_element = document.getElementById("getLocButton");
+        loc_button_element.disabled = false;
+        
+    }
+
+</script>
     
 <div class="center">
-    <form action="/rivers/" method="post">
+    <form class="form-inline" role="form" action="/rivers/" method="post">
         {% csrf_token %}
-        <label for="loc">Location: </label>
-        <input id="loc" type="text" name="loc" value="{{spec_location}}">
-        <label for="dist">Max Distance: </label>
-        <input id="dist" type="text" name="dist" maxlength="4" size="4" value={{distance}}>
+        <div class="form-group">
+            <label class="sr-only" for="loc">Location: </label>
+            <input class="form-control" id="loc" type="text" style="width: 300px" name="loc" value="{{spec_location}}" placeholder="Enter Address, Zip, or Lat/Lon">
+        </div>
+        <div class="form-group">
+            <label class="sr-only" for="dist">Max Distance: </label>
+            <input class="form-control" id="dist" type="text" name="dist" maxlength="4" size="4" value={{distance}} placeholder="Max Distance in Miles">
+        </div>
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 </div>
 
-{%if error %}
+<div class="center">
+    <p><br><button id="getLocButton" type="button" onclick="get_location()" class="btn btn-success"><i class="glyphicon glyphicon-screenshot"></i> Find My Location</button></p>
+</div>
+
+{%if errors %}
     <div class="alert alert-danger">
-        <b>Error: </b>{{error}}
+        <b>Error: </b>{% for error in errors %} {{error}} {% endfor %}
     </div>
 {% endif %}
 
