@@ -231,7 +231,17 @@ def index(request):
 
     if request.method == "POST":
         location = request.POST['loc']
-        max_distance = int(request.POST['dist'])
+        if request.POST['dist'] == None or request.POST['dist'] == '':
+            errors.append("Unspecified Value for Max Distance")
+        else:
+            max_distance = int(request.POST['dist'])
+            if max_distance < 0:
+                errors.append("Negative value for Max Distance; using 0 instead.")
+                max_distance = 0
+            elif max_distance > 9999:
+                errors.append("Value for Max Distance exceeds maximum allowable, using 9999 instead.")
+                max_distance = 9999
+                
         try:
             local_coords = getLocalCoords(location)
         except Exception as e:
@@ -242,9 +252,13 @@ def index(request):
             location_latlon = local_coords
 
     pm_list = parsePlacemarks(Placemarks.objects.all().order_by('state'), max_distance, location_latlon, user_placemarks)
-            
+    #pm_json = json.dumps(pm_list)
+    
     RequestContext = {'pm_list': pm_list,
+                      #'pm_json': pm_json,
                       'distance': max_distance,
                       'spec_location': location,
+                      'spec_lat': location_latlon[0],
+                      'spec_lon': location_latlon[1],
                       'errors': errors,}
     return render(request, 'rivers/index.html', RequestContext)

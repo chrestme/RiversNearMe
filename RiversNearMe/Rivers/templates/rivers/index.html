@@ -33,15 +33,15 @@ function toggle_fav(placemark_id, mode){
 }
 </script>
 <script>
-function get_location() {
-    //if (Modernizr.geolocation) {
-        var element = document.getElementById("getLocButton");
-        element.disabled = true;
-        navigator.geolocation.getCurrentPosition(popCoords);
-    //} else {
-    // no native support; maybe try a fallback?
-    //}
-}
+    function get_location() {
+        //if (Modernizr.geolocation) {
+            var element = document.getElementById("getLocButton");
+            element.disabled = true;
+            navigator.geolocation.getCurrentPosition(popCoords);
+        //} else {
+        // no native support; maybe try a fallback?
+        //}
+    }
     function popCoords(position) {
         var lat = position.coords.latitude;
         var lon = position.coords.longitude;
@@ -51,11 +51,9 @@ function get_location() {
         
         var loc_button_element = document.getElementById("getLocButton");
         loc_button_element.disabled = false;
-        
     }
-
 </script>
-    
+
 <div class="center">
     <form class="form-inline" role="form" action="/rivers/" method="post">
         {% csrf_token %}
@@ -65,7 +63,7 @@ function get_location() {
         </div>
         <div class="form-group">
             <label class="sr-only" for="dist">Max Distance: </label>
-            <input class="form-control" id="dist" type="text" name="dist" maxlength="4" size="4" value={{distance}} placeholder="Max Distance in Miles">
+            <input class="form-control" id="dist" type="number" name="dist" min="0" max="9999" value={{distance}} placeholder="Max Distance in Miles">
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
@@ -81,12 +79,29 @@ function get_location() {
     </div>
 {% endif %}
 
+<ul class="nav nav-tabs" role="tablist">
+    <li class="active"><a href="#river_table" role="tab" data-toggle="tab">Table</a></li>
+    <li><a href="#river_map" id="mapTab" role="tab" data-toggle="tab">Map</a></li>
+</ul>
+<script>
+$('a[href=#river_map]').on('shown.bs.tab', function () { google.maps.event.trigger(map, 'resize'); });
+</script>
 {% if pm_list %}
-    <div style="margin-top: 20px;" class="panel panel-primary">
+<div class="tab-content">
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- Link-TableHeader-Desktop -->
+    <ins class="adsbygoogle"
+         style="display:inline-block;width:728px;height:15px"
+         data-ad-client="ca-pub-9487572888427173"
+         data-ad-slot="8632953643"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+    <div id="river_table" style="margin-top: 20px;" class="panel panel-primary tab-pane fade in active">
             <div class="panel-heading">
                 <h3 class="panel-title">Found {{pm_list|length}} rivers within {{distance}} miles of {{spec_location}}</h3>
             </div>
-        <table id="RiverTable" class="table table-striped tablesorter table-condensed" style="table-layout: fixed;" class="text-center">
+        <table id="RiverTable" class="table table-striped tablesorter table-condensed table-responsive" style="table-layout: fixed;" class="text-center">
         <thead>
             <tr>
                 <th class="text-center" style="width: 20px">&#9733;</th>
@@ -126,8 +141,8 @@ function get_location() {
                         <td class="text-center">
                     {% endif %}
                         <a href='http://waterdata.usgs.gov/usa/nwis/uv?{{pm_dict.placemark.usgs_gauge}}' title='{{pm_dict.placemark.usgs_gauge.last_update}}'>{{pm_dict.placemark.usgs_gauge.stage}} ft
-                        <br><strong>{{pm_dict.delta_sign |safe}}</strong>
-                        <br><small>{{pm_dict.placemark.usgs_gauge.stage_delta}} ft/hr</small></a>
+                        <br><strong>{{pm_dict.delta_sign |safe}} </strong><small>{{pm_dict.placemark.usgs_gauge.stage_delta}} ft/hr</small></a>
+                        <br>{{pm_dict.placemark.stage_min|default_if_none:""}} - {{pm_dict.placemark.stage_max|default_if_none:""}} ft
                         </td>
                             
                     {% if pm_dict.placemark.flow_min and pm_dict.placemark.flow_max %}
@@ -142,8 +157,8 @@ function get_location() {
                         <td class="text-center">
                     {% endif %}
                         <a href='http://waterdata.usgs.gov/usa/nwis/uv?{{pm_dict.placemark.usgs_gauge}}' title='{{pm_dict.placemark.usgs_gauge.last_update}}'>{{pm_dict.placemark.usgs_gauge.flow}} cfs
-                        <br><strong>{{pm_dict.delta_sign |safe}}</strong>
-                        <br><small>{{pm_dict.placemark.usgs_gauge.flow_delta}} cfs/hr</small></a>
+                        <br><strong>{{pm_dict.delta_sign |safe}} </strong><small>{{pm_dict.placemark.usgs_gauge.flow_delta}} cfs/hr</small></a>
+                        <br>{{pm_dict.placemark.flow_min|default_if_none:""}} - {{pm_dict.placemark.flow_max|default_if_none:""}} cfs
                         </td>
                         
                     {% if not pm_dict.placemark.usgs_gauge.water_temp%}
@@ -165,7 +180,73 @@ function get_location() {
                     });
             });
         });
-    </script>
+        </script>
     </div>
+    <div id="river_map" style="margin-top: 20px;" class="tab-pane fade">
+        <div id="map-canvas" style="width:700px;height:700px;"/>
+    </div>
+</div>
+<script type="text/javascript">
+    var map;
+    var myCenter = new google.maps.LatLng({{spec_lat}}, {{spec_lon}});
+    var placemarks = [
+        {% for pm in pm_list %}
+            {% if forloop.last %}
+                ["{{pm.placemark.name|escapejs|safe}} - {{pm.placemark.section|escapejs|safe}} - {{pm.placemark.class_field|escapejs|safe}}",{{pm.placemark.lat|safe}},{{pm.placemark.lon|safe}}]
+            {% else %}
+                ["{{pm.placemark.name|escapejs|safe}} - {{pm.placemark.section|escapejs|safe}} - {{pm.placemark.class_field|escapejs|safe}}",{{pm.placemark.lat|safe}},{{pm.placemark.lon|safe}}],
+            {% endif %}
+        {% endfor %}
+    ];
+    
+    function initialize() {
+        var mapOptions = {
+        center: myCenter,
+        zoom: 8
+        };
+        map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+        
+        var local_marker = new google.maps.Marker({
+                position: new google.maps.LatLng({{spec_lat|safe}}, {{spec_lon|safe}}),
+                map: map,
+                icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
+                title: '{{spec_location|safe}}',
+                });
+        var meters_radius = {{distance}} * 1609;
+        var area_options = {
+            strokeColor: '#0000FF',
+            strokeOpacity: 0.8,
+            strokeWeight: 2,
+            fillColor: '#0000FF',
+            fillOpacity: 0.25,
+            map: map,
+            center: myCenter,
+            radius: meters_radius
+        };
+        
+        var area_circle = new google.maps.Circle(area_options);
+        setMarkers();
+    }
+    
+    $("#mapTab").on('shown.bs.tab', function() {
+        //initialize;
+        google.maps.event.trigger(map, 'resize');
+        map.setCenter(myCenter);
+        //setMarkers(map, placemarks)
+    });
+    
+    function setMarkers(){
+        for (var i = 0; i < placemarks.length; i++) {
+            var pm = placemarks[i];
+            var marker = new google.maps.Marker({
+                position: new google.maps.LatLng(pm[2], pm[1]),
+                map: map,
+                title: pm[0],
+                });
+        }
+    }
+    //google.maps.event.addDomListener(window, 'load', initialize);
+    initialize();
+</script>
 {% endif %}
 {% endblock %}
