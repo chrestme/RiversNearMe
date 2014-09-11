@@ -112,18 +112,19 @@ $('a[href=#river_map]').on('shown.bs.tab', function () { google.maps.event.trigg
                 <th class="text-center">Flow</th>
                 <th class="text-center">Water Temp<br>(&deg F)</th>
                 <th class="text-center">Distance<br>(in miles)</th>
+                <th class="text-center">Driving Time</th>
             </tr>
         </thead>
         <tbody>
             {% for pm_dict in pm_list %}
-                <tr>
+                <tr id="{{pm_dict.placemark.id}}">
                     <td>
                         {% if pm_dict.user_fav %}
-                            <a id="{{pm_dict.placemark.id}}" name='{{pm_dict.placemark.id}}' onclick="rem_fav_ajax({{pm_dict.placemark.id}}); return false;" style="display: block;"> &#9733;</a>
-                            <a id="{{pm_dict.placemark.id}}" name='{{pm_dict.placemark.id}}' onclick="add_fav_ajax({{pm_dict.placemark.id}}); return false;" style="display: none;"> &#9734;</a>
+                            <a id="{{pm_dict.placemark.id}}" name='{{pm_dict.placemark.id}}_fav' onclick="rem_fav_ajax('{{pm_dict.placemark.id}}_fav'); return false;" style="display: block;"> &#9733;</a>
+                            <a id="{{pm_dict.placemark.id}}" name='{{pm_dict.placemark.id}}_fav' onclick="add_fav_ajax('{{pm_dict.placemark.id}}_fav'); return false;" style="display: none;"> &#9734;</a>
                         {% else %}
-                            <a id="{{pm_dict.placemark.id}}" name='{{pm_dict.placemark.id}}' onclick="rem_fav_ajax({{pm_dict.placemark.id}}); return false;" style="display: none;"> &#9733;</a>
-                            <a id="{{pm_dict.placemark.id}}" name='{{pm_dict.placemark.id}}' onclick="add_fav_ajax({{pm_dict.placemark.id}}); return false;" style="display: block;"> &#9734;</a>
+                            <a id="{{pm_dict.placemark.id}}" name='{{pm_dict.placemark.id}}_fav' onclick="rem_fav_ajax('{{pm_dict.placemark.id}}_fav'); return false;" style="display: none;"> &#9733;</a>
+                            <a id="{{pm_dict.placemark.id}}" name='{{pm_dict.placemark.id}}_fav' onclick="add_fav_ajax('{{pm_dict.placemark.id}}_fav'); return false;" style="display: block;"> &#9734;</a>
                         {% endif %}
                     </td>
                     <td><a href='{{pm_dict.AW_url}}'>{{pm_dict.placemark.section}}</a></td>
@@ -168,6 +169,7 @@ $('a[href=#river_map]').on('shown.bs.tab', function () { google.maps.event.trigg
                             <br><small>{{pm_dict.placemark.usgs_gauge.temp_delta}}</small></td>
                     {% endif %}
                     <td class="text-center">{{pm_dict.distance}}</td>
+                    <td id="{{pm_dict.placemark.id}}_duration"class="text-center"></td>
                 </tr>
             {% endfor %}
         </tbody>
@@ -192,12 +194,13 @@ $('a[href=#river_map]').on('shown.bs.tab', function () { google.maps.event.trigg
     var placemarks = [
         {% for pm in pm_list %}
             {% if forloop.last %}
-                ["{{pm.placemark.name|escapejs|safe}} - {{pm.placemark.section|escapejs|safe}} - {{pm.placemark.class_field|escapejs|safe}}",{{pm.placemark.lat|safe}},{{pm.placemark.lon|safe}}]
+                ["{{pm.placemark.name|escapejs|safe}} - {{pm.placemark.section|escapejs|safe}} [{{pm.placemark.class_field|escapejs|safe}}]",{{pm.placemark.lat|safe}},{{pm.placemark.lon|safe}},"{{pm.placemark.id}}"]
             {% else %}
-                ["{{pm.placemark.name|escapejs|safe}} - {{pm.placemark.section|escapejs|safe}} - {{pm.placemark.class_field|escapejs|safe}}",{{pm.placemark.lat|safe}},{{pm.placemark.lon|safe}}],
+                ["{{pm.placemark.name|escapejs|safe}} - {{pm.placemark.section|escapejs|safe}} [{{pm.placemark.class_field|escapejs|safe}}]",{{pm.placemark.lat|safe}},{{pm.placemark.lon|safe}},"{{pm.placemark.id}}"],
             {% endif %}
         {% endfor %}
     ];
+    var results;
     
     function initialize() {
         var mapOptions = {
@@ -226,6 +229,7 @@ $('a[href=#river_map]').on('shown.bs.tab', function () { google.maps.event.trigg
         
         var area_circle = new google.maps.Circle(area_options);
         setMarkers();
+        getDurations();
     }
     
     $("#mapTab").on('shown.bs.tab', function() {
@@ -243,6 +247,58 @@ $('a[href=#river_map]').on('shown.bs.tab', function () { google.maps.event.trigg
                 map: map,
                 title: pm[0],
                 });
+        }
+    }
+    
+    function getDurations(){
+        var service = new google.maps.DistanceMatrixService();
+        var destinations = [];
+        
+        for (var i=0; i < placemarks.length; i++){
+            pm = placemarks[i];
+            if (destinations.push( new google.maps.LatLng(pm[2], pm[1])) == 25 ){
+                service.getDistanceMatrix({
+                  origins: [myCenter],
+                  destinations: destinations,
+                  travelMode: google.maps.TravelMode.DRIVING,
+                  unitSystem: google.maps.UnitSystem.IMPERIAL,
+                  avoidHighways: false,
+                  avoidTolls: false
+                }, callback);
+                destinations = [];
+            }
+        }
+        service.getDistanceMatrix({
+            origins: [myCenter],
+            destinations: destinations,
+            travelMode: google.maps.TravelMode.DRIVING,
+            unitSystem: google.maps.UnitSystem.IMPERIAL,
+            avoidHighways: false,
+            avoidTolls: false
+        }, callback);
+    }
+    
+    function callback(response, status){
+        if (status == google.maps.DistanceMatrixStatus.OK) {
+            var origins = response.originAddresses;
+            var destinations = response.destinationAddresses;
+        
+            for (var i = 0; i < origins.length; i++) {
+                var results = response.rows[i].elements;
+                for (var j = 0; j < results.length; j++) {
+                    var pm = placemarks[j];
+                    var pm_id = pm[3]+"_duration";
+                    var cell = document.getElementById(pm_id);
+                    var element = results[j];
+                    var distance = element.distance.text;
+                    var duration = element.duration.text;
+                    var from = origins[i];
+                    var to = destinations[j];
+                    cell.innerHTML = duration;
+                    console.log(to, duration);
+                }
+            }
+            return results;
         }
     }
     //google.maps.event.addDomListener(window, 'load', initialize);
