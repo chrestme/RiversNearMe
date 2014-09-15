@@ -178,7 +178,7 @@ $('a[href=#river_map]').on('shown.bs.tab', function () { google.maps.event.trigg
             $(document).ready(function(){
                 $(function(){
                     $("#RiverTable").tablesorter({
-                        sortList: [[7,0],[1,0]]
+                        //sortList: [[7,0],[1,0]]
                         });
                 });
             });
@@ -233,6 +233,8 @@ $('a[href=#river_map]').on('shown.bs.tab', function () { google.maps.event.trigg
         setMarkers();
         console.log(placemarks);
         getDurations(placemarks);
+        var sorting = [[7,0],[1,0]];
+        $("#RiverTable").trigger("sorton",[sorting]);
     }
     
     $("#mapTab").on('shown.bs.tab', function() {
