@@ -209,7 +209,7 @@ $('a[href=#river_map]').on('shown.bs.tab', function () { google.maps.event.trigg
         var local_marker = new google.maps.Marker({
                 position: new google.maps.LatLng({{spec_lat|safe}}, {{spec_lon|safe}}),
                 map: map,
-                icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
+                icon: 'https://maps.google.com/mapfiles/ms/icons/blue-dot.png',
                 title: '{{spec_location|safe}}',
                 });
         var meters_radius = {{distance}} * 1609;
