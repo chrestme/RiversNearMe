@@ -117,6 +117,17 @@ def getGaugeInfo(gauges):
             raise "Unknown parameter code"
         
         gauge_obj.save()
+        
+def getDuration(local_location, river_location):
+    org_lat, org_lon = local_location
+    dst_lon, dst_lat = river_location
+    gmaps_API_key = "AIzaSyCsV1PHBA6-FocW9_qi-Ixv7HfY3i5LDzU"
+    url = "https://maps.googleapis.com/maps/api/distancematrix/json?origins=%s,%s&destinations=%s,%s&key=%s" % (org_lat,org_lon,dst_lat,dst_lon, gmaps_API_key)
+    print url
+    r = requests.get(url)
+    if r.status_code == 200:
+        distance_content = json.loads(r.content)
+        print r.content
 
 @login_required
 def add_fav(request, placemark):
@@ -185,6 +196,7 @@ def parsePlacemarks(placemarks, distance, local_location, user_placemarks=None):
             section_url = p.findall(placemark.description)[0][5:-3]
             section_url =  section_url.strip('"')
             delta_sign = ''
+            #getDuration(local_location,river_location)
             if hasattr(placemark, 'usgs_gauge'):
                 if placemark.usgs_gauge.stage_delta > 0.0 or placemark.usgs_gauge.flow_delta > 0.0:
                     delta_sign = '&#10138'
