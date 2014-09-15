@@ -175,13 +175,13 @@ $('a[href=#river_map]').on('shown.bs.tab', function () { google.maps.event.trigg
         </tbody>
         </table>
         <script>
-        $(document).ready(function(){
-            $(function(){
-                $("#RiverTable").tablesorter({
-                    sortList: [[7,0],[1,0]]
-                    });
+            $(document).ready(function(){
+                $(function(){
+                    $("#RiverTable").tablesorter({
+                        sortList: [[7,0],[1,0]]
+                        });
+                });
             });
-        });
         </script>
     </div>
     <div id="river_map" style="margin-top: 20px;" class="tab-pane fade">
@@ -194,14 +194,16 @@ $('a[href=#river_map]').on('shown.bs.tab', function () { google.maps.event.trigg
     var placemarks = [
         {% for pm in pm_list %}
             {% if forloop.last %}
-                ["{{pm.placemark.name|escapejs|safe}} - {{pm.placemark.section|escapejs|safe}} [{{pm.placemark.class_field|escapejs|safe}}]",{{pm.placemark.lat|safe}},{{pm.placemark.lon|safe}},"{{pm.placemark.id}}"]
+                ["{{pm.placemark.name|escapejs|safe}} - {{pm.placemark.section|escapejs|safe}} [{{pm.placemark.class_field|escapejs|safe}}]",{{pm.placemark.lat|safe}},{{pm.placemark.lon|safe}},"{{pm.placemark.id|escapejs|safe}}"]
             {% else %}
-                ["{{pm.placemark.name|escapejs|safe}} - {{pm.placemark.section|escapejs|safe}} [{{pm.placemark.class_field|escapejs|safe}}]",{{pm.placemark.lat|safe}},{{pm.placemark.lon|safe}},"{{pm.placemark.id}}"],
+                ["{{pm.placemark.name|escapejs|safe}} - {{pm.placemark.section|escapejs|safe}} [{{pm.placemark.class_field|escapejs|safe}}]",{{pm.placemark.lat|safe}},{{pm.placemark.lon|safe}},"{{pm.placemark.id|escapejs|safe}}"],
             {% endif %}
         {% endfor %}
     ];
-    var results;
-    
+    //var testmarks = [["test1_NoVA",-77.4510605,38.9130116,'1'],["test2_AlbrightWV",-79.6385559,39.4933459,'2'],["test3_NewYork",-73.9780035,40.7056308,'3']];
+    var pm_ids = [];
+    var k = 0;
+
     function initialize() {
         var mapOptions = {
         center: myCenter,
@@ -212,7 +214,7 @@ $('a[href=#river_map]').on('shown.bs.tab', function () { google.maps.event.trigg
         var local_marker = new google.maps.Marker({
                 position: new google.maps.LatLng({{spec_lat|safe}}, {{spec_lon|safe}}),
                 map: map,
-                icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
+                icon: 'https://maps.google.com/mapfiles/ms/icons/blue-dot.png',
                 title: '{{spec_location|safe}}',
                 });
         var meters_radius = {{distance}} * 1609;
@@ -229,14 +231,13 @@ $('a[href=#river_map]').on('shown.bs.tab', function () { google.maps.event.trigg
         
         var area_circle = new google.maps.Circle(area_options);
         setMarkers();
-        getDurations();
+        console.log(placemarks);
+        getDurations(placemarks);
     }
     
     $("#mapTab").on('shown.bs.tab', function() {
-        //initialize;
         google.maps.event.trigger(map, 'resize');
         map.setCenter(myCenter);
-        //setMarkers(map, placemarks)
     });
     
     function setMarkers(){
@@ -250,59 +251,55 @@ $('a[href=#river_map]').on('shown.bs.tab', function () { google.maps.event.trigg
         }
     }
     
-    function getDurations(){
+    function getDurations(pm_array){
         var service = new google.maps.DistanceMatrixService();
         var destinations = [];
         
-        for (var i=0; i < placemarks.length; i++){
-            pm = placemarks[i];
-            if (destinations.push( new google.maps.LatLng(pm[2], pm[1])) == 25 ){
-                service.getDistanceMatrix({
-                  origins: [myCenter],
-                  destinations: destinations,
-                  travelMode: google.maps.TravelMode.DRIVING,
-                  unitSystem: google.maps.UnitSystem.IMPERIAL,
-                  avoidHighways: false,
-                  avoidTolls: false
-                }, callback);
-                destinations = [];
+        for ( var i=0; i < pm_array.length; i+=25){
+            destinations = [];
+            for( var j = i; j < i + 25 && j < pm_array.length; j++) {
+                pm = pm_array[j]
+                destinations[j - i] = new google.maps.LatLng(pm[2], pm[1]);
             }
+            //console.log(i,j);
+            service.getDistanceMatrix({
+              origins: [myCenter],
+              destinations: destinations,
+              travelMode: google.maps.TravelMode.DRIVING,
+              unitSystem: google.maps.UnitSystem.IMPERIAL,
+              avoidHighways: false,
+              avoidTolls: false
+            }, buildResponse(i,j-=1,pm_array));
         }
-        service.getDistanceMatrix({
-            origins: [myCenter],
-            destinations: destinations,
-            travelMode: google.maps.TravelMode.DRIVING,
-            unitSystem: google.maps.UnitSystem.IMPERIAL,
-            avoidHighways: false,
-            avoidTolls: false
-        }, callback);
     }
-    
-    function callback(response, status){
-        if (status == google.maps.DistanceMatrixStatus.OK) {
-            var origins = response.originAddresses;
-            var destinations = response.destinationAddresses;
-        
-            for (var i = 0; i < origins.length; i++) {
-                var results = response.rows[i].elements;
-                for (var j = 0; j < results.length; j++) {
-                    var pm = placemarks[j];
-                    var pm_id = pm[3]+"_duration";
-                    var cell = document.getElementById(pm_id);
-                    var element = results[j];
-                    var distance = element.distance.text;
-                    var duration = element.duration.text;
-                    var from = origins[i];
-                    var to = destinations[j];
-                    cell.innerHTML = duration;
-                    console.log(to, duration);
+    function buildResponse(i,j,pm_array){
+        return function (response, status){
+            if (status == google.maps.DistanceMatrixStatus.OK) {
+                var origins = response.originAddresses;
+                var destinations = response.destinationAddresses;
+                for (;i<=j; i++){
+                    var results = response.rows[0].elements;
+                    pm = pm_array[i];
+                    pm_id = pm[3]+"_duration";
+                    var element = results[j-i];
+                    if (element.status == "OK"){
+                        var cell = document.getElementById(pm_id);
+                        var duration = element.duration.text;
+                        cell.innerHTML = duration;//+"<br>"+destinations[i];
+                    }
+                    else{
+                        console.log("Element: ", pm_id, "not returned")
+                    }
                 }
             }
-            return results;
+            else{
+                console.log("status not OK: ", status);
+            }
         }
     }
-    //google.maps.event.addDomListener(window, 'load', initialize);
-    initialize();
+    google.maps.event.addDomListener(window, 'load', initialize);
+    //initialize();
 </script>
+
 {% endif %}
 {% endblock %}
