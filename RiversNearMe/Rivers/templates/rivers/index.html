@@ -231,7 +231,7 @@ $('a[href=#river_map]').on('shown.bs.tab', function () { google.maps.event.trigg
         
         var area_circle = new google.maps.Circle(area_options);
         setMarkers();
-        console.log(placemarks);
+        //console.log(placemarks);
         getDurations(placemarks);
         var sorting = [[7,0],[1,0]];
         $("#RiverTable").trigger("sorton",[sorting]);
@@ -271,27 +271,30 @@ $('a[href=#river_map]').on('shown.bs.tab', function () { google.maps.event.trigg
               unitSystem: google.maps.UnitSystem.IMPERIAL,
               avoidHighways: false,
               avoidTolls: false
-            }, buildResponse(i,j-=1,pm_array));
+            }, buildResponse(i,j,pm_array));
         }
     }
     function buildResponse(i,j,pm_array){
         return function (response, status){
+            //console.log("passed i: ",i,"passed j: ",j,status);
             if (status == google.maps.DistanceMatrixStatus.OK) {
+                j -= 1;
                 var origins = response.originAddresses;
                 var destinations = response.destinationAddresses;
-                for (;i<=j; i++){
-                    var results = response.rows[0].elements;
+                var results = response.rows[0].elements;i;
+                for (var k=0;k < results.length; k++){
                     pm = pm_array[i];
                     pm_id = pm[3]+"_duration";
-                    var element = results[j-i];
+                    var element = results[k];
                     if (element.status == "OK"){
                         var cell = document.getElementById(pm_id);
                         var duration = element.duration.text;
-                        cell.innerHTML = duration;//+"<br>"+destinations[i];
+                        cell.innerHTML = duration;
                     }
                     else{
                         console.log("Element: ", pm_id, "not returned")
                     }
+                i++;
                 }
             }
             else{
@@ -300,7 +303,6 @@ $('a[href=#river_map]').on('shown.bs.tab', function () { google.maps.event.trigg
         }
     }
     google.maps.event.addDomListener(window, 'load', initialize);
-    //initialize();
 </script>
 
 {% endif %}
