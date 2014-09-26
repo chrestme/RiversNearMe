@@ -25,7 +25,6 @@ function rem_fav_ajax(placemark_id){
 function toggle_fav_ajax(placemark_id){
     $.ajax({
         url: "toggle_fav/"+placemark_id, 
-        //data: placemark_id,
         success: function(data){
             toggle_fav(placemark_id);
         }
@@ -33,16 +32,13 @@ function toggle_fav_ajax(placemark_id){
 }
 
 function toggle_fav(placemark_id, mode){
-    console.log('Toggling: ', placemark_id);
     var elements = document.getElementsByName(placemark_id+'_fav')
     for (i = 0; i < elements.length; i++){
         if (elements[i].className == 'filled'){
-            console.log("toggling to &#9734;");
             elements[i].className = 'empty';
             elements[i].innerHTML = '&#9734;';
         }
         else{
-            console.log("toggling to &#9733;");
             elements[i].innerHTML = '&#9733;';
             elements[i].className = 'filled';
         }
