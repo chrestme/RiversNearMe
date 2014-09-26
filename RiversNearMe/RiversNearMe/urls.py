@@ -13,4 +13,6 @@ urlpatterns = patterns('',
     url(r"^accounts/login/$", 'django.contrib.auth.views.login'),
     url(r"^accounts/logout/$", 'django.contrib.auth.views.logout'),
     url(r"^accounts/password_change/$", 'django.contrib.auth.views.password_change', {'post_change_redirect': '/'}),
+    url(r'^weblog/', include('zinnia.urls')),
+    url(r'^comments/', include('django.contrib.comments.urls')),
 )

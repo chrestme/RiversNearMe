@@ -22,13 +22,30 @@ function rem_fav_ajax(placemark_id){
     });
 }
 
+function toggle_fav_ajax(placemark_id){
+    $.ajax({
+        url: "toggle_fav/"+placemark_id, 
+        //data: placemark_id,
+        success: function(data){
+            toggle_fav(placemark_id);
+        }
+    });
+}
+
 function toggle_fav(placemark_id, mode){
-    var elements = document.getElementsByName(placemark_id)
+    console.log('Toggling: ', placemark_id);
+    var elements = document.getElementsByName(placemark_id+'_fav')
     for (i = 0; i < elements.length; i++){
-        if (elements[i].style.display == 'block')
-            elements[i].style.display = 'none';
-        else
-            elements[i].style.display = 'block';
+        if (elements[i].className == 'filled'){
+            console.log("toggling to &#9734;");
+            elements[i].className = 'empty';
+            elements[i].innerHTML = '&#9734;';
+        }
+        else{
+            console.log("toggling to &#9733;");
+            elements[i].innerHTML = '&#9733;';
+            elements[i].className = 'filled';
+        }
     }
 }
 </script>
@@ -119,13 +136,13 @@ $('a[href=#river_map]').on('shown.bs.tab', function () { google.maps.event.trigg
             {% for pm_dict in pm_list %}
                 <tr id="{{pm_dict.placemark.id}}">
                     <td>
+                        <a id="{{pm_dict.placemark.id}}" name='{{pm_dict.placemark.id}}_fav' onclick="toggle_fav_ajax('{{pm_dict.placemark.id}}'); return false;" class=
                         {% if pm_dict.user_fav %}
-                            <a id="{{pm_dict.placemark.id}}" name='{{pm_dict.placemark.id}}_fav' onclick="rem_fav_ajax('{{pm_dict.placemark.id}}_fav'); return false;" style="display: block;"> &#9733;</a>
-                            <a id="{{pm_dict.placemark.id}}" name='{{pm_dict.placemark.id}}_fav' onclick="add_fav_ajax('{{pm_dict.placemark.id}}_fav'); return false;" style="display: none;"> &#9734;</a>
+                            'filled'> &#9733;
                         {% else %}
-                            <a id="{{pm_dict.placemark.id}}" name='{{pm_dict.placemark.id}}_fav' onclick="rem_fav_ajax('{{pm_dict.placemark.id}}_fav'); return false;" style="display: none;"> &#9733;</a>
-                            <a id="{{pm_dict.placemark.id}}" name='{{pm_dict.placemark.id}}_fav' onclick="add_fav_ajax('{{pm_dict.placemark.id}}_fav'); return false;" style="display: block;"> &#9734;</a>
+                            'empty'> &#9734;
                         {% endif %}
+                        </a>
                     </td>
                     <td><a href='{{pm_dict.AW_url}}'>{{pm_dict.placemark.section}}</a></td>
                     <td>{{pm_dict.placemark.name}}</td>

@@ -150,6 +150,20 @@ def rem_fav(request, placemark):
         return PermissionDenied
     return HttpResponse("Success")
 
+@login_required
+def toggle_fav(request, placemark):
+    user = AuthUser.objects.get(username=request.user.username)
+    pm_obj = Placemarks.objects.get(id=placemark)
+    if user.placemarks.filter(id=placemark):
+        print "removing %s" % placemark
+        user.placemarks.remove(pm_obj)
+        return HttpResponse("Success")
+    elif not user.placemarks.filter(id=placemark):
+        print "adding %s" % placemark
+        user.placemarks.add(pm_obj)
+        return HttpResponse("Success")
+    
+
 class UserForm(ModelForm):
     class Meta:
         model = AuthUser
