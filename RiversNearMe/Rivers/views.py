@@ -163,6 +163,10 @@ def toggle_fav(request, placemark):
         user.placemarks.add(pm_obj)
         return HttpResponse("Success")
     
+@login_required
+def add_river(request):
+    pass
+    
 
 class UserForm(ModelForm):
     class Meta:
