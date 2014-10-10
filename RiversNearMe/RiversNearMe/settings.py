@@ -31,17 +31,21 @@ ALLOWED_HOSTS = ['www.riversnearme.com','riversnearme.com','riversnear.me','www.
 CSRF_COOKIE_SECURE = True
 SESSION_COOKIE_SECURE = True
 
+SITE_ID = 1
+
 # Application definition
 
 INSTALLED_APPS = (
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.sites',
-    'django.contrib.comments',
+    #'django.contrib.comments',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_comments',
+    'zinnia_bootstrap',
     'tagging',
     'mptt',
     'zinnia',
@@ -65,6 +69,13 @@ TEMPLATE_CONTEXT_PROCESSORS = (
   'django.core.context_processors.static',
   'zinnia.context_processors.version',  # Optional
 )
+
+TEMPLATE_LOADERS = [
+    'django.template.loaders.filesystem.Loader',
+    'django.template.loaders.app_directories.Loader',
+    'django.template.loaders.eggs.Loader',
+    'app_namespace.Loader',
+]
 
 ROOT_URLCONF = 'RiversNearMe.urls'
 
@@ -99,8 +110,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = '/opt/RiversNearMe/RiversNearMe/static/'
-STATICFILES_DIRS = ( os.path.join('static'), )
+STATIC_ROOT = '/var/www/RiversNearMe/static/' #'/opt/RiversNearMe/RiversNearMe/static/'
+STATICFILES_DIRS = ( os.path.join(BASE_DIR, "static"), )
 
 LOGIN_REDIRECT_URL = '/'
 ACCOUNT_ACTIVATION_DAYS = 7
