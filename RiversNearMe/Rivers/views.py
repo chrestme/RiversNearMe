@@ -4,8 +4,15 @@ from django.template import RequestContext
 from django.contrib.auth.decorators import login_required
 from django.views.decorators.http import require_safe
 from django.core.exceptions import PermissionDenied
-from django.forms import ModelForm
+from django.db import IntegrityError
+from django import forms
+#from django.forms import utils
+from registration.forms import RegistrationForm
+from Rivers.forms import PlacemarkForm
 from Rivers.models import Placemarks, Gauges, AuthUser
+from crispy_forms.utils import render_crispy_form
+from crispy_forms.bootstrap import Alert
+from jsonview.decorators import json_view
 import requests
 import json
 import datetime
@@ -155,41 +162,116 @@ def toggle_fav(request, placemark):
     user = AuthUser.objects.get(username=request.user.username)
     pm_obj = Placemarks.objects.get(id=placemark)
     if user.placemarks.filter(id=placemark):
-        print "removing %s" % placemark
         user.placemarks.remove(pm_obj)
         return HttpResponse("Success")
     elif not user.placemarks.filter(id=placemark):
-        print "adding %s" % placemark
         user.placemarks.add(pm_obj)
         return HttpResponse("Success")
-    
 
-class UserForm(ModelForm):
+@login_required
+@json_view
+def addRiver(request):
+    if request.method == 'POST':
+        form = PlacemarkForm(request.POST or None)
+        if form.is_valid():
+            user = AuthUser.objects.get(username=request.user.username)
+
+            """Build Placemark Record"""
+            pm_obj = Placemarks(name = form.cleaned_data['name'],
+                        class_field = form.cleaned_data['class_field'],
+                        section = form.cleaned_data['section'],
+                        description = form.cleaned_data['description'],
+                        state = form.cleaned_data['state'],
+                        lon = form.cleaned_data['lat'],                 #Fix this shit
+                        lat = form.cleaned_data['lon'],                 #Fix this shit
+                        flow_min = form.cleaned_data['flow_min'],
+                        flow_max = form.cleaned_data['flow_max'],
+                        stage_min = form.cleaned_data['stage_min'],
+                        stage_max = form.cleaned_data['stage_max'],)
+            
+            """If Gauge Field is not empty"""
+            if form.cleaned_data['usgs_gauge']:
+                """Get Gauge object if it already exists, else create it"""
+                try:
+                    gauge_obj, created = Gauges.objects.get_or_create(usgs_gauge = form.cleaned_data['usgs_gauge'])
+                except IntegrityError as e:
+                    form.errors['__all__'] = form.error_class(['Error getting or creating USGS gauge.'])
+                else:
+                    pm_obj.usgs_gauge = gauge_obj
+            
+            """Save new placemark in DB"""
+            try:
+                pm_obj.save()
+            except Exception as e:
+                form.errors['__all__'] = form.error_class(['Error saving new river section'])
+                return {'success': False, 'form_html': render_crispy_form(form, context=RequestContext(request))}
+            
+            """Save new placemark as a user favorite"""
+            try:
+                user.placemarks.add(pm_obj)
+            except Exception as e:
+                form.errors['__all__'] = form.error_class(['Error adding new section to My Rivers.'])
+            
+            form.helper.layout.append(Alert(content="Successfully added river section.", css_class="alert-success"))
+            return {'success': True, 'form_html': render_crispy_form(form, context=RequestContext(request))}
+
+        else:
+            """form is not valid"""
+            form_html = render_crispy_form(form, context=RequestContext(request))
+            return {'success': False, 'form_html': form_html}
+    
+    elif request.method == 'GET':
+        form = forms.PlacemarkForm()
+        return render(request, 'rivers/crispy.html',{'form': form})
+    
+def crispyTest(request):
+    if request.method == 'GET':
+        form = PlacemarkForm()
+        context = {'form': form}
+        return render(request, 'rivers/crispy.html', context)
+        
+
+class UserProfileForm(forms.ModelForm):
     class Meta:
         model = AuthUser
         fields = ['first_name', 'last_name', 'default_loc', 'default_lat', 'default_lon']
+
+class UserRegisterForm(RegistrationForm):
+    pass
+
+def user_register(request):
+    if request.method == 'Post':
+        form = UserRegisterForm(request.POST)
+        if form.is_valid():
+            print form.cleaned_data
+        else:
+            return render(request, '/rivers/account/register',{
+                          'form': form,
+                          'errors': registrationForm.error_messages
+            })
+    else:
+        form = UserRegistrationForm()
+    return render(request,'/rivers/',{
+                  'form': form
+    })
 
 @login_required
 def user_profile(request):
     user = AuthUser.objects.get(username=request.user.username)
     
     if request.method == 'POST':
-        form = UserForm(request.POST)
+        form = UserProfileForm(request.POST)
         if form.is_valid():
-            print form.cleaned_data
-            user.first_name = form.cleaned_data['first_name']
-            user.last_name = form.cleaned_data['last_name']
+            user.first_name = form.cleaned_data['first_name']   #Needs input validation
+            user.last_name = form.cleaned_data['last_name']     #Needs input validation
             if form.cleaned_data['default_loc']:
                 user.default_loc = form.cleaned_data['default_loc']
                 user.default_lat, user.default_lon = getLocalCoords(form.cleaned_data['default_loc'])
-            #else:
-            #    user.default_loc = "1600 Pennsylvania Ave, Washington, DC"
-            #    user.default_lat = 38.8977332
-            #    user.default_lon = -77.0365305
+
             user.save()
             return redirect(my_rivers)
     
-    form = UserForm(instance = user)
+    form = UserProfileForm(instance = user)
     return render(request, 'rivers/user_profile.html', {
         'form': form
     })
@@ -207,10 +289,13 @@ def parsePlacemarks(placemarks, distance, local_location, user_placemarks=None):
                 user_fav = True
         
         if haversine_distance <= distance:
-            section_url = p.findall(placemark.description)[0][5:-3]
-            section_url =  section_url.strip('"')
+            regMatch = p.findall(placemark.description)
+            if len(regMatch) > 0:
+                section_url = regMatch[0][5:-3]
+                section_url =  section_url.strip('"')
+            else:
+                section_url = placemark.description
             delta_sign = ''
-            #getDuration(local_location,river_location)
             if hasattr(placemark, 'usgs_gauge'):
                 if placemark.usgs_gauge.stage_delta > 0.0 or placemark.usgs_gauge.flow_delta > 0.0:
                     delta_sign = '&#10138'
@@ -278,10 +363,8 @@ def index(request):
             location_latlon = local_coords
 
     pm_list = parsePlacemarks(Placemarks.objects.all().order_by('state'), max_distance, location_latlon, user_placemarks)
-    #pm_json = json.dumps(pm_list)
     
     RequestContext = {'pm_list': pm_list,
-                      #'pm_json': pm_json,
                       'distance': max_distance,
                       'spec_location': location,
                       'spec_lat': location_latlon[0],

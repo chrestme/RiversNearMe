@@ -21,8 +21,8 @@ SECRET_KEY = '$wx$nfpt3%l-tbu*+n@!ke(kf(w_k%8_r9oc6zsn1nl@f(e@@7'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
 TEMPLATE_DEBUG = True
+CRISPY_FAIL_SILENTLY = not DEBUG
 
 ALLOWED_HOSTS = []
 
@@ -38,6 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'crispy_forms',
     'tagging',
     'mptt',
     'zinnia',
@@ -89,6 +90,8 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
+
+CRISPY_TEMPLATE_PACK = 'bootstrap3'
 
 
 # Static files (CSS, JavaScript, Images)

@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block content %}
+{% load crispy_forms_tags %}
+<script>
+jQuery(function($) {
+    $('#addRiverForm').live('submit', function(event) {
+        var $form = $(this);
+        var $target = $($form.attr('data-target'));
+ 
+        $.ajax({
+            type: $form.attr('method'),
+            url: $form.attr('action'),
+            data: $form.serialize(),
+            success: function(data) {
+                if (!(data['success'])) {
+                // Here we replace the form, for the
+                    $($form).replaceWith(data['form_html']);
+                }
+                else {
+                // Here you can show the user a success message or do whatever you need
+                    $($form).replaceWith(data['form_html']);
+                    setTimeout(function(){window.location.href = '/rivers/my_rivers'; return false}, 2000)
+                }
+            },
+            error: function () {
+                $($form).find('.error-message').show()
+            }
+        });
+ 
+        event.preventDefault();
+    });
+});
+</script>
+
+<div class="modal fade" id="addRiverModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="myModalLabel">Add a River Section</h4>
+            </div>
+            <div class="modal-body">
+                {% crispy form %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<button style="margin-bottom: 20px" class="btn btn-success pull-right" data-toggle="modal" data-target="#addRiverModal">
+    + Add River Section
+</button>
+{% endblock %}

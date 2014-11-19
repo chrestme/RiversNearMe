@@ -102,7 +102,7 @@ class DjangoSession(models.Model):
         db_table = 'django_session'
 
 class Placemarks(models.Model):
-    id = models.IntegerField(primary_key=True, blank=True)
+    id = models.AutoField(primary_key=True)
     name = models.TextField(blank=True) # This field type is a guess.
     class_field = models.TextField(db_column='class', blank=True) # Field renamed because it was a Python reserved word. This field type is a guess.
     description = models.TextField(blank=True, null=True)
@@ -110,7 +110,7 @@ class Placemarks(models.Model):
     lat = models.FloatField(blank=True, null=True)
     lon = models.FloatField(blank=True, null=True)
     section = models.TextField(blank=True) # This field type is a guess.
-    usgs_gauge = models.ForeignKey('Gauges', to_field='usgs_gauge', db_column='usgs_gauge')
+    usgs_gauge = models.ForeignKey('Gauges', to_field='usgs_gauge', db_column='usgs_gauge', blank=True)
     flow_min = models.FloatField(blank=True, null=True)
     flow_max = models.FloatField(blank=True, null=True)
     stage_min = models.FloatField(blank=True, null=True)

@@ -100,6 +100,7 @@ function toggle_fav(placemark_id, mode){
 $('a[href=#river_map]').on('shown.bs.tab', function () { google.maps.event.trigger(map, 'resize'); });
 </script>
 {% if pm_list %}
+{% include "rivers/_add_river_modal.html" %}
 <div class="tab-content">
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <!-- Link-TableHeader-Desktop -->
@@ -110,10 +111,13 @@ $('a[href=#river_map]').on('shown.bs.tab', function () { google.maps.event.trigg
     <script>
     (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
+    <button style="margin-bottom: 20px" class="btn btn-success pull-right" data-toggle="modal" data-target="#addRiverModal">
+    + Add River Section
+    </button>
     <div id="river_table" style="margin-top: 20px;" class="panel panel-primary tab-pane fade in active">
-            <div class="panel-heading">
-                <h3 class="panel-title">Found {{pm_list|length}} rivers within {{distance}} miles of {{spec_location}}</h3>
-            </div>
+        <div class="panel-heading">
+            <h3 class="panel-title">Found {{pm_list|length}} rivers within {{distance}} miles of {{spec_location}}</h3>
+        </div>
         <table id="RiverTable" class="table table-striped tablesorter table-condensed table-responsive" style="table-layout: fixed;" class="text-center">
         <thead>
             <tr>
@@ -196,6 +200,9 @@ $('a[href=#river_map]').on('shown.bs.tab', function () { google.maps.event.trigg
                 });
             });
         </script>
+        <button style="margin-top: 20px" class="btn btn-success pull-right" data-toggle="modal" data-target="#addRiverModal">
+            + Add River Section
+        </button>
     </div>
     <div id="river_map" style="margin-top: 20px;" class="tab-pane fade">
         <div id="map-canvas" style="width:700px;height:700px;"/>
