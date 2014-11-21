@@ -8,21 +8,21 @@ from crispy_forms.layout import Layout, Submit, Div, Field, Fieldset
 from crispy_forms.bootstrap import InlineField, PrependedText, StrictButton, FormActions, Alert
 from Rivers.validators import validGauge
 
-CLASSIFICATIONS = ((1.0,'I'),
-                   (1.3, 'I+'),
-                   (1.7, 'II-'),
-                   (2.0, 'II'),
-                   (2.3, 'II+'),
-                   (2.7, 'III-'),
-                   (3.0, 'III'),
-                   (3.3, 'III+'),
-                   (3.7, 'IV-'),
-                   (4.0, 'IV'),
-                   (4.3, 'IV+'),
-                   (4.7, 'V-'),
-                   (5.0, 'V'),
-                   (5.3, 'V+'),
-                   (6.0, 'VI'),)
+CLASSIFICATIONS = (('I','I'),
+                   ('I+', 'I+'),
+                   ('II-', 'II-'),
+                   ('II', 'II'),
+                   ('II+', 'II+'),
+                   ('III-', 'III-'),
+                   ('III', 'III'),
+                   ('III+', 'III+'),
+                   ('IV-', 'IV-'),
+                   ('IV', 'IV'),
+                   ('IV+', 'IV+'),
+                   ('V-', 'V-'),
+                   ('V', 'V'),
+                   ('V+', 'V+'),
+                   ('VI', 'VI'),)
 
 STATES = {
         'AK': 'Alaska',
@@ -163,7 +163,7 @@ class PlacemarkForm(forms.Form):
             Field('section', placeholder='River Section'),
             'state',
             'class_field',
-            PrependedText('description','http://',),
+            PrependedText('description','URL:',),
             Field('usgs_gauge', placeholder='01646500'),
             Fieldset('Coordinates',
                      Field('lat', placeholder='e.g. 38.8977332'),
@@ -179,7 +179,7 @@ class PlacemarkForm(forms.Form):
                         StrictButton('Close', data_dismiss="modal", css_class="btn btn-default"),
                         StrictButton('Save Changes', value='Submit', type='submit', css_class="btn btn-primary"),
                         ),
-                #Alert(content="Successfully Added River Section", css_class="hidden"),
+                #Alert(content="Successfully Added River Section", css_class="alert-success hidden"),
                 css_class="modal-footer"
                ),
         )

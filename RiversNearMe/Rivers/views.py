@@ -11,6 +11,7 @@ from registration.forms import RegistrationForm
 from Rivers.forms import PlacemarkForm
 from Rivers.models import Placemarks, Gauges, AuthUser
 from crispy_forms.utils import render_crispy_form
+from crispy_forms.layout import Div
 from crispy_forms.bootstrap import Alert
 from jsonview.decorators import json_view
 import requests
@@ -212,7 +213,9 @@ def addRiver(request):
             except Exception as e:
                 form.errors['__all__'] = form.error_class(['Error adding new section to My Rivers.'])
             
-            form.helper.layout.append(Alert(content="Successfully added river section.", css_class="alert-success"))
+            form.helper.layout.insert(0, Alert(content="Successfully added river section.", css_class="alert-success"))
+            print form.helper.layout[0:9]
+            form.helper[1:11].wrap(Div, css_class='hidden') #= Alert(content="Successfully added river section.", css_class="alert-success")
             return {'success': True, 'form_html': render_crispy_form(form, context=RequestContext(request))}
 
         else:
