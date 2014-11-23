@@ -1,5 +1,3 @@
-{% extends "base.html" %}
-{% block content %}
 {% load crispy_forms_tags %}
 <script>
 jQuery(function($) {
@@ -12,13 +10,9 @@ jQuery(function($) {
             url: $form.attr('action'),
             data: $form.serialize(),
             success: function(data) {
-                if (!(data['success'])) {
+                $($form).replaceWith(data['form_html']);
+                if ((data['success'])) {
                 // Here we replace the form, for the
-                    $($form).replaceWith(data['form_html']);
-                }
-                else {
-                // Here you can show the user a success message or do whatever you need
-                    $($form).replaceWith(data['form_html']);
                     setTimeout(function(){window.location.href = '/rivers/my_rivers'; return false}, 2000)
                 }
             },
@@ -46,7 +40,7 @@ jQuery(function($) {
     </div>
 </div>
 
-<button style="margin-bottom: 20px" class="btn btn-success pull-right" data-toggle="modal" data-target="#addRiverModal">
+<!--<button style="margin-bottom: 20px" class="btn btn-success pull-right" data-toggle="modal" data-target="#addRiverModal">
     + Add River Section
 </button>
-{% endblock %}
+-->

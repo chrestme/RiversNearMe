@@ -179,7 +179,6 @@ class PlacemarkForm(forms.Form):
                         StrictButton('Close', data_dismiss="modal", css_class="btn btn-default"),
                         StrictButton('Save Changes', value='Submit', type='submit', css_class="btn btn-primary"),
                         ),
-                #Alert(content="Successfully Added River Section", css_class="alert-success hidden"),
                 css_class="modal-footer"
                ),
         )

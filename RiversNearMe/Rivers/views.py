@@ -2,6 +2,8 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from django.template import RequestContext
 from django.contrib.auth.decorators import login_required
+from django.core.mail import send_mail, backends
+from django.core.mail.backends import console, smtp
 from django.views.decorators.http import require_safe
 from django.core.exceptions import PermissionDenied
 from django.db import IntegrityError
@@ -214,8 +216,8 @@ def addRiver(request):
                 form.errors['__all__'] = form.error_class(['Error adding new section to My Rivers.'])
             
             form.helper.layout.insert(0, Alert(content="Successfully added river section.", css_class="alert-success"))
-            print form.helper.layout[0:9]
-            form.helper[1:11].wrap(Div, css_class='hidden') #= Alert(content="Successfully added river section.", css_class="alert-success")
+            form.helper[1:11].wrap(Div, css_class='hidden')
+            send_mail('Test Subject','Test Message','Rivers Near Me',['chrestme@gmail.com'])
             return {'success': True, 'form_html': render_crispy_form(form, context=RequestContext(request))}
 
         else:
@@ -335,9 +337,11 @@ def index(request):
     user_placemarks = None
     local_coords = None
     errors = []
+    add_river_form = None
     
     if request.user.is_authenticated():
         user = AuthUser.objects.get(username=request.user.username)
+        add_river_form = PlacemarkForm()
         user_placemarks = user.placemarks.all()
         if user.default_loc:
             location = user.default_loc
@@ -372,5 +376,6 @@ def index(request):
                       'spec_location': location,
                       'spec_lat': location_latlon[0],
                       'spec_lon': location_latlon[1],
-                      'errors': errors,}
+                      'errors': errors,
+                      'form': add_river_form}
     return render(request, 'rivers/index.html', RequestContext)

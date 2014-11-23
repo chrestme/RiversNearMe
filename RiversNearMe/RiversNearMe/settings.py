@@ -105,3 +105,11 @@ STATICFILES_DIRS = ( os.path.join(BASE_DIR,'static'),
 
 LOGIN_REDIRECT_URL = '/'
 ACCOUNT_ACTIVATION_DAYS = 7
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'riversnearme@gmail.com'
+#EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_USE_TLS = True
+with open('/etc/rivers_gmail.key', 'r') as gk:
+    EMAIL_HOST_PASSWORD = gk.read().strip()
