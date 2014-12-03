@@ -1,7 +1,7 @@
 from operator import itemgetter
 from django import forms
 #from django.core.validators
-from registration.forms import RegistrationForm
+from registration.forms import RegistrationForm as DefaultRegistrationForm
 import registration.forms as RegForms
 from crispy_forms.helper import FormHelper
 from crispy_forms.layout import Layout, Submit, Div, Field, Fieldset
@@ -182,6 +182,61 @@ class PlacemarkForm(forms.Form):
                 css_class="modal-footer"
                ),
         )
+        
+class UserProfileForm(forms.Form):
+    first_name = forms.RegexField(regex=r'^[\w\'\-]+$',
+                            max_length = 20,
+                            label = "First Name",
+                            required = False,
+                            error_messages={'invalid': "This value may contain only letters, numbers and [',-] characters."}
+                            )
+    last_name = forms.RegexField(regex=r'^[\w\'\-]+$',
+                            max_length = 20,
+                            label = "Last Name",
+                            required = False,
+                            error_messages={'invalid': "This value may contain only letters, numbers and [',-] characters."}
+                            )
+    default_loc = forms.CharField(label = "Default Location",
+                                       max_length = 50,
+                                       required = False,
+                                       help_text = "Enter an address or Lat/Lon coordinates that will serve as your default location when you login.",
+                                       error_messages={'invalid': "Unable to resolve this address."})
+    default_lat = forms.DecimalField(label = "Default Latitude",
+                                     required = False,
+                                     help_text = "Default latitude in +/- decimal degrees.",
+                                     min_value=-90,
+                                     max_value=90,
+                                     max_digits=9,
+                                     decimal_places=7)
+    default_lon = forms.DecimalField(label = "Default Longitude",
+                                     required = False,
+                                     help_text = "Default longitude in +/- decimal degrees.",
+                                     min_value=-180,
+                                     max_value=180,
+                                     max_digits=9,
+                                     decimal_places=7,)
+    
+    def __init__(self, *args, **kwargs):
+        super(UserProfileForm, self).__init__(*args, **kwargs)
+        self.helper = FormHelper()
+        self.helper.form_tag = True
+        self.helper.form_id = 'userProfileForm'
+        self.helper.form_class = 'form-horizontal'
+        self.helper.form_method = 'post'
+        self.helper.form_action = '/rivers/user_profile/'
+        self.helper.label_class = 'col-sm-2 control-label'
+        self.helper.field_class = 'col-sm-5'
+        self.helper.layout = Layout(
+            Field('first_name', placeholder="First Name (optional)"),
+            Field('last_name', placeholder="Last Name (optional)"),
+            Field('default_loc', placeholder="123 Main St, Anytown, AL *or* 12.345, -54.321"),
+            Field('default_lat', placeholder="e.g. 38.8977332"),
+            Field('default_lon', placeholder="e.g. -77.0365305"),
+            Div( FormActions(
+                 StrictButton('Save Changes', value='Submit', type='submit', css_class="btn btn-primary")),
+                 css_class = "col-sm-offset-2")
+            )
+    
 
 
 #class RegistrationForm(RegForms.RegistrationForm):

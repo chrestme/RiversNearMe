@@ -4,19 +4,40 @@
 {% block content %}
 <form class="form-horizontal" role='form' method="post" action=".">
     {% csrf_token %}
-    <div class='form-group'>
+    {% for field in form %}
+    
+    <div class='form-group {% if field.errors %}has-error{%endif%}'>
         <p class="required">
-            <label class="col-sm-2 control-label" for="id_username">Username</label>
+            <label class="col-sm-2 control-label" for="id_{{field.name}}">{{field.label}}</label>
             <div class="col-sm-3">
-                <input id="id_username" class="form-control" maxlength="30" name="username" type="text">
+                <input id="id_{{field.name}}"
+                       class="form-control"
+                       maxlength="75"
+                       name="{{field.name}}"
+                       {% if field.name == "password1" or field.name == "password2" %}
+                            type="password"
+                       {% else %}
+                            type="text"
+                       {% endif %}
+                       {% if field.value %}
+                       value="{{field.value}}"
+                       {% endif %}>
             </div>
         </p>
+        <p class='error-list col-sm-offset-2'>
+            {% for error in field.errors%}
+                {{error}}
+            {% endfor %}
+        </p>
     </div>
+    {% endfor %}
+    {% comment %}
+    {% if field.widget.attrs.get('class','') == 'PasswordInput'%}password{%else%}text{%endif%}
     <div class='form-group'>
         <p class="required">
             <label class="col-sm-2 control-label" for="id_email">E-mail</label>
             <div class="col-sm-3">
-                <input id="id_email" class="form-control" maxlength="100" name="email" type="text">
+                <input id="id_email" class="form-control" maxlength="100" name="email" type="text" value="{{form.email}}">
             </div>
         </p>
     </div>
@@ -36,7 +57,11 @@
             </div>
         </p>
     </div>
+    {% endcomment %}
     <br>
+    <div class="col-sm-offset-2">
     <input type="submit" class="btn btn-primary btn-lg" value="{% trans 'Submit' %}" />
+    </div>
+    
 </form>
 {% endblock %}

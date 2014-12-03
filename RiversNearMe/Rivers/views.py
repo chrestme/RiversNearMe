@@ -9,8 +9,9 @@ from django.core.exceptions import PermissionDenied
 from django.db import IntegrityError
 from django import forms
 #from django.forms import utils
-from registration.forms import RegistrationForm
-from Rivers.forms import PlacemarkForm
+#from registration.forms import RegistrationForm
+from registration.backends.default.views import RegistrationView
+from Rivers.forms import PlacemarkForm, UserProfileForm
 from Rivers.models import Placemarks, Gauges, AuthUser
 from crispy_forms.utils import render_crispy_form
 from crispy_forms.layout import Div
@@ -236,30 +237,6 @@ def crispyTest(request):
         return render(request, 'rivers/crispy.html', context)
         
 
-class UserProfileForm(forms.ModelForm):
-    class Meta:
-        model = AuthUser
-        fields = ['first_name', 'last_name', 'default_loc', 'default_lat', 'default_lon']
-
-class UserRegisterForm(RegistrationForm):
-    pass
-
-def user_register(request):
-    if request.method == 'Post':
-        form = UserRegisterForm(request.POST)
-        if form.is_valid():
-            print form.cleaned_data
-        else:
-            return render(request, '/rivers/account/register',{
-                          'form': form,
-                          'errors': registrationForm.error_messages
-            })
-    else:
-        form = UserRegistrationForm()
-    return render(request,'/rivers/',{
-                  'form': form
-    })
-
 @login_required
 def user_profile(request):
     user = AuthUser.objects.get(username=request.user.username)
@@ -267,8 +244,8 @@ def user_profile(request):
     if request.method == 'POST':
         form = UserProfileForm(request.POST)
         if form.is_valid():
-            user.first_name = form.cleaned_data['first_name']   #Needs input validation
-            user.last_name = form.cleaned_data['last_name']     #Needs input validation
+            user.first_name = form.cleaned_data['first_name']   
+            user.last_name = form.cleaned_data['last_name']     
             if form.cleaned_data['default_loc']:
                 user.default_loc = form.cleaned_data['default_loc']
                 user.default_lat, user.default_lon = getLocalCoords(form.cleaned_data['default_loc'])
@@ -276,10 +253,14 @@ def user_profile(request):
             user.save()
             return redirect(my_rivers)
     
-    form = UserProfileForm(instance = user)
-    return render(request, 'rivers/user_profile.html', {
-        'form': form
-    })
+    data = {'first_name': user.first_name,
+            'last_name': user.last_name,
+            'default_loc': user.default_loc,
+            'default_lat': user.default_lat,
+            'default_lon': user.default_lon}
+    form = UserProfileForm(data)
+    return render(request, 'rivers/user_profile.html',
+                  {'form': form})
     
 def parsePlacemarks(placemarks, distance, local_location, user_placemarks=None):
     pm_list=list()
