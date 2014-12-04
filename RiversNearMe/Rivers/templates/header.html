@@ -37,6 +37,7 @@
         <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
             <ul class="nav navbar-nav">
                 <li><a href="{% url "Rivers.views.index" %}"><span class="glyphicon glyphicon-globe"></span> Rivers</a></li>
+                <li><a href="/weblog/"><span class="glyphicon glyphicon-book"></span> Blog</a></li>
             </ul>
             <ul class="nav navbar-nav pull-right">
                 {% if not user.is_active %}

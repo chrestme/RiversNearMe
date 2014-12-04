@@ -17,23 +17,35 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 # See https://docs.djangoproject.com/en/1.6/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '$wx$nfpt3%l-tbu*+n@!ke(kf(w_k%8_r9oc6zsn1nl@f(e@@7'
+with open('/etc/rivers_django_secret.key') as f:
+	SECRET_KEY = f.read().strip()
+#SECRET_KEY = 'l-l*fj_a6!0gwozejlk0f!1a1a#^occitm=sn^)15^tm29w0v%'
 
 # SECURITY WARNING: don't run with debug turned on in production!
+<<<<<<< HEAD
 DEBUG = True
 TEMPLATE_DEBUG = True
 CRISPY_FAIL_SILENTLY = not DEBUG
+=======
+DEBUG = False
 
-ALLOWED_HOSTS = []
+TEMPLATE_DEBUG = False
+>>>>>>> remotes/origin/master
+
+ALLOWED_HOSTS = ['www.riversnearme.com','riversnearme.com','riversnear.me','www.riversnear.me']
+
+CSRF_COOKIE_SECURE = True
+SESSION_COOKIE_SECURE = True
 
 SITE_ID = 1
+
 # Application definition
 
 INSTALLED_APPS = (
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.sites',
-    'django.contrib.comments',
+    #'django.contrib.comments',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
@@ -62,6 +74,13 @@ TEMPLATE_CONTEXT_PROCESSORS = (
   'django.core.context_processors.static',
   'zinnia.context_processors.version',  # Optional
 )
+
+TEMPLATE_LOADERS = [
+    'django.template.loaders.filesystem.Loader',
+    'django.template.loaders.app_directories.Loader',
+    'django.template.loaders.eggs.Loader',
+    'app_namespace.Loader',
+]
 
 ROOT_URLCONF = 'RiversNearMe.urls'
 
@@ -98,18 +117,10 @@ CRISPY_TEMPLATE_PACK = 'bootstrap3'
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
 STATIC_URL = '/static/'
-#STATIC_ROOT = '/opt/RiversNearMe/RiversNearMe/static/'
-STATICFILES_DIRS = ( os.path.join(BASE_DIR,'static'),
-                    '/opt/RiversNearMe/RiversNearMe/static/',
-                    )
+STATIC_ROOT = '/var/www/RiversNearMe/static/' #'/opt/RiversNearMe/RiversNearMe/static/'
+STATICFILES_DIRS = ( os.path.join(BASE_DIR, "static"), )
 
 LOGIN_REDIRECT_URL = '/'
 ACCOUNT_ACTIVATION_DAYS = 7
 
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'riversnearme@gmail.com'
-#EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-EMAIL_USE_TLS = True
-with open('/etc/rivers_gmail.key', 'r') as gk:
-    EMAIL_HOST_PASSWORD = gk.read().strip()
+>>>>>>> remotes/origin/master
