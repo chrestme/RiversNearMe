@@ -225,7 +225,7 @@ class UserProfileForm(forms.Form):
         self.helper.form_method = 'post'
         self.helper.form_action = '/rivers/user_profile/'
         self.helper.label_class = 'col-sm-2 control-label'
-        self.helper.field_class = 'col-sm-5'
+        self.helper.field_class = 'col-sm-4'
         self.helper.layout = Layout(
             Field('first_name', placeholder="First Name (optional)"),
             Field('last_name', placeholder="Last Name (optional)"),

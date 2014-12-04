@@ -31,37 +31,9 @@
         </p>
     </div>
     {% endfor %}
-    {% comment %}
-    {% if field.widget.attrs.get('class','') == 'PasswordInput'%}password{%else%}text{%endif%}
-    <div class='form-group'>
-        <p class="required">
-            <label class="col-sm-2 control-label" for="id_email">E-mail</label>
-            <div class="col-sm-3">
-                <input id="id_email" class="form-control" maxlength="100" name="email" type="text" value="{{form.email}}">
-            </div>
-        </p>
-    </div>
-    <div class='form-group'>
-        <p class="required">
-            <label class="col-sm-2 control-label" for="id_password1">Password</label>
-            <div class="col-sm-3">
-                <input id="id_password1" class="form-control" maxlength="30" name="password1" type="password">
-            </div>
-        </p>
-    </div>
-    <div class='form-group'>
-        <p class="required">
-            <label class="col-sm-2 control-label" for="id_password2">Password (again)</label>
-            <div class="col-sm-3">
-                <input id="id_password2" class="form-control" maxlength="30" name="password2" type="password">
-            </div>
-        </p>
-    </div>
-    {% endcomment %}
     <br>
     <div class="col-sm-offset-2">
     <input type="submit" class="btn btn-primary btn-lg" value="{% trans 'Submit' %}" />
     </div>
-    
 </form>
 {% endblock %}

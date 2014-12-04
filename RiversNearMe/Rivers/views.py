@@ -240,6 +240,8 @@ def crispyTest(request):
 @login_required
 def user_profile(request):
     user = AuthUser.objects.get(username=request.user.username)
+    success = None
+    referrer = None
     
     if request.method == 'POST':
         form = UserProfileForm(request.POST)
@@ -249,18 +251,25 @@ def user_profile(request):
             if form.cleaned_data['default_loc']:
                 user.default_loc = form.cleaned_data['default_loc']
                 user.default_lat, user.default_lon = getLocalCoords(form.cleaned_data['default_loc'])
-
             user.save()
-            return redirect(my_rivers)
+            success = True
+        else:
+            success = False
+            
+    elif request.method == 'GET':
+        data = {'first_name': user.first_name,
+                'last_name': user.last_name,
+                'default_loc': user.default_loc,
+                'default_lat': user.default_lat,
+                'default_lon': user.default_lon}
+        form = UserProfileForm(data)
+        if request.META.get('HTTP_REFERER').find('activate') > 0:
+            referrer = request.META.get('HTTP_REFERER')
     
-    data = {'first_name': user.first_name,
-            'last_name': user.last_name,
-            'default_loc': user.default_loc,
-            'default_lat': user.default_lat,
-            'default_lon': user.default_lon}
-    form = UserProfileForm(data)
     return render(request, 'rivers/user_profile.html',
-                  {'form': form})
+                  {'form': form,
+                   'success': success,
+                   'referrer': referrer} )
     
 def parsePlacemarks(placemarks, distance, local_location, user_placemarks=None):
     pm_list=list()
