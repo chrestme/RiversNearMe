@@ -144,7 +144,7 @@ $('a[href=#river_map]').on('shown.bs.tab', function () { google.maps.event.trigg
                         <a href='http://waterdata.usgs.gov/usa/nwis/uv?{{pm_dict.placemark.usgs_gauge}}' title='{{pm_dict.placemark.usgs_gauge.last_update}}'>{{pm_dict.placemark.usgs_gauge.stage}} ft
                         <br><strong>{{pm_dict.delta_sign |safe}} </strong><small>{{pm_dict.placemark.usgs_gauge.stage_delta}} ft/hr</small></a>
                         <br>{{pm_dict.placemark.stage_min|default_if_none:""}} - {{pm_dict.placemark.stage_max|default_if_none:""}} ft
-                        <div style="display: none;"><img src="http://water.weather.gov/resources/hydrographs/{{pm_dict.noaa_gauge|lower}}_hg.png" width=280 height=222></p></div>
+                        <div style="display: none;"><a href="http://water.weather.gov/ahps2/hydrograph.php?gage={{pm_dict.noaa_gauge}}"><img src="http://water.weather.gov/resources/hydrographs/{{pm_dict.noaa_gauge|lower}}_hg.png" width=280 height=222 /></a></div>
                         </td>
                             
                     {% if pm_dict.placemark.flow_min and pm_dict.placemark.flow_max %}
@@ -190,6 +190,10 @@ $('a[href=#river_map]').on('shown.bs.tab', function () { google.maps.event.trigg
                     $(this).qtip({
                             content:{
                                 text: $(this).children('div') 
+                            },
+                            hide: {
+                                fixed: true,
+                                delay: 300
                             },
                             style:{
                                 classes: "qtip-bootstrap"
