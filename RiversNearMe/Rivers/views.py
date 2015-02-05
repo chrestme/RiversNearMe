@@ -291,17 +291,20 @@ def parsePlacemarks(placemarks, distance, local_location, user_placemarks=None):
             else:
                 section_url = placemark.description
             delta_sign = ''
+            noaa_gauge = None
             if hasattr(placemark, 'usgs_gauge'):
                 if placemark.usgs_gauge.stage_delta > 0.0 or placemark.usgs_gauge.flow_delta > 0.0:
                     delta_sign = '&#10138'
                 elif placemark.usgs_gauge.stage_delta < 0.0 or placemark.usgs_gauge.flow_delta < 0.0:
                     delta_sign = '&#10136'
+                noaa_gauge = placemark.usgs_gauge.noaa_gauges_set.first()
 
             pm_dict = {'placemark': placemark,
                        'distance': "{0:.2f}".format(haversine_distance),
                        'AW_url': section_url,
                        'delta_sign': delta_sign,
-                       'user_fav': user_fav
+                       'user_fav': user_fav,
+                       'noaa_gauge': noaa_gauge
             }
             pm_list.append(pm_dict)
             

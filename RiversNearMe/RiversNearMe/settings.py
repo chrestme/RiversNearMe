@@ -38,6 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_extensions',
     'crispy_forms',
     'tagging',
     'mptt',
@@ -113,3 +114,10 @@ EMAIL_HOST_USER = 'riversnearme@gmail.com'
 EMAIL_USE_TLS = True
 with open('/etc/rivers_gmail.key', 'r') as gk:
     EMAIL_HOST_PASSWORD = gk.read().strip()
+
+#ZINNIA_AUTO_MODERATE_COMMENTS = True
+ZINNIA_SPAM_CHECKER_BACKENDS = ('zinnia.spam_checker.backends.automattic',
+				'zinnia_akismet.akismet',)
+AKISMET_API_KEY = '219f01704345'
+AKISMET_SECRET_API_KEY = '219f01704345'
+

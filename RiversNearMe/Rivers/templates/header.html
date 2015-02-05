@@ -21,7 +21,28 @@
 <script type="text/javascript"
   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsV1PHBA6-FocW9_qi-Ixv7HfY3i5LDzU">
 </script>
-
+<script>
+    function get_location() {
+        //if (Modernizr.geolocation) {
+            var element = document.getElementById("getLocButton");
+            element.disabled = true;
+            navigator.geolocation.getCurrentPosition(popCoords);
+        //} else {
+        // no native support; maybe try a fallback?
+        //}
+    }
+    function popCoords(position) {
+        var lat = position.coords.latitude;
+        var lon = position.coords.longitude;
+        
+        var loc_input_element = document.getElementById("loc");
+        loc_input_element.value = lat+", "+lon;
+        
+        var loc_button_element = document.getElementById("getLocButton");
+        loc_button_element.disabled = false;
+    }
+</script>
+<link type="text/css" rel="stylesheet" href="http://cdn.jsdelivr.net/qtip2/2.2.1/basic/jquery.qtip.min.css"
 </head>
 <body style="padding-top: 60px">
 <header>
@@ -39,6 +60,21 @@
                 <li><a href="{% url "Rivers.views.index" %}"><span class="glyphicon glyphicon-globe"></span> Rivers</a></li>
             </ul>
             <ul class="nav navbar-nav pull-right">
+                <li>
+                    <form class="navbar-form" role="form" action="/rivers/" method='post'>
+                        {% csrf_token %}
+                        <div class="form-group">
+                            <button class="btn btn-success" id="getLocButton" onclick="get_location()" type="button"><i class="glyphicon glyphicon-screenshot"></i></button>
+                            <label class="sr-only" for="loc">Location: </label>
+                            <input class="form-control" id="loc" type="text" style="width: 300px" name="loc" placeholder="Enter Address, Zip, or Lat/Lon">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="dist">Max Distance: </label>
+                            <input class="form-control" id="dist" type="number" name="dist" min="0" max="9999" placeholder="Max Distance in Miles">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </li>
                 {% if not user.is_active %}
                 <li class="dropdown">
                     <a class="dropdown-toggle" href="#" data-toggle="dropdown">Login<b class="caret"></b></a>

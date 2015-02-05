@@ -139,3 +139,18 @@ class Gauges(models.Model):
     def __unicode__(self):
         return self.usgs_gauge
 
+class NOAA_Gauges(models.Model):
+    nws_id = models.CharField(unique=True, max_length=5)
+    usgs_gauge = models.ForeignKey('Gauges', to_field='usgs_gauge', db_column='usgs_gauge')
+    goes_id = models.CharField(max_length=8)
+    latitude = models.FloatField()
+    longitude = models.FloatField()
+    location = models.TextField()
+
+    class Meta:
+	db_table = 'noaa_gauges'
+
+    def __unicode__(self):
+	return self.nws_id
+
+
