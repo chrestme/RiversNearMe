@@ -263,8 +263,9 @@ def user_profile(request):
                 'default_lat': user.default_lat,
                 'default_lon': user.default_lon}
         form = UserProfileForm(data)
-        if request.META.get('HTTP_REFERER').find('activate') > 0:
-            referrer = request.META.get('HTTP_REFERER')
+        if request.META.get('HTTP_REFERER'):
+	    if request.META.get('HTTP_REFERER').find('activate') > 0:
+            	referrer = request.META.get('HTTP_REFERER')
     
     return render(request, 'rivers/user_profile.html',
                   {'form': form,

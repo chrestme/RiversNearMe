@@ -22,17 +22,15 @@ with open('/etc/rivers_django_secret.key') as f:
 #SECRET_KEY = 'l-l*fj_a6!0gwozejlk0f!1a1a#^occitm=sn^)15^tm29w0v%'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-<<<<<<< HEAD
-DEBUG = True
-TEMPLATE_DEBUG = True
-CRISPY_FAIL_SILENTLY = not DEBUG
-=======
 DEBUG = False
-
 TEMPLATE_DEBUG = False
->>>>>>> remotes/origin/master
+CRISPY_FAIL_SILENTLY = not DEBUG
 
-ALLOWED_HOSTS = ['www.riversnearme.com','riversnearme.com','riversnear.me','www.riversnear.me']
+ALLOWED_HOSTS = ['www.riversnearme.com',
+		 'riversnearme.com',
+		 'riversnear.me',
+		 'www.riversnear.me',
+		 '54.84.44.58']
 
 CSRF_COOKIE_SECURE = True
 SESSION_COOKIE_SECURE = True
@@ -50,6 +48,8 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_comments',
+    'zinnia_bootstrap',
     'crispy_forms',
     'tagging',
     'mptt',
@@ -123,4 +123,20 @@ STATICFILES_DIRS = ( os.path.join(BASE_DIR, "static"), )
 LOGIN_REDIRECT_URL = '/'
 ACCOUNT_ACTIVATION_DAYS = 7
 
->>>>>>> remotes/origin/master
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'riversnearme@gmail.com'
+#EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_USE_TLS = True
+with open('/etc/rivers_gmail.key', 'r') as gk:
+    EMAIL_HOST_PASSWORD = gk.read().strip()
+
+SERVER_EMAIL = 'webmaster@riversnearme.com'
+ADMINS = (('Admin','riversnearme@gmail.com'),)
+
+#ZINNIA_AUTO_MODERATE_COMMENTS = True
+ZINNIA_SPAM_CHECKER_BACKENDS = ('zinnia.spam_checker.backends.automattic',
+				'zinnia_akismet.akismet',)
+with open('/etc/rivers_akismet.key','r') as ak:
+	AKISMET_SECRET_API_KEY = ak.read().strip()
+	AKISMET_API_KEY = AKISMET_SECRET_API_KEY
