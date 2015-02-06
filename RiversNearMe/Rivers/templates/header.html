@@ -31,6 +31,28 @@
   ga('send', 'pageview');
 
 </script>
+<script>
+    function get_location() {
+        //if (Modernizr.geolocation) {
+            var element = document.getElementById("getLocButton");
+            element.disabled = true;
+            navigator.geolocation.getCurrentPosition(popCoords);
+        //} else {
+        // no native support; maybe try a fallback?
+        //}
+    }
+    function popCoords(position) {
+        var lat = position.coords.latitude;
+        var lon = position.coords.longitude;
+        
+        var loc_input_element = document.getElementById("loc");
+        loc_input_element.value = lat+", "+lon;
+        
+        var loc_button_element = document.getElementById("getLocButton");
+        loc_button_element.disabled = false;
+    }
+</script>
+<link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/qtip2/2.2.1/basic/jquery.qtip.min.css">
 </head>
 <body style="padding-top: 60px">
 <header>
