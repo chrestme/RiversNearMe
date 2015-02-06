@@ -159,18 +159,19 @@ $('a[href=#river_map]').on('shown.bs.tab', function () { google.maps.event.trigg
                     <td class="text-center">{{pm_dict.placemark.class_field}}</td>
                     {% if pm_dict.placemark.stage_min and pm_dict.placemark.stage_max %}
                         {% if pm_dict.placemark.usgs_gauge.stage < pm_dict.placemark.stage_min %}
-                            <td class="text-center danger">
+                            <td class="text-center danger hasTooltip">
                         {% elif pm_dict.placemark.usgs_gauge.stage > pm_dict.placemark.stage_max %}
-                            <td class="text-center bg-primary">
+                            <td class="text-center bg-primary hasTooltip title">
                         {% else %}
-                            <td class="text-center success">
+                            <td class="text-center success hasTooltip">
                         {% endif %}
                     {% else %} 
-                        <td class="text-center">
+                        <td class="text-center hasTooltip">
                     {% endif %}
                         <a href='http://waterdata.usgs.gov/usa/nwis/uv?{{pm_dict.placemark.usgs_gauge}}' title='{{pm_dict.placemark.usgs_gauge.last_update}}'>{{pm_dict.placemark.usgs_gauge.stage}} ft
                         <br><strong>{{pm_dict.delta_sign |safe}} </strong><small>{{pm_dict.placemark.usgs_gauge.stage_delta}} ft/hr</small></a>
                         <br>{{pm_dict.placemark.stage_min|default_if_none:""}} - {{pm_dict.placemark.stage_max|default_if_none:""}} ft
+                        <div style="display: none;"><a href="http://water.weather.gov/ahps2/hydrograph.php?gage={{pm_dict.noaa_gauge}}"><img src="http://water.weather.gov/resources/hydrographs/{{pm_dict.noaa_gauge|lower}}_hg.png" width=280 height=222 /></a></div>
                         </td>
                             
                     {% if pm_dict.placemark.flow_min and pm_dict.placemark.flow_max %}
@@ -210,6 +211,28 @@ $('a[href=#river_map]').on('shown.bs.tab', function () { google.maps.event.trigg
                 });
             });
         </script>
+        <script>
+            $(document).ready(function(){
+                $('.hasTooltip').each(function() { // Notice the .each() loop, discussed below
+                    $(this).qtip({
+                            content:{
+                                text: $(this).children('div') 
+                            },
+                            hide: {
+                                fixed: true,
+                                delay: 300
+                            },
+                            style:{
+                                classes: "qtip-bootstrap"
+                            }
+                            //show:{ 
+                            //    target: $(this).children('div') // Use the "div" element next to this for the content
+                            //}
+                    });
+                });
+            });
+        </script>
+        
         {% if user.is_authenticated %}
         <button style="margin-top: 20px" class="btn btn-success pull-right" data-toggle="modal" data-target="#addRiverModal">
             + Add River Section
@@ -232,7 +255,6 @@ $('a[href=#river_map]').on('shown.bs.tab', function () { google.maps.event.trigg
             {% endif %}
         {% endfor %}
     ];
-    //var testmarks = [["test1_NoVA",-77.4510605,38.9130116,'1'],["test2_AlbrightWV",-79.6385559,39.4933459,'2'],["test3_NewYork",-73.9780035,40.7056308,'3']];
     var pm_ids = [];
     var k = 0;
 
@@ -338,4 +360,7 @@ $('a[href=#river_map]').on('shown.bs.tab', function () { google.maps.event.trigg
 </script>
 
 {% endif %}
+
+<script type="text/javascript" src="http://cdn.jsdelivr.net/qtip2/2.2.1/basic/jquery.qtip.min.js"></script>
+<script type="text/javascript" src="http://imagesloaded.desandro.com/imagesloaded.pkgd.min.js"></script>
 {% endblock %}
