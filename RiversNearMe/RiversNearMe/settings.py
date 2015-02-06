@@ -22,12 +22,9 @@ with open('/etc/rivers_django_secret.key') as f:
 #SECRET_KEY = 'l-l*fj_a6!0gwozejlk0f!1a1a#^occitm=sn^)15^tm29w0v%'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-<<<<<<< HEAD
 DEBUG = True
 TEMPLATE_DEBUG = True
 CRISPY_FAIL_SILENTLY = not DEBUG
-=======
-DEBUG = False
 
 ALLOWED_HOSTS = []
 
