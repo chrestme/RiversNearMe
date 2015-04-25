@@ -55,3 +55,4 @@ target/
 #RiversNearMe Specific
 RiversNearMe/db/
 *.db
+RiversNearMe/RiversNearMe/local_settings.py
