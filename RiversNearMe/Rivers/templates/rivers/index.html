@@ -70,7 +70,7 @@ function toggle_fav(placemark_id, mode){
 <div class="center">
     <form class="form-inline" role="form" action="/rivers/" method="post">
         {% csrf_token %}
-	    <div class="row">
+            <div class="row">
               <label class="sr-only" for="loc">Location: </label>
               <div class="col-sm-5 col-sm-offset-1">
               <div class="input-group">
@@ -213,7 +213,7 @@ $('a[href=#river_map]').on('shown.bs.tab', function () { google.maps.event.trigg
         </script>
         <script>
             $(document).ready(function(){
-                $('.hasTooltip').each(function() { // Notice the .each() loop, discussed below
+                $('.hasTooltip').each(function() {
                     $(this).qtip({
                             content:{
                                 text: $(this).children('div') 
@@ -225,9 +225,6 @@ $('a[href=#river_map]').on('shown.bs.tab', function () { google.maps.event.trigg
                             style:{
                                 classes: "qtip-bootstrap"
                             }
-                            //show:{ 
-                            //    target: $(this).children('div') // Use the "div" element next to this for the content
-                            //}
                     });
                 });
             });

@@ -264,8 +264,8 @@ def user_profile(request):
                 'default_lon': user.default_lon}
         form = UserProfileForm(data)
         if request.META.get('HTTP_REFERER'):
-	    if request.META.get('HTTP_REFERER').find('activate') > 0:
-            	referrer = request.META.get('HTTP_REFERER')
+            if request.META.get('HTTP_REFERER').find('activate') > 0:
+                referrer = request.META.get('HTTP_REFERER')
     
     return render(request, 'rivers/user_profile.html',
                   {'form': form,
@@ -319,7 +319,9 @@ def my_rivers(request):
     pm_list = parsePlacemarks(user_placemarks, 9999, user_default_latlon, user_placemarks)
     
     RequestContext = {'pm_list': pm_list,
-                      'spec_location': user.default_loc}
+                      'spec_location': user.default_loc,
+                      'spec_lat': user.default_lat,
+                      'spec_lon': user.default_lon}
     
     return render(request, 'rivers/my_rivers.html', RequestContext)
 

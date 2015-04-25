@@ -57,84 +57,150 @@ function toggle_fav(placemark_id, mode){
             <div class="panel-heading">
                 <h3 class="panel-title">Found {{pm_list|length}} favorite rivers</h3>
             </div>
-        <table id="RiverTable" class="table table-striped tablesorter table-condensed" style="table-layout: fixed;" class="text-center">
-        <thead>
-            <tr>
-                <th class="text-center" style="width: 20px">&#9733;</th>
-                <th>Section</th>
-                <th>River</th>
-                <th class="text-center">Class</th>
-                <th class="text-center">Stage</th>
-                <th class="text-center">Flow</th>
-                <th class="text-center">Water Temp<br>(&deg F)</th>
-                <th class="text-center">Distance<br>(in miles)</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for pm_dict in pm_list %}
-                <tr>
-                    <td>
-                        <a id="{{pm_dict.placemark.id}}" name='{{pm_dict.placemark.id}}_fav' onclick="toggle_fav_ajax('{{pm_dict.placemark.id}}'); return false;" class=
-                        {% if pm_dict.user_fav %}
-                            'filled'> &#9733;
-                        {% else %}
-                            'empty'> &#9734;
-                        {% endif %}
-                        </a>
-                    </td>
-                    <td><a href='{{pm_dict.AW_url}}'>{{pm_dict.placemark.section}}</a></td>
-                    <td>{{pm_dict.placemark.name}}</td>
-                    <td class="text-center">{{pm_dict.placemark.class_field}}</td>
-                    {% if pm_dict.placemark.stage_min and pm_dict.placemark.stage_max %}
-                        {% if pm_dict.placemark.usgs_gauge.stage < pm_dict.placemark.stage_min %}
-                            <td class="text-center danger">
-                        {% elif pm_dict.placemark.usgs_gauge.stage > pm_dict.placemark.stage_max %}
-                            <td class="text-center bg-primary">
-                        {% else %}
-                            <td class="text-center success">
-                        {% endif %}
-                    {% else %} 
-                        <td class="text-center">
-                    {% endif %}
-                        <a href='http://waterdata.usgs.gov/usa/nwis/uv?{{pm_dict.placemark.usgs_gauge}}' title='{{pm_dict.placemark.usgs_gauge.last_update}}'>{{pm_dict.placemark.usgs_gauge.stage}} ft
-                        <br><strong>{{pm_dict.delta_sign |safe}}</strong>
-                        <br><small>{{pm_dict.placemark.usgs_gauge.stage_delta}} ft/hr</small></a>
-                        </td>
-                            
-                    {% if pm_dict.placemark.flow_min and pm_dict.placemark.flow_max %}
-                        {% if pm_dict.placemark.usgs_gauge.flow < pm_dict.placemark.flow_min %}
-                            <td class="text-center danger">
-                        {% elif pm_dict.placemark.usgs_gauge.flow > pm_dict.placemark.flow_max %}
-                            <td class="text-center primary">
-                        {% else %}
-                            <td class="text-center success">
-                        {% endif %}
-                    {% else %}
-                        <td class="text-center">
-                    {% endif %}
-                        <a href='http://waterdata.usgs.gov/usa/nwis/uv?{{pm_dict.placemark.usgs_gauge}}' title='{{pm_dict.placemark.usgs_gauge.last_update}}'>{{pm_dict.placemark.usgs_gauge.flow}} cfs
-                        <br><strong>{{pm_dict.delta_sign |safe}}</strong>
-                        <br><small>{{pm_dict.placemark.usgs_gauge.flow_delta}} cfs/hr</small></a>
-                        </td>
-                        
-                    {% if not pm_dict.placemark.usgs_gauge.water_temp%}
-                        <td class="text-center">--</td>
-                    {% else %}
-                        <td class="text-center">{{pm_dict.placemark.usgs_gauge.water_temp}}&deg F
-                            <br><small>{{pm_dict.placemark.usgs_gauge.temp_delta}}</small></td>
-                    {% endif %}
-                    <td class="text-center">{{pm_dict.distance}}</td>
-                </tr>
-            {% endfor %}
-        </tbody>
-        </table>
+        {% include 'rivers/_table.html' %}
         <script>
         $(document).ready(function(){
             $(function(){
                 $("#RiverTable").tablesorter();
             });
         });
-</script>
+	</script>
+<script>
+            $(document).ready(function(){
+                $('.hasTooltip').each(function() {
+                    $(this).qtip({
+                            content:{
+                                text: $(this).children('div') 
+                            },
+                            hide: {
+                                fixed: true,
+                                delay: 300
+                            },
+                            style:{
+                                classes: "qtip-bootstrap"
+                            }
+                    });
+                });
+            });
+        </script>
     </div>
+
+<script type="text/javascript">
+    var map;
+    var myCenter = new google.maps.LatLng({{spec_lat}}, {{spec_lon}});
+    var placemarks = [
+        {% for pm in pm_list %}
+            {% if forloop.last %}
+                ["{{pm.placemark.name|escapejs|safe}} - {{pm.placemark.section|escapejs|safe}} [{{pm.placemark.class_field|escapejs|safe}}]",{{pm.placemark.lat|safe}},{{pm.placemark.lon|safe}},"{{pm.placemark.id|escapejs|safe}}"]
+            {% else %}
+                ["{{pm.placemark.name|escapejs|safe}} - {{pm.placemark.section|escapejs|safe}} [{{pm.placemark.class_field|escapejs|safe}}]",{{pm.placemark.lat|safe}},{{pm.placemark.lon|safe}},"{{pm.placemark.id|escapejs|safe}}"],
+            {% endif %}
+        {% endfor %}
+    ];
+    var pm_ids = [];
+    var k = 0;
+
+    function initialize() {
+        /*var mapOptions = {
+        center: myCenter,
+        zoom: 8
+        };
+        map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+        
+        var local_marker = new google.maps.Marker({
+                position: new google.maps.LatLng({{spec_lat|safe}}, {{spec_lon|safe}}),
+                map: map,
+                icon: 'https://maps.google.com/mapfiles/ms/icons/blue-dot.png',
+                title: '{{spec_location|safe}}',
+                });
+        var meters_radius = {{distance}} * 1609;
+        var area_options = {
+            strokeColor: '#0000FF',
+            strokeOpacity: 0.8,
+            strokeWeight: 2,
+            fillColor: '#0000FF',
+            fillOpacity: 0.25,
+            map: map,
+            center: myCenter,
+            radius: meters_radius
+        };
+        
+        var area_circle = new google.maps.Circle(area_options);
+        setMarkers();
+        //console.log(placemarks);*/
+        getDurations(placemarks);
+        var sorting = [[7,0],[1,0]];
+        $("#RiverTable").trigger("sorton",[sorting]);
+    }
+    
+    $("#mapTab").on('shown.bs.tab', function() {
+        google.maps.event.trigger(map, 'resize');
+        map.setCenter(myCenter);
+    });
+    
+    function setMarkers(){
+        for (var i = 0; i < placemarks.length; i++) {
+            var pm = placemarks[i];
+            var marker = new google.maps.Marker({
+                position: new google.maps.LatLng(pm[2], pm[1]),
+                map: map,
+                title: pm[0],
+                });
+        }
+    }
+    
+    function getDurations(pm_array){
+        var service = new google.maps.DistanceMatrixService();
+        var destinations = [];
+        
+        for ( var i=0; i < pm_array.length; i+=25){
+            destinations = [];
+            for( var j = i; j < i + 25 && j < pm_array.length; j++) {
+                pm = pm_array[j]
+                destinations[j - i] = new google.maps.LatLng(pm[2], pm[1]);
+            }
+            //console.log(i,j);
+            service.getDistanceMatrix({
+              origins: [myCenter],
+              destinations: destinations,
+              travelMode: google.maps.TravelMode.DRIVING,
+              unitSystem: google.maps.UnitSystem.IMPERIAL,
+              avoidHighways: false,
+              avoidTolls: false
+            }, buildResponse(i,j,pm_array));
+        }
+    }
+    function buildResponse(i,j,pm_array){
+        return function (response, status){
+            //console.log("passed i: ",i,"passed j: ",j,status);
+            if (status == google.maps.DistanceMatrixStatus.OK) {
+                j -= 1;
+                var origins = response.originAddresses;
+                var destinations = response.destinationAddresses;
+                var results = response.rows[0].elements;i;
+                for (var k=0;k < results.length; k++){
+                    pm = pm_array[i];
+                    pm_id = pm[3]+"_duration";
+                    var element = results[k];
+                    if (element.status == "OK"){
+                        var cell = document.getElementById(pm_id);
+                        var duration = element.duration.text;
+                        cell.innerHTML = duration;
+                    }
+                    else{
+                        console.log("Element: ", pm_id, "not returned")
+                    }
+                i++;
+                }
+            }
+            else{
+                console.log("status not OK: ", status);
+            }
+        }
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
 {% endif %}
+<script type="text/javascript" src="https://cdn.jsdelivr.net/qtip2/2.2.1/basic/jquery.qtip.min.js"></script>
 {% endblock %}
